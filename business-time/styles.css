@@ -1,0 +1,69 @@
+
+div.header-wrapper-outer {
+    width:100%;
+    height:150px;
+    background:#4b4b4b;
+    position: fixed;
+   }
+
+ a.logo, div.navigation-wrapper {
+    display:inline-block;
+ }
+ .nav{
+    font-size: x-large;
+    width: 100%;
+    background-color: #4b4b4b;
+    overflow: auto;
+    
+}
+ div.navigation-wrapper {
+    vertical-align:top;
+    
+ }
+.navList {   
+    color:rgb(124, 81, 3); 
+    width: 25%  
+}
+.nav a {
+    float: right;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 20%; 
+    text-align: center;
+  }
+  
+
+.nav a:active {
+    color: rgb(124, 81, 3);
+    background-color: #04AA6D;
+}
+.nav a:hover {
+    background-color: #000;
+  }
+
+ form#search {
+    display:inline-block;
+ }
+ 
+ .logo {
+    width: auto;
+    max-height:150px;
+ }
+ 
+ ul.nav li {
+    display:inline;
+    list-style:none;
+ }
+ #news{
+    margin-top: 200px;
+ }
+ @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
