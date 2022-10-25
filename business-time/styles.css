@@ -1,51 +1,78 @@
+* {
+   margin-top: 0;
+   /* overflow: hidden; */
+}
+html {
+   scroll-padding-top: 150px; /* height of sticky header */
+ }
+ 
+
+
+body{
+   background-color: #E8DCB8;
+
+
+     
+}
+  #grid-container {
+   display: grid;
+   grid-template-columns: 263px auto;
+}  
+#grid-container-nav {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+}  
 
 div.header-wrapper-outer {
     width:100%;
-    height:150px;
     background:#4b4b4b;
     position: fixed;
+    margin: 0;
+    padding: 0;
    }
 
  a.logo, div.navigation-wrapper {
     display:inline-block;
+ 
  }
  .nav{
-    font-size: x-large;
-    width: 100%;
     background-color: #4b4b4b;
-    overflow: auto;
+ 
     
 }
  div.navigation-wrapper {
-    vertical-align:top;
-    
+    /* vertical-align:bottom; */
+   
+    background-image: url('coffeebooks.jpg');
+    background-size: 600px;
  }
 .navList {   
     color:rgb(124, 81, 3); 
-    width: 25%  
+    
 }
 .nav a {
-    float: right;
+    float: left;
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    width: 20%; 
+    font-size: 22px;
     text-align: center;
   }
-  
+.navigation-wrapper{
+   display:flex;
+}
 
 .nav a:active {
     color: rgb(124, 81, 3);
-    background-color: #04AA6D;
+  
 }
 .nav a:hover {
     background-color: #000;
   }
 
- form#search {
+ /* form#search {
     display:inline-block;
- }
+ } */
  
  .logo {
     width: auto;
@@ -57,13 +84,14 @@ div.header-wrapper-outer {
     list-style:none;
  }
  #news{
-    margin-top: 200px;
+    margin-top: 150px;
+   
  }
  @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
-      display: block;
+      display: flex;
       width: 100%;
-      text-align: left;
+      
     }
   }
