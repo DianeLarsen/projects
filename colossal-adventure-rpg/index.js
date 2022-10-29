@@ -1,14 +1,18 @@
 const readline = require("readline-sync");
 const chalk = require('chalk');
 let itemsInventory = [
-    {type: "sword",color: "White", typeBuff: "damange dealt", buff: 1.1}, // gives buff to hits
-    {type: "armor", color: "White", typeBuff: "health points",buff: 1.3}, // gives buff to health
-    {type: "shield", color: "White", typeBuff: "damage recieved", buff: 1.2} // reduces hits from enemies
+    {type: "sword",color: (chalk.whiteBright("White")), typeBuff: "damange dealt", buff: 0}, // gives buff to hits
+    {type: "armor", color: (chalk.whiteBright("White")), typeBuff: "health points",buff: 0}, // gives buff to health
+    {type: "shield", color: (chalk.whiteBright("White")), typeBuff: "damage recieved", buff: 0} // reduces hits from enemies
 ];
 const maxHP = 100;
 let debuff = 1;
+let enemyHP = 0;
+let damageDeltBuff = (itemsInventory[0].buff + 1)
+let damagerecieved = itemsInventory[2].buff
 
-let hp = (maxHP*itemsInventory[1].buff*debuff); // maxHP*buff
+let hp = Math.floor(maxHP*((itemsInventory[1].buff)+1)); // maxHP*buff
+
 
 
 const damageTaken = chalk.bold.redBright;
@@ -17,9 +21,12 @@ const success = chalk.greenBright;
 const warning = chalk.hex('#FFA500'); 
 const userInput = chalk.yellowBright;
 
-const items = [{type: "sword", color: "Red", typeBuff: "damange dealt", buff: 0}, {type: "sword", color: "Pink", typeBuff: "damange dealt", buff: 0}, {type: "sword", color: "Gold", typeBuff: "damange dealt", buff: 0}, {type: "armor", color: "Red", typeBuff: "health points", buff: 0}, {type: "armor", color: "Pink", typeBuff: "health points", buff: 0}, {type: "armor", color: "Gold", typeBuff: "health points", buff: 0},
- {type: "shield", color: "Red", typeBuff: "damage recieved", buff: 0}, {type: "shield", color: "Pink", typeBuff: "damage recieved", buff: 0}, {type: "shield", color: "Gold", typeBuff: "damage recieved", buff: 0}];
- let pickedupItem = items[Math.floor(Math.random() * items.length)];
+
+const items = [{type: "sword", color: (chalk.rgb(0,0,255)("Blue")), typeBuff: "damange dealt", buff: .1}, {type: "sword", color: (chalk.rgb(255,0,255)("Pink")), typeBuff: "damange dealt", buff: .2},
+ {type: "sword", color: (chalk.rgb(255,215,0)("Gold")), typeBuff: "damange dealt", buff: .3}, {type: "armor", color: (chalk.rgb(0,0,255)("Blue")), typeBuff: "health points", buff: .1}, {type: "armor", color: (chalk.rgb(255,0,255)("Pink")), typeBuff: "health points", buff: .2},
+ {type: "armor", color: (chalk.rgb(255,215,0)("Gold")), typeBuff: "health points", buff: .3}, {type: "shield", color: (chalk.rgb(0,0,255)("Blue")), typeBuff: "damage recieved", buff: .1}, {type: "shield", color: (chalk.rgb(255,0,255)("Pink")), typeBuff: "damage recieved", buff: .2}, {type: "shield", color: (chalk.rgb(255,215,0)("Gold")), typeBuff: "damage recieved", buff: .3}];
+ 
+
 const enemies = [
     { type: "skelleton", hp: 50},
     { type: "goblin", hp: 30}, 
@@ -28,9 +35,10 @@ const enemies = [
 
 const name = readline.question("Welcome! By what name shall I call you? ");
 
-console.log("function " + findAnItem());
+//console.log("function " + findAnItem());
 
 console.log(success("Hello, " +(userInput(name))+ " the adventurer!"));
+console.log(player())
 console.log("You're on a dimly lit coblestone path in a forest.  You have no recollection about how you arrived here, but you feel the urge to find a way out.");
 
 walkStart();
@@ -62,8 +70,7 @@ function walkStart(){
             walkStart()
         }    
     } else if (choices == "p") { 
-        console.log("Hello adventurer "+(userInput(name))+ ".  You have "+(chalk.cyanBright(hp))+" health points.  Your inventory includes the following items:"+(chalk.black.bgYellowBright(itemsInventory[0].type+" " + itemsInventory[1].type+" " + itemsInventory[2].type)))
-        walkStart()
+       player()
     }else{
         console.log("That is not an option");
         walkStart()
@@ -71,9 +78,9 @@ function walkStart(){
 };
     
 function findAnItem(){
-    
+    let pickedupItem = items[Math.floor(Math.random() * items.length)];
     console.log("You have found an "+(chalk.yellowBright(pickedupItem.color +" "+pickedupItem.type + " with a buff of " +pickedupItem.buff+" to " +pickedupItem.typeBuff ))); 
-    
+    console.log(hp)
        let typeItem = pickedupItem.type
      let newItem = itemsInventory.findIndex(
        (item) => item.type == typeItem)
@@ -82,32 +89,39 @@ function findAnItem(){
        //console.log("item to replace: " + typeItem)
       //console.log("Index of item to replace: " + newItem)
     
-      
+
             
       
 
       if (newItem !== -1)
       itemsInventory[newItem] = pickedupItem;
       
-      console.log(pickedupItem)
+      // console.log(pickedupItem)
       
       
       
       //console.log(itemsInventory[newItem])
       
-    
+      hp = (maxHP*((itemsInventory[1].buff)+1))
     console.log(inventory());  // name prettier
     walkStart();
 };
 // make this pretty
 function inventory() { 
-    console.log((chalk.black.bgYellowBright(itemsInventory[0].type +" " +itemsInventory[1].type +" "+ itemsInventory[2].type)))
-    console.log(itemsInventory)
+    //console.log((chalk.black.bgYellowBright(itemsInventory[0].type +" " +itemsInventory[1].type +" "+ itemsInventory[2].type)))
+    console.log("The items in your inventory: "
+    +"\n    "+itemsInventory[0].color+" "+ itemsInventory[0].type+" with a "+(chalk.greenBright(itemsInventory[0].buff))+" buff to "+itemsInventory[0].typeBuff
+    +"\n    "+itemsInventory[1].color+" "+ itemsInventory[1].type+" with a "+(chalk.greenBright(itemsInventory[1].buff))+" buff to "+itemsInventory[1].typeBuff
+    +"\n    "+itemsInventory[2].color+" "+ itemsInventory[2].type+" with a "+(chalk.greenBright(itemsInventory[2].buff))+" buff to "+itemsInventory[2].typeBuff)
     walkStart()
 
 }
 
-
+function player(){
+    console.log("Hello adventurer "+(userInput(name))+ ".  You have "+(chalk.cyanBright(hp))+" health points.")
+    console.log(inventory())
+    walkStart()
+}
 
  function walk(){
     console.log("You are on the bank of a fast flowing river with a bridge.");
@@ -121,7 +135,7 @@ function inventory() {
 function fight(){
      //const winner = selectWinner()
      let activeEnemy = enemySelect()
-   
+     enemyHP = activeEnemy["hp"]
      let choices = readline.question( 
         (chalk.redBright("You hear a noise...something is coming"))
                 +"\npress "+(damageTaken('f')) +" to fight"
@@ -132,7 +146,7 @@ function fight(){
       if (activeEnemy["type:"] == "skelleton"){
         
         let choices = readline.question( 
-            (("You have encountered a"+(chalk.redBright(" skelleton"))+", what do you do?"))
+            (("You have encountered a"+(chalk.redBright(" skelleton"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
             +"\npress "+(damageTaken('a')) +" to attack"
             +"\npress "+(damageTaken('r')) +" to attempt to run away"  
                     +"\nEnter choice: " );
@@ -144,8 +158,9 @@ function fight(){
                     }
 
           }else if (activeEnemy["type:"] == "goblin"){
+            
               let choices = readline.question( 
-                (("You have encountered a"+(chalk.redBright(" goblin"))+", what do you do?"))
+                (("You have encountered a"+(chalk.redBright(" goblin"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
                 +"\npress "+(damageTaken('a')) +" to attack"
                 +"\npress "+(damageTaken('r')) +" to attempt to run away" 
                         +"\nEnter choice: " );
@@ -160,7 +175,7 @@ function fight(){
           }else{
             
             let choices = readline.question( 
-                (("You have encountered a"+(chalk.redBright(" troll"))+", what do you do?"))
+                (("You have encountered a"+(chalk.redBright(" troll"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
                 +"\npress "+(damageTaken('a')) +" to attack"
                 +"\npress "+(damageTaken('r')) +" to attempt to run away"  
                         +"\nEnter choice: " );
@@ -174,11 +189,12 @@ function fight(){
         }else if(choices == "r"){
             runAway()  
         }else{
-            "This is not an option, Game OVER!"
-          }
+            "This is not an option"
+           
+         
        
     }
- 
+}
 
 function runAway(){
     let action = Math.random() * 100
@@ -215,8 +231,12 @@ function enemyEncounter(){
     //console.log(chalk.redBright("fight fight fight"))         
 
     console.log(chalk.redBright("Your enemy runs at you with a scary looking weapon"))
-    let attack = (Math.floor(Math.random()*11)); // attack from enemy
-    let hit = (Math.floor(Math.random()*11)); // attack from player, needs buff added
+    let attack = Math.floor(Math.random()*11);
+    console.log("attack before buff: " +attack)
+    attack = attack-Math.floor(attack*damagerecieved); // attack from enemy
+    console.log("attack after buff: " +attack)
+    let hit = ((Math.floor(Math.random()*11))*damageDeltBuff); // attack from player, needs buff added
+    console.log("hit after buff: " +hit)
     if (attack == 0) {
         console.log("You dodged a hit");
     } else {
@@ -225,7 +245,14 @@ function enemyEncounter(){
      hp = Math.max(0, (hp - attack))   
         
     }
-  
+    if (hit == 0) {
+        console.log("The enemy dodged your hit");
+    } else {
+        
+        console.log("You hit the enemy for " + (damageTaken(attack)) + " health!");
+     enemyHP = Math.max(0, (enemyHP - attack))   
+        
+    }
 
 if (hp == 0){
     console.log("You have died, Game OVER!")
@@ -234,9 +261,12 @@ if (hp == 0){
 }else if (hp < 21){
     console.log(warning("Your life is low you may want to run"))
 }
-
+if (enemyHP == 0){
+    console.log("The enemy has been killed")
+    findAnItem()
+}
 let choices = readline.question (
-    ("Your life is at "+(chalk.cyanBright(hp))+" health points, what do you do?")
+    ("Your life is at "+(chalk.cyanBright(hp))+" health points and the enemies health points are at "+(chalk.redBright(enemyHP))+", what do you do?")
             +"\npress "+(damageTaken('a')) +" to attack"
             +"\npress "+(damageTaken('r')) +" to attempt to run away" 
             +"\nEnter choice: " );
@@ -246,7 +276,7 @@ let choices = readline.question (
             } else if (choices == "r"){
                 runAway()
             }else{
-                "This is not an option, Game OVER!"
+                "This is not an option"
                 enemyEncounter()
               }
 }
