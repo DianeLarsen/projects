@@ -28,7 +28,7 @@ const enemies = [
 
 const name = readline.question("Welcome! By what name shall I call you? ");
 
-//console.log("function " + findAnItem());
+console.log("function " + findAnItem());
 
 console.log(success("Hello, " +(userInput(name))+ " the adventurer!"));
 console.log("You're on a dimly lit coblestone path in a forest.  You have no recollection about how you arrived here, but you feel the urge to find a way out.");
@@ -44,7 +44,7 @@ function walkStart(){
           +"\nEnter choice: " );
     if (choices == "w"){
         let action = Math.random() * 100 
-        console.log("choices/walkStart: " + action);
+        //console.log("choices/walkStart: " + action);
         if (action < 51){ //0-50
             walk(); // keep walking (need to list of places that will appear while walking) and then back to walk again
         }else if (action > 80){
@@ -62,7 +62,7 @@ function walkStart(){
             walkStart()
         }    
     } else if (choices == "p") { 
-        console.log("Hello adventurer "+(userInput(name))+ ".  You have "+(chalk.cyanBright(hp))+" health points.  Your inventory includes the following items:"+(chalk.black.bgYellowBright(itemsInventory[0].type + itemsInventory[1].type + itemsInventory[2].type)))
+        console.log("Hello adventurer "+(userInput(name))+ ".  You have "+(chalk.cyanBright(hp))+" health points.  Your inventory includes the following items:"+(chalk.black.bgYellowBright(itemsInventory[0].type+" " + itemsInventory[1].type+" " + itemsInventory[2].type)))
         walkStart()
     }else{
         console.log("That is not an option");
@@ -73,19 +73,23 @@ function walkStart(){
 function findAnItem(){
     
     console.log("You have found an "+(chalk.yellowBright(pickedupItem.color +" "+pickedupItem.type + " with a buff of " +pickedupItem.buff+" to " +pickedupItem.typeBuff ))); 
-    //const currentInventoryitems = (obj => pickedupItem.find(o => o.type === obj.type) || obj);
-        let typeItem = pickedupItem.type
-      let newItem = itemsInventory.findIndex(
-        (item) => item.type == typeItem)
+    
+       let typeItem = pickedupItem.type
+     let newItem = itemsInventory.findIndex(
+       (item) => item.type == typeItem)
+
         
        //console.log("item to replace: " + typeItem)
       //console.log("Index of item to replace: " + newItem)
     
       
-      if (newItem !== -1)
-      itemsInventory[newItem] = { pickedupItem }
+            
       
-      //console.log(itemsInventory)
+
+      if (newItem !== -1)
+      itemsInventory[newItem] = pickedupItem;
+      
+      console.log(pickedupItem)
       
       
       
@@ -95,9 +99,9 @@ function findAnItem(){
     console.log(inventory());  // name prettier
     walkStart();
 };
-
-function inventory() {
-    console.log((chalk.black.bgYellowBright(itemsInventory[0].type + itemsInventory[1].type + itemsInventory[2].type)))
+// make this pretty
+function inventory() { 
+    console.log((chalk.black.bgYellowBright(itemsInventory[0].type +" " +itemsInventory[1].type +" "+ itemsInventory[2].type)))
     console.log(itemsInventory)
     walkStart()
 
@@ -178,7 +182,7 @@ function fight(){
 
 function runAway(){
     let action = Math.random() * 100
-    console.log("runAway: " + action);
+    //console.log("runAway: " + action);
     if (action < 51){ //0-50
         console.log(chalk.greenBright("You have successfully run away "))
         walk(); 
@@ -211,7 +215,8 @@ function enemyEncounter(){
     //console.log(chalk.redBright("fight fight fight"))         
 
     console.log(chalk.redBright("Your enemy runs at you with a scary looking weapon"))
-    let attack = (Math.floor(Math.random()*11));
+    let attack = (Math.floor(Math.random()*11)); // attack from enemy
+    let hit = (Math.floor(Math.random()*11)); // attack from player, needs buff added
     if (attack == 0) {
         console.log("You dodged a hit");
     } else {
