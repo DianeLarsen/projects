@@ -146,7 +146,7 @@ function fight(){
       if (activeEnemy["type:"] == "skelleton"){
         
         let choices = readline.question( 
-            (("You have encountered a"+(chalk.redBright(" skelleton"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
+            (("You have encountered a"+(chalk.redBright(" skelleton"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are a"+(chalk.cyanBright(hp))+", what do you do?"))
             +"\npress "+(damageTaken('a')) +" to attack"
             +"\npress "+(damageTaken('r')) +" to attempt to run away"  
                     +"\nEnter choice: " );
@@ -160,7 +160,7 @@ function fight(){
           }else if (activeEnemy["type:"] == "goblin"){
             
               let choices = readline.question( 
-                (("You have encountered a"+(chalk.redBright(" goblin"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
+                (("You have encountered a"+(chalk.redBright(" goblin"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are "+(chalk.cyanBright(hp))+", what do you do?"))
                 +"\npress "+(damageTaken('a')) +" to attack"
                 +"\npress "+(damageTaken('r')) +" to attempt to run away" 
                         +"\nEnter choice: " );
@@ -175,7 +175,7 @@ function fight(){
           }else{
             
             let choices = readline.question( 
-                (("You have encountered a"+(chalk.redBright(" troll"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are"+(chalk.cyanBright(hp))+", what do you do?"))
+                (("You have encountered a"+(chalk.redBright(" troll"))+" with Health points of "+(chalk.redBright(enemyHP))+". Your Health points are "+(chalk.cyanBright(hp))+", what do you do?"))
                 +"\npress "+(damageTaken('a')) +" to attack"
                 +"\npress "+(damageTaken('r')) +" to attempt to run away"  
                         +"\nEnter choice: " );
@@ -231,19 +231,21 @@ function enemyEncounter(){
     //console.log(chalk.redBright("fight fight fight"))         
 
     console.log(chalk.redBright("Your enemy runs at you with a scary looking weapon"))
+while ((hp > 0) && (enemyHP > 0)){
     let attack = Math.floor(Math.random()*11);
-    console.log("attack before buff: " +attack)
+    //console.log("attack before buff: " +attack)
     attack = attack-Math.floor(attack*damagerecieved); // attack from enemy
-    console.log("attack after buff: " +attack)
+    //console.log("attack after buff: " +attack)
     let hit = ((Math.floor(Math.random()*11))*damageDeltBuff); // attack from player, needs buff added
-    console.log("hit after buff: " +hit)
+    //console.log("hit after buff: " +hit)
+
     if (attack == 0) {
         console.log("You dodged a hit");
     } else {
         
         console.log("You were hit for " + (damageTaken(attack)) + " health!");
      hp = Math.max(0, (hp - attack))   
-        
+     
     }
     if (hit == 0) {
         console.log("The enemy dodged your hit");
@@ -252,33 +254,34 @@ function enemyEncounter(){
         console.log("You hit the enemy for " + (damageTaken(attack)) + " health!");
      enemyHP = Math.max(0, (enemyHP - attack))   
         
-    }
-
+    };
+    console.log(("Enemies Health points are "+(chalk.redBright(enemyHP))+". Your Health points are "+(chalk.cyanBright(hp))))
+}
 if (hp == 0){
     console.log("You have died, Game OVER!")
     process.exit()
 
-}else if (hp < 21){
-    console.log(warning("Your life is low you may want to run"))
+//}else if (hp < 21){
+ //   console.log(warning("Your life is low you may want to run"))
 }
 if (enemyHP == 0){
     console.log("The enemy has been killed")
     findAnItem()
 }
-let choices = readline.question (
-    ("Your life is at "+(chalk.cyanBright(hp))+" health points and the enemies health points are at "+(chalk.redBright(enemyHP))+", what do you do?")
-            +"\npress "+(damageTaken('a')) +" to attack"
-            +"\npress "+(damageTaken('r')) +" to attempt to run away" 
-            +"\nEnter choice: " );
+// let choices = readline.question (
+//     ("Your life is at "+(chalk.cyanBright(hp))+" health points and the enemies health points are at "+(chalk.redBright(enemyHP))+", what do you do?")
+//             +"\npress "+(damageTaken('a')) +" to attack"
+//             +"\npress "+(damageTaken('r')) +" to attempt to run away" 
+//             +"\nEnter choice: " );
 
-            if (choices == "a") {
-                 enemyEncounter()
-            } else if (choices == "r"){
-                runAway()
-            }else{
-                "This is not an option"
-                enemyEncounter()
-              }
+//             if (choices == "a") {
+//                  enemyEncounter()
+//             } else if (choices == "r"){
+//                 runAway()
+//             }else{
+//                 "This is not an option"
+//                 enemyEncounter()
+//               }
 }
 
 
