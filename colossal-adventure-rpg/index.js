@@ -1,17 +1,17 @@
 const readline = require("readline-sync");
 const chalk = require('chalk');
 let itemsInventory = [
-    {type: "sword",color: (chalk.whiteBright("White")), typeBuff: "damange dealt", buff: 0}, // gives buff to hits
-    {type: "armor", color: (chalk.whiteBright("White")), typeBuff: "health points",buff: 0}, // gives buff to health
-    {type: "shield", color: (chalk.whiteBright("White")), typeBuff: "damage recieved", buff: 0} // reduces hits from enemies
+    {type: "sword",color: (chalk.whiteBright("White")), typeBuff: "damange dealt", buff: 0}, 
+    {type: "armor", color: (chalk.whiteBright("White")), typeBuff: "health points",buff: 0}, 
+    {type: "shield", color: (chalk.whiteBright("White")), typeBuff: "damage recieved", buff: 0} 
 ];
-const maxHP = 100;
-let debuff = 1;
+const maxHP = 40;
+let enemyDebuff = 1;
 let enemyHP = 0;
 let damageDeltBuff = (itemsInventory[0].buff + 1)
 let damagerecieved = itemsInventory[2].buff
 
-let hp = Math.floor(maxHP*((itemsInventory[1].buff)+1)); // maxHP*buff
+let hp = Math.floor(maxHP*((itemsInventory[1].buff)+1)); 
 
 
 
@@ -78,31 +78,28 @@ function walkStart(){
 };
     
 function findAnItem(){
+
     let pickedupItem = items[Math.floor(Math.random() * items.length)];
     console.log("You have found an "+(chalk.yellowBright(pickedupItem.color +" "+pickedupItem.type + " with a buff of " +pickedupItem.buff+" to " +pickedupItem.typeBuff ))); 
-    console.log(hp)
+    console.log("The items in your inventory: "
+    +"\n    "+itemsInventory[0].color+" "+ itemsInventory[0].type+" with a "+(chalk.greenBright(itemsInventory[0].buff))+" buff to "+itemsInventory[0].typeBuff
+    +"\n    "+itemsInventory[1].color+" "+ itemsInventory[1].type+" with a "+(chalk.greenBright(itemsInventory[1].buff))+" buff to "+itemsInventory[1].typeBuff
+    +"\n    "+itemsInventory[2].color+" "+ itemsInventory[2].type+" with a "+(chalk.greenBright(itemsInventory[2].buff))+" buff to "+itemsInventory[2].typeBuff);
+     if(readline.keyInYN("Would you like to keep this item?  ")){
        let typeItem = pickedupItem.type
      let newItem = itemsInventory.findIndex(
        (item) => item.type == typeItem)
-
-        
-       //console.log("item to replace: " + typeItem)
-      //console.log("Index of item to replace: " + newItem)
-    
-
-            
-      
-
-      if (newItem !== -1)
+      if (newItem !== -1){
       itemsInventory[newItem] = pickedupItem;
-      
+      }
       // console.log(pickedupItem)
+    } 
       
-      
+     
       
       //console.log(itemsInventory[newItem])
       
-      hp = (maxHP*((itemsInventory[1].buff)+1))
+      hp = Math.floor(maxHP*((itemsInventory[1].buff)+1))
     console.log(inventory());  // name prettier
     walkStart();
 };
@@ -113,10 +110,14 @@ function inventory() {
     +"\n    "+itemsInventory[0].color+" "+ itemsInventory[0].type+" with a "+(chalk.greenBright(itemsInventory[0].buff))+" buff to "+itemsInventory[0].typeBuff
     +"\n    "+itemsInventory[1].color+" "+ itemsInventory[1].type+" with a "+(chalk.greenBright(itemsInventory[1].buff))+" buff to "+itemsInventory[1].typeBuff
     +"\n    "+itemsInventory[2].color+" "+ itemsInventory[2].type+" with a "+(chalk.greenBright(itemsInventory[2].buff))+" buff to "+itemsInventory[2].typeBuff)
-    walkStart()
+   walkStart()
 
 }
+function keyPress(){
+    readline.keyInPause();
 
+}
+  
 function player(){
     console.log("Hello adventurer "+(userInput(name))+ ".  You have "+(chalk.cyanBright(hp))+" health points.")
     console.log(inventory())
@@ -232,59 +233,46 @@ function enemyEncounter(){
 
     console.log(chalk.redBright("Your enemy runs at you with a scary looking weapon"))
 while ((hp > 0) && (enemyHP > 0)){
+    // attack from enemy
     let attack = Math.floor(Math.random()*11);
-    //console.log("attack before buff: " +attack)
     attack = attack-Math.floor(attack*damagerecieved); // attack from enemy
-    //console.log("attack after buff: " +attack)
+        if (attack > 9){
+            attack = Math.floor(attack*1.3)
+            console.log("Enemy has critiacally hit you for "+(attack));
+        } else if (attack == 0) {
+            console.log("You dodged an attack");
+        }else{
+            console.log("You were hit for " + (damageTaken(attack)) + " health!");
+            hp = Math.max(0, (hp - attack))   
+        }
+  
+    // hit from player
+    
     let hit = ((Math.floor(Math.random()*11))*damageDeltBuff); // attack from player, needs buff added
-    //console.log("hit after buff: " +hit)
-
-    if (attack == 0) {
-        console.log("You dodged a hit");
-    } else {
-        
-        console.log("You were hit for " + (damageTaken(attack)) + " health!");
-     hp = Math.max(0, (hp - attack))   
-     
-    }
+    
+  
     if (hit == 0) {
-        console.log("The enemy dodged your hit");
+        console.log("The enemy dodged your attack");
+    } else if (attack > 9){
+        hit = Math.floor(hit*1.1);
+        console.log("You have critiacally hit enemy for "+(hit));
     } else {
-        
         console.log("You hit the enemy for " + (damageTaken(attack)) + " health!");
-     enemyHP = Math.max(0, (enemyHP - attack))   
-        
+        enemyHP = Math.floor(Math.max(0, (enemyHP - attack)))  
     };
     console.log(("Enemies Health points are "+(chalk.redBright(enemyHP))+". Your Health points are "+(chalk.cyanBright(hp))))
+    keyPress();
 }
 if (hp == 0){
-    console.log("You have died, Game OVER!")
+    console.log((warning("You cannot say “Not Today” forever."))+(chalk.redBright("\nYou have died, Game OVER!")))
     process.exit()
-
-//}else if (hp < 21){
- //   console.log(warning("Your life is low you may want to run"))
 }
 if (enemyHP == 0){
-    console.log("The enemy has been killed")
+    console.log(warning("'Don't think you've won this. This isn't over yet!'"))
+    console.log(success("The enemy has been killed, it has dropped an item!"))
     findAnItem()
 }
-// let choices = readline.question (
-//     ("Your life is at "+(chalk.cyanBright(hp))+" health points and the enemies health points are at "+(chalk.redBright(enemyHP))+", what do you do?")
-//             +"\npress "+(damageTaken('a')) +" to attack"
-//             +"\npress "+(damageTaken('r')) +" to attempt to run away" 
-//             +"\nEnter choice: " );
-
-//             if (choices == "a") {
-//                  enemyEncounter()
-//             } else if (choices == "r"){
-//                 runAway()
-//             }else{
-//                 "This is not an option"
-//                 enemyEncounter()
-//               }
 }
-
-
 
 //You are inside a small yet sacrosanct shrine. A sense of deep respectfulness fills this modest room. The way out, into a pine forest, is to the northwest. It is obvious that the shrine was meant to be used for quiet meditation, like similar chambers.
 
