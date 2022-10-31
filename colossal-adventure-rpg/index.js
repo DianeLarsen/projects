@@ -253,7 +253,7 @@ function enemyEncounter(){
         let hit = ((Math.floor(Math.random()*11))*damageDeltBuff); // attack from player, needs buff added
         if (hit == 0) {
             console.log("The enemy dodged your attack");
-        } else if (attack > 9){
+        } else if (hit > 9){
             hit = Math.floor(hit*1.1);
             console.log("You have critiacally hit enemy for "+(hit));
             enemyHP = Math.floor(Math.max(0, (enemyHP - hit))) 
