@@ -240,6 +240,7 @@ function enemyEncounter(){
         if (attack > 9){
             attack = Math.floor(attack*1.3)
             console.log("Enemy has critiacally hit you for "+(attack));
+            hp = Math.max(0, (hp - attack))
         } else if (attack == 0) {
             console.log("You dodged an attack");
         }else{
@@ -255,9 +256,10 @@ function enemyEncounter(){
         } else if (attack > 9){
             hit = Math.floor(hit*1.1);
             console.log("You have critiacally hit enemy for "+(hit));
+            enemyHP = Math.floor(Math.max(0, (enemyHP - hit))) 
         } else {
-            console.log("You hit the enemy for " + (damageTaken(attack)) + " health!");
-            enemyHP = Math.floor(Math.max(0, (enemyHP - attack)))  
+            console.log("You hit the enemy for " + (damageTaken(hit)) + " health!");
+            enemyHP = Math.floor(Math.max(0, (enemyHP - hit)))  
         };
     console.log(("Enemies Health points are "+(chalk.redBright(enemyHP))+". Your Health points are "+(hpPoints(hp))))
     keyPress();
