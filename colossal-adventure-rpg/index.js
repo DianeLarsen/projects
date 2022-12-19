@@ -240,6 +240,7 @@ function enemyEncounter(){
         if (attack > 9){
             attack = Math.floor(attack*1.3)
             console.log("Enemy has critiacally hit you for "+(attack));
+            hp = Math.max(0, (hp - attack))
         } else if (attack == 0) {
             console.log("You dodged an attack");
         }else{
@@ -252,12 +253,13 @@ function enemyEncounter(){
         let hit = ((Math.floor(Math.random()*11))*damageDeltBuff); // attack from player, needs buff added
         if (hit == 0) {
             console.log("The enemy dodged your attack");
-        } else if (attack > 9){
+        } else if (hit > 8){
             hit = Math.floor(hit*1.1);
             console.log("You have critiacally hit enemy for "+(hit));
+            enemyHP = Math.floor(Math.max(0, (enemyHP - hit))) 
         } else {
-            console.log("You hit the enemy for " + (damageTaken(attack)) + " health!");
-            enemyHP = Math.floor(Math.max(0, (enemyHP - attack)))  
+            console.log("You hit the enemy for " + (damageTaken(hit)) + " health!");
+            enemyHP = Math.floor(Math.max(0, (enemyHP - hit)))  
         };
     console.log(("Enemies Health points are "+(chalk.redBright(enemyHP))+". Your Health points are "+(hpPoints(hp))))
     keyPress();
@@ -270,6 +272,7 @@ function enemyEncounter(){
     if (enemyHP == 0){
         console.log(warning("'Don't think you've won this. This isn't over yet!'"))
         console.log(success("The enemy has been killed, it has dropped an item!"))
+        console.log(chalk.blue("Your have been fully healed"))
         findAnItem()
     }
 }
