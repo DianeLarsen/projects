@@ -1,8 +1,11 @@
+import "./header.css"
+import bookLogo from "../assets/bcardfront.jpg"
+
 export default function Header() {
   return (
     <div className="header-wrapper-outer" id="grid-container">
-      <a className="logo" href="#">
-        <img className="logo" src="bcardfront.jpg" alt="We Be Bookn" />
+      <a className="logo" href="/#">
+        <img className="logo" src={bookLogo} alt="We Be Bookn" />
       </a>
       <div className="navigation-wrapper">
         <ul className="nav" id="grid-container-nav">

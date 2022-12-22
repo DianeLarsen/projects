@@ -1,0 +1,97 @@
+* {
+    margin-top: 0;
+    /* overflow: hidden; */
+ }
+ html {
+    scroll-padding-top: 150px; /* height of sticky header */
+  }
+  
+ 
+ 
+ body{
+    background-color: #E8DCB8;
+ 
+ 
+      
+ }
+   #grid-container {
+    display: grid;
+    grid-template-columns: 263px auto;
+ }  
+ #grid-container-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+ }  
+ 
+ div.header-wrapper-outer {
+     width:100%;
+     background:#4b4b4b;
+     /* position: fixed; */
+     margin: 0;
+     padding: 0;
+    }
+ 
+  a.logo, div.navigation-wrapper {
+     display:inline-block;
+  
+  }
+  .nav{
+     background-color: #4b4b4b;
+  
+     
+ }
+  div.navigation-wrapper {
+     /* vertical-align:bottom; */
+    
+     background-image: url('../assets/coffeebooks.jpg');
+     background-size: 600px;
+  }
+ .navList {   
+     color:rgb(124, 81, 3); 
+     
+ }
+ .nav a {
+     float: left;
+     padding: 12px;
+     color: white;
+     text-decoration: none;
+     font-size: 22px;
+     text-align: center;
+   }
+ .navigation-wrapper{
+    display:flex;
+ }
+ 
+ .nav a:active {
+     color: rgb(124, 81, 3);
+   
+ }
+ .nav a:hover {
+     background-color: #000;
+   }
+ 
+  /* form#search {
+     display:inline-block;
+  } */
+  
+  .logo {
+     width: auto;
+     max-height:150px;
+  }
+  
+  ul.nav li {
+     display:inline;
+     list-style:none;
+  }
+  #news{
+     margin-top: 150px;
+    
+  }
+  @media screen and (max-width: 500px) {
+     .navbar a {
+       float: none;
+       display: flex;
+       width: 100%;
+       
+     }
+   }

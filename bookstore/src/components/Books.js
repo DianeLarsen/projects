@@ -17,8 +17,7 @@ export default function Books(props) {
       </svg>
       <h1>Welcome to the bookstore, what are you looking for?</h1>
       <p className="recs">
-        Try to search the keyword of <strong>Javascript</strong> or whatever
-        keyword you want!
+        Search by genre, author, title!
       </p>
       <div className="wrapper_input">
         <input id="search" type="text" placeholder="Type the keyword here..." />
@@ -29,7 +28,7 @@ export default function Books(props) {
 
       <div id="books" style={{ display: props.toggle }}>
         <div className="inner_book-release">
-          <img src={props.imgurl} />
+          <img src={props.imgurl} alt="book"/>
           <div className="description">
             <h1>${props.title}</h1>
             <p className="pb">

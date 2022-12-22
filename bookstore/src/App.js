@@ -8,7 +8,7 @@ import axios from "axios"
 
 function App() {
 
-const container = document.getElementById("books");
+// const container = document.getElementById("books");
 const [toggle, setToggle] = useState("none")
 let imgurl, publish, desc, title
 function toggleDisplay(){
@@ -86,7 +86,7 @@ axios.get(url)
     <div className="App">
       <header className="App-header">
         <Header/>
-        <Books loadBooks={loadBooks} imgurl={imgurl} title={title} desc={desc} publish={publish}/>
+        <Books loadBooks={loadBooks} imgurl={imgurl} title={title} desc={desc} publish={publish} toggle={toggleDisplay}/>
       </header>
     </div>
   );
