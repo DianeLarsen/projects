@@ -1,0 +1,5 @@
+- need ability to show in stock
+- need ability to order if not in stock
+- need ability to buy and place for pickup
+- need popup with description
+- industryIdentifiers.ISBN_13 or ISBN_10

@@ -1,4 +1,59 @@
-export default function Books(props) {
+import React from "react";
+import SearchArea from "./SearchArea.js";
+import BookList from "./BookList.js";
+
+export default function Books() {
+  const [books, setBooks] = React.useState([]);
+  const [searchField, setSearchField] = React.useState();
+  const [sort, setSort] = React.useState("")
+
+function SearchBooks(e){
+    e.preventDefault()
+
+    
+const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+    let url = `https://www.googleapis.com/books/v1/volumes?q= ${searchField} &key= ${apiKey}`;
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+         console.log(data.items)
+         cleanData(data.items)
+         setBooks(data.items)
+         }
+         )
+        
+
+}
+
+  function handleSearch(event) {
+    setSearchField(event.target.value);
+    
+  }
+function handleSort(e){
+    setSort(e.target.value)
+}
+function cleanData(data){
+    const cleanedData = data.map((book) => {
+        if(book.volumeInfo.hasOwnProperty("publishedDate") === false){
+            book.volumeInfo["publishedDate"] = '0000';
+        } else if(book.volumeInfo.hasOwnProperty('imageLinks') === false){
+            book.volumeInfo["imageLinks"] = {thumbnail: "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"};
+        }
+        return book
+    })
+    return cleanedData
+}
+const sortedBooks = books.sort((a, b) => {
+        if(sort === 'Newest'){
+            return parseInt(b.volumeInfo.publishedDate.substring(0,4)) - parseInt(a.volumeInfo.publishedDate.substring(0,4))
+          }
+        if(sort === 'Oldest'){
+            return parseInt(a.volumeInfo.publishedDate.substring(0,4)) - parseInt(b.volumeInfo.publishedDate.substring(0,4))
+        } 
+        return books
+        
+    })
+
   return (
     <section>
       <svg
@@ -19,38 +74,10 @@ export default function Books(props) {
       <p className="recs">
         Search by genre, author, title!
       </p>
-      <div className="wrapper_input">
-        <input id="search" type="text" placeholder="Type the keyword here..." />
-        <button type="submit" onClick={props.loadBooks}>
-          Search
-        </button>
-      </div>
-
-      <div id="books" style={{ display: props.toggle }}>
-        <div className="inner_book-release">
-          <img src={props.imgurl} alt="book"/>
-          <div className="description">
-            <h1>${props.title}</h1>
-            <p className="pb">
-              <span className="published">Published on {props.publish}</span>
-            </p>
-            {props.desc}
-          </div>
-        </div>
-
-        {/* <!-- :-) -->
-        <!--     <div class="book-release">
-            <div class="inner_book-release">
-              <img id="img_url" src="#">
-              <div class="description">
-                <h1 id="title"></h1>
-                <p id="published"></p>
-                <p id="desc"></p>
-              </div>
-            </div>
-          </div> -->
-        <!-- :-^) --> */}
-      </div>
+      <SearchArea searchBooks={SearchBooks} handleSearch={handleSearch} handleSort={handleSort}/>
+      <BookList books={sortedBooks} />
+      
+       
     </section>
   );
 }
