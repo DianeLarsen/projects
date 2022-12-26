@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@grapecity/spread-excelio": "^16.0.0",
+    "@grapecity/spread-sheets": "^16.0.0",
+    "jquery": "^3.6.3"
+  }
+}

@@ -1,6 +1,7 @@
 import "./header.css"
 import bookLogo from "../assets/bcardfront.jpg"
 
+
 export default function Header() {
   return (
     <div className="header-wrapper-outer" id="grid-container">
@@ -11,35 +12,40 @@ export default function Header() {
         <ul className="nav" id="grid-container-nav">
           <li>
             <a className="navList" href="#news">
-              News
+              HOME
             </a>
           </li>
           <li>
             <a className="navList" href="#store">
-              Store
+              GIFT CARDS
             </a>
           </li>
           <li>
             <a className="navList" href="#contact">
-              Contact
+              SHOP NOW
             </a>
           </li>
           <li>
             <a className="navList" href="#about">
-              About
+              SEARCH
             </a>
           </li>
           <li>
-            <a className="navList" href="comingsoon.html">
-              Coming Soon
-            </a>
+            
+            <svg data-v-43540933="" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" role="img" className="svg-user">
+
+            <use href="#user-icon" ></use>
+            </svg>
+            
           </li>
           <li>
+
             {/* {<!-- <form id="search" name="search"></form>
                     <input type="text" name="q" placeholder="Search">  -->} */}
             {/* </form>  */}
           </li>
         </ul>
+        
       </div>
     </div>
   );

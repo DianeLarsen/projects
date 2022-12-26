@@ -6,7 +6,10 @@
     scroll-padding-top: 150px; /* height of sticky header */
   }
   
- 
+ use{
+   --background-fill:white; 
+   --icon-fill:var(--color-black);
+ }
  
  body{
     background-color: #E8DCB8;

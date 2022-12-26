@@ -7,10 +7,12 @@ export default function BookList(props) {
     {props.books.map((book, i) => {
         return <BookCard
             key={i}
-            image={book.volumeInfo.imageLinks.thumbnail}
-            title={book.volumeInfo.title}
-            author={book.volumeInfo.authors}
-            publishedDate={book.volumeInfo.publishedDate}
+            image={book.volumeInfo.imageLinks.thumbnail || ""}
+            title={book.volumeInfo.title  || ""}
+            author={book.volumeInfo.authors  || ""}
+            publishedDate={book.volumeInfo.publishedDate  || ""}
+            type={props.type}
+            ISBN={props.ISBN}
           />
         
       })

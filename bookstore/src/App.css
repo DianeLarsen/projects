@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6 {
   margin:0;
 }
 
+.list{
+  display: inline-flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 html {
   font-size:16px;
   font-family: 'Nunito', sans-serif;

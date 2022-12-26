@@ -3,3 +3,6 @@
 - need ability to buy and place for pickup
 - need popup with description
 - industryIdentifiers.ISBN_13 or ISBN_10
+- need to be able to upload inventory through excel file and be able to save inventory to download later
+- easier way to add in new books/inventory 
+-loyalty program through square

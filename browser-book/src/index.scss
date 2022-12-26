@@ -1,0 +1,242 @@
+/* Make the root element at least as big as the page. */
+html,
+body,
+#root {
+	height: 100%;
+}
+/* 
+Give some padding to the header, main and footer elements
+if they are direct children of the #root element.
+*/
+#root > header,
+#root > main,
+#root > footer {
+	padding: 1rem;
+}
+
+.margin {
+	margin: 0em 8em;
+}
+
+@media only screen and (max-width: 600px) {
+	.margin {
+		margin: 0;
+	}
+}
+
+.search {
+	padding: 20px;
+	margin: 20px;
+	display: grid;
+	justify-content: center;
+}
+
+.searchForm {
+	display: grid;
+	justify-content: space-around;
+	margin: 2em 8em;
+}
+
+.spinner {
+	display: grid;
+	justify-content: center;
+}
+
+.book-image {
+	max-height: 15rem;
+	max-width: 10rem;
+}
+
+.book-image:hover {
+	box-shadow: 3px 3px 5px 6px lightgray;
+	animation: zoomin 0.5s;
+}
+
+.book-box {
+	background: #16222a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#3a6073,
+		#16222a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#3a6073,
+		#16222a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: white;
+	margin: 18%;
+}
+
+.card-cascade-narrower {
+	img {
+		transform: scale(0.92) translateY(-2rem) translateX(-1em);
+		margin-bottom: -1rem;
+	}
+}
+// SOURCE for card-cascase-narrow https://codepen.io/Devcrud/pen/YzXdBLK
+
+.carousel {
+	display: grid;
+	justify-content: center;
+}
+
+.carousel-indicators li {
+	visibility: hidden;
+}
+
+.carousel-btn {
+	margin: 5px;
+}
+
+.authors {
+	padding: 8vh;
+	background: #0f2027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.nyt-img {
+	max-height: 15rem;
+	max-width: 10rem;
+}
+
+//Not Found Page BELOW
+
+.detail {
+	display: grid;
+	justify-content: center;
+	margin: 0 20%;
+}
+
+.page_404 {
+	padding: 40px 0;
+	background: #fff;
+}
+
+.page_404 img {
+	width: 80%;
+}
+
+.four_zero_four_bg {
+	background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+	height: 400px;
+	background-position: center;
+}
+
+.four_zero_four_bg h1 {
+	font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+	font-size: 80px;
+}
+
+.link_404 {
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background: #39ac31;
+	margin: 20px 0;
+	display: inline-block;
+}
+.contant_box_404 {
+	margin-top: -50px;
+}
+
+.nav {
+	color: white;
+	background: #0f2027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.white {
+	color: white !important;
+}
+
+#footer {
+	margin-top: 32%;
+	background: #f0f2f0; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to left,
+		#16222a,
+		#f0f2f0
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to left,
+		#16222a,
+		#f0f2f0
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 1vh 0;
+}
+
+.connect {
+	list-style-type: none;
+}
+
+.connect-img {
+	max-height: 15px;
+	max-width: 15px;
+}
+
+@import '~bootstrap/scss/bootstrap';
+
+.container-fluid .jumbotron, .container .jumbotron {
+	border-radius: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+  }
+  
+  @media screen and (min-width: 768px)
+  {
+  .container-fluid .jumbotron, .container .jumbotron {
+	  padding-left: 60px;
+	  padding-right: 60px;
+  }
+  }
+  
+  @media screen and (min-width: 768px)
+  {
+  .jumbotron {
+	  padding-bottom: 48px;
+	  padding-top: 48px;
+  }
+  }
+  
+  .jumbotron {
+	background-color: #eee;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+  }
