@@ -3,7 +3,7 @@ import SearchArea from "./SearchArea.js";
 import BookList from "./BookList.js";
 import InventoryStore from "./InventoryStore.js";
 import * as xlsx from "xlsx";
-import data from "./data.js";
+// import data from "./data.js";
 
 export default function Books() {
   const [books, setBooks] = React.useState([]);
@@ -27,8 +27,8 @@ export default function Books() {
         demo(books);
       });
   }
-  console.log("inventory");
-  console.log(inventory);
+  // console.log("inventory");
+  // console.log(inventory);
   const readUploadFile = (e) => {
     e.preventDefault();
     if (e.target.files) {
@@ -163,7 +163,7 @@ export default function Books() {
   });
 
   return (
-    <section>
+    <section key={inventory.index}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="60"
@@ -195,7 +195,7 @@ export default function Books() {
         handleSort={handleSort}
       />
       <BookList books={sortedBooks} />
-      <InventoryStore key={inventory.index} type={inventory.category} IDEN={inventory.ISBN} />      
+      <InventoryStore keys={inventory.index} type={inventory.category} IDEN={inventory.ISBN} />      
     </section>
   );
 }

@@ -44,7 +44,9 @@ p.recs {
   -moz-border-radius:15px;
   border-radius:15px;
 }
-
+.bookList{
+  list-style: none;
+}
 p.pb {
   display:block;
   margin:1em 0;

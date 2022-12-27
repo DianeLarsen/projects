@@ -1,4 +1,4 @@
-export default [
+ const data = [
     {
         "Reference Handle": "#-salem-s-lot-movie-tie-in--paperback",
         "Token": "LKLQMFWPLV57AK76HUNGCESS",
@@ -34304,3 +34304,5 @@ export default [
         "Tax - Sales Tax (9.4%)": "Y"
     }
 ]
+
+export default data

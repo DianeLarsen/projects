@@ -2,7 +2,7 @@ import * as xlsx from "xlsx"
 import React from "react"
 
 export default function Excel() {
-    const [inventory, setInventory] = React.useState([""])
+    const [inventory, setInventory] = React.useState([])
     console.log(inventory)
     const readUploadFile = (e) => {
         e.preventDefault();
