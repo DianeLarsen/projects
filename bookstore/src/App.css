@@ -32,7 +32,9 @@ html {
   font-family: 'Nunito', sans-serif;
   line-height:1.5;
 }
-
+.imgInv{
+  width: 100px;
+}
 p.recs {
   display:inline-block;
   padding:0.25em 0.85em;

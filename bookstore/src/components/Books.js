@@ -1,14 +1,16 @@
 import React from "react";
 import SearchArea from "./SearchArea.js";
 import BookList from "./BookList.js";
+import InventoryStore from "./InventoryStore.js";
 import * as xlsx from "xlsx";
+import data from "./data.js";
 
 export default function Books() {
   const [books, setBooks] = React.useState([]);
   const [searchField, setSearchField] = React.useState();
   const [sort, setSort] = React.useState("");
   const [inventory, setInventory] = React.useState([""]);
-  const [display, setDisplay] = React.useState([])
+  //const [display, setDisplay] = React.useState([])
 
   function SearchBooks(e) {
     e.preventDefault();
@@ -37,11 +39,15 @@ export default function Books() {
         const sheetName = workbook.SheetNames[0];
         const worksheet = workbook.Sheets[sheetName];
         const json = xlsx.utils.sheet_to_json(worksheet);
-        //console.log(json);
-        setInventory({
-          category: json[0].Category,
-          ISBN: json[0].GTIN,
-        });
+        console.log(json);
+        for (let i = 0; i < inventory.length; i++) {
+          
+          setInventory(...inventory, {
+            category: json[i].Category,
+            ISBN: json[i].GTIN,
+          })
+        }
+        ;
       };
       reader.readAsArrayBuffer(e.target.files[0]);
     }
@@ -50,7 +56,7 @@ export default function Books() {
     console.log("ISBN fron API");
     console.log(books[0].volumeInfo.industryIdentifiers[0].identifier);
   }
-  if (inventory[0] !== "") {
+  if (inventory[1]) {
     console.log("ISBN fron excel");
     console.log(inventory.ISBN);
   }
@@ -126,12 +132,12 @@ export default function Books() {
   } 
 // if (inventory[1]){
 
-  let newBooks = inventory.map(x => {
-    let item = books.find(item => item.volumeInfo.industryIdentifiers[0].identifier || item.volumeInfo.industryIdentifiers[1].identifier === x.ISBN);
-    if (item) { 
-      return {title: item.volumeInfo.title};
-    }      
-  }).filter(item => item !== undefined); // Can also use filter(item => item);
+  // let newBooks = inventory.map(x => {
+  //   let item = books.find(item => item.volumeInfo.industryIdentifiers[0].identifier || item.volumeInfo.industryIdentifiers[1].identifier === x.ISBN);
+  //   if (item) { 
+  //     return {title: item.volumeInfo.title};
+  //   }      
+  // }).filter(item => item !== undefined); // Can also use filter(item => item);
   //setDisplay(newBooks)
 
 
@@ -174,12 +180,6 @@ export default function Books() {
       </svg>
       <h1>Welcome to the bookstore, what are you looking for?</h1>
       <p className="recs">Search by genre, author, title!</p>
-      <SearchArea
-        searchBooks={SearchBooks}
-        handleSearch={handleSearch}
-        handleSort={handleSort}
-      />
-      <BookList books={sortedBooks} />
       <form>
         <label htmlFor="upload">Upload File</label>
         <input
@@ -189,6 +189,13 @@ export default function Books() {
           onChange={readUploadFile}
         />
       </form>
+      <SearchArea
+        searchBooks={SearchBooks}
+        handleSearch={handleSearch}
+        handleSort={handleSort}
+      />
+      <BookList books={sortedBooks} />
+      <InventoryStore key={inventory.index} type={inventory.category} IDEN={inventory.ISBN} />      
     </section>
   );
 }
