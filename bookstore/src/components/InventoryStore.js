@@ -5,69 +5,57 @@ import Popup from "./Popup";
 export default function InventoryStore(props) {
   // for popup
   const [isOpen, setIsOpen] = React.useState(false);
-  // stored data fron inventory and API
-  const [apiResults, setApiResults] = React.useState([{title: "", description: "", author:"", ISBN:"", imgBook:""}])
-  //const [matchedImage, setMatchedImage] = React.useState([])
+
   const [inventoryData, setInventoryData] = React.useState([]);
-console.log(inventoryData)
+
   const results = data.map(function (item) {
-    return { ISBN: item.GTIN || "n/a", Type: item.Category, imgURL: "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg" };
+    return {
+      ISBN: item.GTIN || "n/a",
+      Type: item.Category,
+      title: item.ItemName,
+      imgURL:
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+      
+    };
   });
-  
-  console.log(apiResults);
+  console.log("results");
+  console.log(results);
+  console.log("inventoryData");
+  console.log(inventoryData);
+
   React.useEffect(() => {
     setInventoryData(results);
-    console.log(inventoryData)
-    gatherData()
+
+    inventoryData.map((item) => {
+      const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+      let url = `https://www.googleapis.com/books/v1/volumes?q=isbn:${item.ISBN}&maxResults=1&intitle=${item.title}&key=${apiKey}`;
+      let apiFetched = fetch(url)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("API Fetched")
+          let apiFetched = data.items;
+          setInventoryData((prevstuff) => [
+            ...prevstuff,
+            
+              {[prevstuff.title]: apiFetched.volumeInfo.title,
+              [prevstuff.description]: apiFetched.volumeInfo.description,
+              [prevstuff.author]:
+                apiFetched.volumeInfo.author[0] || apiFetched.volumeInfo.author,
+              [prevstuff.imgURL]:
+                apiFetched.volumeInfo.imageLinks.thumbnail ||
+                "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",}
+            
+          ]);
+        }).catch(error => console.log(error));
+   return apiFetched
+    });
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [inventoryData.length]);
 
   const togglePopup = () => {
     setIsOpen(!isOpen);
   };
-
-  for (let i = 0; i < data.length; i++) {
-    // get an ISBN [i]
-    // fetch for that ISBN
-    // compare and confirm
-    // save the picture and ISBN to matchedImage
-  }
-//   function delay(t, data) {
-//     return new Promise(resolve => {
-//         setTimeout(resolve.bind(null, data), t);
-//     });
-// }
-function gatherData(){
-  
-  // const transferData = 
-  inventoryData.map((item)=>{
-    setTimeout(() => {
-      console.log("Delayed for 1 second.");
-    }, "1000")
-    const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-          let url = `https://www.googleapis.com/books/v1/volumes?q= ${item.ISBN} &key= ${apiKey}`;
-    fetch(url)
-          .then((res) => res.json())
-          .then((data) => {
-              let apiFetched = data.items;
-              apiFetched.map(function(api) {
-                let title = api.volumeInfo.title;
-                let description = api.volumeInfo.description;
-                let author = api.volumeInfo.authors[0];
-                let ISBN = api.volumeInfo.industryIdentifiers[0].identifier;
-                let imgBook = api.volumeInfo.imageLinks.thumbnail
-                
-                setApiResults(prevData => [...prevData, {title: title, description: description, author:author, ISBN:ISBN, imgBook:imgBook}])
-               
-                return null
-              });
-            }).catch(function(error) {
-              console.log(error);
-            });
-            return null
-          })
-        }
 
   return (
     <div>
@@ -78,13 +66,9 @@ function gatherData(){
               <React.Fragment key={i}>
                 {el.ISBN && (
                   <>
-                    <img
-                      className="imgInv"
-                      src={el.imgURL}
-                      alt="test"
-                    ></img>
+                    <img className="imgInv" src={el.imgURL} alt="test"></img>
                     <li className="bookList">
-                      Type: {el.Type} <p>ISBN: {el.ISBN}</p>
+                      Type: {el.title} <p>ISBN: {el.ISBN}</p>
                     </li>
                   </>
                 )}
@@ -107,4 +91,3 @@ function gatherData(){
     </div>
   );
 }
-
