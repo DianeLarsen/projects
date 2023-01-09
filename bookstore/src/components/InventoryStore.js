@@ -25,55 +25,55 @@ export default function InventoryStore(props) {
   });
   const inventoryData = results;
   //const [inventoryData, setInventoryData] = React.useState(()=>results);
-  console.log(inventoryData);
-  console.log(apiResults);
+  //console.log(inventoryData);
+  //console.log(apiResults);
   //GET https://www.googleapis.com/books/v1/volumes?q=time&printType=books&key=yourAPIKey
 
-  React.useEffect(() => {
-    for (let i = 0; i < 10; i++) {
-      const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-      if (inventoryData[i].ISBN !== "n/a") {
-        let url = `https://www.googleapis.com/books/v1/volumes?q=isbn:${inventoryData[i].ISBN}`;
-        fetch(url)
-          .then((res) => res.json())
-          .then((data) => {
-            let apiFetched = data.items;
-            apiFetched.map(function (api) {
-              let title = api.volumeInfo.title;
-              let description = api.volumeInfo.description;
-              let author =
-                api.volumeInfo.authors[0] || api.volumeInfo.authors || "";
-              let ISBN =
-                api.volumeInfo.industryIdentifiers[0].identifier ||
-                api.volumeInfo.industryIdentifiers[1].identifier;
-              let imgBook =
-                api.volumeInfo.imageLinks !== undefined
-                  ? api.volumeInfo.imageLinks.thumbnail
-                  : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
-              let identInv = i;
+  // React.useEffect(() => {
+  //   for (let i = 0; i < 10; i++) {
+  //     const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+  //     if (inventoryData[i].ISBN !== "n/a") {
+  //       let url = `https://www.googleapis.com/books/v1/volumes?q=isbn:${inventoryData[i].ISBN}`;
+  //       fetch(url)
+  //         .then((res) => res.json())
+  //         .then((data) => {
+  //           let apiFetched = data.items;
+  //           apiFetched.map(function (api) {
+  //             let title = api.volumeInfo.title;
+  //             let description = api.volumeInfo.description;
+  //             let author =
+  //               api.volumeInfo.authors[0] || api.volumeInfo.authors || "";
+  //             let ISBN =
+  //               api.volumeInfo.industryIdentifiers[0].identifier ||
+  //               api.volumeInfo.industryIdentifiers[1].identifier;
+  //             let imgBook =
+  //               api.volumeInfo.imageLinks !== undefined
+  //                 ? api.volumeInfo.imageLinks.thumbnail
+  //                 : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
+  //             let identInv = i;
 
-              setApiResults((prevData) => [
-                ...prevData,
-                {
-                  title: title,
-                  description: description,
-                  author: author,
-                  ISBN: ISBN,
-                  imgBook: imgBook,
-                  identInv: identInv,
-                },
-              ]);
+  //             setApiResults((prevData) => [
+  //               ...prevData,
+  //               {
+  //                 title: title,
+  //                 description: description,
+  //                 author: author,
+  //                 ISBN: ISBN,
+  //                 imgBook: imgBook,
+  //                 identInv: identInv,
+  //               },
+  //             ]);
 
-              return null;
-            });
-          })
-          .catch(function (error) {
-            console.log(error);
-          });
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  //             return null;
+  //           });
+  //         })
+  //         .catch(function (error) {
+  //           console.log(error);
+  //         });
+  //     }
+  //   }
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   const togglePopup = () => {
     setIsOpen(!isOpen);

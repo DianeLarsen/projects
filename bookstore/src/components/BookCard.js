@@ -12,6 +12,7 @@ export default function BookCard(props){
             <img src={props.image} alt=""/>
             <div className="description">
                 <h2>{props.title}</h2>
+                <p>$ {props.price}</p>
                 <h3>Author: {props.author}</h3>
                 <p>Published Date: {props.publishedDate === '0000' ? "N/A" : props.publishedDate.substring(0,4)}</p>
                 {isOpen && <Popup

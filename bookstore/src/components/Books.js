@@ -3,7 +3,7 @@ import SearchArea from "./SearchArea.js";
 import BookList from "./BookList.js";
 import InventoryStore from "./InventoryStore.js";
 import * as xlsx from "xlsx";
-// import data from "./data.js";
+import data from "./data.js";
 
 export default function Books() {
   const [books, setBooks] = React.useState([]);
@@ -11,24 +11,60 @@ export default function Books() {
   const [sort, setSort] = React.useState("");
   const [inventory, setInventory] = React.useState([""]);
   //const [display, setDisplay] = React.useState([])
-
+  const [bookFound, setBookFound] = React.useState(false);
+  const [searchedBooks, setSearchedBooks] = React.useState([]);
+  console.log(bookFound)
+  console.log(books);
+  //console.log(searchField)
+  console.log(searchedBooks);
   function SearchBooks(e) {
+    // setSearchedBooks([]);
     e.preventDefault();
 
-    const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-    let url = `https://www.googleapis.com/books/v1/volumes?q= ${searchField} &key= ${apiKey}`;
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        console.log("data.items from API");
-        console.log(data.items);
-        cleanData(data.items);
-        setBooks(data.items);
-        demo(books);
-      });
+    const findBook = data.filter((element) =>
+      element.ItemName.toLowerCase().includes(searchField)
+    );
+    console.log("findBook");
+    console.log(findBook);
+
+    const filteredSearch = findBook.filter((item) =>
+      item.Category.includes("Book")
+    );
+    console.log("filteredSearch")
+    console.log(filteredSearch)
+
+    if (filteredSearch === undefined) {
+      setBookFound(false);
+    } else if (filteredSearch[0]) {
+      filteredSearch.map((things) =>
+        setSearchedBooks((prevbooks) => [...prevbooks, {ISBN: things.GTIN, title: things.ItemName}])
+      );
+      setBookFound(true);
+      
+    } 
+    
   }
-  // console.log("inventory");
-  // console.log(inventory);
+
+    
+  React.useEffect(()=>{
+    const foundBookthings = searchedBooks.map(stuff => {
+      console.log(stuff.ISBN)
+      console.log(stuff.title)
+   const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+       let url = `https://www.googleapis.com/books/v1/volumes?q=ISBN:${stuff.ISBN}&title=${stuff.title}&maxResults=5&key= ${apiKey}`;
+       fetch(url)
+         .then((res) => res.json())
+         .then((data) => {
+   
+           console.log(data.items);
+           cleanData(data.items);
+           setBooks(data.items);
+           demo(books);}
+         )})
+       console.log(foundBookthings)
+       }, [searchedBooks])
+
+
   const readUploadFile = (e) => {
     e.preventDefault();
     if (e.target.files) {
@@ -50,17 +86,6 @@ export default function Books() {
       reader.readAsArrayBuffer(e.target.files[0]);
     }
   };
-  if (books[0]) {
-    console.log("ISBN fron API");
-    console.log(books[0].volumeInfo.industryIdentifiers[0].identifier);
-  }
-  if (inventory[1]) {
-    console.log("ISBN fron excel");
-    console.log(inventory.ISBN);
-  }
-  //  if (books[0].volumeInfo.industryIdentifiers[0].identifier === inventory.ISBN ){
-  // console.log(books[0])
-  // }
 
   function handleSearch(event) {
     setSearchField(event.target.value);
@@ -85,7 +110,7 @@ export default function Books() {
   function demo() {
     // getting all items from object
 
-    const book = Object.keys(books)
+    const book = Object.keys(searchedBooks)
       .map((item) => item["items"])
       .reduce((acc, rec, id) => {
         let singleBookCover = rec[id].volumeInfo.imageLinks.thumbnail;
@@ -109,21 +134,21 @@ export default function Books() {
     return book;
   }
 
-  const sortedBooks = books.sort((a, b) => {
-    if (sort === "Newest") {
-      return (
-        parseInt(b.volumeInfo.publishedDate.substring(0, 4)) -
-        parseInt(a.volumeInfo.publishedDate.substring(0, 4))
-      );
-    }
-    if (sort === "Oldest") {
-      return (
-        parseInt(a.volumeInfo.publishedDate.substring(0, 4)) -
-        parseInt(b.volumeInfo.publishedDate.substring(0, 4))
-      );
-    }
-    return books;
-  });
+  // const sortedBooks = books.sort((a, b) => {
+  //   if (sort === "Newest") {
+  //     return (
+  //       parseInt(b.volumeInfo.publishedDate.substring(0, 4)) -
+  //       parseInt(a.volumeInfo.publishedDate.substring(0, 4))
+  //     );
+  //   }
+  //   if (sort === "Oldest") {
+  //     return (
+  //       parseInt(a.volumeInfo.publishedDate.substring(0, 4)) -
+  //       parseInt(b.volumeInfo.publishedDate.substring(0, 4))
+  //     );
+  //   }
+  //   return books;
+  // });
 
   return (
     <section key={inventory.index}>
@@ -157,7 +182,7 @@ export default function Books() {
         handleSearch={handleSearch}
         handleSort={handleSort}
       />
-      <BookList books={sortedBooks} />
+      <BookList books={books} />
       <InventoryStore
         keys={inventory.index}
         type={inventory.category}
