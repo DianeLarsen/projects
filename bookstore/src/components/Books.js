@@ -44,8 +44,7 @@ export default function Books() {
           setInventory(...inventory, {
             category: json[i].Category,
             ISBN: json[i].GTIN,
-            title: json[i].ItemName
-          })
+          });
         }
       };
       reader.readAsArrayBuffer(e.target.files[0]);
