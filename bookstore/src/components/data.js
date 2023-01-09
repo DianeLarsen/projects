@@ -7,7 +7,7 @@
         "SKU": "9780593470190",
         "Description": "Stephen King\r\nFiction - Thriller\r\nPUB: 08/02/2022\r\n\"Ben Mears has returned to Jerusalem's Lot in hopes that exploring the history of the Marsten House, an old mansion long the subject of rumor and speculation, will help him cast out his personal devils and provide inspiration for his new book. But when two young boys venture into the woods, and only one returns alive, Mears begins to realize that something sinister is at work- in fact, his hometown is under siege from the forces of darkness. And only he, with a small group of allies, can hope to contain the evil that is growing within the borders of this small New England town. With this, his second novel, Stephen King established himself as the indisputable master of American horror, able to transform the old conceits of the genre into something fresh and all the more frightening for taking place in a familiar, idyllic locale\"",
         "Category": "Book",
-        "GTIN": 9780593470190,
+        "GTIN": "9780593470190",
         "Square Online Item Visibility": "visible",
         "Price": 18,
         "Sellable": "",

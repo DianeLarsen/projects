@@ -20,7 +20,7 @@ export default function Books() {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        console.log("data.items from API")
+        console.log("data.items from API");
         console.log(data.items);
         cleanData(data.items);
         setBooks(data.items);
@@ -41,13 +41,11 @@ export default function Books() {
         const json = xlsx.utils.sheet_to_json(worksheet);
         console.log(json);
         for (let i = 0; i < inventory.length; i++) {
-          
           setInventory(...inventory, {
             category: json[i].Category,
             ISBN: json[i].GTIN,
-          })
+          });
         }
-        ;
       };
       reader.readAsArrayBuffer(e.target.files[0]);
     }
@@ -90,13 +88,11 @@ export default function Books() {
     const book = Object.keys(books)
       .map((item) => item["items"])
       .reduce((acc, rec, id) => {
-        // getting Cover, Title, Author from each item
         let singleBookCover = rec[id].volumeInfo.imageLinks.thumbnail;
         let singleBookTitle = rec[id].volumeInfo.title;
         let singleBookAuthor = rec[id].volumeInfo.authors[0];
         let singlePublished = rec[id].volumeInfo.publishedDate;
 
-        // Creating new array only with Cover, Title, Author
         return [
           ...acc,
           {
@@ -107,44 +103,11 @@ export default function Books() {
           },
         ];
       }, [])
-      .forEach((item) => { 
+      .forEach((item) => {
         setBooks(item);
-
-        // // For each item on our array, we creating h1
-        // let title = document.createElement('h1');
-        // title.textContent = `${item.singleBookTitle} by ${item.singleBookAuthor}`;
-
-        // // img
-        // let img = document.createElement('img');
-        // img.src = item.singleBookCover;
-        // img.alt = `${item.singleBookTitle} by ${item.singleBookAuthor}`;
-
-        // // and div wrapper
-        // let container = document.createElement('div');
-
-        // // adding our child elements to wrapper
-        // container.appendChild(title).appendChild(img);
-
-        // // adding our wrapper to body
-        // document.body.appendChild(container);
       });
     return book;
-  } 
-// if (inventory[1]){
-
-  // let newBooks = inventory.map(x => {
-  //   let item = books.find(item => item.volumeInfo.industryIdentifiers[0].identifier || item.volumeInfo.industryIdentifiers[1].identifier === x.ISBN);
-  //   if (item) { 
-  //     return {title: item.volumeInfo.title};
-  //   }      
-  // }).filter(item => item !== undefined); // Can also use filter(item => item);
-  //setDisplay(newBooks)
-
-
-// } else {
-//   return
-// }
-
+  }
 
   const sortedBooks = books.sort((a, b) => {
     if (sort === "Newest") {
@@ -195,7 +158,11 @@ export default function Books() {
         handleSort={handleSort}
       />
       <BookList books={sortedBooks} />
-      <InventoryStore keys={inventory.index} type={inventory.category} IDEN={inventory.ISBN} />      
+      <InventoryStore
+        keys={inventory.index}
+        type={inventory.category}
+        IDEN={inventory.ISBN}
+      />
     </section>
   );
 }
