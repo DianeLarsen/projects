@@ -1,8 +1,8 @@
- const data = [
+const data = [
     {
         "Reference Handle": "#-salem-s-lot-movie-tie-in--paperback",
         "Token": "LKLQMFWPLV57AK76HUNGCESS",
-        "Item Name": "'Salem's Lot (Movie Tie-In)",
+        "ItemName": "'Salem's Lot (Movie Tie-In)",
         "Variation Name": "Paperback",
         "SKU": "9780593470190",
         "Description": "Stephen King\r\nFiction - Thriller\r\nPUB: 08/02/2022\r\n\"Ben Mears has returned to Jerusalem's Lot in hopes that exploring the history of the Marsten House, an old mansion long the subject of rumor and speculation, will help him cast out his personal devils and provide inspiration for his new book. But when two young boys venture into the woods, and only one returns alive, Mears begins to realize that something sinister is at work- in fact, his hometown is under siege from the forces of darkness. And only he, with a small group of allies, can hope to contain the evil that is growing within the borders of this small New England town. With this, his second novel, Stephen King established himself as the indisputable master of American horror, able to transform the old conceits of the genre into something fresh and all the more frightening for taking place in a familiar, idyllic locale\"",
@@ -34,7 +34,7 @@
     {
         "Reference Handle": "#100-bugs-to-fold-fly-",
         "Token": "IMT6RTQ3GLNTFOCSA2QEGO33",
-        "Item Name": "100 Bugs to Fold & Fly",
+        "ItemName": "100 Bugs to Fold & Fly",
         "Variation Name": "",
         "SKU": "542948",
         "Description": "Children - Activity book\r\nAim and launch your own swarm of bug-themed paper gliders. This book contains 100 tear-out sheets to fold into buzzing bees, darting dragonflies, fluttering moths and scuttling beetles.",
@@ -66,7 +66,7 @@
     {
         "Reference Handle": "#100-disney-adventures-of-a-lifetime-magical-experiences-from-around-the-world-hardcover",
         "Token": "3KA6YYARLPUKPWHNRGMUH2DH",
-        "Item Name": "100 Disney Adventures of a Lifetime: Magical Experiences from Around the World",
+        "ItemName": "100 Disney Adventures of a Lifetime: Magical Experiences from Around the World",
         "Variation Name": "Hardcover",
         "SKU": "9781426222641",
         "Description": "Marcy Smothers ; Joe Rohde\r\nNon-Fiction",
@@ -98,7 +98,7 @@
     {
         "Reference Handle": "#100-logic-puzzles-",
         "Token": "ZNCZI2A63SRJGZVNU4O4XY7S",
-        "Item Name": "100 Logic Puzzles",
+        "ItemName": "100 Logic Puzzles",
         "Variation Name": "",
         "SKU": "9780794536930",
         "Description": "A handy, paperback book, packed with puzzles, games and activities that will put children's powers of logic to the test. The puzzles include breaking a castle code using patterns on different shields, drawing impossible shapes and lots of mind-bending riddles. Full of colorful illustrations and space to draw, color and complete the different activities, this book is ideal for keeping children busy over long journeys and other quiet times. Includes answers at the back of the book so children can",
@@ -130,7 +130,7 @@
     {
         "Reference Handle": "#100-paper-dragons-to-fold-fly-",
         "Token": "UJ2DYK4MXZUQB7SEXRZ43DK6",
-        "Item Name": "100 Paper Dragons to Fold & Fly",
+        "ItemName": "100 Paper Dragons to Fold & Fly",
         "Variation Name": "",
         "SKU": "535933",
         "Description": "Become a master of dragons and fill the sky with fearsome fire-breathers. Choose from 100 tear-out sheets to fold into many-headed monsters, treasure-hoarding guardians and scaly sea serpents.",
@@ -162,7 +162,7 @@
     {
         "Reference Handle": "#100-paper-planes-bugs",
         "Token": "7LGIGDMSGQBPSOTYVSMBXLLH",
-        "Item Name": "100 Paper Planes",
+        "ItemName": "100 Paper Planes",
         "Variation Name": "Bugs",
         "SKU": "9780794542948",
         "Description": "",
@@ -194,7 +194,7 @@
     {
         "Reference Handle": "#100-paper-planes-dragons",
         "Token": "QUZ2OMOCXCZ5WJZNLE3FJISH",
-        "Item Name": "100 Paper Planes",
+        "ItemName": "100 Paper Planes",
         "Variation Name": "Dragons",
         "SKU": "9780794535933",
         "Description": "",
@@ -226,7 +226,7 @@
     {
         "Reference Handle": "#100-paper-planes-planes",
         "Token": "6DB35GSYGBO2BKVR23FTPGG7",
-        "Item Name": "100 Paper Planes",
+        "ItemName": "100 Paper Planes",
         "Variation Name": "Planes",
         "SKU": "9780794533151",
         "Description": "",
@@ -258,7 +258,7 @@
     {
         "Reference Handle": "#100-paper-planes-spaceships",
         "Token": "UPRFHL7SCMNZTIWCG24T7PMA",
-        "Item Name": "100 Paper Planes",
+        "ItemName": "100 Paper Planes",
         "Variation Name": "Spaceships",
         "SKU": "9780794535759",
         "Description": "",
@@ -290,7 +290,7 @@
     {
         "Reference Handle": "#100-paper-planes-pterosaurs",
         "Token": "P5ARGDTI3QKSOEE2V4VIMX4I",
-        "Item Name": "100 Paper Planes",
+        "ItemName": "100 Paper Planes",
         "Variation Name": "Pterosaurs",
         "SKU": "9780794542320",
         "Description": "",
@@ -322,7 +322,7 @@
     {
         "Reference Handle": "#100-paper-spaceships-to-fold-fly-",
         "Token": "Y46YWSVQERLSRCMNCC336YYC",
-        "Item Name": "100 Paper Spaceships to Fold & Fly",
+        "ItemName": "100 Paper Spaceships to Fold & Fly",
         "Variation Name": "",
         "SKU": "535759",
         "Description": "100 decorated tear-out sheets to fold into a fleet of paper spaceships, from orbital cruisers to alien motherships. The book includes detailed folding instructions for four different types of spaceship, from mighty star cruisers to speedy scout ships, plus flying tips and challenges so children can test the spaceship's power and speed.",
@@ -354,7 +354,7 @@
     {
         "Reference Handle": "#100-pterosaurs-to-fold-and-fly-",
         "Token": "J7UZZPUFWIJLR2PKVBABFZU5",
-        "Item Name": "100 Pterosaurs to Fold and Fly",
+        "ItemName": "100 Pterosaurs to Fold and Fly",
         "Variation Name": "",
         "SKU": "542320",
         "Description": "A creative activity book which allows children to make a variety of flying dinosaurs from the fantastically designed pages in this book.",
@@ -386,7 +386,7 @@
     {
         "Reference Handle": "#100-superplanes-to-fold-and-fly-",
         "Token": "7EEBHXE4F4TFLOMRUBRR262M",
-        "Item Name": "100 Superplanes to Fold and Fly",
+        "ItemName": "100 Superplanes to Fold and Fly",
         "Variation Name": "",
         "SKU": "9780794551322",
         "Description": "Featuring brand new paper plane models, simple step-by-step folding instructions and a collection of futuristic designs inspired by next-generation planes and spaceplanes, this book is perfect for young and old fans of Usborne paper planes books.",
@@ -418,7 +418,7 @@
     {
         "Reference Handle": "#100-things-to-know-about-the-human-body-ir--",
         "Token": "M3ZP4YXABV6CFRVL52KLSKRB",
-        "Item Name": "100 Things to Know About The Human Body (IR)",
+        "ItemName": "100 Things to Know About The Human Body (IR)",
         "Variation Name": "",
         "SKU": "539498",
         "Description": "A fresh, new approach to anatomy and science about the human body. Pictorial info-graphics style illustrations provide easily digestible facts in bite-size chunks.",
@@ -450,7 +450,7 @@
     {
         "Reference Handle": "#100-things-to-know-about-history-ir--",
         "Token": "AZU7AAZ5VIYJKMVGDAWHCVO6",
-        "Item Name": "100 Things to Know About, History (IR)",
+        "ItemName": "100 Things to Know About, History (IR)",
         "Variation Name": "",
         "SKU": "542375",
         "Description": "An eye-catching information book filled with one hundred interesting facts to learn about world history.",
@@ -482,7 +482,7 @@
     {
         "Reference Handle": "#100-things-to-know-about-science-ir--",
         "Token": "KY7PKMUXAI5EHUAMOIHMIFAH",
-        "Item Name": "100 Things to Know About, Science (IR)",
+        "ItemName": "100 Things to Know About, Science (IR)",
         "Variation Name": "",
         "SKU": "535025",
         "Description": "Science is a huge topic, but this friendly book breaks it down into bite-sized chunks, making it an accessible introduction for anyone who wants to find out about this fascinating subject. Highly illustrated, in a pictorial, 'infographics' style, with snippets of information about all aspects of science from particle physics to genes and DNA.",
@@ -514,7 +514,7 @@
     {
         "Reference Handle": "#100-things-to-know-about-space-ir--",
         "Token": "HS6ZPPQWSQV4TEFCTVOWVWWG",
-        "Item Name": "100 Things to Know About, Space (IR)",
+        "ItemName": "100 Things to Know About, Space (IR)",
         "Variation Name": "",
         "SKU": "537388",
         "Description": "Space is a huge topic, but this friendly book breaks it down into bite-sized chunks, making it an accessible introduction for anyone who wants to find out about this fascinating subject. Highly illustrated, in a pictorial, 'infographics' style, with snippets of information about all aspects of space.",
@@ -546,7 +546,7 @@
     {
         "Reference Handle": "#1001-pirates-things-to-spot-regular",
         "Token": "FMCALR45LOPJTSDTAVF2SSBX",
-        "Item Name": "1001 Pirates Things To Spot",
+        "ItemName": "1001 Pirates Things To Spot",
         "Variation Name": "Regular",
         "SKU": "9780794515133",
         "Description": "",
@@ -578,7 +578,7 @@
     {
         "Reference Handle": "#1001-things-to-spot-at-christmas-",
         "Token": "YHM2QCHQ5A74ABZ4URMS5YNZ",
-        "Item Name": "1001 Things to Spot at Christmas",
+        "ItemName": "1001 Things to Spot at Christmas",
         "Variation Name": "",
         "SKU": "9780794523688",
         "Description": "This jolly puzzle-book is stuffed full of Christmas things to find and count. Join Santa Claus and his busy team during the most magical holiday of the year.",
@@ -610,7 +610,7 @@
     {
         "Reference Handle": "#1001-things-to-spot-in-fairyland-",
         "Token": "TDUPYUZOAAF6IJUHYQAGNEWX",
-        "Item Name": "1001 Things to Spot In Fairyland",
+        "ItemName": "1001 Things to Spot In Fairyland",
         "Variation Name": "",
         "SKU": "9780794512200",
         "Description": "Discover the magic of fairyland in this enchanting picture book, which will provide hours of puzzle-solving fun. Search for pretty flower fairies in a secret garden, look for frog princes at fairy school and see if you can find bluebirds flying somewhere over the rainbow.",
@@ -642,7 +642,7 @@
     {
         "Reference Handle": "#1001-things-to-spot-in-the-sea-",
         "Token": "UFMWLUOW4UHOJRW537W4NT3R",
-        "Item Name": "1001 Things to Spot In the Sea",
+        "ItemName": "1001 Things to Spot In the Sea",
         "Variation Name": "",
         "SKU": "9780794526153",
         "Description": "Brimming with things to find, count and talk about, this charming picture book provides hours of puzzle-solving fun. Readers will delight in discovering the secrets of the sea.",
@@ -674,7 +674,7 @@
     {
         "Reference Handle": "#1lb-bag-coffee-three-options-available--dragons-blend",
         "Token": "SZ7PPI4CFNRSIR5JBYHXNEO7",
-        "Item Name": "1lb Bag Coffee (Three options available)",
+        "ItemName": "1lb Bag Coffee (Three options available)",
         "Variation Name": "Dragons Blend",
         "SKU": "9055216",
         "Description": "<p><strong>Dragon&#39;s Blend</strong> is our deepest rich flavor profile. For those who enjoy a dark roast, this coffee will knock your socks off.</p><p><br/></p><p><strong>Fairytale Grounds</strong> is a light to medium blend has such beautiful flavor it doesn&#39;t need cream to enjoy.</p><p><br/></p><p><strong>My Precious</strong> is a perfect balance between flavor and smoothness. This blend is considered our medium roast with the best of both worlds</p>",
@@ -706,7 +706,7 @@
     {
         "Reference Handle": "#1lb-bag-coffee-three-options-available--fairytale-grounds",
         "Token": "VGDYZFQYZJMYXIFX4CIZIIZ4",
-        "Item Name": "1lb Bag Coffee (Three options available)",
+        "ItemName": "1lb Bag Coffee (Three options available)",
         "Variation Name": "Fairytale Grounds",
         "SKU": "941842M",
         "Description": "",
@@ -738,7 +738,7 @@
     {
         "Reference Handle": "#1lb-bag-coffee-three-options-available--my-precious",
         "Token": "QHMAC5STV4J77KPSCJ6PRIYQ",
-        "Item Name": "1lb Bag Coffee (Three options available)",
+        "ItemName": "1lb Bag Coffee (Three options available)",
         "Variation Name": "My Precious",
         "SKU": "810249M",
         "Description": "",
@@ -770,7 +770,7 @@
     {
         "Reference Handle": "#200-paper-planes-regular",
         "Token": "6VBUFQPTSVXZD5U4NIJ7JAVA",
-        "Item Name": "200 Paper Planes",
+        "ItemName": "200 Paper Planes",
         "Variation Name": "Regular",
         "SKU": "9780794533717",
         "Description": "",
@@ -802,7 +802,7 @@
     {
         "Reference Handle": "#200-paper-planes-to-fold-fly-",
         "Token": "P2QT7LKJWCZQQIWNGOCNRIFY",
-        "Item Name": "200 Paper Planes to Fold & Fly",
+        "ItemName": "200 Paper Planes to Fold & Fly",
         "Variation Name": "",
         "SKU": "533717",
         "Description": "Put your flying skills to the test with these spectacular paper planes. With 200 tear-out sheets to choose from, make your aircraft into rocketing robots, squirming squid, supercharged engines, or alien invaders.",
@@ -834,7 +834,7 @@
     {
         "Reference Handle": "#365-words-everyone-should-know-",
         "Token": "MU3PRV2VTV2KEXGFCJ3O2VEG",
-        "Item Name": "365 Words Everyone Should Know",
+        "ItemName": "365 Words Everyone Should Know",
         "Variation Name": "",
         "SKU": "642083",
         "Description": "Packed with new words, old words, silly words, words with double meanings, words tough to pronounce, words with unusual stories behind them, and much, much more, these are the 365 words all kids should know! Includes simple definitions of each word, pronunciation tips, fun facts and handy mnemonics to help with spelling.",
@@ -866,7 +866,7 @@
     {
         "Reference Handle": "#50-science-things-to-make-do-",
         "Token": "RYLCU23IMNFBVW2ARYOZIWJR",
-        "Item Name": "50 Science Things to Make & Do",
+        "ItemName": "50 Science Things to Make & Do",
         "Variation Name": "",
         "SKU": "9780794523794",
         "Description": "These simple step-by-step activities combine hands-on fun and scientific investigation.",
@@ -898,7 +898,7 @@
     {
         "Reference Handle": "#a-certain-magical-index-vol-26-manga--paperback",
         "Token": "WCCR5N3B7Z65JXLXN5757EKG",
-        "Item Name": "A Certain Magical Index, Vol. 26 (Manga)",
+        "ItemName": "A Certain Magical Index, Vol. 26 (Manga)",
         "Variation Name": "Paperback",
         "SKU": "9781975347451",
         "Description": "Kamachi, Kazuma ; Kogino, Chuya\r\nComics & Graphic Novels - Manga\r\nPUB: 11/22/2022",
@@ -930,7 +930,7 @@
     {
         "Reference Handle": "#a-clash-of-kings-the-graphic-novel-volume-four-hardcover",
         "Token": "7XU34I33L2V3OWLV2YCDSQOJ",
-        "Item Name": "A Clash of Kings: The Graphic Novel: Volume Four",
+        "ItemName": "A Clash of Kings: The Graphic Novel: Volume Four",
         "Variation Name": "Hardcover",
         "SKU": "9781984820785",
         "Description": "George R R Martin\r\nComics & Graphic Novels\r\nPUB: 10/04/2022\r\nHardcover",
@@ -962,7 +962,7 @@
     {
         "Reference Handle": "#a-court-of-thorns-and-roses-collector-s-edition-hardcover",
         "Token": "N7IQRONVDDFX7Y4H7VOBM2DK",
-        "Item Name": "A Court of Thorns and Roses Collector's Edition",
+        "ItemName": "A Court of Thorns and Roses Collector's Edition",
         "Variation Name": "Hardcover",
         "SKU": "9781547604173",
         "Description": "Sarah J Maas\r\nFiction - Fantasy\r\nPUB: 11/05/2019\r\nHardcover Collector's Edition",
@@ -994,7 +994,7 @@
     {
         "Reference Handle": "#a-court-of-thorns-and-roses-hardcover-box-set-hardcover",
         "Token": "FANXDO2J54F7JJFKVXLE5LET",
-        "Item Name": "A Court of Thorns and Roses Hardcover Box Set",
+        "ItemName": "A Court of Thorns and Roses Hardcover Box Set",
         "Variation Name": "Hardcover",
         "SKU": "9781635577716",
         "Description": "Sarah J Maas\r\nFiction - Fantasy - Romance\r\nPUB: 10/12/2021\r\nHardcover Box Set",
@@ -1026,7 +1026,7 @@
     {
         "Reference Handle": "#a-court-of-thorns-and-roses-paperback-box-set-5-books--paperback",
         "Token": "CR35S72H5ITDGTPNOK62V5JQ",
-        "Item Name": "A Court of Thorns and Roses Paperback Box Set (5 Books)",
+        "ItemName": "A Court of Thorns and Roses Paperback Box Set (5 Books)",
         "Variation Name": "Paperback",
         "SKU": "9781639730193",
         "Description": "Sarah J Maas\r\nFiction - Fantasy - Romance\r\nPUB: 11/01/2022\r\nPaperback set",
@@ -1058,7 +1058,7 @@
     {
         "Reference Handle": "#a-day-of-fallen-night-hardcover",
         "Token": "TMW2MWEIRVXQP32FEUD3BWG5",
-        "Item Name": "A Day of Fallen Night",
+        "ItemName": "A Day of Fallen Night",
         "Variation Name": "Hardcover",
         "SKU": "9781635577921",
         "Description": "Samantha Shannon\r\nFiction - Fantasy\r\nBACKORDERED - Hardcover - PUB: 02/28/2023",
@@ -1090,7 +1090,7 @@
     {
         "Reference Handle": "#a-deadly-education-paperback",
         "Token": "TGTRDKLDLJYXT4G75V2R6DBD",
-        "Item Name": "A Deadly Education",
+        "ItemName": "A Deadly Education",
         "Variation Name": "Paperback",
         "SKU": "9780593128503",
         "Description": "Naomi Novik\r\nFiction - Fantasy\r\nPUB: 05/04/2021 - Paperback\r\n\r\nI decided that Orion Lake needed to die after the second time he saved my life. Everyone loves Orion Lake. Everyone else, that is. Far as I'm concerned, he can keep his flashy combat magic to himself. I'm not joining his pack of adoring fans. I don't need help surviving the Scholomance, even if they do. Forget the hordes of monsters and cursed artifacts, I'm probably the most dangerous thing in the place. Just give me a chance and I'll level mountains and kill untold millions, make myself the dark queen of the world. At least, that's what the world expects. Most of the other students in here would be delighted if Orion killed me like one more evil thing that's crawled out of the drains. Sometimes I think they want me to turn into the evil witch they assume I am. The school certainly does. But the Scholomance isn't getting what it wants from me. And neither is Orion Lake. I may not be anyone's idea of the shining hero, but I'm going to make it out of t",
@@ -1122,7 +1122,7 @@
     {
         "Reference Handle": "#a-discovery-of-witches-paperback",
         "Token": "I3Z5UECVTHAXT4VIJD3IW4FJ",
-        "Item Name": "A Discovery of Witches",
+        "ItemName": "A Discovery of Witches",
         "Variation Name": "Paperback",
         "SKU": "9780143119685",
         "Description": "Deborah Harkness\r\nFiction- Fantasy\r\nPaperback - PUB: 12/27/2011\r\nDebut novelist Harkness has crafted a mesmerizing and addictive read, equal parts history and magic, romance and suspense--a richly inventive novel about a centuries-old vampire, a spellbound witch, and the mysterious manuscript that draws them together.",
@@ -1154,7 +1154,7 @@
     {
         "Reference Handle": "#a-game-of-fate-regular",
         "Token": "I3E3O7G2GHKI6EIV6TEFBUER",
-        "Item Name": "A Game Of Fate",
+        "ItemName": "A Game Of Fate",
         "Variation Name": "Regular",
         "SKU": "978172826073",
         "Description": "Scarlett St. Clair\r\nFiction-Romance-Fantasy\r\nPaperback- PUB: 2021",
@@ -1186,7 +1186,7 @@
     {
         "Reference Handle": "#a-game-of-retribution-regular",
         "Token": "CKSIVTGYO73YTQFSRTF3J7Z6",
-        "Item Name": "A Game Of Retribution",
+        "ItemName": "A Game Of Retribution",
         "Variation Name": "Regular",
         "SKU": "9781728259604",
         "Description": "Scarlett St. Clair\r\nFiction-Romance-Fantasy\r\nPaperback\r\nPUB: 2022",
@@ -1218,7 +1218,7 @@
     {
         "Reference Handle": "#a-heart-full-of-headstones-an-inspector-rebus-novel-hardcover",
         "Token": "OG3JS6VMGVEQZ5MHU6V24UGT",
-        "Item Name": "A Heart Full of Headstones: An Inspector Rebus Novel",
+        "ItemName": "A Heart Full of Headstones: An Inspector Rebus Novel",
         "Variation Name": "Hardcover",
         "SKU": "9780316473637",
         "Description": "Ian Rankin\r\nFiction - Thriller\r\nHardcover - PUB: 10/18/2022\r\n\"John Rebus stands accused: on trial for a crime that could put him behind bars for the rest of his life. But what drove a good man to cross the line? Detective Inspector Siobhan Clarke may well find out. Clarke is tasked with the city's most explosive case in years, an infamous cop, at the center of decades of misconduct, has gone missing. Finding him will expose not only her superiors, but her mentor John Rebus. And Rebus himself may not have her own interests at heart, as the repayment of a past debt places him in the crosshairs of both crime lords and his police brethren. One way or another, a reckoning is coming--and John Rebus may be hearing the call for last orders\"",
@@ -1250,7 +1250,7 @@
     {
         "Reference Handle": "#a-kingdom-of-flesh-and-fire-hardcover",
         "Token": "DPSO24WBK56TVZNONO44MD5O",
-        "Item Name": "A Kingdom of Flesh and Fire",
+        "ItemName": "A Kingdom of Flesh and Fire",
         "Variation Name": "Hardcover",
         "SKU": "9781952457470",
         "Description": "Jennifer L Armentrout\r\nFiction - Romance\r\nPaperback - PUB: 01/14/2022",
@@ -1282,7 +1282,7 @@
     {
         "Reference Handle": "#a-light-in-the-flame-a-flesh-and-fire-novel-hardcover",
         "Token": "YMCSXGMTQMEWI2SDLDBOWAYZ",
-        "Item Name": "A Light in the Flame: A Flesh and Fire Novel",
+        "ItemName": "A Light in the Flame: A Flesh and Fire Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781957568041",
         "Description": "Jennifer L Armentrout\r\nFiction - Romance\r\nHardcover - PUB: 11/15/2022",
@@ -1314,7 +1314,7 @@
     {
         "Reference Handle": "#a-light-in-the-forest-paperback",
         "Token": "G6O6A63ZCS74YB74ENBXL77Z",
-        "Item Name": "A Light in the Forest",
+        "ItemName": "A Light in the Forest",
         "Variation Name": "Paperback",
         "SKU": "9781662503689",
         "Description": "Melissa Payne\r\nFiction - Fantasy\r\nBACKORDERED - Paperback-  PUB 12/13/2022",
@@ -1346,7 +1346,7 @@
     {
         "Reference Handle": "#a-marvellous-light-hardcover",
         "Token": "CILA6NG7DYUENQSOHJ3ER26Q",
-        "Item Name": "A Marvellous Light",
+        "ItemName": "A Marvellous Light",
         "Variation Name": "Hardcover",
         "SKU": "9781250788870",
         "Description": "Freya Marske\r\nFiction - Fantasy\r\nHardcover - PUB: 11/02/2021",
@@ -1378,7 +1378,7 @@
     {
         "Reference Handle": "#a-ruinous-fate-hardcover",
         "Token": "VJCA3C7KDPDYS72IFOF5T2AK",
-        "Item Name": "A Ruinous Fate",
+        "ItemName": "A Ruinous Fate",
         "Variation Name": "Hardcover",
         "SKU": "9781368081597",
         "Description": "Kaylie Smith\r\nFiction - Young Adult\r\nBACKORDERED - Hardcover - PUB: 01/03/2023",
@@ -1410,7 +1410,7 @@
     {
         "Reference Handle": "#a-shadow-in-the-ember-hardcover",
         "Token": "GEEUGPINW6ICWM6FRKHLUAYQ",
-        "Item Name": "A Shadow in the Ember",
+        "ItemName": "A Shadow in the Ember",
         "Variation Name": "Hardcover",
         "SKU": "9781952457647",
         "Description": "Jennifer L Armentrout\r\nFiction - Fantasy - Romance\r\nBACKORDERED - Hardcover - PUB 10/19/2021",
@@ -1442,7 +1442,7 @@
     {
         "Reference Handle": "#a-sliver-of-darkness-stories-hardcover",
         "Token": "N4NLOXAFXJHJFQTVLNECSU6E",
-        "Item Name": "A Sliver of Darkness: Stories",
+        "ItemName": "A Sliver of Darkness: Stories",
         "Variation Name": "Hardcover",
         "SKU": "9780593500163",
         "Description": "C J Tudor\r\nFiction - Thriller\r\nHardcover - PUB: 11/08/2022\r\n\"The debut short story collection from the acclaimed author of The Chalk Man, hailed as \"Britain's female Stephen King\" (Daily Mail), featuring ten bone-chilling and mind-bending tales Timeslips. Doomsday scenarios. Killer butterflies. C. J. Tudor's novels are widely acclaimed for their dark, twisty suspense plots, but with A Sliver of Darkness, she pulls us even further into her dizzying imagination. In \"Final Course,\" the world has descended into darkness, but a group of old friends make time for one last dinner party. In \"Runaway Blues,\" thwarted love, revenge, and something very nasty stowed in a hat box converge. In \"Gloria,\" a strange girl at a service station endears herself to a cold-hearted killer, but can a leopard really change its spots? And in \"I'm Not Ted,\" a case of mistaken identity has unforeseen, fatal consequences. Riveting and explosively original, A Sliver of Darkness is C. J. Tudor at her most wicked and uninhibited\"",
@@ -1474,7 +1474,7 @@
     {
         "Reference Handle": "#a-strange-habit-of-mind-hardcover",
         "Token": "6R3HA7HOW5GVEZAHOUKIEVI5",
-        "Item Name": "A Strange Habit of Mind",
+        "ItemName": "A Strange Habit of Mind",
         "Variation Name": "Hardcover",
         "SKU": "9781613163511",
         "Description": "<p>Andrew Klavan</p><p>Fiction - Thriller</p><p>Hardcover - PUB: 10/25/2022</p><p><em>USA Today</em> bestseller</p><p>English professor and ex-spy Cameron Winter confronts a Big Tech billionaire to solve the suspicious suicide of a former student</p>",
@@ -1506,7 +1506,7 @@
     {
         "Reference Handle": "#a-terrified-teacher-at-ghoul-school-vol-12-paperback",
         "Token": "SEEDL36EYJZNCHGTUHUPDPVN",
-        "Item Name": "A Terrified Teacher at Ghoul School!, Vol. 12",
+        "ItemName": "A Terrified Teacher at Ghoul School!, Vol. 12",
         "Variation Name": "Paperback",
         "SKU": "9781975346706",
         "Description": "Mai Tanaka\r\nComics & Graphic Novels - Manga\r\nPaperback - PUB: 12/13/2022",
@@ -1538,7 +1538,7 @@
     {
         "Reference Handle": "#a-to-z-dinosaur-joke-book-the-",
         "Token": "DUTPTX6EXB6TYEL3QFKNYZCO",
-        "Item Name": "A to Z Dinosaur Joke Book, The",
+        "ItemName": "A to Z Dinosaur Joke Book, The",
         "Variation Name": "",
         "SKU": "9781684645121",
         "Description": "A to Z Dinosaur Joke Book, The",
@@ -1570,7 +1570,7 @@
     {
         "Reference Handle": "#a-to-z-space-joke-book-the-",
         "Token": "VDRSWPR2YDLAETNKBLD72YWK",
-        "Item Name": "A to Z Space Joke Book, The",
+        "ItemName": "A to Z Space Joke Book, The",
         "Variation Name": "",
         "SKU": "9781684645206",
         "Description": "Paperback",
@@ -1602,7 +1602,7 @@
     {
         "Reference Handle": "#a-to-z-animal-joke-book-",
         "Token": "JPDL4BAFSAMSNBW4PPSOZFRD",
-        "Item Name": "A to Z, Animal Joke Book",
+        "ItemName": "A to Z, Animal Joke Book",
         "Variation Name": "",
         "SKU": "9781610679985",
         "Description": "An A to Z arrangement of 300 hilarious one-line animal jokes will supply the perfect material for young comedians.\r\nPaperback",
@@ -1634,7 +1634,7 @@
     {
         "Reference Handle": "#a-to-z-food-joke-book-",
         "Token": "P5JEHKJPFQLAUXGYI2HJDW2Z",
-        "Item Name": "A to Z, Food Joke Book",
+        "ItemName": "A to Z, Food Joke Book",
         "Variation Name": "",
         "SKU": "9781684642090",
         "Description": "Are you hungry for a good joke? You knead this rib-tickling collection of over 300 food-themed one-liners!",
@@ -1666,7 +1666,7 @@
     {
         "Reference Handle": "#a-to-z-sports-joke-book-",
         "Token": "I2CEFPWRKAEKLSLKOG5PKW2Q",
-        "Item Name": "A to Z, Sports Joke Book",
+        "ItemName": "A to Z, Sports Joke Book",
         "Variation Name": "",
         "SKU": "9781610679992",
         "Description": "Sports fans are in for lots of giggles and guffaws with this A to Z compendium of funny one-line jokes, whatever their favorite sport!",
@@ -1698,7 +1698,7 @@
     {
         "Reference Handle": "#a-wilderness-of-stars-hardcover",
         "Token": "UDHJ7FLORBEZOAL3RQUHDWSW",
-        "Item Name": "A Wilderness of Stars",
+        "ItemName": "A Wilderness of Stars",
         "Variation Name": "Hardcover",
         "SKU": "9781665900249",
         "Description": "Shea Ernshaw\r\nFiction - Young Adult - Fantasy\r\nHardcover - PUB: 11/29/2022\r\nAn illness cursing the land forces seventeen-year-old Vega, the Last Astronomer, to venture across the wilderness to discover the stars message that will save her people.",
@@ -1730,7 +1730,7 @@
     {
         "Reference Handle": "#adachi-and-shimamura-vol-4-manga--paperback",
         "Token": "GMINJ674BTU7IV5CTINOFJEC",
-        "Item Name": "Adachi and Shimamura, Vol. 4 (Manga)",
+        "ItemName": "Adachi and Shimamura, Vol. 4 (Manga)",
         "Variation Name": "Paperback",
         "SKU": "9781975351762",
         "Description": "Iruma, Hitoma ; Yuzuhara, Moke\r\nComics & Graphic Novels - Manga\r\nLGBTQ+ - Paperback - PUB: 11/22/2022\r\n\"Adachi and Shimamura are now in their second year of high school. Luckily, they're in the same class this semester, but when Adachi sees Shimamura making friends with their new classmates so quickly, she starts to panic. Feeling left out, she begins distancing herself from Shimamura, who can't help but notice that Adachi's been on her mind a whole lot these days\"",
@@ -1762,7 +1762,7 @@
     {
         "Reference Handle": "#after-dinner-amusements-how-well-do-you-know-me-50-questions-for-family-and-friends-dinner-party-gifts-games-for-adults-games-for-dinner-parties-other",
         "Token": "7KVW3HTME2NNP72GSGHFKFPD",
-        "Item Name": "After Dinner Amusements: How Well Do You Know Me?: 50 Questions for Family and Friends (Dinner Party Gifts, Games for Adults, Games for Dinner Parties",
+        "ItemName": "After Dinner Amusements: How Well Do You Know Me?: 50 Questions for Family and Friends (Dinner Party Gifts, Games for Adults, Games for Dinner Parties",
         "Variation Name": "Other",
         "SKU": "9781452178240",
         "Description": "Chronicle Books\r\nGIFT\r\nThis deck of questions will reveal which friend or relation really knows you best. Bust it out to break the ice at a party, or take it along to the next family reunion--the players can decide whether to award points for accurate answers, or hilarious ones!- tin box with lift-off lid: 2-1/4 x 2-1/4 x 1-1/4\r\n- 51 cards: 2 x 2\r\n- full-color throughout\r\n- for 2 or more players",
@@ -1794,7 +1794,7 @@
     {
         "Reference Handle": "#alice-in-wonderland-",
         "Token": "FPCLUFWJP3RWMSWUMLJQIP5W",
-        "Item Name": "Alice in Wonderland",
+        "ItemName": "Alice in Wonderland",
         "Variation Name": "",
         "SKU": "548902",
         "Description": "When Alice follows a white rabbit into his burrow, she enters a fantastic world of weird and wonderful characters. Lewis Carrollâ's classic fantasy story is faithfully retold in this gorgeously illustrated comic book adaptation.",
@@ -1826,7 +1826,7 @@
     {
         "Reference Handle": "#all-about-friends-regular",
         "Token": "PEQAAOL7DNP2A4SWTYLVIIGL",
-        "Item Name": "All About Friends",
+        "ItemName": "All About Friends",
         "Variation Name": "Regular",
         "SKU": "9780794548537",
         "Description": "Children",
@@ -1858,7 +1858,7 @@
     {
         "Reference Handle": "#all-better--",
         "Token": "V4AVHWSAAXCJE5JDVCAASKZH",
-        "Item Name": "All Better!",
+        "ItemName": "All Better!",
         "Variation Name": "",
         "SKU": "9781610673624",
         "Description": "Dog hurt his foot, Sheep scratched her tummy and Bear sat on a splinter! What will make everything all better? Clean it, kiss it and put a bandage on it! Young readers will delight in the five animal friends' misadventures and be eager to help make things \"all better\" with the five reusable and repositionable stickers.",
@@ -1890,7 +1890,7 @@
     {
         "Reference Handle": "#all-good-people-here-hardcover",
         "Token": "3HFOHX7LL7ORGOO3JPFFBGR3",
-        "Item Name": "All Good People Here",
+        "ItemName": "All Good People Here",
         "Variation Name": "Hardcover",
         "SKU": "9780593496473",
         "Description": "Author: Flowers, Ashley\r\nFiction - Thriller\r\nHardcover - PUB: 11/16/2022",
@@ -1922,7 +1922,7 @@
     {
         "Reference Handle": "#all-kinds-of-animals-regular",
         "Token": "P44JYO6LCEKLFAE2XW3VUL4S",
-        "Item Name": "All Kinds Of Animals",
+        "ItemName": "All Kinds Of Animals",
         "Variation Name": "Regular",
         "SKU": "9781684641918",
         "Description": "Sophy Henn\r\nChildren's\r\nPUB:2021",
@@ -1954,7 +1954,7 @@
     {
         "Reference Handle": "#all-the-dangerous-things-hardcover",
         "Token": "BQXCGWAICN5KYG5HSJBT5F6J",
-        "Item Name": "All the Dangerous Things",
+        "ItemName": "All the Dangerous Things",
         "Variation Name": "Hardcover",
         "SKU": "9781250803856",
         "Description": "Author: Willingham, Stacy\r\nBACKORDERED",
@@ -1986,7 +1986,7 @@
     {
         "Reference Handle": "#all-the-light-we-cannot-see-paperback",
         "Token": "PI7OYDQOCQXZJDZUKCF2VLZF",
-        "Item Name": "All the Light We Cannot See",
+        "ItemName": "All the Light We Cannot See",
         "Variation Name": "Paperback",
         "SKU": "9781501173219",
         "Description": "Doerr, Anthony\r\nFiction - Historical\r\nPaperback - PUB:04/04/2017",
@@ -2018,7 +2018,7 @@
     {
         "Reference Handle": "#all-new-firefly-the-gospel-according-to-jayne-vol-1-hardcover",
         "Token": "DYH4HAYTAIEQYIP53E7X5EQG",
-        "Item Name": "All-New Firefly: The Gospel According to Jayne Vol. 1",
+        "ItemName": "All-New Firefly: The Gospel According to Jayne Vol. 1",
         "Variation Name": "Hardcover",
         "SKU": "9781684158485",
         "Description": "Booher, David M",
@@ -2050,7 +2050,7 @@
     {
         "Reference Handle": "#alpha-attacked-paperback",
         "Token": "YYT3UNOPDGW32NJR54XMVR7L",
-        "Item Name": "Alpha Attacked",
+        "ItemName": "Alpha Attacked",
         "Variation Name": "Paperback",
         "SKU": "9781773843414",
         "Description": "Langlais, Eve\r\nPUB 1/24/2023\r\nBACKORDERED",
@@ -2082,7 +2082,7 @@
     {
         "Reference Handle": "#amazing-spider-man-by-wells-romita-jr-vol-1-world-without-love-paperback",
         "Token": "ZW7RQLOIRB7BAFQKKN5OX5ML",
-        "Item Name": "Amazing Spider-Man by Wells & Romita Jr. Vol. 1: World Without Love",
+        "ItemName": "Amazing Spider-Man by Wells & Romita Jr. Vol. 1: World Without Love",
         "Variation Name": "Paperback",
         "SKU": "9781302932725",
         "Description": "Wells, Zeb ; Romita, John",
@@ -2114,7 +2114,7 @@
     {
         "Reference Handle": "#americano-large-20-oz-",
         "Token": "6OIBCOCPUKONXEONKYJAIIWA",
-        "Item Name": "Americano",
+        "ItemName": "Americano",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -2146,7 +2146,7 @@
     {
         "Reference Handle": "#americano-medium-16-oz-",
         "Token": "6GJPVMXJHXI6MQ4YRFZDJXAO",
-        "Item Name": "Americano",
+        "ItemName": "Americano",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -2178,7 +2178,7 @@
     {
         "Reference Handle": "#americano-small-12-oz-",
         "Token": "D736D6IBV6IBHIM2AD3Y7HTX",
-        "Item Name": "Americano",
+        "ItemName": "Americano",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -2210,7 +2210,7 @@
     {
         "Reference Handle": "#amy-brown-large-print-regular",
         "Token": "OLLJCJQLB6TJNFAQA3ZVFYNR",
-        "Item Name": "Amy Brown Large Print",
+        "ItemName": "Amy Brown Large Print",
         "Variation Name": "Regular",
         "SKU": "452581H",
         "Description": "Amy Brown art print Large",
@@ -2242,7 +2242,7 @@
     {
         "Reference Handle": "#amy-brown-small-print-regular",
         "Token": "SGCRZDP4KA2647L26EWB6ELN",
-        "Item Name": "Amy Brown Small Print",
+        "ItemName": "Amy Brown Small Print",
         "Variation Name": "Regular",
         "SKU": "2733443",
         "Description": "Amy Brown art print SMALL",
@@ -2274,7 +2274,7 @@
     {
         "Reference Handle": "#amy-brown-sticker-regular",
         "Token": "ECCB6AUMJLEGWXTVLGB2NA27",
-        "Item Name": "Amy Brown Sticker",
+        "ItemName": "Amy Brown Sticker",
         "Variation Name": "Regular",
         "SKU": "780546S",
         "Description": "Large Vinyl Sticker",
@@ -2306,7 +2306,7 @@
     {
         "Reference Handle": "#animal-doodles-regular",
         "Token": "3DXF7CET3TDWXBYB7QJDUUR7",
-        "Item Name": "Animal Doodles",
+        "ItemName": "Animal Doodles",
         "Variation Name": "Regular",
         "SKU": "9780794527952",
         "Description": "",
@@ -2338,7 +2338,7 @@
     {
         "Reference Handle": "#animal-trivia-questions-",
         "Token": "UH7ONNIEJKG24GKHES6AZRIC",
-        "Item Name": "Animal Trivia Questions",
+        "ItemName": "Animal Trivia Questions",
         "Variation Name": "",
         "SKU": "540104",
         "Description": "Children\r\nCrammed full of animals from all around the world, this book has over 500 questions to challenge you and your friends.",
@@ -2370,7 +2370,7 @@
     {
         "Reference Handle": "#animals-los-animales-",
         "Token": "Q64UE4Z3S2WU6AGSBLKKFCFY",
-        "Item Name": "Animals / Los animales",
+        "ItemName": "Animals / Los animales",
         "Variation Name": "",
         "SKU": "9781684643868",
         "Description": "Children - Spanish\r\nA series of conversation starters in English and Spanish for bilingual - or want-to-be bilingual - families with easy pronunciation guides. Matching games boost problem-solving skills and extra details offer much to discuss and discover.",
@@ -2402,7 +2402,7 @@
     {
         "Reference Handle": "#another-book-about-bears-",
         "Token": "UH3GYDPFGBSQVQKH74QFQODB",
-        "Item Name": "Another Book About Bears",
+        "ItemName": "Another Book About Bears",
         "Variation Name": "",
         "SKU": "9781684640843",
         "Description": "Children \r\nBears are tired. Sick and tired. Just when they are in the middle of something really good, like sleeping, snoozing, or napping too many storybooks mean they have to stop what they are doing (that is, sleeping) and get up to be part of a story. Every story. Well, the bears have had enough. They are going on strike... but who could take their place?",
@@ -2434,7 +2434,7 @@
     {
         "Reference Handle": "#antes-de-diciembre-before-december-paperback",
         "Token": "AZPQ4IXN4EWD6I5PA4HNFCWL",
-        "Item Name": "Antes de Diciembre / Before December",
+        "ItemName": "Antes de Diciembre / Before December",
         "Variation Name": "Paperback",
         "SKU": "9786073810555",
         "Description": "Marcús, Joana\r\nYoung Adult Fiction - Romance - Spanish\r\nABOUT ANTES DE DICIEMBRE / BEFORE DECEMBER\r\nUna historia de amor y pasión con una cuenta atrás. Todo acabará Antes de diciembre.\r\n\r\nUna de las historias de amor más adictivas de Wattpad llega por fin al papel.\r\n\r\nPara Jenna Brown, su primer año en la universidad suponía alejarse de su familia y sus amigos y enfrentarse al mundo por primera vez en su vida.\r\n\r\nSu novio le había dejado claras sus intenciones: a partir de ese momento, tenían una relación a distancia y abierta. Ambos podían hacer lo que quisieran porque sabían que se querían el uno al otro.\r\nAsí que no pasaba nada si no dejaba de acercarse al mejor amigo del novio de su compañera de habitación, ¿no?\r\n\r\nDe todos modos, ¿qué importaba si estaba con él en ausencia de su novio? Todo volvería a la normalidad en diciembre. ¿Cambiaría algo?\r\n\r\nTenía hasta entonces para descubrirlo.\r\n\r\nENGLISH DESCRIPTION\r\n\r\nA passionate love story with a dangerous countdown. Everything will all end before December.\r\n\r\nOne of the most a",
@@ -2466,7 +2466,7 @@
     {
         "Reference Handle": "#anxious-people-paperback",
         "Token": "HQZG6WYNZFLHSPHH4ND5AY75",
-        "Item Name": "Anxious People",
+        "ItemName": "Anxious People",
         "Variation Name": "Paperback",
         "SKU": "9781501160844",
         "Description": "Author: Backman, Fredrik\r\nFiction - Literary\r\npaperback - PUB:07/06/2021\r\n\"Originally published in Sweden in 2019 as: Folk med êangest.\"--Title page verso",
@@ -2498,7 +2498,7 @@
     {
         "Reference Handle": "#apples-never-fall-paperback",
         "Token": "S5T3UIHSLPI73DEXSK7PG3MD",
-        "Item Name": "Apples Never Fall",
+        "ItemName": "Apples Never Fall",
         "Variation Name": "Paperback",
         "SKU": "9781250220271",
         "Description": "Author: Moriarty, Liane\r\nFiction - Thriller\r\nPaperback - PUB:07/19/2022",
@@ -2530,7 +2530,7 @@
     {
         "Reference Handle": "#archangel-s-resurrection-mass-market-paperbound",
         "Token": "3DJ5JKKFMB4XT3BGSY6KJVYF",
-        "Item Name": "Archangel's Resurrection",
+        "ItemName": "Archangel's Resurrection",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593198162",
         "Description": "Author: Singh, Nalini\r\nFiction - Romance\r\nPaperback - PUB:10/25/2022\r\n\"For thousands of years, the passion between Alexander, Archangel of Persia, and Zanaya, Queen of the Nile, burned furious and bright, seemingly without end. But to be an archangel is to be bound to power violent and demanding. Driven by its primal energy, Alexander and Zanaya fought as fiercely as they loved, locked in an endless cycle of devotion and heartbreak. It is only Zanaya's decision to Sleep that ends their love story. Eons later, the Cascade of Death wakens them both. The passion between them a flame that yet burns, Alexander and Zanaya stand together in one last battle against the ultimate darkness. But even a warrior archangel cannot win every war. Alexander's scream shatters the world as Zanaya falls, broken and silent...only to rise again in a miracle that may be a devastating curse. For is it truly the Queen of the Nile who has been resurrected? Only one thing is clear: This is the last beat of their passionate, angry dance. Th",
@@ -2562,7 +2562,7 @@
     {
         "Reference Handle": "#armored-goretusk-the-book-1--",
         "Token": "AFMVFWRMFHPOSXYVFESPVQEF",
-        "Item Name": "Armored Goretusk, The (Book 1)",
+        "ItemName": "Armored Goretusk, The (Book 1)",
         "Variation Name": "",
         "SKU": "9781684644858",
         "Description": "<p>Kris Humphrey</p><p>Children - Chapter book</p><p>Age: 7 years +</p><p><br/></p><p>When Leo opens his assignment envelope on his ninth birthday, two words stare back at him: TOP SECRET. As the Guardian&#39;s apprentice, he must protect his village from the monsters that lurk in the surrounding forest. Armed with a slingshot of magical stones and a strange map, Leo sets off on his first mission.</p><p><br/></p><p><u>Series: Leo&#39;s Map of Monsters</u></p><p>A fantasy adventure series for emergent readers with intriguing characters, plenty of thrills, action, and a new monster to battle in every book! Character fact files, a map of the landscape, and imaginative detailed illustrations add to the fun.</p>",
@@ -2594,7 +2594,7 @@
     {
         "Reference Handle": "#asian-botanical-journal-other",
         "Token": "P4Q7Z6LULDSCXUI5TZ5F4V6V",
-        "Item Name": "Asian Botanical Journal",
+        "ItemName": "Asian Botanical Journal",
         "Variation Name": "Other",
         "SKU": "9781441332189",
         "Description": "<p>Elegant watercolor florals -- in muted blues, greens, and yellows -- grace the covers of this inviting journal. Design is embossed and embellished with jewel-like flecks of gold foil.</p><ul><li><strong>160 crisp pages provide plenty of space for personal reflection, sketching, or jotting down favorite quotations or poems.</strong></li><li><strong>Thick, smooth-finish paper supports a variety of pens or pencils.</strong></li><li><strong>Light gray lines subtly guide your writing.</strong></li><li><strong>Archival-quality acid-free paper helps preserve your journal entries.</strong></li><li><strong>A soft blue elastic closure secures your writing.</strong></li><li><strong>Powder blue endsheets complement the design.</strong></li><li><strong>Tuck notes, mementos, and more in the inside back cover pocket.</strong></li><li><strong>Popular small-format size -- 5&#39;&#39; wide x 7&#39;&#39; high -- fits easily in most bags and backpacks.</strong></li></ul><p>Peter Pauper Press, Inc</p>",
@@ -2626,7 +2626,7 @@
     {
         "Reference Handle": "#aspects-paperback",
         "Token": "J3BUEIXLOBZK3TCHZOHVQM4W",
-        "Item Name": "Aspects",
+        "ItemName": "Aspects",
         "Variation Name": "Paperback",
         "SKU": "9781250269058",
         "Description": "Ford, John M ; Gaiman, Neil\r\nBACKORDERED",
@@ -2658,7 +2658,7 @@
     {
         "Reference Handle": "#at-home-las-palabras-de-casa-",
         "Token": "5T27WFJQYIR4NHEX3QNKBYE7",
-        "Item Name": "At Home / Las palabras de casa",
+        "ItemName": "At Home / Las palabras de casa",
         "Variation Name": "",
         "SKU": "9781684643882",
         "Description": "Sam Hutchinson\r\nChildren - Spanish\r\nAge: 2 years +\r\nA series of conversation starters in English and Spanish for bilingual - or want-to-be bilingual - families with easy pronunciation guides. Matching games boost problem-solving skills and extra details offer much to discuss and discover.",
@@ -2690,7 +2690,7 @@
     {
         "Reference Handle": "#atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-hardcover",
         "Token": "BRKSHQZHWYNAYTOH2YGHCUG3",
-        "Item Name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "ItemName": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
         "Variation Name": "Hardcover",
         "SKU": "9780735211292",
         "Description": "Author: Clear, James\r\nNon-Fiction\r\nHardcover - PUB:10/16/2018\r\nJames Clear presents strategies to form good habits, break bad ones, and master the tiny behaviors that help lead to an improved life.",
@@ -2722,7 +2722,7 @@
     {
         "Reference Handle": "#atonement-heaven-sent-book-one-volume-two--paperback",
         "Token": "UNXSEREKUFW3XC77RVW2RYTG",
-        "Item Name": "Atonement (Heaven Sent Book One) (Volume Two)",
+        "ItemName": "Atonement (Heaven Sent Book One) (Volume Two)",
         "Variation Name": "Paperback",
         "SKU": "9781736839607",
         "Description": "Rothstein, Jl\r\nFiction - Fantasy\r\nPaperback - PUB: 06/01/2020\r\nTo Hell, this world is fractured and faithless, perfectly ripe for the picking. Sent by Heaven, Guardians defend against a malevolent onslaught of demonic intrusion. For hundreds of years the nine siblings of the O'Mara family have been engaged in this merciless battle, fighting to protect the souls of all humanity.\r\n\r\nHeaven and Hell have been waging this infernal war bound only by the rules of a contentious accord. On the anniversary of her husband Gabriel's disappearance, Genevieve O'Mara's lingering sorrow manifests into a murderous rage unfurled upon a demon. Vengeance is coming, not just for Genevieve, but for all those she loves",
@@ -2754,7 +2754,7 @@
     {
         "Reference Handle": "#avengers-by-jason-aaron-vol-3-hardcover",
         "Token": "4Y2SS3LK33H7TUJOE5QTZFRH",
-        "Item Name": "Avengers by Jason Aaron Vol. 3",
+        "ItemName": "Avengers by Jason Aaron Vol. 3",
         "Variation Name": "Hardcover",
         "SKU": "9781302945152",
         "Description": "Aaron, Jason ; Caselli, Stefano ; Vecchio, Luciano ; Keown, Dale ; McGuinness, Ed",
@@ -2786,7 +2786,7 @@
     {
         "Reference Handle": "#awesome-friendly-book-bundle-hardcover",
         "Token": "5CWISEPMVQXQLFQT3MIPWPAW",
-        "Item Name": "Awesome Friendly Book Bundle",
+        "ItemName": "Awesome Friendly Book Bundle",
         "Variation Name": "Hardcover",
         "SKU": "9781419763175",
         "Description": "Kinney, Jeff\r\nChildren - Illustrated Novel\r\nAge: 7-13\r\n\r\nThe Wimpy Kid’s best friend, Rowley, has a journal of his own! Three laugh-out-loud illustrated novels.",
@@ -2818,7 +2818,7 @@
     {
         "Reference Handle": "#babies-come-from-airports-",
         "Token": "HSJMXYGSM6T32IVO2WCDOYHM",
-        "Item Name": "Babies Come From Airports",
+        "ItemName": "Babies Come From Airports",
         "Variation Name": "",
         "SKU": "978-1-61067-557-4",
         "Description": "<p>Erin Dealey</p><p>Children</p><p>Age: 3 - 8</p><p>A diverse, kid’s-eye view of adoption, one special day, and familial love,<strong> Babies Come From Airports </strong>has a child-friendly rhyming text and lively and colorful illustrations filled with details.</p><p> </p><p>It’s a heartwarming adoption story for any and all kinds of families, steeped in love</p>",
@@ -2850,7 +2850,7 @@
     {
         "Reference Handle": "#baby-dragons-mirror--",
         "Token": "ZL5UQA4Q5OS6IMPW746XG7D6",
-        "Item Name": "Baby Dragons (Mirror)",
+        "ItemName": "Baby Dragons (Mirror)",
         "Variation Name": "",
         "SKU": "978-1-68464-391-2",
         "Description": "<p>Lisa Edwards</p><p>Children</p><p>Age: 1 - 3 years</p><p>Have fun playing peekaboo, blowing kisses, and roaring with baby dragons.</p><p><br/></p><p><u>Series: Mirror, Mirror</u></p><p>Cut-through pages and a mirror allow little readers to imagine and see themselves reflected in each of these interactive board books. With animal sounds and vibrant illustrations, there’s learning and laughter in equal measure.</p>",
@@ -2882,7 +2882,7 @@
     {
         "Reference Handle": "#baby-unicorns-mirror--",
         "Token": "KYWFKAESW667VH6ZH6BEJRMX",
-        "Item Name": "Baby Unicorns (Mirror)",
+        "ItemName": "Baby Unicorns (Mirror)",
         "Variation Name": "",
         "SKU": "978-1-68464-392-9",
         "Description": "<p>Lisa Edwards</p><p>Children</p><p>Age: 1-3 years</p><p>Magical baby unicorns smile, shake their manes, and sing – and you can too!</p><p><br/></p><p><u>Series: Mirror, Mirror</u></p><p>Cut-through pages and a mirror allow little readers to imagine and see themselves reflected in each of these interactive board books. With animal sounds and vibrant illustrations, there’s learning and laughter in equal measure.</p>",
@@ -2914,7 +2914,7 @@
     {
         "Reference Handle": "#baby-s-very-first-noisy-book-dinosaurs-",
         "Token": "SHR6N7WZJGD32ZP5CBWII3H7",
-        "Item Name": "Baby's Very First Noisy Book, Dinosaurs",
+        "ItemName": "Baby's Very First Noisy Book, Dinosaurs",
         "Variation Name": "",
         "SKU": "978-0-7945-5354-8",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6 months +</p><p>Babies will love discovering the roaring dinosaurs on the colorful pages of this book. They can press the buttons to hear them and try making the noises themselves! A joy to share and talk about with babies and toddlers alike.</p><p><br/></p><p><u>Series: Baby&#39;s Very First Noisy Books</u></p><p>These delightful board books are specially designed to appeal to the very young.</p>",
@@ -2946,7 +2946,7 @@
     {
         "Reference Handle": "#baby-s-very-first-slide-and-see-farm-",
         "Token": "G5BIAEDRFBEW5IBMWVQD6JKY",
-        "Item Name": "Baby's Very First Slide and See, Farm",
+        "ItemName": "Baby's Very First Slide and See, Farm",
         "Variation Name": "",
         "SKU": "978-0-7945-3481-3",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1+</p><p>Engaging, interactive board book, specially designed for very young children, full of vivid colors, stylish illustrations and friendly animals. Simple slider mechanisms allow a picture to be transformed. Little children will love making the animals move around or reveal themselves by manipulating the simple sliders.</p><p><br/></p><p><u>Series: Baby&#39;s Very First Slide and See Books</u></p><p>Engaging, interactive board books specially designed for very young children. Full of vivid colors and stylish illustrations. Simple slider mechanisms allow for lots of surprises along the way!</p>",
@@ -2978,7 +2978,7 @@
     {
         "Reference Handle": "#baby-s-very-first-slide-and-see-nighttime-",
         "Token": "CRBXKQFHDW2LHE2TTLL4WXLJ",
-        "Item Name": "Baby's Very First Slide and See, Nighttime",
+        "ItemName": "Baby's Very First Slide and See, Nighttime",
         "Variation Name": "",
         "SKU": "9780794542757",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1+</p><p>An engaging, interactive board book, specially designed for very young children, full of vivid colors and stylish illustrations. Simple slider mechanisms allow the pictures to be transformed, as a teddy bear gets ready to go to bed and as little badger gets out of his lair.</p><p><br/></p><p><u>Series: Baby&#39;s Very First Slide and See Books</u></p><p>Engaging, interactive board books specially designed for very young children. Full of vivid colors and stylish illustrations. Simple slider mechanisms allow for lots of surprises along the way!</p>",
@@ -3010,7 +3010,7 @@
     {
         "Reference Handle": "#baby-s-very-first-slide-and-see-pets-",
         "Token": "MYGXRRJKQURNYI4YQVFIOFTC",
-        "Item Name": "Baby's Very First Slide and See, Pets",
+        "ItemName": "Baby's Very First Slide and See, Pets",
         "Variation Name": "",
         "SKU": "978-0-7945-5466-8",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1+</p><p>Turn the pages of this colorful board book and discover puppies and kittens, as well as other cute pets. Babies and toddlers will love moving the chunky sliders to reveal little surprises.</p><p><br/></p><p><u>Series: Baby&#39;s Very First Slide and See Books</u></p><p>Engaging, interactive board books specially designed for very young children. Full of vivid colors and stylish illustrations. Simple slider mechanisms allow for lots of surprises along the way!</p>",
@@ -3042,7 +3042,7 @@
     {
         "Reference Handle": "#baby-s-very-first-slide-and-see-under-the-sea-",
         "Token": "2JKRFFD6R2DMG3XGSYZILK7J",
-        "Item Name": "Baby's Very First Slide and See, Under the Sea",
+        "ItemName": "Baby's Very First Slide and See, Under the Sea",
         "Variation Name": "",
         "SKU": "978-0-7945-3482-0",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1+</p><p>An engaging, interactive board book specially designed for very young children. Full of vivid colors, stylish illustrations and friendly animals. Simple slider mechanisms allow for lots of surprises along the way!</p><p><br/></p><p><u>Series: Baby&#39;s Very First Slide and See Books</u></p><p>Engaging, interactive board books specially designed for very young children. Full of vivid colors and stylish illustrations. Simple slider mechanisms allow for lots of surprises along the way!</p>",
@@ -3074,7 +3074,7 @@
     {
         "Reference Handle": "#baby-s-very-first-slide-and-see-unicorns-",
         "Token": "IVHO4NZQRGJGJ7OQ5VB3IKH4",
-        "Item Name": "Baby's Very First Slide and See, Unicorns",
+        "ItemName": "Baby's Very First Slide and See, Unicorns",
         "Variation Name": "",
         "SKU": "978-0-7945-5366-1",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1+</p><p>Babies will love moving the sliders in this engaging board book to see the unicorns moving. A great way to develop essential motor skills and hand-eye coordination, this is a delightful book to share with a baby.</p><p><br/></p><p><u>Series: Baby&#39;s Very First Slide and See Books</u></p><p>Engaging, interactive board books specially designed for very young children. Full of vivid colors and stylish illustrations. Simple slider mechanisms allow for lots of surprises along the way!</p>",
@@ -3106,7 +3106,7 @@
     {
         "Reference Handle": "#baby-s-very-first-stroller-book-animals-",
         "Token": "4LI6XPYDWR7ASGFBQZ4F5MVU",
-        "Item Name": "Baby's Very First Stroller Book, Animals",
+        "ItemName": "Baby's Very First Stroller Book, Animals",
         "Variation Name": "",
         "SKU": "9780794535353",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 10M +</p><p>Very simple board books with brightly colored, high-contrast illustrations, and holes and finger trails suitable for babies and very young children. With an elastic attachment to attach the book to a stroller or baby gym, meaning it is always on hand to entertain and amuse, and will never get lost.</p>",
@@ -3138,7 +3138,7 @@
     {
         "Reference Handle": "#baby-s-very-first-stroller-book-jungle-",
         "Token": "LUHF5LV3NPUD4E47RBOFDE5P",
-        "Item Name": "Baby's Very First Stroller Book, Jungle",
+        "ItemName": "Baby's Very First Stroller Book, Jungle",
         "Variation Name": "",
         "SKU": "9780794535339",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>10m +</p><p>Very simple board books with brightly colored, high-contrast illustrations, and holes and finger trails suitable for babies and very young children. With an elastic attachment to attach the book to a stroller or baby gym, meaning it is always on hand to entertain and amuse, and will never get lost.</p>",
@@ -3170,7 +3170,7 @@
     {
         "Reference Handle": "#baby-s-very-first-touchy-feely-animals-book-",
         "Token": "IQGXGFRZBFJKUA2TMU3OWJXV",
-        "Item Name": "Baby's Very First Touchy-Feely, Animals Book",
+        "ItemName": "Baby's Very First Touchy-Feely, Animals Book",
         "Variation Name": "",
         "SKU": "978-0-7945-2895-9",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> Infant and up</p><p>Babies will love sharing this book with you. The high contrast illustrations and touchy-feely patches are especially designed to appeal to the very young.</p><p><br></p><p>Series: Baby&#39;s Very First Touchy-feely Board Books</p><p>Features delightful touchy-feely patches alongside high-contrast illustrations specially designed for babies and young children.</p>",
@@ -3202,7 +3202,7 @@
     {
         "Reference Handle": "#back-in-a-spell-paperback",
         "Token": "LQY6MBPDIG4JCBHAKKQBXFKR",
-        "Item Name": "Back in a Spell",
+        "ItemName": "Back in a Spell",
         "Variation Name": "Paperback",
         "SKU": "9780593336106",
         "Description": "Author: Harper, Lana\r\nBACKORDERED",
@@ -3234,7 +3234,7 @@
     {
         "Reference Handle": "#bad-cat--hardcover",
         "Token": "ZHSVRUV5NTVG52DBPCRBKSF6",
-        "Item Name": "Bad Cat!",
+        "ItemName": "Bad Cat!",
         "Variation Name": "Hardcover",
         "SKU": "9781536217285",
         "Description": "Author: O'Byrne, Nicola\r\nChildren\r\nHardcover - PUB: 04/13/2021\r\nFluffykins the cat really knows how to make trouble. From breaking vases to unraveling toilet paper and destroying furniture, he is a master at wreaking havoc. Will Fluffykins mend his ways and apologize, or will be always be a \"bad cat\"?",
@@ -3266,7 +3266,7 @@
     {
         "Reference Handle": "#badass-affirmations-the-wit-and-wisdom-of-wild-women-inspirational-quotes-for-women-book-gift-for-women-powerful-affirmations--paperback",
         "Token": "4JV35LPAY2AS6PWIGZIWGILE",
-        "Item Name": "Badass Affirmations: The Wit and Wisdom of Wild Women (Inspirational Quotes for Women, Book Gift for Women, Powerful Affirmations)",
+        "ItemName": "Badass Affirmations: The Wit and Wisdom of Wild Women (Inspirational Quotes for Women, Book Gift for Women, Powerful Affirmations)",
         "Variation Name": "Paperback",
         "SKU": "9781633537521",
         "Description": "Anderson, Becca\r\nNon-Fiction\r\nPaperback - PUB: 05/15/2018\r\nAffirmations can be your superpower! These in-your-face affirmations for badass women take self-help to a whole new level. Filled with sass, smarts and singularly empowering sayings and advice will have reader's self-esteem skyrocketing to a happy, satisfying and successful life.",
@@ -3298,7 +3298,7 @@
     {
         "Reference Handle": "#bakemonogatari-manga-16-paperback",
         "Token": "SFMWQ66KESX62YT4WI4XIDQU",
-        "Item Name": "Bakemonogatari (Manga) 16",
+        "ItemName": "Bakemonogatari (Manga) 16",
         "Variation Name": "Paperback",
         "SKU": "9781647291549",
         "Description": "Nisioisin",
@@ -3330,7 +3330,7 @@
     {
         "Reference Handle": "#baptism-of-fire-witcher-5--paperback",
         "Token": "JIU7DK2T2BX7LMPKJFWYVHBL",
-        "Item Name": "Baptism of Fire (Witcher #5)",
+        "ItemName": "Baptism of Fire (Witcher #5)",
         "Variation Name": "Paperback",
         "SKU": "9780316452861",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\nPaperback - PUB: 07/05/2022\r\n\"The Wizards Guild has been shattered by a coup, an uprising that has left Geralt seriously injured. The Witcher is supposed to be a guardian of the innocent, a protector of those in need, a defender against powerful and dangerous monsters that prey on men in dark times. But now that dark times have fallen upon the world, Geralt is helpless until he has recovered. While war rages across the lands, the future of magic is under threat and those sorcerers who survive are determined to protect it. It's an impossible situation in which to find one girl-- Ciri, the heiress to the throne of Cintra--until a rumor places her in the Niflgaard court, preparing to marry the Emperor. Injured or not, Geralt has a rescue mission on his hands",
@@ -3362,7 +3362,7 @@
     {
         "Reference Handle": "#barbara-throws-a-wobbler-regular",
         "Token": "RV2AX2CTRST5G62VAECABNMA",
-        "Item Name": "Barbara Throws A Wobbler",
+        "ItemName": "Barbara Throws A Wobbler",
         "Variation Name": "Regular",
         "SKU": "9781684642250",
         "Description": "",
@@ -3394,7 +3394,7 @@
     {
         "Reference Handle": "#bat-can-t-sleep-",
         "Token": "AHD2PLXB6JFBKFF5U7MPCE5Z",
-        "Item Name": "Bat Can't Sleep",
+        "ItemName": "Bat Can't Sleep",
         "Variation Name": "",
         "SKU": "978-1-68464-401-8",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 2+</p><p>Bat&#39;s not sleepy; there&#39;s so much to see and do. Tag along as she hops, skips, swings, and more through the day until... sweet dreams, Bat!</p>",
@@ -3426,7 +3426,7 @@
     {
         "Reference Handle": "#bat-boy-tim-says-boo-",
         "Token": "OJI7OM2UIANUSWX4TXYJVQ6Y",
-        "Item Name": "Bat-Boy Tim Says Boo",
+        "ItemName": "Bat-Boy Tim Says Boo",
         "Variation Name": "",
         "SKU": "978-1-68464-272-4",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 5+</p><p>When Bat-Boy Tim comes out to play, why do others run away?</p><p><br></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -3458,7 +3458,7 @@
     {
         "Reference Handle": "#batman-detective-comics-vol-3-arkham-rising-hardcover",
         "Token": "SXLJPKHS2Y3XZSRVBJFVXZ56",
-        "Item Name": "Batman: Detective Comics Vol. 3: Arkham Rising",
+        "ItemName": "Batman: Detective Comics Vol. 3: Arkham Rising",
         "Variation Name": "Hardcover",
         "SKU": "9781779518057",
         "Description": "Tamaki, Mariko ; Rosenberg, Matthew ; Mora, Dan ; Lapham, David",
@@ -3490,7 +3490,7 @@
     {
         "Reference Handle": "#batman-urban-legends-vol-3-paperback",
         "Token": "JZOWI65R7K34Y5YVAAKBDMX2",
-        "Item Name": "Batman: Urban Legends Vol. 3",
+        "ItemName": "Batman: Urban Legends Vol. 3",
         "Variation Name": "Paperback",
         "SKU": "9781779516695",
         "Description": "Ayala, Vita ; Russell, Mark ; Cizmesija, Nikola ; Mostert, Karl",
@@ -3522,7 +3522,7 @@
     {
         "Reference Handle": "#battle-ground-mass-market-paperbound",
         "Token": "7P5QWVOHOHM63RKN6AK6ZZAC",
-        "Item Name": "Battle Ground",
+        "ItemName": "Battle Ground",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593199312",
         "Description": "Butcher, Jim\r\nFiction - Fantasy\r\nPaperback - PUB: 10/26/2021",
@@ -3554,7 +3554,7 @@
     {
         "Reference Handle": "#battle-of-the-bands-paperback",
         "Token": "C3XNEBTDBRHT667TEVISZJI7",
-        "Item Name": "Battle of the Bands",
+        "ItemName": "Battle of the Bands",
         "Variation Name": "Paperback",
         "SKU": "9781665912228",
         "Description": "Gumpaw, Felix ; Glass House Graphics",
@@ -3586,7 +3586,7 @@
     {
         "Reference Handle": "#battle-of-the-heroes-book-5-of-the-impossible-quest--",
         "Token": "7ILPU7AE3KC25EMCDCQAW3PO",
-        "Item Name": "Battle of the Heroes (Book 5 of The Impossible Quest)",
+        "ItemName": "Battle of the Heroes (Book 5 of The Impossible Quest)",
         "Variation Name": "",
         "SKU": "978-1-61067-418-8",
         "Description": "<p>Kate Forsyth</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 9-13</p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p><p>Four unlikely heroes are forced on a perilous quest to save their people. But first, Tom, Elanor, Sebastian and Quinn must escape the overrun castle. Only they can find the four impossible elements needed to wake the sleeping warriors of the legend. Only they can drive back the darkness that reigns over the land.</p><p><br/></p><p><em>Do not lose faith. Remember the words of the story, remember the words of the spell …</em></p><p><br/></p><p>Quinn, Sebastian, Elanor and Tom have defeated the black witch Githa and found the last crucial piece of the prophecy—the sea serpent’s scale. But time is running out. Back now at Wolfhaven, they search desperately through the castle crypts for the sleeping heroes who they hope will save them all . . . before the dark moon rises and they lose everything.</p><p><u>Series: The Impossible Quest</u></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p>",
@@ -3618,7 +3618,7 @@
     {
         "Reference Handle": "#be-strong-brave-and-fearless-large-hardcover-journal-ound-linen-spine-hardcover",
         "Token": "WV557H4YSK3OW2XOIKISE6DG",
-        "Item Name": "Be Strong, Brave and Fearless, Large Hardcover Journal Ound, Linen Spine",
+        "ItemName": "Be Strong, Brave and Fearless, Large Hardcover Journal Ound, Linen Spine",
         "Variation Name": "Hardcover",
         "SKU": "9781776371358",
         "Description": "Christian Art Gifts\r\nSet goals, write down plans, and capture life's adventures in the pages of The Strong, Brave and Fearless Navy and Yellow Quarter-bound Journal. With its cheerful designs and inspiring message, this charming journal will encourage you to pursue your dreams.",
@@ -3650,7 +3650,7 @@
     {
         "Reference Handle": "#beast-feast-",
         "Token": "T5DQ62Z7MPGGY75OQUP25MIB",
-        "Item Name": "Beast Feast",
+        "ItemName": "Beast Feast",
         "Variation Name": "",
         "SKU": "978-1-68464-005-8",
         "Description": "<p>Emma Yarlett</p><p><strong>Children</strong></p><p><strong>Age:</strong> 4-8</p><p>Beast plans to eat Dinner, a little boy, at a big feast and sends invitations to all his beastly friends. Readers open the foldout RSVPs to find that everyone is coming (though some do have special dietary requirements)! But don&#39;t worry about Dinner; he&#39;s already got a plan to escape being dinner.</p>",
@@ -3682,7 +3682,7 @@
     {
         "Reference Handle": "#beastars-vol-21-paperback",
         "Token": "XKJYWZS2CYSNIFG3PB5GO3CU",
-        "Item Name": "Beastars, Vol. 21",
+        "ItemName": "Beastars, Vol. 21",
         "Variation Name": "Paperback",
         "SKU": "9781974726066",
         "Description": "Itagaki, Paru",
@@ -3714,7 +3714,7 @@
     {
         "Reference Handle": "#before-i-let-go-regular",
         "Token": "MDKW7GNHERS52CDDDZRMSTGK",
-        "Item Name": "Before I Let Go",
+        "ItemName": "Before I Let Go",
         "Variation Name": "Regular",
         "SKU": "9781538740248",
         "Description": "Kennedy Ryan\r\nFiction - Romance\r\nHardcover - PUB: 11/15/2022\r\n\"Their love was supposed to last forever. But when life delivered blow after devastating blow, Yasmen and Josiah Wade found that love alone couldn't solve or save everything. It couldn't save their marriage. Yasmen wasn't prepared for how her life fell apart, but she's is finally starting to find joy again. She and Josiah have found a new rhythm, co-parenting their two kids and running a thriving business together. Yet like magnets, they're always drawn back to each other, and now they're beginning to wonder if they're truly ready to let go of everything they once had. Soon, one stolen kiss leads to another...and then more. It's hot. It's illicit. It's all good--until old wounds reopen. Is it too late for them to find forever? Or could they even be better, the second time around?",
@@ -3746,7 +3746,7 @@
     {
         "Reference Handle": "#before-you-knew-my-name-paperback",
         "Token": "SBFQWRTCFE3PFX46VHUPI2CT",
-        "Item Name": "Before You Knew My Name",
+        "ItemName": "Before You Knew My Name",
         "Variation Name": "Paperback",
         "SKU": "9781982198992",
         "Description": "Bublitz, Jacqueline\r\nFiction - Thriller\r\nPaperback - PUB: 11/01/2022\r\n\"A psychological suspense novel about two young women who have recently moved to New York City: Alice, who is brutally murdered, and Ruby, who finds Alice and investigates her death\"",
@@ -3778,7 +3778,7 @@
     {
         "Reference Handle": "#best-brother-ever-ready-to-read-graphics-level-1-paperback",
         "Token": "T667DDUPEZY3XOEAEHPZJRN6",
-        "Item Name": "Best Brother Ever!: Ready-To-Read Graphics Level 1",
+        "ItemName": "Best Brother Ever!: Ready-To-Read Graphics Level 1",
         "Variation Name": "Paperback",
         "SKU": "9781665914482",
         "Description": "Trasler, Janee ; Trasler, Janee",
@@ -3810,7 +3810,7 @@
     {
         "Reference Handle": "#besties-find-their-groove-paperback",
         "Token": "B6BEPY77PUT5MUHSTVJJ7WOB",
-        "Item Name": "Besties: Find Their Groove",
+        "ItemName": "Besties: Find Their Groove",
         "Variation Name": "Paperback",
         "SKU": "9780358561927",
         "Description": "Miller, Kayla ; Luu, Kristina ; Canino, Jeffrey",
@@ -3842,7 +3842,7 @@
     {
         "Reference Handle": "#beyond-the-wand-the-magic-and-mayhem-of-growing-up-a-wizard-hardcover",
         "Token": "QU5VPVID4J2SALD6OBTMPABI",
-        "Item Name": "Beyond the Wand: The Magic and Mayhem of Growing Up a Wizard",
+        "ItemName": "Beyond the Wand: The Magic and Mayhem of Growing Up a Wizard",
         "Variation Name": "Hardcover",
         "SKU": "9781538741368",
         "Description": "Felton, Tom\r\nNon-Fiction\r\nHardcover - PUB: 10/18/2022\r\nFrom the magical moments on set as Draco Malfoy to the challenges of growing up in the spotlight, get a backstage pass into Tom Felton's life on and off the big screen. Tom Felton's adolescence was anything but ordinary. His early rise to fame in beloved films like The Borrowers catapulted him into the limelight, but nothing could prepare him for what was to come after he landed the iconic role of the Draco Malfoy, the bleached blonde villain of the Harry Potter movies. For the next ten years, he was at the center of a huge pop culture phenomenon and yet, in between filming, he would go back to being a normal teenager trying to fit into a normal school. Speaking with great candor and his signature humor, Tom shares his experience growing up as part of the wizarding world while also trying to navigate the muggle world.",
@@ -3874,7 +3874,7 @@
     {
         "Reference Handle": "#big-book-of-big-animals-regular",
         "Token": "II4OF4RP5WQN2OEX34KKPSJK",
-        "Item Name": "Big Book Of Big Animals",
+        "ItemName": "Big Book Of Big Animals",
         "Variation Name": "Regular",
         "SKU": "9780794530518",
         "Description": "Children",
@@ -3906,7 +3906,7 @@
     {
         "Reference Handle": "#big-book-of-bog-dinosaurs-regular",
         "Token": "VC4IV755WRLJ3LS5G52L6G2M",
-        "Item Name": "Big Book Of Bog Dinosaurs",
+        "ItemName": "Big Book Of Bog Dinosaurs",
         "Variation Name": "Regular",
         "SKU": "9780794527709",
         "Description": "Children",
@@ -3938,7 +3938,7 @@
     {
         "Reference Handle": "#big-book-of-colors-regular",
         "Token": "UQEBQFKRZXENNRIQJRFFH5YB",
-        "Item Name": "Big Book Of Colors",
+        "ItemName": "Big Book Of Colors",
         "Variation Name": "Regular",
         "SKU": "9780794528409",
         "Description": "Children",
@@ -3970,7 +3970,7 @@
     {
         "Reference Handle": "#big-book-of-numbers-regular",
         "Token": "VWKQGIVG2EG32ZYYWLE722IC",
-        "Item Name": "Big Book Of Numbers",
+        "ItemName": "Big Book Of Numbers",
         "Variation Name": "Regular",
         "SKU": "9780794543389",
         "Description": "Childrens",
@@ -4002,7 +4002,7 @@
     {
         "Reference Handle": "#big-drawing-book-",
         "Token": "BTO3RAXMVW4TE23BSPOL4TRX",
-        "Item Name": "Big Drawing Book",
+        "ItemName": "Big Drawing Book",
         "Variation Name": "",
         "SKU": "978-0-7945-3365-6",
         "Description": "<p><strong>Children</strong> - Activity book</p><p><strong>Age</strong>: 6+</p><p>By following the very simple step-by-steps in this fun drawing book you can draw dolphins diving in the sea, knights guarding a castle, monster faces, buzzing bees, and lots, lots more.</p>",
@@ -4034,7 +4034,7 @@
     {
         "Reference Handle": "#big-nate-release-the-hounds-volume-27-paperback",
         "Token": "RJ7YCPXZEL7ANO7DBJAC2Y4R",
-        "Item Name": "Big Nate: Release the Hounds!: Volume 27",
+        "ItemName": "Big Nate: Release the Hounds!: Volume 27",
         "Variation Name": "Paperback",
         "SKU": "9781524875572",
         "Description": "Peirce, Lincoln",
@@ -4066,7 +4066,7 @@
     {
         "Reference Handle": "#big-picture-atlas-ir--",
         "Token": "FOATVUNWT5RVPNQG4FNRQG33",
-        "Item Name": "Big Picture Atlas (IR)",
+        "ItemName": "Big Picture Atlas (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3904-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 4+</p><p>A wonderfully big picture atlas for children to learn the basis of world geography. Lots of busy maps with fun illustrations to learn about the food and culture of other countries as well as capital cities. Putting pictures onto facts helps with memory and this big, satisfying book will help children memorize geography facts with ease.</p><p><u>Series: Big Picture Books</u></p><p>Big, sturdy books full of pictures that introduce fun topics in a large, unique format, perfect for little learners.</p>",
@@ -4098,7 +4098,7 @@
     {
         "Reference Handle": "#big-picture-book-of-general-knowledge-ir--",
         "Token": "MWLNHL7BOYO2QADVNXEC6MVS",
-        "Item Name": "Big Picture Book of General Knowledge (IR)",
+        "ItemName": "Big Picture Book of General Knowledge (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3960-3",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>The Big Picture Book of General Knowledge is a treasure trove of wow-inducing facts. The facts are arranged by topic from natural wonders to music, and transportation to the human body. And throughout the book there are big, beautiful illustrations for readers to explore and share, in a trendy, infographic style.</p><p><u>Series: Big Picture Books</u></p><p>Big, sturdy books full of pictures that introduce fun topics in a large, unique format, perfect for little learners.</p>",
@@ -4130,7 +4130,7 @@
     {
         "Reference Handle": "#biggest-story-regular",
         "Token": "NIQF3KNYM2XB6QTW3BEU5MXN",
-        "Item Name": "Biggest Story",
+        "ItemName": "Biggest Story",
         "Variation Name": "Regular",
         "SKU": "9781684640454",
         "Description": "",
@@ -4162,7 +4162,7 @@
     {
         "Reference Handle": "#billie-b-brown-the-midnight-feast-",
         "Token": "JLDLAOP5X6HSAFHZFSV36FAH",
-        "Item Name": "Billie B. Brown, The Midnight Feast",
+        "ItemName": "Billie B. Brown, The Midnight Feast",
         "Variation Name": "",
         "SKU": "978-1-61067-097-5",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age:</strong> 4-7</p><p>Meet Billie B. Brown, brave, brilliant, bold, and bound to become your best friend! Brand-new readers will readily relate to this series of stand-alone, everyday adventures. Filled with true-to-life situations, warm family relationships, humorous illustrations and positive problem-solving, they’re taking the early reader scene by storm! </p><p>Billie and Jack are camping in Jack’s backyard. But it’s very dark. And maybe just a little bit scary. Are they really big enough – and brave enough – to have a midnight feast all on their own?</p><p><strong>No more than 50 words per page! Word art or illustration on every second page!</strong></p><p><br/></p><p>Please visit <a href=\"http://www.friends.kanemiller.com/talk-play-teach.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kanemiller.com</a> for more resources (games, puzzles, activities etc.) to accompany the books.</p><p><br/></p><p><u>Series: Billie B. Brown</u></p><p>Billie B. Brown prepares girls for new social situations and they will recognize their lives reflected in Billie’s “real world” adventures, from their first sleepover, to ballet lessons, playing with boys and managing friendships.</p>",
@@ -4194,7 +4194,7 @@
     {
         "Reference Handle": "#billie-b-brown-the-missing-tooth-regular",
         "Token": "JVNWGVTREVHS4AXRGSZCOUEG",
-        "Item Name": "Billie B. Brown: The Missing Tooth",
+        "ItemName": "Billie B. Brown: The Missing Tooth",
         "Variation Name": "Regular",
         "SKU": "9781684641314",
         "Description": "Sally Rippin\r\nChildren\r\n2020",
@@ -4226,7 +4226,7 @@
     {
         "Reference Handle": "#birch-woods-journal-diary-notebook--other",
         "Token": "AVEBILOAEGCU2CXTMTX2WWLZ",
-        "Item Name": "Birch Woods Journal (Diary, Notebook)",
+        "ItemName": "Birch Woods Journal (Diary, Notebook)",
         "Variation Name": "Other",
         "SKU": "9781441334886",
         "Description": "Peter Pauper Press Inc\r\n160 lined pages 5 wide x 7 high (12.7 cm wide x 17.8 cm high) Bookbound hardcover Elastic band place holder Archival/acid-free paper Inside back cover pocket Gold foil, embossed",
@@ -4258,7 +4258,7 @@
     {
         "Reference Handle": "#bird-squirrel-all-together-a-graphic-novel-bird-squirrel-7--paperback",
         "Token": "7CIT6DYU2AB4WLP6NPFUFEK3",
-        "Item Name": "Bird & Squirrel All Together: A Graphic Novel (Bird & Squirrel #7)",
+        "ItemName": "Bird & Squirrel All Together: A Graphic Novel (Bird & Squirrel #7)",
         "Variation Name": "Paperback",
         "SKU": "9781338252330",
         "Description": "Burks, James",
@@ -4290,7 +4290,7 @@
     {
         "Reference Handle": "#birds-magic-painting-book-",
         "Token": "42QBFYUGJDKWUABWK5V3XWUP",
-        "Item Name": "Birds, Magic Painting Book",
+        "ItemName": "Birds, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5426-2",
         "Description": "<p><strong>Children - </strong>Activity books</p><p><strong>Age:</strong> 5+</p><p><br/></p><p>Filled with detailed scenes showing an array of brilliant birds, from flamingos and hummingbirds to kingfishers and macaws. Simply brush water over the black-and-white designs to reveal an array of vivid colors.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -4322,7 +4322,7 @@
     {
         "Reference Handle": "#black-hammer-volume-7-reborn-part-three-paperback",
         "Token": "IIQBFXS332LACVGXJBDSAVTA",
-        "Item Name": "Black Hammer Volume 7: Reborn Part Three",
+        "ItemName": "Black Hammer Volume 7: Reborn Part Three",
         "Variation Name": "Paperback",
         "SKU": "9781506720159",
         "Description": "Lemire, Jeff ; Yarsky, Caitlin ; Stewart, Dave",
@@ -4354,7 +4354,7 @@
     {
         "Reference Handle": "#blackout-paperback",
         "Token": "ZA4VU5LPD2EYAVTL7SDCAXH7",
-        "Item Name": "Blackout",
+        "ItemName": "Blackout",
         "Variation Name": "Paperback",
         "SKU": "9780063088108",
         "Description": "Clayton, Dhonielle ; Jackson, Tiffany D ; Stone, Nic ; Thomas, Angie ; Woodfolk, Ashley ; Yoon, Nicola\r\nYoung Adult Fiction\r\nHardcover - PUB: 06/22/2021\r\n\"Six critically acclaimed, bestselling, and award-winning authors bring the glowing warmth and electricity of Black teen love to this interlinked novel of charming, hilarious, and heartwarming stories that shine a bright light through the dark",
@@ -4386,7 +4386,7 @@
     {
         "Reference Handle": "#blackout-hardcover",
         "Token": "HSP4A5WJVGEWZFHYIIOZRVFE",
-        "Item Name": "Blackout",
+        "ItemName": "Blackout",
         "Variation Name": "Hardcover",
         "SKU": "9780063088092",
         "Description": "",
@@ -4418,7 +4418,7 @@
     {
         "Reference Handle": "#blazing-unicorn-the-",
         "Token": "3A3X2UZCQJRQEVWKFWO4VB6G",
-        "Item Name": "Blazing Unicorn, The",
+        "ItemName": "Blazing Unicorn, The",
         "Variation Name": "",
         "SKU": "978-1-68464-363-9",
         "Description": "<p>Alice Hemming</p><p><strong>Children - </strong>Chapter books</p><p><strong>Age:</strong> 11+</p><p>Deep in the forest, Marie encounters a unicorn who grants her three wishes. Kind and trusting Marie unwittingly bestows the unicorn&#39;s power upon her father with disastrous results… Years later, her father is a cruel and heartless king, despised by his subjects. Many try to overthrow him, but mysterious misfortunes befall them all, but in the forest, a band of rebels are forming a plan that will change everything...</p><p><br/></p><p><u>Series: Dark Unicorns</u></p><p>Set off on journeys of adventure, mystery, and danger with these epic tales filled with magical unicorns, fearsome villains, and inspiring heroines.</p>",
@@ -4450,7 +4450,7 @@
     {
         "Reference Handle": "#blessed-are-the-meek-and-mild-paperback",
         "Token": "WHIZUM7FMHV3XMBAH7A3QZSH",
-        "Item Name": "Blessed are the meek and mild",
+        "ItemName": "Blessed are the meek and mild",
         "Variation Name": "Paperback",
         "SKU": "9788499493640",
         "Description": "Moser, Joseph Perera ; Arteaga, Victor Moran\r\nFiction - Thriller/crime\r\nPaperback - PUB: 11/22/2021\r\nThe novel begins with the theft of a briefcase during a traffic accident. A group of mercenaries is hired to urgently recover the briefcase at any cost. The main character, an insignificant high school teacher, married and with two young daughters, is involved in a week of nightmare and madness",
@@ -4482,7 +4482,7 @@
     {
         "Reference Handle": "#blood-bond-bloodline-saga-1--paperback",
         "Token": "BIE6GYKLOIG6CGXMW4W7D3IR",
-        "Item Name": "Blood Bond (Bloodline Saga #1)",
+        "ItemName": "Blood Bond (Bloodline Saga #1)",
         "Variation Name": "Paperback",
         "SKU": "9798201473358",
         "Description": "Beauregard, Elle\r\nFiction - Fantasy - Romance\r\nPaperback - PUB: 11/01/2022",
@@ -4514,7 +4514,7 @@
     {
         "Reference Handle": "#blood-mercy-a-fantasy-romance-roth-vela",
         "Token": "3PED62YQ4JRB7LDLOZMC3TW3",
-        "Item Name": "Blood Mercy: A Fantasy Romance",
+        "ItemName": "Blood Mercy: A Fantasy Romance",
         "Variation Name": "Roth, Vela",
         "SKU": "9781957040011",
         "Description": "Vela Roth\r\nFiction-Fantasy-Romance\r\nPaperback\r\nPUB: 2022",
@@ -4546,7 +4546,7 @@
     {
         "Reference Handle": "#blood-moon-the-rising-series-2--hardcover",
         "Token": "ZPFQBDP3F4EXVZFMGCAIQKCK",
-        "Item Name": "Blood Moon (The Rising Series #2)",
+        "ItemName": "Blood Moon (The Rising Series #2)",
         "Variation Name": "Hardcover",
         "SKU": "9780765389718",
         "Description": "Graham, Heather ; Land, Jon\r\nFiction - Thriller\r\nHardcover - PUB: 11/08/2022\r\n\"High school seniors Alex Chin and Samantha Dixon ... may have managed to win a major battle against the powerful enemy determined to destroy civilization as we know it. But the war continues, with Alex and Sam embarking on a desperate journey to save mankind, even as their friendship blossoms into something much more. The roadmap for their journey lies in a mysterious book, the language of which has never been deciphered, until Alex finds himself able to translate the words that may hold the keys to saving the future. Toward that end, Alex's and Sam's quest spirits them away to a myriad of locations around the world, each of which holds another piece of the puzzle that can defeat the alien invaders\"",
@@ -4578,7 +4578,7 @@
     {
         "Reference Handle": "#blood-of-elves-witcher-3--paperback",
         "Token": "UR54O2P3IKA2QPBXKB5GKF6U",
-        "Item Name": "Blood of Elves (Witcher #3)",
+        "ItemName": "Blood of Elves (Witcher #3)",
         "Variation Name": "Paperback",
         "SKU": "9780316392099",
         "Description": "Sapkowski, Andrzej ; Stok, Danusia\r\nFiction - Fantasy\r\nPaperback - PUBL: 12/07/2021\r\nIncludes an author interview and an excerpt from The tower of fools.",
@@ -4610,7 +4610,7 @@
     {
         "Reference Handle": "#blood-solace-a-fantasy-romance-roth-vela",
         "Token": "M7T6VB3GOA3VIE2JA22A2ZO3",
-        "Item Name": "Blood Solace: A Fantasy Romance",
+        "ItemName": "Blood Solace: A Fantasy Romance",
         "Variation Name": "Roth, Vela",
         "SKU": "9781957040066",
         "Description": "Vela Roth\r\nFiction-Fantasy-Romance\r\nPaperback\r\nPUB: 2022",
@@ -4642,7 +4642,7 @@
     {
         "Reference Handle": "#bloodmarked-hardcover",
         "Token": "XMHK6YZ3QFGONWM4RHTEPFI2",
-        "Item Name": "Bloodmarked",
+        "ItemName": "Bloodmarked",
         "Variation Name": "Hardcover",
         "SKU": "9781534441637",
         "Description": "Deonn, Tracy\r\nYoung Adult Fiction\r\nHardcover - PUB: 11/08/2022\r\n\"When the leaders of the Order reveal that they will do everything in their power to keep the approaching demon war a secret, Bree and her friends go on the run so she can learn how to control her devastating new powers.\"",
@@ -4674,7 +4674,7 @@
     {
         "Reference Handle": "#blowback-james-patterson-s-best-thriller-in-years-hardcover",
         "Token": "6MRLJEF2Z4K7MEMRF4TSS25X",
-        "Item Name": "Blowback: James Patterson's Best Thriller in Years",
+        "ItemName": "Blowback: James Patterson's Best Thriller in Years",
         "Variation Name": "Hardcover",
         "SKU": "9780316499637",
         "Description": "Patterson, James ; DuBois, Brendan\r\nFiction - Thriller\r\nHardcover - PUB: 09/12/2022\r\nUS President Keegan Barrett has swept into office on his success as Director of the CIA. Six months into his first term, he devises a clandestine power grab with deadly consequences. Barrett personally orders Special Agents Liam Grey and Noa Himel to execute his plan, but their loyalties are divided. The CIA serves at the pleasure of the president, yet they've sworn to support and defend the Constitution of the United States against all enemies, foreign and domestic. When the threat comes directly from the Oval Office, that's where the blowback begins.",
@@ -4706,7 +4706,7 @@
     {
         "Reference Handle": "#bluey-5-minute-stories-6-stories-in-1-book-hooray--hardcover",
         "Token": "H633YBVEZHTOS5J73U6E4TWD",
-        "Item Name": "Bluey 5-Minute Stories: 6 Stories in 1 Book? Hooray!",
+        "ItemName": "Bluey 5-Minute Stories: 6 Stories in 1 Book? Hooray!",
         "Variation Name": "Hardcover",
         "SKU": "9780593521908",
         "Description": "Penguin Young Readers Licenses\r\nChildren\r\nHardcover - PUB: 10/11/2022\r\n\"Cheese and crackers! This treasury includes 6 stories of Bluey and Bingo and their amazing adventures with their friends and family! It's the perfect read for bedtime, when you're on-the-go, and anytime in-between.\"",
@@ -4738,7 +4738,7 @@
     {
         "Reference Handle": "#bluey-christmas-swim-hardcover",
         "Token": "ZZLHBX5YQT5HYMQFG6FMS5ZZ",
-        "Item Name": "Bluey: Christmas Swim",
+        "ItemName": "Bluey: Christmas Swim",
         "Variation Name": "Hardcover",
         "SKU": "9780593521144",
         "Description": "Penguin Young Readers Licenses\r\nChildren\r\nHardcover - PUB: 10/04/2022\r\nIt's Christmas Day and it's the perfect weather for a family swim! Bartlebee is Bluey's new toy - how will he cope with his first Heeler Christmas? A gorgeous hardback book that will make the perfect Christmas gift. Bluey is an award-winning preschool show about Bluey, a blue heeler pup, and her family. Airing on ABC KIDS, the show has amassed legions of dedicated fans and hugely popular ranges of books, toys, clothes, games and more.",
@@ -4770,7 +4770,7 @@
     {
         "Reference Handle": "#bluey-easter-paperback",
         "Token": "7JQKAWP3JNQ7YQZZUCMU5HOG",
-        "Item Name": "Bluey: Easter",
+        "ItemName": "Bluey: Easter",
         "Variation Name": "Paperback",
         "SKU": "9780593658383",
         "Description": "Penguin Young Readers Licenses",
@@ -4802,7 +4802,7 @@
     {
         "Reference Handle": "#bluey-father-s-day-fun-a-craft-book-paperback",
         "Token": "VN6MUOCCKXA6DSQTS6ATW2Q2",
-        "Item Name": "Bluey: Father's Day Fun: A Craft Book",
+        "ItemName": "Bluey: Father's Day Fun: A Craft Book",
         "Variation Name": "Paperback",
         "SKU": "9780593386873",
         "Description": "Penguin Young Readers Licenses",
@@ -4834,7 +4834,7 @@
     {
         "Reference Handle": "#bob-s-burgers-2023-day-to-day-calendar-daily",
         "Token": "UKF6YIETSI4O3GFRFYFK7CFW",
-        "Item Name": "Bob's Burgers 2023 Day-To-Day Calendar",
+        "ItemName": "Bob's Burgers 2023 Day-To-Day Calendar",
         "Variation Name": "Daily",
         "SKU": "9780789342201",
         "Description": "Twentieth Century Studios Inc",
@@ -4866,7 +4866,7 @@
     {
         "Reference Handle": "#bob-s-burgers-mad-libs-world-s-greatest-word-game-paperback",
         "Token": "WP3PN626PKHH6L7W7U2OMYVX",
-        "Item Name": "Bob's Burgers Mad Libs: World's Greatest Word Game",
+        "ItemName": "Bob's Burgers Mad Libs: World's Greatest Word Game",
         "Variation Name": "Paperback",
         "SKU": "9780843182941",
         "Description": "Merrell, Billy",
@@ -4898,7 +4898,7 @@
     {
         "Reference Handle": "#bob-s-burgers-magnet-set-with-book-other",
         "Token": "ETUWIX5XHZVH5TWHDIRZFWWM",
-        "Item Name": "Bob's Burgers Magnet Set with Book",
+        "ItemName": "Bob's Burgers Magnet Set with Book",
         "Variation Name": "Other",
         "SKU": "9780762473786",
         "Description": "Pearlman, Robb",
@@ -4930,7 +4930,7 @@
     {
         "Reference Handle": "#bocaditos-el-monstruo-de-los-libros-nibbles-the-",
         "Token": "QIHXCNY55V3WSGIRWKK4KFR4",
-        "Item Name": "Bocaditos el monstruo de los libros (Nibbles: The",
+        "ItemName": "Bocaditos el monstruo de los libros (Nibbles: The",
         "Variation Name": "",
         "SKU": "9781684644599",
         "Description": "Bocaditos el monstruo de los libros (Nibbles: The",
@@ -4962,7 +4962,7 @@
     {
         "Reference Handle": "#bone-weaver-original--hardcover",
         "Token": "ZQXOGDNDQDODOECUZCOGOAPT",
-        "Item Name": "Bone Weaver (Original)",
+        "ItemName": "Bone Weaver (Original)",
         "Variation Name": "Hardcover",
         "SKU": "9781335915825",
         "Description": "Polydoros, Aden",
@@ -4994,7 +4994,7 @@
     {
         "Reference Handle": "#booger-the-bigfoot-regular",
         "Token": "PMK3KX3LNTGI563TDORQA6KY",
-        "Item Name": "Booger The Bigfoot",
+        "ItemName": "Booger The Bigfoot",
         "Variation Name": "Regular",
         "SKU": "97989895475401",
         "Description": "<p>Beau Bryan - <strong>Local Author</strong></p><p><strong>Children </strong></p><p><strong>Age</strong>: 2+</p><p>Paperback - PUB: 02/14/2022</p><p>The forest is full of fun and adventure...until Kip loses his way. Luckily, Booger the Bigfoot befriends him and shows him the way home. A story of excitement, friendship, and of course lovable animals.</p>",
@@ -5026,7 +5026,7 @@
     {
         "Reference Handle": "#book-lovers-regular",
         "Token": "VGEFDNRT2SAAG3JPOM2G2YW4",
-        "Item Name": "Book Lovers",
+        "ItemName": "Book Lovers",
         "Variation Name": "Regular",
         "SKU": "9780593440872",
         "Description": "Emily Henry\r\nFiction - Romance\r\nHardcover - PUB: 05/03/2022\r\n\"Nora Stephens life is books-she's read them all-and she is not that type of heroine. Not the plucky one, not the laidback dream girl, and especially not the sweetheart. In fact, the only people Nora is a heroine for are her clients, for whom she lands enormous deals as a cutthroat literary agent, and her beloved little sister Libby. Which is why she agrees to go to Sunshine Falls, North Carolina for the month of August when Libby begs her for a sisters' trip away-with visions of a small town transformation for Nora who she's convinced needs to become the heroine in her own story. But instead of picnics in meadows, or run-ins with a handsome country doctor or bulging-forearmed bartender, Nora keeps bumping into Charlie Lastra, a bookish brooding editor from back in the city. It would be a meet-cute if not for the fact that they've met many times and it's never been cute. If Nora knows she's not an ideal heroine, Charlie knows he's nobody's hero, but as",
@@ -5058,7 +5058,7 @@
     {
         "Reference Handle": "#book-of-night-hardcover",
         "Token": "CMQMTLREGVZTO3SKPC2U7MWY",
-        "Item Name": "Book of Night",
+        "ItemName": "Book of Night",
         "Variation Name": "Hardcover",
         "SKU": "9781250812193",
         "Description": "Black, Holly\r\nFiction - Thriller - Fantasy\r\nHardcover - PUB: 05/03/2022",
@@ -5090,7 +5090,7 @@
     {
         "Reference Handle": "#book-of-questions-hardcover",
         "Token": "LQOQXPPSCK35OIGXDNCME72O",
-        "Item Name": "Book of Questions",
+        "ItemName": "Book of Questions",
         "Variation Name": "Hardcover",
         "SKU": "9781592703227",
         "Description": "Neruda, Pablo ; Valdivia, Paloma ; Paulson, Sara Lissa",
@@ -5122,7 +5122,7 @@
     {
         "Reference Handle": "#boruto-naruto-next-generations-vol-15-paperback",
         "Token": "H7WPLHM6USDLOHI6SJCI4JW6",
-        "Item Name": "Boruto: Naruto Next Generations, Vol. 15",
+        "ItemName": "Boruto: Naruto Next Generations, Vol. 15",
         "Variation Name": "Paperback",
         "SKU": "9781974732326",
         "Description": "Kishimoto, Masashi ; Ikemoto, Mikio",
@@ -5154,7 +5154,7 @@
     {
         "Reference Handle": "#boy-",
         "Token": "26Y7IIJTIDJ2W52FXKOCBGAA",
-        "Item Name": "Boy",
+        "ItemName": "Boy",
         "Variation Name": "",
         "SKU": "978-1-61067-739-4",
         "Description": "<p>Phil Cummings</p><p><strong>Children - </strong>Special feature: Sign Language </p><p><strong>Age:</strong> 4-8</p><p>The king&#39;s battles with the dragon were always mighty and loud. Boy lived in silence and couldn&#39;t hear the fighting. But Boy could see the fear around him... and how everyone would be much happier without it.</p>",
@@ -5186,7 +5186,7 @@
     {
         "Reference Handle": "#bracelets-regular",
         "Token": "KYISTTQ2YSBZW5IPWRCTCURR",
-        "Item Name": "Bracelets",
+        "ItemName": "Bracelets",
         "Variation Name": "Regular",
         "SKU": "973949J",
         "Description": "Hand made by local artist",
@@ -5218,7 +5218,7 @@
     {
         "Reference Handle": "#brina-the-cat-3-catnapped-paperback",
         "Token": "CYN6NGEDFOAKFM2SLW5IMNXI",
-        "Item Name": "Brina the Cat #3: Catnapped",
+        "ItemName": "Brina the Cat #3: Catnapped",
         "Variation Name": "Paperback",
         "SKU": "9781545809686",
         "Description": "Salati, Giorgio",
@@ -5250,7 +5250,7 @@
     {
         "Reference Handle": "#build-your-own-robots-sticker-book-regular",
         "Token": "QIOWNM5XPAZ3ST4BXC3CKHWK",
-        "Item Name": "Build Your Own Robots Sticker Book",
+        "ItemName": "Build Your Own Robots Sticker Book",
         "Variation Name": "Regular",
         "SKU": "9780794523879",
         "Description": "",
@@ -5282,7 +5282,7 @@
     {
         "Reference Handle": "#build-your-own-sea-creatures-",
         "Token": "GASODHP6BBYUBL3VN4KBTGAT",
-        "Item Name": "Build Your Own, Sea Creatures",
+        "ItemName": "Build Your Own, Sea Creatures",
         "Variation Name": "",
         "SKU": "978-0-7945-5416-3",
         "Description": "<p><strong>Children - </strong>Activity books</p><p><strong>Age:</strong> 6+</p><p>Journey to the depths of the ocean and meet some of its deadliest, strangest and most incredible animals with this awesome sticker book. From polar seas to tropical reefs, you&#39;ll meet humpback whales, hammerhead sharks, lionfish and many more. Complete them using the stickers, and read the descriptions to find out fascinating facts about each one.</p><p><u>Series: Build Your Own Sticker Books</u></p><p>Build the coolest, fastest, biggest machines and things on the planet. Find the right stickers and fix them in place to complete your collection.</p>",
@@ -5314,7 +5314,7 @@
     {
         "Reference Handle": "#busy-bug-book-",
         "Token": "GABAURNUTG33WLYEUMVTSTIR",
-        "Item Name": "Busy Bug Book",
+        "ItemName": "Busy Bug Book",
         "Variation Name": "",
         "SKU": "978-0-7945-2941-3",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 3+</p><p>Watch as the bug whizzes around the tracks in this delightful interactive book. Wind up the bug by pulling it backward, place it on the tracks and watch it wiggle around the garden.</p><p><u>Series: Pull-Back Books</u></p><p>These cheerful board books have a toy to pull back on it&#39;s wheels and send down four different tracks. Each scene is full of things to spot and talk about.</p>",
@@ -5346,7 +5346,7 @@
     {
         "Reference Handle": "#busy-car-book-",
         "Token": "SJMVECU5S7IHLKO6WOH6S4Y3",
-        "Item Name": "Busy Car Book",
+        "ItemName": "Busy Car Book",
         "Variation Name": "",
         "SKU": "978-0-7945-3071-6",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>3+</p><p>Watch as the car whizzes around the tracks in this delightful interactive book. Wind up the car by pulling it backward, place it on the track and let it go.</p><p><u>Series: Pull-Back Books</u></p><p>These cheerful board books have a toy to pull back on it&#39;s wheels and send down four different tracks. Each scene is full of things to spot and talk about.</p>",
@@ -5378,7 +5378,7 @@
     {
         "Reference Handle": "#busy-santa-book-",
         "Token": "XA4XVDUVWRTG7C5WSD2FGKRL",
-        "Item Name": "Busy Santa Book",
+        "ItemName": "Busy Santa Book",
         "Variation Name": "",
         "SKU": "978-0-7945-3178-2",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age</strong>: 3+</p><p>A fabulous new storybook with four embedded tracks and a pull-back Santa in a sleigh. Little children will enjoy sending Santa on his jolly way again and again.</p><p><u>Series: Pull-Back Books</u></p><p>These cheerful board books have a toy to pull back on it&#39;s wheels and send down four different tracks. Each scene is full of things to spot and talk about.</p>",
@@ -5410,7 +5410,7 @@
     {
         "Reference Handle": "#butterflies-journal-hardcover",
         "Token": "T2RGHOLDD5IXU4SHFFDK7LBC",
-        "Item Name": "Butterflies Journal",
+        "ItemName": "Butterflies Journal",
         "Variation Name": "Hardcover",
         "SKU": "9781593594497",
         "Description": "Peter Pauper Press, Inc",
@@ -5442,7 +5442,7 @@
     {
         "Reference Handle": "#cafe-latte-large-20-oz-",
         "Token": "NZRYTEMHNR64655MG5MQ7EVW",
-        "Item Name": "Cafe Latte",
+        "ItemName": "Cafe Latte",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -5474,7 +5474,7 @@
     {
         "Reference Handle": "#cafe-latte-medium-16-oz-",
         "Token": "JX4LPE6BLQWCLR2CVUKUV6FU",
-        "Item Name": "Cafe Latte",
+        "ItemName": "Cafe Latte",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -5506,7 +5506,7 @@
     {
         "Reference Handle": "#cafe-latte-small-12-oz-",
         "Token": "YSMFGBAVI73TSJKJAG7GVPQZ",
-        "Item Name": "Cafe Latte",
+        "ItemName": "Cafe Latte",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -5538,7 +5538,7 @@
     {
         "Reference Handle": "#cafe-mocha-large-20-oz-",
         "Token": "WKGVCLRHJHDH33VV3GJQ2LEX",
-        "Item Name": "Cafe Mocha",
+        "ItemName": "Cafe Mocha",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -5570,7 +5570,7 @@
     {
         "Reference Handle": "#cafe-mocha-medium-16-oz-",
         "Token": "WRZER3I2BUGUWCTJPJPR6VHN",
-        "Item Name": "Cafe Mocha",
+        "ItemName": "Cafe Mocha",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -5602,7 +5602,7 @@
     {
         "Reference Handle": "#cafe-mocha-small-12-oz-",
         "Token": "Y644FAFNNJV3VUS2ZNG53IGV",
-        "Item Name": "Cafe Mocha",
+        "ItemName": "Cafe Mocha",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -5634,7 +5634,7 @@
     {
         "Reference Handle": "#camp-out-a-graphix-chapters-book-bug-scouts-2--paperback",
         "Token": "VQNHXH7EOGNVOHH6PZNEY2J2",
-        "Item Name": "Camp Out!: A Graphix Chapters Book (Bug Scouts #2)",
+        "ItemName": "Camp Out!: A Graphix Chapters Book (Bug Scouts #2)",
         "Variation Name": "Paperback",
         "SKU": "9781338726343",
         "Description": "Lowery, Mike ; Lowery, Mike",
@@ -5666,7 +5666,7 @@
     {
         "Reference Handle": "#candy-and-cigarettes-vol-2-paperback",
         "Token": "MWKBWKKUPA4ZCQ7GNUP2NY3A",
-        "Item Name": "Candy and Cigarettes Vol. 2",
+        "ItemName": "Candy and Cigarettes Vol. 2",
         "Variation Name": "Paperback",
         "SKU": "9781638587460",
         "Description": "Inoue, Tomonori",
@@ -5698,7 +5698,7 @@
     {
         "Reference Handle": "#cappuccino-large-20-oz-",
         "Token": "JWVT4TMDNJOE7G6E5FSD7CSA",
-        "Item Name": "Cappuccino",
+        "ItemName": "Cappuccino",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -5730,7 +5730,7 @@
     {
         "Reference Handle": "#cappuccino-medium-16-oz-",
         "Token": "FBAMFJWUM2OLBFQ463IYRXAS",
-        "Item Name": "Cappuccino",
+        "ItemName": "Cappuccino",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -5762,7 +5762,7 @@
     {
         "Reference Handle": "#cappuccino-small-12-oz-",
         "Token": "XJPG5XTVVD5LVMB2DENEGJME",
-        "Item Name": "Cappuccino",
+        "ItemName": "Cappuccino",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -5794,7 +5794,7 @@
     {
         "Reference Handle": "#captain-marvel-vol-8-the-trials-paperback",
         "Token": "GTMCKKBJHMO5YGWQBOTFIEB4",
-        "Item Name": "Captain Marvel Vol. 8: The Trials",
+        "ItemName": "Captain Marvel Vol. 8: The Trials",
         "Variation Name": "Paperback",
         "SKU": "9781302932640",
         "Description": "Thompson, Kelly",
@@ -5826,7 +5826,7 @@
     {
         "Reference Handle": "#caramel-macchiato-large-20-oz-",
         "Token": "RUH7UX5ZH5JWYSNWP76PC354",
-        "Item Name": "Caramel Macchiato",
+        "ItemName": "Caramel Macchiato",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -5858,7 +5858,7 @@
     {
         "Reference Handle": "#caramel-macchiato-medium-16-oz-",
         "Token": "5XNF7ROXEOERHAX2LTYOOAOV",
-        "Item Name": "Caramel Macchiato",
+        "ItemName": "Caramel Macchiato",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -5890,7 +5890,7 @@
     {
         "Reference Handle": "#caramel-macchiato-small-12-oz-",
         "Token": "YLT2XZX5BMEIOQY5KR2ZBXM6",
-        "Item Name": "Caramel Macchiato",
+        "ItemName": "Caramel Macchiato",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -5922,7 +5922,7 @@
     {
         "Reference Handle": "#caraval-collector-s-edition-garber-stephanie",
         "Token": "KU3P3RJJO5RBINP6GYCWRFC6",
-        "Item Name": "Caraval Collector's Edition",
+        "ItemName": "Caraval Collector's Edition",
         "Variation Name": "Garber, Stephanie",
         "SKU": "9781250264978",
         "Description": "Hardcover",
@@ -5954,7 +5954,7 @@
     {
         "Reference Handle": "#cardcaptor-sakura-clear-card-12-paperback",
         "Token": "UAOV3MZDAVRIY53PPR77VPPE",
-        "Item Name": "Cardcaptor Sakura: Clear Card 12",
+        "ItemName": "Cardcaptor Sakura: Clear Card 12",
         "Variation Name": "Paperback",
         "SKU": "9781646515684",
         "Description": "Clamp",
@@ -5986,7 +5986,7 @@
     {
         "Reference Handle": "#case-closed-vol-84-paperback",
         "Token": "KEMHQ3HNSAY2DWQWNQ3LEZTT",
-        "Item Name": "Case Closed, Vol. 84",
+        "ItemName": "Case Closed, Vol. 84",
         "Variation Name": "Paperback",
         "SKU": "9781974729104",
         "Description": "Aoyama, Gosho",
@@ -6018,7 +6018,7 @@
     {
         "Reference Handle": "#cat-ninja-welcome-to-the-burbs-volume-4-hardcover",
         "Token": "3EN5KATP46FU4CHFLKLIBELD",
-        "Item Name": "Cat Ninja: Welcome to the 'Burbs: Volume 4",
+        "ItemName": "Cat Ninja: Welcome to the 'Burbs: Volume 4",
         "Variation Name": "Hardcover",
         "SKU": "9781524879365",
         "Description": "Cody, Matthew ; Thomas, Chad ; Wucinich, Warren",
@@ -6050,7 +6050,7 @@
     {
         "Reference Handle": "#cat-ninja-welcome-to-the-burbs-volume-4-paperback",
         "Token": "LFWYKUUAQ2JXTDAPOJPERS7B",
-        "Item Name": "Cat Ninja: Welcome to the 'Burbs: Volume 4",
+        "ItemName": "Cat Ninja: Welcome to the 'Burbs: Volume 4",
         "Variation Name": "Paperback",
         "SKU": "9781524875855",
         "Description": "",
@@ -6082,7 +6082,7 @@
     {
         "Reference Handle": "#chai-tea-latte-large-20-oz-",
         "Token": "EIXIVPNU3APVMWUXIAEGZDFS",
-        "Item Name": "Chai Tea Latte",
+        "ItemName": "Chai Tea Latte",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -6114,7 +6114,7 @@
     {
         "Reference Handle": "#chai-tea-latte-medium-16-oz-",
         "Token": "5O2Z6HRJRQTTVEFUXRFRBOUR",
-        "Item Name": "Chai Tea Latte",
+        "ItemName": "Chai Tea Latte",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -6146,7 +6146,7 @@
     {
         "Reference Handle": "#chai-tea-latte-small-12-oz-",
         "Token": "K3YG3O3ACOCCWNXNCQ3NDVU5",
-        "Item Name": "Chai Tea Latte",
+        "ItemName": "Chai Tea Latte",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -6178,7 +6178,7 @@
     {
         "Reference Handle": "#change-in-strategy-signed-editing-regular",
         "Token": "5M2RQJ5QVY7V5DC73ZIJJMZY",
-        "Item Name": "Change In Strategy, Signed Editing",
+        "ItemName": "Change In Strategy, Signed Editing",
         "Variation Name": "Regular",
         "SKU": "9781733946261",
         "Description": "Sierra Hill\r\nFiction-Romance\r\nPUB:2020",
@@ -6210,7 +6210,7 @@
     {
         "Reference Handle": "#change-of-course-signed-edition-regular",
         "Token": "SBD5TOD77IOKSNZXIWKTUIR2",
-        "Item Name": "Change Of Course, Signed Edition",
+        "ItemName": "Change Of Course, Signed Edition",
         "Variation Name": "Regular",
         "SKU": "9781733946292",
         "Description": "Sierra Hill\r\nFiction-Romance\r\nPUB:2020",
@@ -6242,7 +6242,7 @@
     {
         "Reference Handle": "#charm-hardcover",
         "Token": "VOWVWVJ3U7E3UC7X34Q6HI74",
-        "Item Name": "Charm",
+        "ItemName": "Charm",
         "Variation Name": "Hardcover",
         "SKU": "9781649371492",
         "Description": "Wolff, Tracy",
@@ -6274,7 +6274,7 @@
     {
         "Reference Handle": "#cherish-wolff-tracy",
         "Token": "RSMXS6LEC4CNSHRJ6MS65OJW",
-        "Item Name": "Cherish",
+        "ItemName": "Cherish",
         "Variation Name": "Wolff, Tracy",
         "SKU": "9781649373168",
         "Description": "Hardcover\r\nBACKORDERED",
@@ -6306,7 +6306,7 @@
     {
         "Reference Handle": "#children-of-the-whales-vol-20-paperback",
         "Token": "SE3B336JNB4UFYOP7TSXEFMK",
-        "Item Name": "Children of the Whales, Vol. 20",
+        "ItemName": "Children of the Whales, Vol. 20",
         "Variation Name": "Paperback",
         "SKU": "9781974732463",
         "Description": "Umeda, Abi",
@@ -6338,7 +6338,7 @@
     {
         "Reference Handle": "#christmas-gnomes-coloring-book-for-adults-and-kids-paperback",
         "Token": "QMOMZUIZ2XD3TXQZPT3PUUER",
-        "Item Name": "Christmas Gnomes Coloring Book: For Adults and Kids",
+        "ItemName": "Christmas Gnomes Coloring Book: For Adults and Kids",
         "Variation Name": "Paperback",
         "SKU": "9798358513600",
         "Description": "Author: Forest, Dally\r\nBACKORDERED",
@@ -6370,7 +6370,7 @@
     {
         "Reference Handle": "#christmas-ornaments-to-crochet-31-festive-and-fun-to-make-designs-for-a-handmade-holiday-paperback",
         "Token": "ZNIGSF2POHWVNC5ED2TUFMKE",
-        "Item Name": "Christmas Ornaments to Crochet: 31 Festive and Fun-To-Make Designs for a Handmade Holiday",
+        "ItemName": "Christmas Ornaments to Crochet: 31 Festive and Fun-To-Make Designs for a Handmade Holiday",
         "Variation Name": "Paperback",
         "SKU": "9781950934607",
         "Description": "Author: Kreiner, Megan\r\nPaperback",
@@ -6402,7 +6402,7 @@
     {
         "Reference Handle": "#christmas-magic-painting-book-",
         "Token": "Y2EA57WRIGZHUIDAKOHN4DLQ",
-        "Item Name": "Christmas, Magic Painting Book",
+        "ItemName": "Christmas, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-3577-3",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age</strong>: 5+</p><p>Open this book to see stylish, black and white illustrations showing various Christmas scenes and seasonal motifs… then brush water over them using the aqua pen provided to see them change before your very eyes, as a rainbow of colors magically reveal themselves and bring each scene to life.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -6434,7 +6434,7 @@
     {
         "Reference Handle": "#cinderella-book-jigsaw-puzzle-",
         "Token": "API5WHFHA7LRVM3XCSUL5AVA",
-        "Item Name": "Cinderella, Book & Jigsaw Puzzle",
+        "ItemName": "Cinderella, Book & Jigsaw Puzzle",
         "Variation Name": "",
         "SKU": "978-0-7945-4239-9",
         "Description": "<p><strong>Children - </strong>Activity Books</p><p><strong>Age:</strong> 4+</p><p>Piece together a wonderfully illustrated 30-piece jigsaw puzzle to complete the breathtaking picture of Cinderella, taken from the hugely successful picture book, also featured in this gift set.</p><p><br/></p><p><u>Series: Jigsaw Puzzles</u></p><p>These beautiful jigsaw puzzles and matching books feature several different topics to interest any young learner.</p>",
@@ -6466,7 +6466,7 @@
     {
         "Reference Handle": "#circe-paperback",
         "Token": "5J5PFZQE7JMSYCIMQUFEUTL5",
-        "Item Name": "Circe",
+        "ItemName": "Circe",
         "Variation Name": "Paperback",
         "SKU": "9780316556323",
         "Description": "Miller, Madeline",
@@ -6498,7 +6498,7 @@
     {
         "Reference Handle": "#city-of-nightmares-hardcover",
         "Token": "2JS5FZUAQRRS2QS347LGMDO5",
-        "Item Name": "City of Nightmares",
+        "ItemName": "City of Nightmares",
         "Variation Name": "Hardcover",
         "SKU": "9780358647300",
         "Description": "Schaeffer, Rebecca\r\nBACKORDERED",
@@ -6530,7 +6530,7 @@
     {
         "Reference Handle": "#clarity-paperback",
         "Token": "MJEFDLW2EW7UYCIIBCYR4H5E",
-        "Item Name": "Clarity",
+        "ItemName": "Clarity",
         "Variation Name": "Paperback",
         "SKU": "9781955778466",
         "Description": "Coatsworth, J Scott",
@@ -6562,7 +6562,7 @@
     {
         "Reference Handle": "#class-picture-regular",
         "Token": "I5URAM7L4XH3ROS5TO3ZW7GC",
-        "Item Name": "Class Picture",
+        "ItemName": "Class Picture",
         "Variation Name": "Regular",
         "SKU": "9781684641123",
         "Description": "Children's\r\nPUB:2016",
@@ -6594,7 +6594,7 @@
     {
         "Reference Handle": "#cloud-cuckoo-land-paperback",
         "Token": "ONKPBYRKGYKFSJYKIBTJDUGB",
-        "Item Name": "Cloud Cuckoo Land",
+        "ItemName": "Cloud Cuckoo Land",
         "Variation Name": "Paperback",
         "SKU": "9781982168445",
         "Description": "Doerr, Anthony",
@@ -6626,7 +6626,7 @@
     {
         "Reference Handle": "#cluck-cluck-duck-",
         "Token": "UCQ6TS4BOMBTEWJQRRYENQ6X",
-        "Item Name": "Cluck Cluck Duck",
+        "ItemName": "Cluck Cluck Duck",
         "Variation Name": "",
         "SKU": "978-1-68464-394-3",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 2+</p><p>Count Mama Hen&#39;s new chicks, but… uh-oh! What&#39;s this... a duckling??</p><p><br/></p><p><u>Series: The Funny Farm</u></p><p>Farmyard characters take center stage in these lift-the-flap books. Each warmhearted rhyming story contains an early-learning concept.</p>",
@@ -6658,7 +6658,7 @@
     {
         "Reference Handle": "#coaster-set-regular",
         "Token": "EI6C3MNXSKHU3IBFKPI2U2CE",
-        "Item Name": "Coaster Set",
+        "ItemName": "Coaster Set",
         "Variation Name": "Regular",
         "SKU": "Z420371",
         "Description": "Hand made by local artist",
@@ -6690,7 +6690,7 @@
     {
         "Reference Handle": "#code-name-blue-wren-the-true-story-of-america-s-most-dangerous-female-spy-and-the-sister-she-betrayed-original--hardcover",
         "Token": "PPBTCBFFVJFXENCUVLGVV3YU",
-        "Item Name": "Code Name Blue Wren: The True Story of America's Most Dangerous Female Spy--And the Sister She Betrayed (Original)",
+        "ItemName": "Code Name Blue Wren: The True Story of America's Most Dangerous Female Spy--And the Sister She Betrayed (Original)",
         "Variation Name": "Hardcover",
         "SKU": "9781335449887",
         "Description": "Popkin, Jim\r\nBACKORDERED",
@@ -6722,7 +6722,7 @@
     {
         "Reference Handle": "#code-name-verity-anniversary-edition-special--paperback",
         "Token": "5ZS3XPC3ONJP7WCGGMVS7YT3",
-        "Item Name": "Code Name Verity (Anniversary Edition) (Special)",
+        "ItemName": "Code Name Verity (Anniversary Edition) (Special)",
         "Variation Name": "Paperback",
         "SKU": "9780316426312",
         "Description": "Wein, Elizabeth\r\nPUB 05/10/2022",
@@ -6754,7 +6754,7 @@
     {
         "Reference Handle": "#coding-for-beginners-using-scratch-ir--",
         "Token": "CFXWRILIMTCUXPPUOWGBQ7CP",
-        "Item Name": "Coding for Beginners Using Scratch (IR)",
+        "ItemName": "Coding for Beginners Using Scratch (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3687-9",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 9+</p><p>An introduction to coding for complete beginners, this friendly and accessible book will teach children the basics of Scratch (a free, online program developed by MIT which is widely used in elementary schools), allowing them to get inside the code of their computer and create simple games and animations on screen.</p><p><br/></p><p>Series: Coding for Beginners</p><p>Learn what goes on inside a computer, how coding works, how computers talk to each other across the internet, and more!</p>",
@@ -6786,7 +6786,7 @@
     {
         "Reference Handle": "#cold-hearted-villains-book-8--hardcover",
         "Token": "BUQJJ736WCXAYSPLJH646JYZ",
-        "Item Name": "Cold Hearted (Villains, Book 8)",
+        "ItemName": "Cold Hearted (Villains, Book 8)",
         "Variation Name": "Hardcover",
         "SKU": "9781368025287",
         "Description": "Valentino, Serena\r\npub 7/6/2021",
@@ -6818,7 +6818,7 @@
     {
         "Reference Handle": "#collided-special-edition-asher-lauren",
         "Token": "YWSQ46XBSAPATA7MXMYANZ46",
-        "Item Name": "Collided Special Edition",
+        "ItemName": "Collided Special Edition",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781734258776",
         "Description": "Paperback\r\nPUB 5/13/2020",
@@ -6850,7 +6850,7 @@
     {
         "Reference Handle": "#color-appeel-crayon-sticks-regular",
         "Token": "A4LK42VSXVEIQAKOYEADFZ3Q",
-        "Item Name": "Color Appeel Crayon Sticks",
+        "ItemName": "Color Appeel Crayon Sticks",
         "Variation Name": "Regular",
         "SKU": "879426002451",
         "Description": "",
@@ -6882,7 +6882,7 @@
     {
         "Reference Handle": "#color-appeel-crayon-sticks-set-of-12-other",
         "Token": "XK3CWRKCFTZYX4IFXSK4H3XR",
-        "Item Name": "Color Appeel Crayon Sticks - Set of 12",
+        "ItemName": "Color Appeel Crayon Sticks - Set of 12",
         "Variation Name": "Other",
         "SKU": "0879426002451",
         "Description": "Ooly",
@@ -6914,7 +6914,7 @@
     {
         "Reference Handle": "#colors-los-colores-",
         "Token": "ID7IK3CYDC6AV73BLQJEWGCO",
-        "Item Name": "Colors / Los colores",
+        "ItemName": "Colors / Los colores",
         "Variation Name": "",
         "SKU": "978-1-68464-387-5",
         "Description": "<p><strong>Children - </strong>Spanish</p><p><strong>Age: </strong>2+</p><p>Pick out the black cat, find the orange car, and learn the names of the colors.</p><p><br/></p><p><u>Series: Find &amp; Speak Spanish! * Encontrar y Hablar</u></p><p>A series of conversation starters in English and Spanish for bilingual families (or families that would like to be bilingual!), with easy pronunciation guides. Matching games boost problem-solving skills and extra details offer much to discuss and discover.</p>",
@@ -6946,7 +6946,7 @@
     {
         "Reference Handle": "#comeuppance-served-cold-regular",
         "Token": "N6JKMWBRTOXTDUWG3IOGREDF",
-        "Item Name": "Comeuppance Served Cold",
+        "ItemName": "Comeuppance Served Cold",
         "Variation Name": "Regular",
         "SKU": "9781250811073",
         "Description": "Marion Deeds\r\nFantasy Fiction\r\nPUB: 03/22/2022\r\n\"Marion Deeds's Comeuppance Served Cold is a hard-boiled historical fantasy of criminality and magic, couched in the glamour of Miss Fisher's Murder Mysteries. [A] beautifully constructed magical heist in turn-of-the-century Seattle.--Mary Robinette Kowal Seattle, 1929--a bitterly divided city overflowing with wealth, violence, and magic.\"",
@@ -6978,7 +6978,7 @@
     {
         "Reference Handle": "#complete-book-of-art-ideas-cv--",
         "Token": "DLQQFJ5DPYZJS3D2K5UQZJ4C",
-        "Item Name": "Complete Book of Art Ideas (CV)",
+        "ItemName": "Complete Book of Art Ideas (CV)",
         "Variation Name": "",
         "SKU": "978-0-7945-2642-9",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 10+</p><p>This inspiring book is packed full of creative ideas. It shows exciting ways of using different art materials. Simply follow the step-by-step instructions exactly or use the ideas to create pictures of your own.</p>",
@@ -7010,7 +7010,7 @@
     {
         "Reference Handle": "#conceal-don-t-feel-a-twisted-tale-hardcover",
         "Token": "IARPKOTG2NZZ6PGISQH6EQMO",
-        "Item Name": "Conceal, Don't Feel: A Twisted Tale",
+        "ItemName": "Conceal, Don't Feel: A Twisted Tale",
         "Variation Name": "Hardcover",
         "SKU": "9781368052238",
         "Description": "Calonita, Jen\r\nPUB 10/01/2019",
@@ -7042,7 +7042,7 @@
     {
         "Reference Handle": "#confidence-man-the-making-of-donald-trump-and-the-breaking-of-america-hardcover",
         "Token": "5BNNDB3SXDINB5O72EJJ3KD2",
-        "Item Name": "Confidence Man: The Making of Donald Trump and the Breaking of America",
+        "ItemName": "Confidence Man: The Making of Donald Trump and the Breaking of America",
         "Variation Name": "Hardcover",
         "SKU": "9780593297346",
         "Description": "Haberman, Maggie\r\nPUB 10/04/2022",
@@ -7074,7 +7074,7 @@
     {
         "Reference Handle": "#coral-reef-magic-painting-regular",
         "Token": "YY6QWRUAT5B42FK365KAUZHN",
-        "Item Name": "Coral Reef Magic Painting",
+        "ItemName": "Coral Reef Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794552794",
         "Description": "",
@@ -7106,7 +7106,7 @@
     {
         "Reference Handle": "#cosentino-the-missing-ace-book-1--",
         "Token": "Q2TIT747MFPVOSAV7GI4BGVA",
-        "Item Name": "Cosentino, The Missing Ace (Book 1)",
+        "ItemName": "Cosentino, The Missing Ace (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-61067-749-3",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 7+</p><p>Cosentino’s performances at his rundown old theater are in trouble when the Ace of Spades dashes in begging to be saved from the evil two-headed King and his Army of 52! Will he be able to pull off the trick of his life…and save them all?</p><p><br/></p><p><u>Series: The Mysterious World of Cosentino</u></p><p>Enjoy magic, mayhem, and mystery matched with unforgettable, quirky characters, captivating tricks of illusion, and comics-style illustration.</p>",
@@ -7138,7 +7138,7 @@
     {
         "Reference Handle": "#cosentino-the-rabbit-rescue-book-2--",
         "Token": "GBZC746BBXFWSPUAJZRZ452C",
-        "Item Name": "Cosentino, The Rabbit Rescue (Book 2)",
+        "ItemName": "Cosentino, The Rabbit Rescue (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-61067-750-9",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 7+</p><p>A mysterious note alerts Cosentino to the evil King’s terrible secret: he’s locked up all but a few of the rabbits of Magicland in the Royal Zoo – and they’re about to become dinner! Can Cos and his friends pull off this tricky rescue?</p><p><br/></p><p><u>Series: The Mysterious World of Cosentino</u></p><p>Enjoy magic, mayhem, and mystery matched with unforgettable, quirky characters, captivating tricks of illusion, and comics-style illustration.</p>",
@@ -7170,7 +7170,7 @@
     {
         "Reference Handle": "#cosentino-the-silver-thief-book-4--",
         "Token": "YV5Z5QME6FPOMA3SI6L4JS66",
-        "Item Name": "Cosentino, The Silver Thief (Book 4)",
+        "ItemName": "Cosentino, The Silver Thief (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-61067-752-3",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 7+</p><p>Cosentino, the Grand Illusionist, is frozen inside a block of ice... or is he? The real Cos is on a mission to stop the supply of silver to the King. Silver enhances magical power, and the King has too much power already. Cos must disguise himself and sneak into the silver mines, but could it be a... TRAP?</p><p><br/></p><p><u>Series: The Mysterious World of Cosentino</u></p><p>Enjoy magic, mayhem, and mystery matched with unforgettable, quirky characters, captivating tricks of illusion, and comics-style illustration.</p>",
@@ -7202,7 +7202,7 @@
     {
         "Reference Handle": "#court-crave-4--hardcover",
         "Token": "TPQO2HTHK4VJ6CFZKFWCUXRT",
-        "Item Name": "Court (Crave #4)",
+        "ItemName": "Court (Crave #4)",
         "Variation Name": "Hardcover",
         "SKU": "9781649370600",
         "Description": "Wolff, Tracy\r\nPUB 02/01/2022",
@@ -7234,7 +7234,7 @@
     {
         "Reference Handle": "#covet-crave-3--hardcover",
         "Token": "QT6Y6TRRE3GVYQ6GPO6MPHVF",
-        "Item Name": "Covet (Crave #3)",
+        "ItemName": "Covet (Crave #3)",
         "Variation Name": "Hardcover",
         "SKU": "9781682815816",
         "Description": "Wolff, Tracy\r\nPUB 03/02/2021",
@@ -7266,7 +7266,7 @@
     {
         "Reference Handle": "#crave-crave-1--hardcover",
         "Token": "GMYU2PEKYH6JOKIGEJU5XHFI",
-        "Item Name": "Crave (Crave #1)",
+        "ItemName": "Crave (Crave #1)",
         "Variation Name": "Hardcover",
         "SKU": "9781640638952",
         "Description": "Wolff, Tracy\r\nPUB 04/07/2020",
@@ -7298,7 +7298,7 @@
     {
         "Reference Handle": "#credence-paperback",
         "Token": "GUISRDD23AF2XQPGUJINGK6N",
-        "Item Name": "Credence",
+        "ItemName": "Credence",
         "Variation Name": "Paperback",
         "SKU": "9781660089055",
         "Description": "Douglas, Penelope\r\nPUB 01/13/2020",
@@ -7330,7 +7330,7 @@
     {
         "Reference Handle": "#crown-of-midnight-hardcover",
         "Token": "X47SCCHD2XTBCXRWNEDY26SP",
-        "Item Name": "Crown of Midnight",
+        "ItemName": "Crown of Midnight",
         "Variation Name": "Hardcover",
         "SKU": "9781639730964",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -7362,7 +7362,7 @@
     {
         "Reference Handle": "#crush-crave-2--hardcover",
         "Token": "AJTSZ3IANVGXE4DY27IZ5Q3D",
-        "Item Name": "Crush (Crave #2)",
+        "ItemName": "Crush (Crave #2)",
         "Variation Name": "Hardcover",
         "SKU": "9781682815786",
         "Description": "Wolff, Tracy\r\nPUB 09/29/2020",
@@ -7394,7 +7394,7 @@
     {
         "Reference Handle": "#crystal-pairings-paperback",
         "Token": "63R3ZUROFZUB4OBFIZ5Q4MX5",
-        "Item Name": "Crystal Pairings",
+        "ItemName": "Crystal Pairings",
         "Variation Name": "Paperback",
         "SKU": "9781667201610",
         "Description": "Rayow, Emily Suzanne\r\nPUB 1/17/2023\r\nBACKORDERED",
@@ -7426,7 +7426,7 @@
     {
         "Reference Handle": "#cuento-de-hadas-una-novela-fairy-tale-paperback",
         "Token": "KI7HO7LMTLYLX4Y4GGIGOIBI",
-        "Item Name": "Cuento de Hadas: Una Novela / Fairy Tale",
+        "ItemName": "Cuento de Hadas: Una Novela / Fairy Tale",
         "Variation Name": "Paperback",
         "SKU": "9781644736876",
         "Description": "King, Stephen\r\nFiction-Thriller\r\nPUB:2022",
@@ -7458,7 +7458,7 @@
     {
         "Reference Handle": "#cuentos-olvidados-de-chicas-valientes-e-ingeniosas-",
         "Token": "QINH4U6L5BQSMO4BK27OEYLO",
-        "Item Name": "Cuentos olvidados de chicas valientes e ingeniosas",
+        "ItemName": "Cuentos olvidados de chicas valientes e ingeniosas",
         "Variation Name": "",
         "SKU": "553913",
         "Description": "Este volumen de ocho cuentos olvidados es el resultado de un trabajo de investigaciÃ³n y de una encomiable labor de rescate. Todos estÃ¡n protagonizados por heroÃ­nas que revierten el estereotipo de las mujeres de los cuentos tradicionales: hermanas audaces que salvan a sus padres del hambre; princesas que prefieren renunciar a los lujos de palacio por fidelidad a sus principios y sentimientos; jÃ³venes intrÃ©pidas que no se conforman con la vida cotidiana y salen al mundo a buscar desafÃ­os que las h",
@@ -7490,7 +7490,7 @@
     {
         "Reference Handle": "#cup-cozies-regular",
         "Token": "KUBZJVK2OCBKEZQ5ZUJROPCH",
-        "Item Name": "Cup Cozies",
+        "ItemName": "Cup Cozies",
         "Variation Name": "Regular",
         "SKU": "542294P",
         "Description": "Hand made by local artist",
@@ -7522,7 +7522,7 @@
     {
         "Reference Handle": "#curse-of-her-paperback",
         "Token": "7PY7FN2MPSFPTENF4PMGPPMG",
-        "Item Name": "Curse of Her",
+        "ItemName": "Curse of Her",
         "Variation Name": "Paperback",
         "SKU": "9781982294205",
         "Description": "J P, Skye\r\nPUB 03/21/2022",
@@ -7554,7 +7554,7 @@
     {
         "Reference Handle": "#cursed-hardcover",
         "Token": "STLBUNSWMUA54TJGMOPXI22B",
-        "Item Name": "Cursed",
+        "ItemName": "Cursed",
         "Variation Name": "Hardcover",
         "SKU": "9781250618917",
         "Description": "Meyer, Marissa",
@@ -7586,7 +7586,7 @@
     {
         "Reference Handle": "#cursed-unicorn-the-",
         "Token": "X7GJ5LBDAE5C3BVQPLQ2MRF3",
-        "Item Name": "Cursed Unicorn, The",
+        "ItemName": "Cursed Unicorn, The",
         "Variation Name": "",
         "SKU": "643622",
         "Description": "Cursed Unicorn, The",
@@ -7618,7 +7618,7 @@
     {
         "Reference Handle": "#cutting-for-stone-paperback",
         "Token": "VFL2D6LTBJYA73Q7L4FQXVH5",
-        "Item Name": "Cutting for Stone",
+        "ItemName": "Cutting for Stone",
         "Variation Name": "Paperback",
         "SKU": "9780375714368",
         "Description": "Verghese, Abraham",
@@ -7650,7 +7650,7 @@
     {
         "Reference Handle": "#dance-in-the-vampire-bund-age-of-scarlet-order-vol-7-paperback",
         "Token": "ST5B24WYUKKZG6YOXUUGIBSY",
-        "Item Name": "Dance in the Vampire Bund: Age of Scarlet Order Vol. 7",
+        "ItemName": "Dance in the Vampire Bund: Age of Scarlet Order Vol. 7",
         "Variation Name": "Paperback",
         "SKU": "9781638586005",
         "Description": "Tamaki, Nozomu",
@@ -7682,7 +7682,7 @@
     {
         "Reference Handle": "#dancing-with-doughnuts-book-3-in-freddie-s-amazing-bakery--",
         "Token": "S4SI5L4QCVEQIWIBYTJYLZHR",
-        "Item Name": "Dancing with Doughnuts (Book 3 in Freddie's Amazing Bakery)",
+        "ItemName": "Dancing with Doughnuts (Book 3 in Freddie's Amazing Bakery)",
         "Variation Name": "",
         "SKU": "978-1-68464-068-3",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 5+</p><p>Freddie’s friend Amira is looking forward to taking to the stage and showing the town her ballroom dancing skills in the annual Belville summer show, but her partner twists his ankle tripping over Bernard’s cat! Will Freddie be able to step in?</p><p><br/></p><p><u>Series: Freddie&#39;s Amazing Bakery</u></p><p>Friendly and helpful Freddie Bonbon runs the most amazing bakery in Belville in this tasty series flavored with a bit of mystery. Baking fans will relish the recipe and glossary terms included in each book!</p>",
@@ -7714,7 +7714,7 @@
     {
         "Reference Handle": "#daughter-of-the-moon-goddess-hardcover",
         "Token": "Y45OXITSJ6M36CQPNSDNFVZD",
-        "Item Name": "Daughter of the Moon Goddess",
+        "ItemName": "Daughter of the Moon Goddess",
         "Variation Name": "Hardcover",
         "SKU": "9780063031302",
         "Description": "Tan, Sue Lynn",
@@ -7746,7 +7746,7 @@
     {
         "Reference Handle": "#dead-wednesday-hardcover",
         "Token": "HAVLD25XN3IMSOYSDFGSMSXT",
-        "Item Name": "Dead Wednesday",
+        "ItemName": "Dead Wednesday",
         "Variation Name": "Hardcover",
         "SKU": "9780593306673",
         "Description": "Spinelli, Jerry",
@@ -7778,7 +7778,7 @@
     {
         "Reference Handle": "#dead-wrong-an-ecological-thriller-paperback",
         "Token": "SQVLP57K6WXI6WTNHBDKOJXT",
-        "Item Name": "Dead Wrong: An Ecological Thriller",
+        "ItemName": "Dead Wrong: An Ecological Thriller",
         "Variation Name": "Paperback",
         "SKU": "9781665554053",
         "Description": "Myers, G Spencer",
@@ -7810,7 +7810,7 @@
     {
         "Reference Handle": "#dear-henry-love-edith-paperback",
         "Token": "YJYHF7GYKEWA3NQ4P5O4QCDM",
-        "Item Name": "Dear Henry, Love Edith",
+        "ItemName": "Dear Henry, Love Edith",
         "Variation Name": "Paperback",
         "SKU": "9781496466082",
         "Description": "Kinzer, Becca\r\nBACKORDERED",
@@ -7842,7 +7842,7 @@
     {
         "Reference Handle": "#death-on-a-winter-stroll-hardcover",
         "Token": "NOMN3PPKE4OQDTNVX2XPPIZD",
-        "Item Name": "Death on a Winter Stroll",
+        "ItemName": "Death on a Winter Stroll",
         "Variation Name": "Hardcover",
         "SKU": "9781641292740",
         "Description": "Mathews, Francine\r\nPUB 11/01/2022",
@@ -7874,7 +7874,7 @@
     {
         "Reference Handle": "#demon-in-the-wood-graphic-novel-hardcover",
         "Token": "MXU3WCFAOS5JTD7O3IM7AAKM",
-        "Item Name": "Demon in the Wood Graphic Novel",
+        "ItemName": "Demon in the Wood Graphic Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781250624642",
         "Description": "Bardugo, Leigh ; Pendergast, Dani",
@@ -7906,7 +7906,7 @@
     {
         "Reference Handle": "#dia-que-dejo-de-nevar-en-alaska-el-paperback",
         "Token": "NE5RA37E42ZXGR6RSAPU6MDE",
-        "Item Name": "Dia Que Dejo de Nevar En Alaska, El",
+        "ItemName": "Dia Que Dejo de Nevar En Alaska, El",
         "Variation Name": "Paperback",
         "SKU": "9788416327393",
         "Description": "Kellen, Alice\r\nPUB 2/28/2019\r\nBACKORDRED",
@@ -7938,7 +7938,7 @@
     {
         "Reference Handle": "#diamond-fire-a-hidden-legacy-novella-mass-market-paperbound",
         "Token": "2WMBMZHLVCEF2W4XU3N6IHUM",
-        "Item Name": "Diamond Fire: A Hidden Legacy Novella",
+        "ItemName": "Diamond Fire: A Hidden Legacy Novella",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062878434",
         "Description": "Andrews, Ilona\r\nPUB 11/06/2018",
@@ -7970,7 +7970,7 @@
     {
         "Reference Handle": "#dinosaur-mazes-regular",
         "Token": "5PRZHFLL5JVL4IARPTN2EPUW",
-        "Item Name": "Dinosaur Mazes",
+        "ItemName": "Dinosaur Mazes",
         "Variation Name": "Regular",
         "SKU": "9780794552275",
         "Description": "",
@@ -8002,7 +8002,7 @@
     {
         "Reference Handle": "#dinosaurs-book-jigsaw-puzzle-",
         "Token": "KIQQKPQPCFROJV4KOX5ZPKHD",
-        "Item Name": "Dinosaurs, Book & Jigsaw Puzzle",
+        "ItemName": "Dinosaurs, Book & Jigsaw Puzzle",
         "Variation Name": "",
         "SKU": "978-0-7945-4427-0",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 6+</p><p>This delightful pack contains a 100-piece jigsaw of a lively dinosaur scene for children to assemble, as well as a 24-page picture puzzle book teeming with dinosaurs and objects to spot. There is also a black and white version of the jigsaw picture for children to fill in with their own pens. Puzzle measures 23 x 16 inches when completed.</p><p><br></p><p><u>Series: Jigsaw Puzzles</u></p><p>These beautiful jigsaw puzzles and matching books feature several different topics to interest any young learner.</p>",
@@ -8034,7 +8034,7 @@
     {
         "Reference Handle": "#dinosaurs-magic-painting-book-",
         "Token": "DCTD3V7KOMFNO6TC666RCSR5",
-        "Item Name": "Dinosaurs, Magic Painting Book",
+        "ItemName": "Dinosaurs, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-4126-2",
         "Description": "<p><strong>Children - </strong>Activity books</p><p><strong>Age: </strong>5+</p><p>Brush water over the black and white illustrations and watch the prehistoric scenes burst into color! There are velociraptors hunting for food, pterodactyls flying high in the sky, baby dinosaurs being born, and much more. The back cover folds out so you can place it between the pages and prevent colors from running onto the page beneath.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -8066,7 +8066,7 @@
     {
         "Reference Handle": "#diper-verl-de-diary-of-a-wimpy-kid-book-17--hardcover",
         "Token": "5SBLNJEVP6I7FAFTEAQKCVSP",
-        "Item Name": "Diper Överlöde (Diary of a Wimpy Kid Book 17)",
+        "ItemName": "Diper Överlöde (Diary of a Wimpy Kid Book 17)",
         "Variation Name": "Hardcover",
         "SKU": "9781419762949",
         "Description": "Kinney, Jeff",
@@ -8098,7 +8098,7 @@
     {
         "Reference Handle": "#disney-villains-devilishly-delicious-cookbook-hardcover",
         "Token": "KU4FWWWGTZ2Z4PYG7UCGRUDR",
-        "Item Name": "Disney Villains: Devilishly Delicious Cookbook",
+        "ItemName": "Disney Villains: Devilishly Delicious Cookbook",
         "Variation Name": "Hardcover",
         "SKU": "9781647223748",
         "Description": "Tremaine, Julie\r\nPUB 07/20/2021",
@@ -8130,7 +8130,7 @@
     {
         "Reference Handle": "#don-t-fear-the-reaper-hardcover",
         "Token": "4QMHDRKYX4AY4T6XCZOPXBZL",
-        "Item Name": "Don't Fear the Reaper",
+        "ItemName": "Don't Fear the Reaper",
         "Variation Name": "Hardcover",
         "SKU": "9781982186593",
         "Description": "Jones, Stephen Graham\r\nPUB 02/07/2023\r\nBACKORDERED",
@@ -8162,7 +8162,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-bear--",
         "Token": "7RBFEU2KAY6YXHVPKBWWNBNX",
-        "Item Name": "Don't Tickle the Bear!",
+        "ItemName": "Don't Tickle the Bear!",
         "Variation Name": "",
         "SKU": "978-0-7945-5057-8",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age</strong>: 6m+</p><p>Don’t tickle the bear! You might make it growl… Little ones just won’t be able to resist tickling the touchy-feely patches to hear each animal make a sound in this hilarious novelty book. At the end, readers will find all the animals being noisy at once. An exciting new series for babies and toddlers, from the creators of That’s not my…</p><p><br/></p><p><u>Series: Don&#39;t Tickle the Animals!</u></p><p>When you tickle each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p>",
@@ -8194,7 +8194,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-lion--",
         "Token": "R7JAFW4GJJ4H4S7Y7SUMFB2P",
-        "Item Name": "Don't Tickle the Lion!",
+        "ItemName": "Don't Tickle the Lion!",
         "Variation Name": "",
         "SKU": "978-0-7945-4835-3",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age:</strong> 6m+</p><p>Don&#39;t tickle the lion, or you might make it snort... but that touchy-feely patch is just too tempting! When you touch each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p><p><br/></p><p><u>Series: Don&#39;t Tickle the Animals!</u></p><p>When you tickle each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p>",
@@ -8226,7 +8226,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-pig--",
         "Token": "MYQOWB3JXA7JOEUUMGJ37ESS",
-        "Item Name": "Don't Tickle the Pig!",
+        "ItemName": "Don't Tickle the Pig!",
         "Variation Name": "",
         "SKU": "978-0-7945-5142-1",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age</strong>: 6m+</p><p>Don&#39;t tickle the pig or you might make it oink! Little ones just won’t be able to resist tickling the touchy-feely patches to hear each animal make a sound in this hilarious novelty book. At the end, readers will find all the animals being noisy at once. An exciting new series for babies and toddlers, from the creators of That’s not my…</p><p>Series: Don&#39;t Tickle the Animals!</p><p>When you tickle each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p>",
@@ -8258,7 +8258,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-polar-bear--",
         "Token": "3P4ZB45KIJXXT6ZMTWKJ2WSO",
-        "Item Name": "Don't Tickle the Polar Bear!",
+        "ItemName": "Don't Tickle the Polar Bear!",
         "Variation Name": "",
         "SKU": "978-0-7945-5310-4",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age:</strong> 6m+</p><p>You&#39;d better not tickle that polar bear, because it just might growl if you do! Little children won&#39;t be able to resist tickling the adorable touchy-feely animals to hear the animal sounds in this unique novelty book. Alongside the polar bear there&#39;s a walrus, a seal, and a puffin, followed by a musical finale guaranteed to get everyone dancing.</p><p>Series: Don&#39;t Tickle the Animals!</p><p>When you tickle each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p>",
@@ -8290,7 +8290,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-t-rex--",
         "Token": "36VUIK5DJND5NXQTYB42X7UZ",
-        "Item Name": "Don't Tickle the T. Rex!",
+        "ItemName": "Don't Tickle the T. Rex!",
         "Variation Name": "",
         "SKU": "978-0-7945-5397-5",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age:</strong> 6m+</p><p>Little ones just won&#39;t be able to resist tickling the touchy-feely patches to hear each dinosaur make a sound in this hilarious novelty book.</p>",
@@ -8322,7 +8322,7 @@
     {
         "Reference Handle": "#don-t-tickle-the-unicorn--",
         "Token": "P3BXUAVS6OW4PC3DRVOXEHYO",
-        "Item Name": "Don't Tickle the Unicorn!",
+        "ItemName": "Don't Tickle the Unicorn!",
         "Variation Name": "",
         "SKU": "978-0-7945-5251-0",
         "Description": "<p><strong>Children - </strong>Sensory book</p><p><strong>Age:</strong> 6m+</p><p>You&#39;d better not tickle the unicorn, because it just might neigh if you do! This delightful interactive book combines touchy-feely patches with sounds; as well as the unicorn, little children will enjoy tickling the dragon, phoenix, and yeti to find out what noises they make. At the end of the book all of the animals make their noises at the same time, along with a bouncy tune guaranteed to get everyone dancing.</p><p>Series: Don&#39;t Tickle the Animals!</p><p>When you tickle each touchy-feely patch in this exciting new novelty series, you’ll hear the animal make a sound. At the end of the book, you’ll find all of the animals being noisy at once.</p>",
@@ -8354,7 +8354,7 @@
     {
         "Reference Handle": "#dr-stone-vol-23-paperback",
         "Token": "NTFYZQ3RWE7XRXEDEZN3DSWQ",
-        "Item Name": "Dr. Stone, Vol. 23",
+        "ItemName": "Dr. Stone, Vol. 23",
         "Variation Name": "Paperback",
         "SKU": "9781974733958",
         "Description": "Inagaki, Riichiro ; Boichi",
@@ -8386,7 +8386,7 @@
     {
         "Reference Handle": "#dragon-kingdom-of-wrenly-graphic-novel-collection-boxed-set--regular",
         "Token": "7R3CTQCWQY6X64Q5ATOYLS64",
-        "Item Name": "Dragon Kingdom of Wrenly Graphic Novel Collection (Boxed Set)",
+        "ItemName": "Dragon Kingdom of Wrenly Graphic Novel Collection (Boxed Set)",
         "Variation Name": "Regular",
         "SKU": "9781534495678",
         "Description": "<p>The Coldfire Curse; Shadow Hills; Night Hunt (boxed Set)</p><p>Jordan Quinn</p><p>Comics &amp; Graphic Novels</p><p>PUB: 12/07/2021</p><p>As the pampered pet dragon of the Prince of Wrenly, Ruskin has never known life beyond the walls of the palace. Until Cinder, a young dragon from Crestwood who has come to the palace seeking help, mistakes Ruskin for the king. When Ruskin learns from Cinder that all of Wrenly has fallen under a terrible curse, he knows there&#39;s only one thing he can do: leave behind the safety and comfort of the palace and help save his beloved kingdom. This act of bravery sets into motion a chain of events that will forever change Ruskin&#39;s fate and the fate of the kingdom of Wrenly.With each new adventure that Ruskin and his new friends set out on, the stakes get higher, and the young dragons begin to realize that things are not at all what they seem.This fantastical boxed set includes:</p><p><em>The Coldfire Curse</em></p><p><em>Shadow Hills</em></p><p><em>Night Hunt</em></p>",
@@ -8418,7 +8418,7 @@
     {
         "Reference Handle": "#dragon-post-",
         "Token": "4XVP3VP5MYQEV2FJJRSVMCBK",
-        "Item Name": "Dragon Post",
+        "ItemName": "Dragon Post",
         "Variation Name": "",
         "SKU": "978-1-61067-818-6",
         "Description": "<p>Emma Yarlett</p><p><strong>Children</strong></p><p><strong>Age:</strong> 4-8</p><p>One day, Alex finds a dragon living in the cupboard under the stairs. Luckily, he knows just what to do. He writes letters to lots of different people, including the fire brigade and the butcher, to ask how he should take care of his surprise visitor. Children will love opening the five envelopes and reading the hilarious letters to Alex and then following his magical adventure with his new fiery friend.</p>",
@@ -8450,7 +8450,7 @@
     {
         "Reference Handle": "#dragons-love-tacos-rubin-adam",
         "Token": "VJDRLHPJNDLPKZQRY5CJDESY",
-        "Item Name": "Dragons Love Tacos",
+        "ItemName": "Dragons Love Tacos",
         "Variation Name": "Rubin, Adam",
         "SKU": "9780803736801",
         "Description": "Hardcover",
@@ -8482,7 +8482,7 @@
     {
         "Reference Handle": "#dreamland-hardcover",
         "Token": "SHHS4RGWQYJUDZUZJZEXX4RE",
-        "Item Name": "Dreamland",
+        "ItemName": "Dreamland",
         "Variation Name": "Hardcover",
         "SKU": "9780593449554",
         "Description": "Sparks, Nicholas\r\nPUB 09/20/2022",
@@ -8514,7 +8514,7 @@
     {
         "Reference Handle": "#drunk-on-love-hardcover",
         "Token": "SK7OCTT3D675ADFJYCRFTSEM",
-        "Item Name": "Drunk on Love",
+        "ItemName": "Drunk on Love",
         "Variation Name": "Hardcover",
         "SKU": "9780593100875",
         "Description": "Guillory, Jasmine\r\nPUB 09/20/2022",
@@ -8546,7 +8546,7 @@
     {
         "Reference Handle": "#dune-movie-tie-in--paperback",
         "Token": "PHAZOJBYDAFOOSBMBIG4LJEX",
-        "Item Name": "Dune (Movie Tie-In)",
+        "ItemName": "Dune (Movie Tie-In)",
         "Variation Name": "Paperback",
         "SKU": "9780593438374",
         "Description": "Herbert, Frank\r\nPUB 09/28/2021",
@@ -8578,7 +8578,7 @@
     {
         "Reference Handle": "#dungeons-dragons-bag-of-holding-magnet-set-regular",
         "Token": "EADORKV7SSGAUX5AMLRRDCIX",
-        "Item Name": "Dungeons & Dragons: Bag of Holding Magnet Set",
+        "ItemName": "Dungeons & Dragons: Bag of Holding Magnet Set",
         "Variation Name": "Regular",
         "SKU": "9780762475902",
         "Description": "An officially-licensed, collectible magnet set inspired by the Bag of Holding from Dungeons & DragonsIt's larger on the inside! Carry all your equipment, weapons, items, and more with this official Dungeons & Dragons magnet set.\r\nUNIQUE MAGNETS: A collection of 30 magnets featuring an assortment of both rare and common items, objects, and equipment found in the game\r\nMINIATURE BAG OF HOLDING: A special felt \"Bag of Holding\" perfect for keeping all your magnets safe and in one place\r\nILLUSTRATED MINI BOOK INCLUDED: Discover the secrets that the Bag of Holding might be hiding with this inventory book and learn more about the unique objects and equipment you'll find inside\r\nPERFECT GIFT FOR D&D FANS: Display on a shelf, desk, or bookcase and show off your love of Dungeons & Dragons\r\nOFFICIALLY LICENSED: Authentic Dungeons & Dragons collectible\r\nDungeons & Dragons, D&D, their respective logos, and the dragon ampersand, are registered trademarks of Wizards of the Coast LLC. (c)2021 Wizards of the Coast. All rights reser",
@@ -8610,7 +8610,7 @@
     {
         "Reference Handle": "#each-night-was-illuminated-hardcover",
         "Token": "3SVKRDOAVTW4HCCBGH4T6MN5",
-        "Item Name": "Each Night Was Illuminated",
+        "ItemName": "Each Night Was Illuminated",
         "Variation Name": "Hardcover",
         "SKU": "9780062393579",
         "Description": "Anderson, Jodi Lynn\r\nPUB 09/20/2022",
@@ -8642,7 +8642,7 @@
     {
         "Reference Handle": "#easy-college-cookbook-for-guys-effortless-recipes-to-learn-the-basics-of-cooking-paperback",
         "Token": "BAPQUZMOVIFDDZCAL2GG6ALI",
-        "Item Name": "Easy College Cookbook for Guys: Effortless Recipes to Learn the Basics of Cooking",
+        "ItemName": "Easy College Cookbook for Guys: Effortless Recipes to Learn the Basics of Cooking",
         "Variation Name": "Paperback",
         "SKU": "9781638073109",
         "Description": "Stern, Noah\r\nPUB 08/31/2021",
@@ -8674,7 +8674,7 @@
     {
         "Reference Handle": "#easy-dirty-keto-cookbook-meet-your-macros-with-less-effort-paperback",
         "Token": "OS7RECXIBQDFAUSDRVEAWSVI",
-        "Item Name": "Easy Dirty Keto Cookbook: Meet Your Macros with Less Effort",
+        "ItemName": "Easy Dirty Keto Cookbook: Meet Your Macros with Less Effort",
         "Variation Name": "Paperback",
         "SKU": "9781685390495",
         "Description": "Bailey, Emilie\r\nPUB 08/23/2022",
@@ -8706,7 +8706,7 @@
     {
         "Reference Handle": "#easy-origami-",
         "Token": "X4SJUAPXDUHHTG45KSOZHAAT",
-        "Item Name": "Easy Origami",
+        "ItemName": "Easy Origami",
         "Variation Name": "",
         "SKU": "978-0-7945-5213-8",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age</strong>: 7+</p><p>This charming book contains everything you need to fold and display 11 different types of easy origami animals, including butterflies, birds, frogs, bugs, lizards, whales, penguins, and more. Simply pull out a sheet and follow the simple, step-by-step instructions to fold each animal – QR codes also link to videos on the Usborne website showing you extra folding tips. There are over 50 colorful sheets to fold, each printed with clear folding lines to help you, and illustrated with delightful animal features to bring your finished creatures to life. Extra sheets at the back of the book provide pictures of flowers, leaves, coral, and other things you can cut out and fold to make scenes for your animals, either as a permanent display or to help you share impressive photos of your creations.</p>",
@@ -8738,7 +8738,7 @@
     {
         "Reference Handle": "#edens-zero-19-paperback",
         "Token": "NM22CBPPXNKT5VTKAAXMQ33J",
-        "Item Name": "Edens Zero 19",
+        "ItemName": "Edens Zero 19",
         "Variation Name": "Paperback",
         "SKU": "9781646515714",
         "Description": "Mashima, Hiro",
@@ -8770,7 +8770,7 @@
     {
         "Reference Handle": "#edible-plants-a-photographic-survey-of-the-wild-edible-botanicals-of-north-america-hardcover",
         "Token": "6JF6C2TDPLI4TABFQZONHWQ2",
-        "Item Name": "Edible Plants: A Photographic Survey of the Wild Edible Botanicals of North America",
+        "ItemName": "Edible Plants: A Photographic Survey of the Wild Edible Botanicals of North America",
         "Variation Name": "Hardcover",
         "SKU": "9781684351718",
         "Description": "Fike, Jimmy\r\nPUB 03/01/2022",
@@ -8802,7 +8802,7 @@
     {
         "Reference Handle": "#effie-goes-on-a-field-trip-regular",
         "Token": "YZ5KHTWNXBTRPYUA4PXXH3GK",
-        "Item Name": "Effie Goes On A Field Trip",
+        "ItemName": "Effie Goes On A Field Trip",
         "Variation Name": "Regular",
         "SKU": "9798985289022",
         "Description": "<p>Jennifer Morhaime - <strong>Local Author</strong></p><p><strong>Children</strong></p><p><strong>Age:</strong> 3+</p><p> PUB: 12/13/2021</p><p>Effie and friends are heading on their first field trip to the science museum, but Jessie is not looking forward to it. Effie and Billy work together to show Jessie that science is just as fun as Art.</p><p><br/></p><p><br/></p>",
@@ -8834,7 +8834,7 @@
     {
         "Reference Handle": "#effie-goes-to-school-regular",
         "Token": "JQXT4FFLNTPR3GQQJOV6L7I5",
-        "Item Name": "Effie Goes To School",
+        "ItemName": "Effie Goes To School",
         "Variation Name": "Regular",
         "SKU": "9798985289008",
         "Description": "Jennifer Morhaime\r\nChildren\r\nPUB:2008",
@@ -8866,7 +8866,7 @@
     {
         "Reference Handle": "#effie-plush-8-doll-regular",
         "Token": "5G45CIXOVIQUVR7WNLMFVVZR",
-        "Item Name": "Effie Plush 8' Doll",
+        "ItemName": "Effie Plush 8' Doll",
         "Variation Name": "Regular",
         "SKU": "V685671",
         "Description": "Based on the Effie Series",
@@ -8898,7 +8898,7 @@
     {
         "Reference Handle": "#effie-s-coloring-and-activity-book-regular",
         "Token": "A6F32ZEHFRQYBNHXL2HD576B",
-        "Item Name": "Effie's Coloring And Activity Book",
+        "ItemName": "Effie's Coloring And Activity Book",
         "Variation Name": "Regular",
         "SKU": "9798985289015",
         "Description": "<p>Jennifer Morhaime - <strong>Local Author &amp; Independently published</strong></p><p><strong>Children</strong></p><p><strong>Age: </strong>2+</p><p>PUB:02/1/2022</p><p>Keep the adventure going with Effie&#39;s Coloring/Activity Book. This book is filled with coloring pages, math games, word games, letter tracing, mazes, recipes and more. Pages are perforated so you can take them out and hang up the masterpieces too.</p>",
@@ -8930,7 +8930,7 @@
     {
         "Reference Handle": "#el-circo-de-la-noche-night-circus-the-night-circus-paperback",
         "Token": "FZJJ2XBZJLZOOCYAPR42EVQF",
-        "Item Name": "El Circo de la Noche / Night Circus = The Night Circus",
+        "ItemName": "El Circo de la Noche / Night Circus = The Night Circus",
         "Variation Name": "Paperback",
         "SKU": "9780307947857",
         "Description": "Morgenstern, Erin\r\nBACKORDERED",
@@ -8962,7 +8962,7 @@
     {
         "Reference Handle": "#electric-idol-dark-olympus-2--regular",
         "Token": "WRI5SSL4J5RDFFTAQLNYX4IU",
-        "Item Name": "Electric Idol (Dark Olympus #2)",
+        "ItemName": "Electric Idol (Dark Olympus #2)",
         "Variation Name": "Regular",
         "SKU": "9781728231761",
         "Description": "Katee Robert\r\nFiction - Romance\r\nPaperback - PUB: 01/18/2022\r\n\"When her family executed a coup that dethroned Zeus himself, Psyche knew she was in trouble, but she wasn't prepared for Aphrodite to demand her literal heart as payment. Or for Aphrodite's gorgeous son to be the one determined to strike the blow\"",
@@ -8994,7 +8994,7 @@
     {
         "Reference Handle": "#ella-diaries-regular",
         "Token": "KT5XGCGD7CIEIIXPSSWHVJOI",
-        "Item Name": "Ella Diaries",
+        "ItemName": "Ella Diaries",
         "Variation Name": "Regular",
         "SKU": "9781610675208",
         "Description": "Meredith COSTAIN\r\nCHILDRENS\r\nPUB:2016",
@@ -9026,7 +9026,7 @@
     {
         "Reference Handle": "#emerald-eyes-paperback",
         "Token": "HH42LJYZHF3YUZJNKSPW6RO4",
-        "Item Name": "Emerald Eyes",
+        "ItemName": "Emerald Eyes",
         "Variation Name": "Paperback",
         "SKU": "9798986754208",
         "Description": "Yates, Aurelia\r\nFiction - Romance\r\npaperback - PUB: 08/30/2022\r\nAfter the death of her mother and losing her job, Sarah realizes there's nothing keeping her in the small town where she grew up, and she travels to New York to stay with her best friend. Upon her arrival, she literally falls for a sexy, dark man with mesmerizing emerald-green eyes.\r\nChance encounters continue to bring them together, and Sarah finds herself drawn into a sinful world she's never known. Wilder is unlike any other man, and although she tries, she can't resist him or his dominating temperament.\r\nTry as she might, Wilder will not let Sarah escape him, and with a stalker coming after her, he is determined to protect her with everything he has-even when he has to punish her in the bedroom for disobeying his commands.",
@@ -9058,7 +9058,7 @@
     {
         "Reference Handle": "#emily-wilde-s-encyclopaedia-of-faeries-book-one-of-the-emily-wilde-series-hardcover",
         "Token": "RXETRAXJDVV7CPPY3TLEXY7N",
-        "Item Name": "Emily Wilde's Encyclopaedia of Faeries: Book One of the Emily Wilde Series",
+        "ItemName": "Emily Wilde's Encyclopaedia of Faeries: Book One of the Emily Wilde Series",
         "Variation Name": "Hardcover",
         "SKU": "9780593500132",
         "Description": "Fawcett, Heather\r\nBACKORDERED\r\nFiction - Fantasy\r\nHardcover - PUB: 01/10/2023",
@@ -9090,7 +9090,7 @@
     {
         "Reference Handle": "#emma-y-las-otras-se-oras-del-narco-emma-and-other-narco-women-paperback",
         "Token": "5PXIHPAQOKUOALJQP3EDZNDH",
-        "Item Name": "Emma Y Las Otras Señoras del Narco / Emma and Other Narco Women",
+        "ItemName": "Emma Y Las Otras Señoras del Narco / Emma and Other Narco Women",
         "Variation Name": "Paperback",
         "SKU": "9781644734636",
         "Description": "Hernandez, Anabel",
@@ -9122,7 +9122,7 @@
     {
         "Reference Handle": "#empire-of-storms-throne-of-glass-5--paperback",
         "Token": "HNMNTABXROOQOTA6EM7CMEZN",
-        "Item Name": "Empire of Storms (throne of Glass #5)",
+        "ItemName": "Empire of Storms (throne of Glass #5)",
         "Variation Name": "Paperback",
         "SKU": "9781639731039",
         "Description": "<p>Maas, Sarah J</p><p>BACKORDERED</p><p>Young Adult Fiction</p><p>paperback - PUB: 02/14/2023</p><p><strong>Only the greatest sacrifice can turn the tide of war</strong></p>",
@@ -9154,7 +9154,7 @@
     {
         "Reference Handle": "#ender-s-game-paperback",
         "Token": "5TNOWQCVEFR23JS6Q44W7E3V",
-        "Item Name": "Ender's Game",
+        "ItemName": "Ender's Game",
         "Variation Name": "Paperback",
         "SKU": "9780765378484",
         "Description": "Card, Orson Scott",
@@ -9186,7 +9186,7 @@
     {
         "Reference Handle": "#escape-from-wolfhaven-castle-book-1-of-the-impossible-quest--",
         "Token": "W27ASAE2WFB7SQ2YVYFIXIA3",
-        "Item Name": "Escape From Wolfhaven Castle (Book 1 of The Impossible Quest)",
+        "ItemName": "Escape From Wolfhaven Castle (Book 1 of The Impossible Quest)",
         "Variation Name": "",
         "SKU": "978-1-61067-414-0",
         "Description": "<p>Kate Forsyth</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age</strong>: 9-13</p><p><br/></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p><p>Four unlikely heroes are forced on a perilous quest to save their people. But first, Tom, Elanor, Sebastian and Quinn must escape the overrun castle. Only they can find the four impossible elements needed to wake the sleeping warriors of the legend. Only they can drive back the darkness that reigns over the land.</p><p><br/></p><p><em>Tell your lord to beware, the wolves smell danger in the wind.</em></p><p><br/></p><p>Wolfhaven Castle has been attacked, and only four escape capture ... Tom, trained to scrub pots, not fight; Elanor, the Lord’s daughter; Sebastian, a knight in training and Quinn, the witch’s apprentice. Somehow, if they are to save their people, these unlikely heroes must find four magical beasts from legend. But first, they have to make it out of the castle alive...</p><p><u>Series: The Impossible Quest</u></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p>",
@@ -9218,7 +9218,7 @@
     {
         "Reference Handle": "#espresso-regular",
         "Token": "ACWQGOTTUMYPCCPG2VE4SFLZ",
-        "Item Name": "Espresso",
+        "ItemName": "Espresso",
         "Variation Name": "Regular",
         "SKU": "",
         "Description": "Small. 12 oz",
@@ -9250,7 +9250,7 @@
     {
         "Reference Handle": "#evangeline-s-heaven-paperback",
         "Token": "SUTMI3UM4AJYDBK2P2OZPPS4",
-        "Item Name": "Evangeline's Heaven",
+        "ItemName": "Evangeline's Heaven",
         "Variation Name": "Paperback",
         "SKU": "9781684631537",
         "Description": "Braaksma, Jen\r\nPUB 08/30/2022",
@@ -9282,7 +9282,7 @@
     {
         "Reference Handle": "#everyone-poops-regular",
         "Token": "SDKN5A7RRZPKNWMEPQ6WSO2L",
-        "Item Name": "Everyone Poops",
+        "ItemName": "Everyone Poops",
         "Variation Name": "Regular",
         "SKU": "9781929132140",
         "Description": "Taro Gomi\r\nChildren\r\nPUB: 2001",
@@ -9314,7 +9314,7 @@
     {
         "Reference Handle": "#everything-under-the-sun-",
         "Token": "4GKEPJPPUZIVQZALIK5TNYJ3",
-        "Item Name": "Everything Under the Sun",
+        "ItemName": "Everything Under the Sun",
         "Variation Name": "",
         "SKU": "644438",
         "Description": "This amazing compendium of information grew out of UK author Molly Oldfield's podcast answering questions from curious children around the world. Here are 366 such questions, along with answers from experts in every imaginable field, one for every day of the year plus an extra one for leap years, with illustrations by a dozen different artists.",
@@ -9346,7 +9346,7 @@
     {
         "Reference Handle": "#evil-thing-villains-book-7--hardcover",
         "Token": "GH4W6L35H5QM24VCTDBFIWO4",
-        "Item Name": "Evil Thing (Villains, Book 7)",
+        "ItemName": "Evil Thing (Villains, Book 7)",
         "Variation Name": "Hardcover",
         "SKU": "9781368009034",
         "Description": "Valentino, Serena\r\nPUB 07/07/2020",
@@ -9378,7 +9378,7 @@
     {
         "Reference Handle": "#fae-queen-s-captive-simone-sierra",
         "Token": "BCMXUQ2EKW5LQ3PPREGE44DQ",
-        "Item Name": "Fae Queen's Captive",
+        "ItemName": "Fae Queen's Captive",
         "Variation Name": "Simone, Sierra",
         "SKU": "9781949364293",
         "Description": "Paperback",
@@ -9410,7 +9410,7 @@
     {
         "Reference Handle": "#failed-princesses-vol-6-paperback",
         "Token": "NT4BDKMJBR4O3734J4FGANSL",
-        "Item Name": "Failed Princesses Vol. 6",
+        "ItemName": "Failed Princesses Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781638586029",
         "Description": "Ajiichi",
@@ -9442,7 +9442,7 @@
     {
         "Reference Handle": "#fairest-of-all-a-tale-of-the-wicked-queen-villains-1--paperback",
         "Token": "4A2GZ2NHXYDTPPYWVH2WSWWT",
-        "Item Name": "Fairest of All: A Tale of the Wicked Queen (Villains #1)",
+        "ItemName": "Fairest of All: A Tale of the Wicked Queen (Villains #1)",
         "Variation Name": "Paperback",
         "SKU": "9781368011464",
         "Description": "Valentino, Serena\r\nPUB 08/01/2009",
@@ -9474,7 +9474,7 @@
     {
         "Reference Handle": "#fairies-pixies-and-elves-sticker-book-",
         "Token": "C5HCZOIJKFJAWU62Q7XMPMT3",
-        "Item Name": "Fairies, Pixies and Elves Sticker Book",
+        "ItemName": "Fairies, Pixies and Elves Sticker Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5270-1",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age</strong>: 5+</p><p>Enter the magical world of fairies, pixies, and elves with this engaging sticker book with lots of colorful stickers to complete the scenes.</p><p><br/></p><p><u>Series: Sticker Activity Books</u></p><p>These fabulous sticker books include fun topics and colorful scenes to complete.</p>",
@@ -9506,7 +9506,7 @@
     {
         "Reference Handle": "#fairy-gardens-magic-painting-regular",
         "Token": "SI2DYNBJ3EKN3GXQQBWADCPT",
-        "Item Name": "Fairy Gardens Magic Painting",
+        "ItemName": "Fairy Gardens Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794537982",
         "Description": "",
@@ -9538,7 +9538,7 @@
     {
         "Reference Handle": "#fairy-tale-hardcover",
         "Token": "AHMBZ7AMEOMC6JPFU3KCMFNY",
-        "Item Name": "Fairy Tale",
+        "ItemName": "Fairy Tale",
         "Variation Name": "Hardcover",
         "SKU": "9781668002179",
         "Description": "King, Stephen\r\nPUB 09/06/2022",
@@ -9570,7 +9570,7 @@
     {
         "Reference Handle": "#fall-guy-a-joe-gunther-novel-hardcover",
         "Token": "QBIUPFHAPR3MXPE7OGYR2GEJ",
-        "Item Name": "Fall Guy: A Joe Gunther Novel",
+        "ItemName": "Fall Guy: A Joe Gunther Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781250224187",
         "Description": "Mayor, Archer\r\nPUB 09/27/2022",
@@ -9602,7 +9602,7 @@
     {
         "Reference Handle": "#falling-stars-a-festive-and-fun-holiday-story-hardcover",
         "Token": "KISARC53ZFCJWIVQCYRGJMVS",
-        "Item Name": "Falling Stars: A Festive and Fun Holiday Story",
+        "ItemName": "Falling Stars: A Festive and Fun Holiday Story",
         "Variation Name": "Hardcover",
         "SKU": "9781496737151",
         "Description": "Michaels, Fern\r\nPUB 09/27/2022",
@@ -9634,7 +9634,7 @@
     {
         "Reference Handle": "#famous-paintings-magic-painting-regular",
         "Token": "C6SPRNNBSQCEQ6OCRS5DW6N4",
-        "Item Name": "Famous Paintings Magic Painting",
+        "ItemName": "Famous Paintings Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794552169",
         "Description": "",
@@ -9666,7 +9666,7 @@
     {
         "Reference Handle": "#fang-tastic-friends-book-2--",
         "Token": "WAYXDPQZCERD34BWZAFH5KK2",
-        "Item Name": "Fang-tastic Friends (Book 2)",
+        "ItemName": "Fang-tastic Friends (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-164-2",
         "Description": "<p>Children - Chapter book</p><p>Age: 6+</p><p>Vlad’s parents have flown to Transylvania and left him with a long list of vampire tasks. Luckily, Minxie is eager to help! But can they keep their friendship a secret from Grandpa Gory?</p><p><br/></p><p><u>Series: Vlad, the World&#39;s Worst Vampire</u></p><p>Misery Manor is home to the Impalers – the bravest vampire family that ever lived. Except for Vlad – he’s not brave at all... He’s even a bit scared of the dark!</p>",
@@ -9698,7 +9698,7 @@
     {
         "Reference Handle": "#farm-animals-eight-2-piece-jigsaw-and-a-book-regular",
         "Token": "PANL7YCH6DOZ6RUCXSUXVHFE",
-        "Item Name": "Farm Animals Eight 2-piece Jigsaw And A Book",
+        "ItemName": "Farm Animals Eight 2-piece Jigsaw And A Book",
         "Variation Name": "Regular",
         "SKU": "9780794552060",
         "Description": "",
@@ -9730,7 +9730,7 @@
     {
         "Reference Handle": "#fawkes-paperback",
         "Token": "QICAQI2VFQ4FNHIR4E2TWKVU",
-        "Item Name": "Fawkes",
+        "ItemName": "Fawkes",
         "Variation Name": "Paperback",
         "SKU": "9780840723345",
         "Description": "Brandes, Nadine\r\nBACKORDERED",
@@ -9762,7 +9762,7 @@
     {
         "Reference Handle": "#feast-of-the-dragon-cookbook-the-unofficial-house-of-the-dragon-and-game-of-thrones-cookbook-hardcover",
         "Token": "RP2K654K334EDWS5BXXMPKSW",
-        "Item Name": "Feast of the Dragon Cookbook: The Unofficial House of the Dragon and Game of Thrones Cookbook",
+        "ItemName": "Feast of the Dragon Cookbook: The Unofficial House of the Dragon and Game of Thrones Cookbook",
         "Variation Name": "Hardcover",
         "SKU": "9781958862100",
         "Description": "Grimm, Tom\r\nPUB 11/22/2022",
@@ -9794,7 +9794,7 @@
     {
         "Reference Handle": "#felix-silver-teaspoons-witches-paperback",
         "Token": "ILGJH4UECWDU5PUFWW67QUDJ",
-        "Item Name": "Felix Silver, Teaspoons & Witches",
+        "ItemName": "Felix Silver, Teaspoons & Witches",
         "Variation Name": "Paperback",
         "SKU": "9781951954147",
         "Description": "Cook, Harry\r\nPUB 08/30/2022",
@@ -9826,7 +9826,7 @@
     {
         "Reference Handle": "#final-offer-asher-lauren",
         "Token": "JC23Z3RD3OBJK4WV2ZO3BN46",
-        "Item Name": "Final Offer",
+        "ItemName": "Final Offer",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781728272221",
         "Description": "Paperback\r\nPUB 1/31/2023\r\nBACKORDERED",
@@ -9858,7 +9858,7 @@
     {
         "Reference Handle": "#find-the-duck-",
         "Token": "SCDHLRO3J7HLQY2QCLIZKTBD",
-        "Item Name": "Find the Duck",
+        "ItemName": "Find the Duck",
         "Variation Name": "",
         "SKU": "978-0-7945-1804-2",
         "Description": "<p><strong>Children - </strong>Board book</p><p><strong>Age:</strong> 9m+</p><p>Babies and toddlers will have fun spotting the little duck on each page of this book. There&#39;s lots to talk about in each picture too.</p>",
@@ -9890,7 +9890,7 @@
     {
         "Reference Handle": "#find-the-puppy-",
         "Token": "PYOTIZUGEJRE6TQPUT7JKM3S",
-        "Item Name": "Find the Puppy",
+        "ItemName": "Find the Puppy",
         "Variation Name": "",
         "SKU": "978-0-7945-1802-8",
         "Description": "<p><strong>Children - </strong>Board book</p><p><strong>Age: </strong>9m+</p><p>This delightful book has been specially devised to provide very young children with the challenge of something to look for, amusing situations to talk about, and familiar objects to name.</p>",
@@ -9922,7 +9922,7 @@
     {
         "Reference Handle": "#find-your-happy-",
         "Token": "VEFV5EISTUCE7TM5JZX2O3U3",
-        "Item Name": "Find Your Happy",
+        "ItemName": "Find Your Happy",
         "Variation Name": "",
         "SKU": "978-1-68464-449-0",
         "Description": "<p>Emily Coxhead</p><p><strong>Children</strong></p><p><strong>Age:</strong> 4+</p><p>Cheerful Sloth shares the ways he feels better when he&#39;s mad, or sad, or scared in this joyful and imaginative book of feelings. This bright, stylish, uplifting book, full of vibrant, colorful illustrations and practical ideas, comes from the founder of The Happy News subscription-based newspaper.</p>",
@@ -9954,7 +9954,7 @@
     {
         "Reference Handle": "#fine-print-asher-lauren",
         "Token": "YHWYJOQOCUYOEO63HE2DTQ4G",
-        "Item Name": "Fine Print",
+        "ItemName": "Fine Print",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781737507710",
         "Description": "Paperback",
@@ -9986,7 +9986,7 @@
     {
         "Reference Handle": "#finlay-donovan-is-killing-it-mass-market-paperbound",
         "Token": "4YXBUQNNMKILY5AJBRBI6MPS",
-        "Item Name": "Finlay Donovan Is Killing It",
+        "ItemName": "Finlay Donovan Is Killing It",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250862730",
         "Description": "Cosimano, Elle\r\nPUB 01/04/2022",
@@ -10018,7 +10018,7 @@
     {
         "Reference Handle": "#fire-blood-300-years-before-a-game-of-thrones-mass-market-paperbound",
         "Token": "AXMEVBR7ZJND3LCYBE2WSSD7",
-        "Item Name": "Fire & Blood: 300 Years Before a Game of Thrones",
+        "ItemName": "Fire & Blood: 300 Years Before a Game of Thrones",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593357538",
         "Description": "Martin, George R R\r\nPUB 08/24/2021",
@@ -10050,7 +10050,7 @@
     {
         "Reference Handle": "#fire-force-29-paperback",
         "Token": "ARV6TZTSZV4OCMYVU4NTNMSR",
-        "Item Name": "Fire Force 29",
+        "ItemName": "Fire Force 29",
         "Variation Name": "Paperback",
         "SKU": "9781646515219",
         "Description": "Ohkubo, Atsushi",
@@ -10082,7 +10082,7 @@
     {
         "Reference Handle": "#fire-star-the-book-1--",
         "Token": "IVQLNLW6WJAMO3Q76G47ANO5",
-        "Item Name": "Fire Star, The (Book 1)",
+        "ItemName": "Fire Star, The (Book 1)",
         "Variation Name": "",
         "SKU": "644377",
         "Description": "Fire Star, The (Book 1)",
@@ -10114,7 +10114,7 @@
     {
         "Reference Handle": "#firefly-lane-paperback",
         "Token": "BOCZ7C2GQJ6U3G2MQJXZFHFV",
-        "Item Name": "Firefly Lane",
+        "ItemName": "Firefly Lane",
         "Variation Name": "Paperback",
         "SKU": "9781250787972",
         "Description": "Hannah, Kristin\r\nPUB 12/29/2020",
@@ -10146,7 +10146,7 @@
     {
         "Reference Handle": "#five-nights-at-freddy-s-fazbear-frights-graphic-novel-collection-1-paperback",
         "Token": "PIGWKLIUYCK7DGTBMKW2HBOZ",
-        "Item Name": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection #1",
+        "ItemName": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection #1",
         "Variation Name": "Paperback",
         "SKU": "9781338792676",
         "Description": "Cawthon, Scott ; Cooper, Elley ; West, Carly Anne ; Hastings, Christopher ; Esmeralda, Didi ; Morris, Anthony ; Santagata, Andi",
@@ -10178,7 +10178,7 @@
     {
         "Reference Handle": "#five-minute-bedtime-stories-",
         "Token": "6SY4NJ2MXNNRBY6O765RUK66",
-        "Item Name": "Five-Minute Bedtime Stories",
+        "ItemName": "Five-Minute Bedtime Stories",
         "Variation Name": "",
         "SKU": "978-0-7945-3698-5",
         "Description": "<p>Sam Taplin</p><p><strong>Children</strong></p><p><strong>Age:</strong> 3+</p><p>A heart-warming collection of eleven gentle animal stories, perfect for sharing together at bedtime. Cozy stories include ‘Little Lion’s Roar’, ‘Badger’s Happy Feeling’ and ‘Dog and the Balloon’. With enchanting illustrations and just the right length for the end of a busy day.</p><p><u>Series: Read-Aloud Story Books</u></p><p>These delightful books make great stories and gifts for young and old readers alike!</p>",
@@ -10210,7 +10210,7 @@
     {
         "Reference Handle": "#flamingo-embroidery-kit-regular",
         "Token": "TGTDSTED3UE5ZEIOWWM3UCFU",
-        "Item Name": "Flamingo Embroidery Kit",
+        "ItemName": "Flamingo Embroidery Kit",
         "Variation Name": "Regular",
         "SKU": "9780794547714",
         "Description": "",
@@ -10242,7 +10242,7 @@
     {
         "Reference Handle": "#flash-mass-market-paperbound",
         "Token": "JGXLZBPPBCTTWVRPEELWW5AF",
-        "Item Name": "Flash",
+        "ItemName": "Flash",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781982138813",
         "Description": "Krentz, Jayne Ann\r\nFiction - Romance\r\nPUB:",
@@ -10274,7 +10274,7 @@
     {
         "Reference Handle": "#flavcity-s-5-ingredient-meals-50-easy-tasty-recipes-using-the-best-ingredients-from-the-grocery-store-paperback",
         "Token": "FUCRGNC7RG6YBJD2GAM3P4PY",
-        "Item Name": "Flavcity's 5 Ingredient Meals: 50 Easy & Tasty Recipes Using the Best Ingredients from the Grocery Store",
+        "ItemName": "Flavcity's 5 Ingredient Meals: 50 Easy & Tasty Recipes Using the Best Ingredients from the Grocery Store",
         "Variation Name": "Paperback",
         "SKU": "9781642508062",
         "Description": "<p>Parrish, Bobby ; Parrish, Dessi</p><p>Non-Fiction</p><p>Paperback - PUB: 10/11/2022</p><p>The authors of the bestselling book <em>Keto Meal Prep by FlavCity</em> are back with simple, five-ingredient recipes to help newbie cooks make delicious dishes and learn how to shop smarter. This paperback edition of <em>5 Ingredient Meals</em> is the perfect addition to your kitchen library</p>",
@@ -10306,7 +10306,7 @@
     {
         "Reference Handle": "#flint-and-mirror-a-novel-of-history-and-magic-regular",
         "Token": "RN5BOQ4PRNC43JSKGZ4BSFKA",
-        "Item Name": "Flint and Mirror: A Novel of History and Magic",
+        "ItemName": "Flint and Mirror: A Novel of History and Magic",
         "Variation Name": "Regular",
         "SKU": "9781250817525",
         "Description": "John Crowley\r\nFantasy Fiction\r\nPUB: 04/19/2022\r\n\"Crowley is generous, obsessed, fascinating, gripping. Really, I think Crowley is so good that he has left everybody else in the dust.\"-Peter Straub From award-winning author John Crowley comes a novel that masterfully blends history and magic in Flint and Mirror. As ancient Irish clans fought to preserve their lands and their way of life, the Queen and her generals fought to tame the wild land and make it English. Hugh O'Neill, lord of the North, dubbed Earl of Tyrone by the Queen, is a divided man: the Queen gives to Hugh her love, and her commandments, through a little mirror of obsidian which he can never discard; and the ancient peoples of Ireland arise from their underworld to make Hugh their champion, the token of their vow a chip of flint. From the masterful author of Little, Big comes an exquisite fantasy of heartbreaking proportion",
@@ -10338,7 +10338,7 @@
     {
         "Reference Handle": "#flirting-with-the-beast-mass-market-paperbound",
         "Token": "OJM643ONGARVTA4Z5HRGQSZS",
-        "Item Name": "Flirting with the Beast",
+        "ItemName": "Flirting with the Beast",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593438404",
         "Description": "Porter, Jane\r\nFiction - Romance\r\nPaperback - PUB: 11/29/2022\r\n\"It's been five years since Andi McDermott lost her husband, and she's finally starting to feel like herself again, ready to live fully--she's even started dating again. But when her holiday plans with her stepson and his fianéce fall through, she refuses to spend another Christmas alone while everyone is celebrating with their families. Impulsively, she decides to go up to her cabin in Lake Arrowhead, a place she used to love to visit but hadn't gone to in years, not since the feud started between her husband and their nearest neighbor. Andi starts to rethink her decision when being alone at the cabin proves to be more challenging than she expected--a heavy snowstorm hits the area, and Andi finds herself trapped there with no one to help except for her neighbor, Wolf Enders. A military vet who lives full-time on Lake Arrowhead, Wolf is as grumpy and intimidating as Andi remembers. But he's also unexpectedly kind and uncomfortably sexy--his presence r",
@@ -10370,7 +10370,7 @@
     {
         "Reference Handle": "#fly-away-paperback",
         "Token": "VBZBQQWFUEPGLJHCJBDICELY",
-        "Item Name": "Fly Away",
+        "ItemName": "Fly Away",
         "Variation Name": "Paperback",
         "SKU": "9781250031815",
         "Description": "Hannah, Kristin\r\nFiction - General\r\nPaperback - PUB: 03/25/2014\r\nFly away is the story of three women who have lost their way and need each other - plus a miracle - to transform their lives",
@@ -10402,7 +10402,7 @@
     {
         "Reference Handle": "#fly-me-to-the-moon-vol-14-paperback",
         "Token": "NZO5C57KHTE3CZIH54RBU6H4",
-        "Item Name": "Fly Me to the Moon, Vol. 14",
+        "ItemName": "Fly Me to the Moon, Vol. 14",
         "Variation Name": "Paperback",
         "SKU": "9781974728015",
         "Description": "Hata, Kenjiro",
@@ -10434,7 +10434,7 @@
     {
         "Reference Handle": "#follow-me-down-a-reckless-book-hardcover",
         "Token": "5WZCXKPCRSVFCYYEAHPXLQ3Z",
-        "Item Name": "Follow Me Down: A Reckless Book",
+        "ItemName": "Follow Me Down: A Reckless Book",
         "Variation Name": "Hardcover",
         "SKU": "9781534323421",
         "Description": "Brubaker, Ed ; Phillips, Sean ; Phillips, Jacob\r\nComics & Graphic Novels\r\nHardcover - PUB: 10/18/2022",
@@ -10466,7 +10466,7 @@
     {
         "Reference Handle": "#forbidden-main--hardcover",
         "Token": "3RPAFAPYXUPGOXQNMVSEY5QX",
-        "Item Name": "Forbidden (Main)",
+        "ItemName": "Forbidden (Main)",
         "Variation Name": "Hardcover",
         "SKU": "9781448309412",
         "Description": "Bunn, Davis\r\nFiction - Fantasy\r\nHardcover - PUB: 01/03/2022",
@@ -10498,7 +10498,7 @@
     {
         "Reference Handle": "#forgotten-cast-p-c-",
         "Token": "5KZ6X5UN6TKFDZZBLQIEZJRD",
-        "Item Name": "Forgotten",
+        "ItemName": "Forgotten",
         "Variation Name": "Cast, P. C.",
         "SKU": "9781094091228",
         "Description": "Paperback",
@@ -10530,7 +10530,7 @@
     {
         "Reference Handle": "#forgotten-fairy-tales-of-brave-and-brilliant-girls-",
         "Token": "QTBVSPXTD4NU3RQ54C4HYV5W",
-        "Item Name": "Forgotten Fairy Tales of Brave and Brilliant Girls",
+        "ItemName": "Forgotten Fairy Tales of Brave and Brilliant Girls",
         "Variation Name": "",
         "SKU": "547738",
         "Description": "Forgotten Fairy Tales of Brave and Brilliant Girls is a collection based on eight traditional folk and fairy tales which haven't become as well known as, for example, Cinderella and Sleeping Beauty, partly perhaps because their heroines didn't meet Victorian ideals of beauty, passivity, and innocence. Fairy tales come from an oral tradition, so they were always changing, until the Victorians wrote them down, when they stayed the same for many years.",
@@ -10562,7 +10562,7 @@
     {
         "Reference Handle": "#fortune-tellers-to-fold-",
         "Token": "X4PUECE6ZZNKSABBVFNQBWFA",
-        "Item Name": "Fortune Tellers to Fold",
+        "ItemName": "Fortune Tellers to Fold",
         "Variation Name": "",
         "SKU": "9780794540234",
         "Description": "This pad contains 50 unique fortune tellers. Follow the simple step-by-step instructions to learn how to fold and use them. Most of the fortune tellers have hidden messages for you to discover, and there are some you can write on yourself. Fortune tellers are hugely popular for sleepover parties, playgrounds and long trips, fold and play for hours of entertainment!",
@@ -10594,7 +10594,7 @@
     {
         "Reference Handle": "#foul-lady-fortune-hardcover",
         "Token": "JMGZSUKE4XYFUA3WWUOJYGQ2",
-        "Item Name": "Foul Lady Fortune",
+        "ItemName": "Foul Lady Fortune",
         "Variation Name": "Hardcover",
         "SKU": "9781665905589",
         "Description": "Gong, Chloe\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 09/27/2022\r\nIn 1931 Shanghai, two Nationalist spies pose as a married couple to investigate a series of brutal murders causing unrest in the city.",
@@ -10626,7 +10626,7 @@
     {
         "Reference Handle": "#frank-herbert-s-dune-saga-3-book-boxed-set-dune-dune-messiah-and-children-of-dune-mass-market-paperbound",
         "Token": "M35AIQN3HPGIJWN33MPNBAI4",
-        "Item Name": "Frank Herbert's Dune Saga 3-Book Boxed Set: Dune, Dune Messiah, and Children of Dune",
+        "ItemName": "Frank Herbert's Dune Saga 3-Book Boxed Set: Dune, Dune Messiah, and Children of Dune",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593201893",
         "Description": "Herbert, Frank\r\nPUB 08/25/2020",
@@ -10658,7 +10658,7 @@
     {
         "Reference Handle": "#frank-is-a-big-help-school-of-monsters--",
         "Token": "VAYG5A2LIIKSOUWD2CD5H42W",
-        "Item Name": "Frank is a Big Help (School of Monsters)",
+        "ItemName": "Frank is a Big Help (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-483-4",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age</strong>: 5+</p><p>Frank’s too big for dancing and too big for art, but what’s just the right size is his kind, loving heart.</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -10690,7 +10690,7 @@
     {
         "Reference Handle": "#friends-",
         "Token": "LXOWUHT2XB4GD6WQAO3KL7PU",
-        "Item Name": "Friends",
+        "ItemName": "Friends",
         "Variation Name": "",
         "SKU": "978-1-68464-306-6",
         "Description": "Children - Activity Book\r\nAge: 5+\r\nThis charming, heartwarming poem shows that anyone and everyone can be a good friend. Written as a collection of four-line rhymes, there is something for every child to relate to. Includes 12 friendship postcards to send or give to your best friends.",
@@ -10722,7 +10722,7 @@
     {
         "Reference Handle": "#friends-lovers-and-the-big-terrible-thing-a-memoir-hardcover",
         "Token": "ZR3J7PG5CYXWZUJREK7KIZ5Z",
-        "Item Name": "Friends, Lovers, and the Big Terrible Thing: A Memoir",
+        "ItemName": "Friends, Lovers, and the Big Terrible Thing: A Memoir",
         "Variation Name": "Hardcover",
         "SKU": "9781250866448",
         "Description": "Perry, Matthew\r\nNon-Fiction\r\nHardcover - PUB: 11/01/2022\r\n\"The beloved star of Friends takes us behind the scenes of the hit sitcom and his struggles with addiction in this candid, funny, and revelatory memoir that delivers a powerful message of hope and persistence In an extraordinary story that only he could tell, Matthew Perry takes readers onto the soundstage of the most successful sitcom of all time while opening up about his private struggles with addiction. Candid, self-aware, and told with his trademark humor, Perry vividly details his lifelong battle with the disease and what fueled it despite seemingly having it all. Friends, Lovers, and the Big Terrible Thing is an unforgettable memoir that shares the most intimate details of the love Perry lost, his darkest days, and his greatest friends. Unflinchingly honest, moving, and hilarious: this is the book fans have been waiting for\"-",
@@ -10754,7 +10754,7 @@
     {
         "Reference Handle": "#friends-the-official-cookbook-hardcover",
         "Token": "XEVI5CHPLN2UADSXMOP2J7TZ",
-        "Item Name": "Friends: The Official Cookbook",
+        "ItemName": "Friends: The Official Cookbook",
         "Variation Name": "Hardcover",
         "SKU": "9781683839620",
         "Description": "<p>Yee, Amanda</p><p>Non-Fiction, Cookbook</p><p>Hardcover - PUB: 09/22/2020</p><p><strong>&#34;The ultimate Friends</strong> <strong>fan needs this &#39;Friends: The Official Cookbook&#39; &#34; - POPSUGAR</strong>Gather your friends and prepare to say &#34;How you doin&#39;?&#34; to more than 100 recipes inspired by the beloved hit sitcom. Whether you&#39;re a seasoned chef like Monica Geller, just starting a catering business like Phoebe Buffay, or a regular old food enthusiast like Joey Tribbiani, <em>Friends: The Official Cookbook</em> offers a variety of recipes for chefs of all levels. From appetizers to main courses and from drinks to desserts, each chapter includes iconic treats such as Monica&#39;s Friendsgiving Feast, Rachel&#39;s Trifle, Just for Joey Fries, Chandler&#39;s &#34;Milk You Can Chew,&#34; Phoebe&#39;s Grandmother&#39;s Cookies, and of course, The Moist Maker. Complete with more than seventy recipes and beautiful full-color photography, this charming cookbook is both a helpful companion for home cooks and a fun homage to the show that&#39;s always been there for you.</p>",
@@ -10786,7 +10786,7 @@
     {
         "Reference Handle": "#frieren-beyond-journey-s-end-vol-6-paperback",
         "Token": "2GIEAZNOCKY35UU7FNY2NFUR",
-        "Item Name": "Frieren: Beyond Journey's End, Vol. 6",
+        "ItemName": "Frieren: Beyond Journey's End, Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781974734009",
         "Description": "Yamada, Kanehito ; Abe, Tsukasa",
@@ -10818,7 +10818,7 @@
     {
         "Reference Handle": "#from-bad-to-cursed-paperback",
         "Token": "TMAT57RA5S7O5MMIFUTRJGSZ",
-        "Item Name": "From Bad to Cursed",
+        "ItemName": "From Bad to Cursed",
         "Variation Name": "Paperback",
         "SKU": "9780593336083",
         "Description": "Harper, Lana\r\nFiction - Romance\r\nPaperback - PUB: 05/17/2022\r\n\"Wild child Isidora Avramov is a thrill chaser, adept demon summoner, and--despite the whole sexy-evil-sorceress vibe--also a cuddly animal lover. When she's not designing costumes and new storylines for the Arcane Emporium's haunted house, Issa's nursing a secret, conflicted dream of ditching her family's witchy business to become an indie fashion designer in her own right. But when someone starts sabotaging the celebrations leading up to this year's Beltane festival with dark and dangerous magic, a member of the rival Thorn family gets badly hurt--throwing immediate suspicion on the Avramovs",
@@ -10850,7 +10850,7 @@
     {
         "Reference Handle": "#from-the-world-of-percy-jackson-the-sun-and-the-star-hardcover",
         "Token": "UZMRHESMV34YQNQARLKQSH5S",
-        "Item Name": "From the World of Percy Jackson: The Sun and the Star",
+        "ItemName": "From the World of Percy Jackson: The Sun and the Star",
         "Variation Name": "Hardcover",
         "SKU": "9781368081153",
         "Description": "Riordan, Rick ; Oshiro, Mark\r\nBACKORDERED",
@@ -10882,7 +10882,7 @@
     {
         "Reference Handle": "#frostfire-the-kanin-chronicles-from-the-world-of-the-trylle--hocking-amanda",
         "Token": "CP6P53F4LJSPIMRQC7YXDZC6",
-        "Item Name": "Frostfire: The Kanin Chronicles (from the World of the Trylle)",
+        "ItemName": "Frostfire: The Kanin Chronicles (from the World of the Trylle)",
         "Variation Name": "Hocking, Amanda",
         "SKU": "9781250049827",
         "Description": "Paperback",
@@ -10914,7 +10914,7 @@
     {
         "Reference Handle": "#fun-with-letters-school-of-monsters--",
         "Token": "J4LCFLRS2URJYU7TVN5I3LN7",
-        "Item Name": "Fun with Letters! (School of Monsters)",
+        "ItemName": "Fun with Letters! (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-503-9",
         "Description": "<p><strong>Children - Activity book</strong></p><p><strong>Age: </strong>3+</p><p>Coloring, tracing, and matching games with the silly monsters makes learning letters such fun!</p><p><br></p><p><u>Series: School of Monsters Learn and Play</u></p><p>Bridge the gap between school and home to ignite the spark of learning with the loveable School of Monsters characters in teacher-approved worksheets and activities.</p>",
@@ -10946,7 +10946,7 @@
     {
         "Reference Handle": "#fun-with-numbers-school-of-monsters--",
         "Token": "54XWIOGXMUQC2BAIY6UTLJGE",
-        "Item Name": "Fun with Numbers! (School of Monsters)",
+        "ItemName": "Fun with Numbers! (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-504-6",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 3+</p><p>Number fun from one to twenty: counting, matching, coloring, dot-to-dots, and more.</p><p><br/></p><p><u>Series: School of Monsters Learn and Play</u></p><p>Bridge the gap between school and home to ignite the spark of learning with the loveable School of Monsters characters in teacher-approved worksheets and activities.</p>",
@@ -10978,7 +10978,7 @@
     {
         "Reference Handle": "#fun-with-shapes--",
         "Token": "XD3B65Y3VQ63LKZBNLCB5LGS",
-        "Item Name": "Fun with Shapes!",
+        "ItemName": "Fun with Shapes!",
         "Variation Name": "",
         "SKU": "978-1-68464-505-3",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>3+</p><p>Explore shapes like circle, square, heart, and star... so many shapes to find!</p><p><br></p><p><u>Series: School of Monsters Learn and Play</u></p><p>Bridge the gap between school and home to ignite the spark of learning with the loveable School of Monsters characters in teacher-approved worksheets and activities.</p>",
@@ -11010,7 +11010,7 @@
     {
         "Reference Handle": "#fun-with-words--",
         "Token": "GHHGTOKKPXNU45L7S4K3GPG7",
-        "Item Name": "Fun with Words!",
+        "ItemName": "Fun with Words!",
         "Variation Name": "",
         "SKU": "978-1-68464-506-0",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>3+</p><p>Rhyming, middle, ending sounds... make the words and read, write, color, find, and play!</p><p><br></p><p><u>Series: School of Monsters Learn and Play</u></p><p>Bridge the gap between school and home to ignite the spark of learning with the loveable School of Monsters characters in teacher-approved worksheets and activities.</p>",
@@ -11042,7 +11042,7 @@
     {
         "Reference Handle": "#game-changer-signed-edition-regular",
         "Token": "6ZF6XTBCRSMEUSRESDYG63A2",
-        "Item Name": "Game Changer, Signed Edition",
+        "ItemName": "Game Changer, Signed Edition",
         "Variation Name": "Regular",
         "SKU": "9781733946254",
         "Description": "Sierra Hill\r\nFiction-Romance\r\nPUB:2019",
@@ -11074,7 +11074,7 @@
     {
         "Reference Handle": "#game-day-patty-hits-the-court-regular",
         "Token": "RHQWAF4BPKFE3PZHLDG7CAVL",
-        "Item Name": "Game Day, Patty Hits The Court",
+        "ItemName": "Game Day, Patty Hits The Court",
         "Variation Name": "Regular",
         "SKU": "9781684640225",
         "Description": "Patty Mills\r\nChildren's\r\n2020",
@@ -11106,7 +11106,7 @@
     {
         "Reference Handle": "#game-of-fate-st-clair-scarlett",
         "Token": "N3VAR6LBF7R4ZOY7FQDFC6JT",
-        "Item Name": "Game of Fate",
+        "ItemName": "Game of Fate",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728260730",
         "Description": "Paperback",
@@ -11138,7 +11138,7 @@
     {
         "Reference Handle": "#garden-magic-painting-book-",
         "Token": "TFT5GK2RRLISHGHFVQJPZSRY",
-        "Item Name": "Garden, Magic Painting Book",
+        "ItemName": "Garden, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5417-0",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 5+</p><p>Packed with vivid scenes showing garden favorites from a pumpkin patch to busy butterflies and frolicking foxes. Simply brush water over the black-and-white designs to reveal an array of sumptuous colors.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -11170,7 +11170,7 @@
     {
         "Reference Handle": "#gearbreakers-hardcover",
         "Token": "K2G4VGWECAYMOMVE6UTP4ZK3",
-        "Item Name": "Gearbreakers",
+        "ItemName": "Gearbreakers",
         "Variation Name": "Hardcover",
         "SKU": "9781250269508",
         "Description": "Mikuta, Zoe Hana\r\nYoung Adult Fiction\r\nHardcover - PUB: 06/29/2021\r\nAn electric YA debut novel about colossal mechas, a tyrannical regime, and two girls on opposite sides of a war who discover they're fighting for a common purpose--and falling for each other",
@@ -11202,7 +11202,7 @@
     {
         "Reference Handle": "#general-knowledge-trivia-questions-",
         "Token": "G3S6RJW3BFNE4TRVSW74V74G",
-        "Item Name": "General Knowledge Trivia Questions",
+        "ItemName": "General Knowledge Trivia Questions",
         "Variation Name": "",
         "SKU": "978-0-7945-4012-8",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age</strong>: 6+</p><p>Put your general knowledge to the test with these lively trivia questions, crammed full of kings, explorers, animals, movies and more.</p><p><br/></p><p><u>Series: Puzzle Books</u></p><p>Packed full of games, puzzles, mazes, and more, these books make any boring day or journey fun! Filled with individual and group activities, these books are sure to keep children (and adults!) amused for hours!</p>",
@@ -11234,7 +11234,7 @@
     {
         "Reference Handle": "#gentleman-in-moscow-towles-amor",
         "Token": "YQOWU3KT7HTVNGELFV73RZBR",
-        "Item Name": "Gentleman in Moscow",
+        "ItemName": "Gentleman in Moscow",
         "Variation Name": "Towles, Amor",
         "SKU": "9780143110439",
         "Description": "Paperback",
@@ -11266,7 +11266,7 @@
     {
         "Reference Handle": "#geronimo-stilton-reporter-12-mouse-house-of-the-future-hardcover",
         "Token": "TOF7VSBUSQBKRMGS5P7LXW2O",
-        "Item Name": "Geronimo Stilton Reporter #12: Mouse House of the Future",
+        "ItemName": "Geronimo Stilton Reporter #12: Mouse House of the Future",
         "Variation Name": "Hardcover",
         "SKU": "9781545809709",
         "Description": "Stilton, Geronimo\r\nBACKORDERED",
@@ -11298,7 +11298,7 @@
     {
         "Reference Handle": "#gild-hardcover",
         "Token": "ZGLYIDA2OJ5RHXDKODNE73KL",
-        "Item Name": "Gild",
+        "ItemName": "Gild",
         "Variation Name": "Hardcover",
         "SKU": "9781737633808",
         "Description": "Kennedy, Raven\r\nFiction - Fantasy - Romance\r\nHardcover - PUB: 10/18/2021\r\n\"Gold. Gold floors, gold walls, gold furniture, gold clothes. In Highbell, in the castle built into the frozen mountains, everything is made of gold. Even me. King Midas rescued me. Dug me out of the slums and placed me on a pedestal. I'm called his precious. His favored. I'm the woman he Gold-Touched to show everyone that I belong to him. To show how powerful he is. He gave me protection, and I gave him my heart. And even though I don't leave the confines of the palace, I'm safe. Until war comes to the kingdom and a deal is struck. Suddenly, my trust is broken. My love is challenged. And I realize that everything I thought I knew about Midas might be wrong. Because these bars I'm kept in, no matter how gilded, are still just a cage. But the monsters on the other side might make me wish I'd never left.",
@@ -11330,7 +11330,7 @@
     {
         "Reference Handle": "#gilded-gilded-duology-1--hardcover",
         "Token": "HWVJSDQWMC5P35WG54BLF25O",
-        "Item Name": "Gilded (Gilded Duology #1)",
+        "ItemName": "Gilded (Gilded Duology #1)",
         "Variation Name": "Hardcover",
         "SKU": "9781250618849",
         "Description": "<p>Meyer, Marissa</p><p>Young Adult - Fiction - Fantasy</p><p>Hardcover - PUB: 11/02/2021</p><p><strong>In <em>Gilded</em>, #1 <em>New York Times-</em>bestselling author Marissa Meyer returns to the fairytale world with this haunting tale.</strong></p>",
@@ -11362,7 +11362,7 @@
     {
         "Reference Handle": "#glam-prix-racers-fast-to-the-finish--hardcover",
         "Token": "YVV4SCLNYTIWTDHHZWMWOX4B",
-        "Item Name": "Glam Prix Racers: Fast to the Finish!",
+        "ItemName": "Glam Prix Racers: Fast to the Finish!",
         "Variation Name": "Hardcover",
         "SKU": "9781250265425",
         "Description": "Kent, Deanna ; Hooson, Neil",
@@ -11394,7 +11394,7 @@
     {
         "Reference Handle": "#gleam-the-plated-prisoner-3--paperback",
         "Token": "LWKMZOBDJTWCI46QJTIWEZ3O",
-        "Item Name": "Gleam (The Plated Prisoner #3)",
+        "ItemName": "Gleam (The Plated Prisoner #3)",
         "Variation Name": "Paperback",
         "SKU": "9798509076145",
         "Description": "Kennedy, Raven\r\nFiction - Fantasy\r\npaperback - PUB: 05/23/2021\r\n\"King Midas made me the woman I am today. Notorious. Unattainable. His. The thing about being confined is that you believe it's to keep the bad out ... Until you realize it's about keeping you in. I'm now in a strange kingdom surrounded by liars, with no allies of my own, but I won't sit idly by and let myself wither. No, there's something that's bloomed from the pit of my repression. Something dark. Something angry. But the last thing I expected was for my anger to call out to him. King Ravinger\"",
@@ -11426,7 +11426,7 @@
     {
         "Reference Handle": "#glint-the-plated-prisoner-2--hardcover",
         "Token": "VXYJDF4KUZ3INXK6BTBR6IDW",
-        "Item Name": "Glint ( The Plated Prisoner #2)",
+        "ItemName": "Glint ( The Plated Prisoner #2)",
         "Variation Name": "Hardcover",
         "SKU": "9781737633815",
         "Description": "Kennedy, Raven\r\nFiction - Fantasy\r\nHardcover - PUB: 10/18/2021\r\n\"For ten years, I've lived in a gilded cage inside King Midas's golden castle. But one night changed everything. Now I'm here, a prisoner of Fourth Kingdom's army, and I'm not sure if I'm going to make it out of this in one piece. They're marching to battle, and I'm the bargaining chip that will either douse the fire or spark a war. At the heart of my fear, my worry, there's him--Commander Rip. Known for his brutality on the battlefield, his viciousness is unsurpassed. But I know the truth about what he is. Fae. The betrayers. The murderers. The ones who nearly destroyed Orea, wiping out Seventh Kingdom in the process. Rip has power sizzling beneath this skin and glinting spikes down his spine. But his eyes--his eyes are the most compelling of all.When he turns those black eyes on me, I feel captive for an entirely different reason. I may be out of my cage, but I'm not free, not even close. In the game of kings and armies, I'm the gilded pawn. The q",
@@ -11458,7 +11458,7 @@
     {
         "Reference Handle": "#glow-hardcover",
         "Token": "YWZOLGCYC7Z4HERVWKSEY5AL",
-        "Item Name": "Glow",
+        "ItemName": "Glow",
         "Variation Name": "Hardcover",
         "SKU": "9781737633853",
         "Description": "Kennedy, Raven\r\nFiction - Fantasy\r\nHardcover - PUB: 06/18/2022\r\n\"Free. I'm finally out from under Midas's thumb, but there are consequences when you kill a king. The other monarchs are coming for me. With Slade Ravinger by my side, I have to learn to control my power. Because so long as I live in this world, I won't be used again. So I will fight for him, and he will kill for me, and if we need to, we will become the villains.\"",
@@ -11490,7 +11490,7 @@
     {
         "Reference Handle": "#go-tell-the-bees-that-i-am-gone-paperback",
         "Token": "LJ77ZDKIR3NHI2Q4P6BKGAI2",
-        "Item Name": "Go Tell the Bees That I Am Gone",
+        "ItemName": "Go Tell the Bees That I Am Gone",
         "Variation Name": "Paperback",
         "SKU": "9781101885703",
         "Description": "Gabaldon, Diana\r\nFiction - Fantasy - Romance\r\nPaperback - PUB: 09/13/2022",
@@ -11522,7 +11522,7 @@
     {
         "Reference Handle": "#go-the-distance-a-twisted-tale-a-twisted-tale-hardcover",
         "Token": "7EGHEE775JGMJEU2OVV2MXDA",
-        "Item Name": "Go the Distance (a Twisted Tale): A Twisted Tale",
+        "ItemName": "Go the Distance (a Twisted Tale): A Twisted Tale",
         "Variation Name": "Hardcover",
         "SKU": "9781368063807",
         "Description": "Calonita, Jen\r\nYoung Adult Fiction\r\nHardcover - PUB: 04/06/2021\r\n\"After Hercules proves he's a true hero and regains his godship, all seems right in the world. That is, until Zeus tells Meg that she can't be with Hercules because she's, well, mortal. Luckily, Hera has a solution, offering Meg a chance to prove herself worthy of a spot on Mt. Olympus--as a god. All Meg has to do is complete a mysterious quest.The mission? Oh, just to rescue her ex's current wife from the Underworld. The ex-boyfriend she saved by selling her soul to Hades. The ex-boyfriend who immediately moved on to someone else while she was stuck in the Underworld. Can Meg put her past behind her and use her quick-wit to defeat monsters and gods alike, including the nefarious Hades? Will she finally figure out her place and contribution to the world? Or will her fear of commitment have her running away from an eternity of godhood with Herc?",
@@ -11554,7 +11554,7 @@
     {
         "Reference Handle": "#goal-kennedy-elle",
         "Token": "QDFCI5HYSRZITZNHIAVFMKYN",
-        "Item Name": "Goal",
+        "ItemName": "Goal",
         "Variation Name": "Kennedy, Elle",
         "SKU": "9781775293965",
         "Description": "Paperback",
@@ -11586,7 +11586,7 @@
     {
         "Reference Handle": "#good-as-new-",
         "Token": "ZWXTVDQ7GCUOXD7LJA3MBNMG",
-        "Item Name": "Good as New",
+        "ItemName": "Good as New",
         "Variation Name": "",
         "SKU": "978-1-68464-222-9",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>3-5 years</p><p>Giraffe hurt his neck and Elephant hit her knee... but a cast makes it better. Young readers will eagerly use the <strong>five reusable and repositionable</strong> to help make the animal friends “feel better too.”</p><p><br/></p><p><em>To freshen stickers after heavy use, run under cold water and let air dry.</em></p>",
@@ -11618,7 +11618,7 @@
     {
         "Reference Handle": "#good-inside-a-guide-to-becoming-the-parent-you-want-to-be-hardcover",
         "Token": "JS66LKDUM3JWHK3YFKRPJ5LL",
-        "Item Name": "Good Inside: A Guide to Becoming the Parent You Want to Be",
+        "ItemName": "Good Inside: A Guide to Becoming the Parent You Want to Be",
         "Variation Name": "Hardcover",
         "SKU": "9780063159488",
         "Description": "Kennedy, Becky\r\nNon-Fiction\r\nHardcover - PUB: 09/13/2022\r\n\"From Dr. Becky Kennedy, the popular psychologist known as the \"Millennial Parenting Whisperer,' comes a groundbreaking guide that offers a new approach to parenting as well as practical solutions\"",
@@ -11650,7 +11650,7 @@
     {
         "Reference Handle": "#good-morning-monster-a-therapist-shares-five-heroic-stories-of-emotional-recovery-hardcover",
         "Token": "44MSV4MZFF7JMRES4SYIMKST",
-        "Item Name": "Good Morning, Monster: A Therapist Shares Five Heroic Stories of Emotional Recovery",
+        "ItemName": "Good Morning, Monster: A Therapist Shares Five Heroic Stories of Emotional Recovery",
         "Variation Name": "Hardcover",
         "SKU": "9781250271488",
         "Description": "Gildiner, Catherine\r\nNon-Fiction\r\n\"In this fascinating narrative, therapist Catherine Gildiner's presents five of what she calls her most heroic and memorable patients. Among them: a successful, first generation Chinese immigrant musician suffering sexual dysfunction; a young woman whose father abandoned her at age nine with her younger siblings in an isolated cottage in the depth of winter; and a glamorous workaholic whose narcissistic, negligent mother greeted her each morning of her childhood with \"Good morning, Monster.\" Each patient presents a mystery, one that will only be unpacked over years. They seek Gildiner's help to overcome an immediate challenge in their lives, but discover that the source of their suffering has been long buried. As in such recent classics as The Glass Castle and Educated, each patient embodies self-reflection, stoicism, perseverance, and forgiveness as they work unflinchingly to face the truth. Gildiner's account of her journeys with them is moving, insightful, and sometimes very funny. Good Morning Monster offers an almost novelistic, behind-the-scenes look into the therapist's office, illustrating how the process can heal even the most unimaginable wounds\"",
@@ -11682,7 +11682,7 @@
     {
         "Reference Handle": "#good-omens-tv-tie-in-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-mass-market-paperbound",
         "Token": "W6TLDVUZMA4OZAZ6IASDIONV",
-        "Item Name": "Good Omens [Tv Tie-In]: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+        "ItemName": "Good Omens [Tv Tie-In]: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062836977",
         "Description": "Gaiman, Neil ; Pratchett, Terry\r\nFiction - Fantasy\r\nPaperback - PUB: 02/26/2019\r\n\"A hardcover edition of this book was published in 1990 by Workman Publishing Company, Inc.\"",
@@ -11714,7 +11714,7 @@
     {
         "Reference Handle": "#goodnight-chameleon--",
         "Token": "7OF5EWWDUUHYCTVIF4KMRBFF",
-        "Item Name": "Goodnight, Chameleon!",
+        "ItemName": "Goodnight, Chameleon!",
         "Variation Name": "",
         "SKU": "978-1-68464-059-1",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 1-3 years</p><p>Join Chameleon as he plays one last game of hide-and-seek before bedtime and learns all about colors. Lift the felt flaps to reveal colorful bugs, frogs, and more.</p><p><br></p><p><u>Series: Goodnight!</u></p><p>With understated artwork and printed felt flaps, these simple bedtime narratives introduce basic concepts to children in a way they’re sure to remember.</p>",
@@ -11746,7 +11746,7 @@
     {
         "Reference Handle": "#greek-myths-",
         "Token": "MK4FAHJ3I6LPEXHZO3ZXMM3J",
-        "Item Name": "Greek Myths",
+        "ItemName": "Greek Myths",
         "Variation Name": "",
         "SKU": "978-0-7945-2130-1",
         "Description": "<p>Anna Milbourne Louie Stowell</p><p><strong>Children</strong></p><p><strong>Age:</strong> 9+</p><p>A sumptuously illustrated treasury of Greek myths filled with lively retellings of stories of brave heroes, powerful gods and terrible monsters. With thirty-two popular and exciting stories including &#34;Pandora&#39;s Box&#34;, &#34;The Minotaur and the Labyrinth&#34;, &#34;Jason and the Golden Fleece&#34;. Illustrated notes in the margins offer further insights into the history of Greek myths. Includes an extensive reference section with illustrated maps of Ancient Greece, and a glossary of tricky words.</p>",
@@ -11778,7 +11778,7 @@
     {
         "Reference Handle": "#grocery-day-sort-and-play-",
         "Token": "ZGTE6XZTADAKBGEBLKWGS4D7",
-        "Item Name": "Grocery Day, Sort and Play",
+        "ItemName": "Grocery Day, Sort and Play",
         "Variation Name": "",
         "SKU": "978-1-68464-453-7",
         "Description": "<p>Susie Brooks</p><p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>3+</p><p>Little ones will love checking the list, finding what they need, and helping to fill the shopping cart.</p><p><br/></p><p><u>Series: Little Helpers</u></p><p>So much sort-and-play fun with each book’s ten fuzzy felt pieces that can be tucked away securely in an attached envelope. Includes early-learning concepts from colors, patterns, and shapes, to numbers and opposites, too!</p>",
@@ -11810,7 +11810,7 @@
     {
         "Reference Handle": "#grumpy-monkey-lang-suzanne",
         "Token": "FAXRLUHBCRAYEXQA6CKWVD6P",
-        "Item Name": "Grumpy Monkey",
+        "ItemName": "Grumpy Monkey",
         "Variation Name": "Lang, Suzanne",
         "SKU": "9780593123997",
         "Description": "Board Books",
@@ -11842,7 +11842,7 @@
     {
         "Reference Handle": "#hairy-sam-loves-bread-and-jam-school-of-monsters-series--",
         "Token": "G3IHUF6FRWJFUPV7T4XQ4PC4",
-        "Item Name": "Hairy Sam Loves Bread and Jam (School of Monsters series)",
+        "ItemName": "Hairy Sam Loves Bread and Jam (School of Monsters series)",
         "Variation Name": "",
         "SKU": "978-1-68464-269-4",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age: </strong>5+</p><p>Sam makes a mess when he eats jam. Can he fix it? Yes, he can!</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -11874,7 +11874,7 @@
     {
         "Reference Handle": "#hapless-hero-henrie-book-1--",
         "Token": "UNE7MADEBVGMLZUYA3FIQA3S",
-        "Item Name": "Hapless Hero Henrie (Book 1)",
+        "ItemName": "Hapless Hero Henrie (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-68464-354-7",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 8+</p><p>When Henrie receives a mysterious note, it sets off a chain of events including a kidnapping, a fancy skateboard maneuver, a private jet—and the discovery of something rotten at the heart of HoMe. As past, present, and future collide, HoMe is poised to come tumbling down... unless a new kind of hero can emerge from the rubble.</p><p><br/></p><p><u>Series: House of Heroes</u></p><p>Twelve-year-old Henrie is the first girl heir of the Melchior family in 200 years. For the House of Melchior (HoMe), in the business of heroes for hire – boy heroes, that is – this is terrible news…</p>",
@@ -11906,7 +11906,7 @@
     {
         "Reference Handle": "#happy-faces-mirror--",
         "Token": "VNQCX4VS3RGQ5QYYUXBFHVXT",
-        "Item Name": "Happy Faces (Mirror)",
+        "ItemName": "Happy Faces (Mirror)",
         "Variation Name": "",
         "SKU": "978-1-68464-393-6",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>1-3 years</p><p>Are you feeling strong like an elephant, smart like a panda, or brave like a tiger?</p><p><br></p><p><u>Series: Mirror, Mirror</u></p><p>Cut-through pages and a mirror allow little readers to imagine and see themselves reflected in each of these interactive board books. With animal sounds and vibrant illustrations, there’s learning and laughter in equal measure.</p>",
@@ -11938,7 +11938,7 @@
     {
         "Reference Handle": "#happy-place-hardcover",
         "Token": "R5RFC4NX42JTRS3CX5SXBYKP",
-        "Item Name": "Happy Place",
+        "ItemName": "Happy Place",
         "Variation Name": "Hardcover",
         "SKU": "9780593441275",
         "Description": "Henry, Emily\r\nFiction - Romance\r\n9 BACKORDERED - Hardcover - PUB: 04/25/2023",
@@ -11970,7 +11970,7 @@
     {
         "Reference Handle": "#harley-quinn-reckoning-hardcover",
         "Token": "KKJYBQW4F5GKECBT4PPTBWS2",
-        "Item Name": "Harley Quinn: Reckoning",
+        "ItemName": "Harley Quinn: Reckoning",
         "Variation Name": "Hardcover",
         "SKU": "9780593429860",
         "Description": "Allen, Rachael\r\nYoung Adult Fiction\r\nHardcover - PUB: 04/26/2022\r\nTraces Harleen Quinzel's journey from precocious, revenge-obsessed teenage girl to a hardcore justice-seeker on her way to becoming supervillain, Harley Quinn.",
@@ -12002,7 +12002,7 @@
     {
         "Reference Handle": "#harney-son-s-linen-tea-chest-regular",
         "Token": "S4G7FT2PRUQLKBHTHTYVAFQ5",
-        "Item Name": "Harney & Son's Linen Tea Chest",
+        "ItemName": "Harney & Son's Linen Tea Chest",
         "Variation Name": "Regular",
         "SKU": "45-7032-G04",
         "Description": "Linen Tea Chest in Grey Featuring Eight Teas- Filled",
@@ -12034,7 +12034,7 @@
     {
         "Reference Handle": "#harry-potter-origami-volume-1-harry-potter--paperback",
         "Token": "B3USKQLYEYIOGZLVZGZWYYLW",
-        "Item Name": "Harry Potter Origami Volume 1 (Harry Potter)",
+        "ItemName": "Harry Potter Origami Volume 1 (Harry Potter)",
         "Variation Name": "Paperback",
         "SKU": "9781338322965",
         "Description": "Scholastic\r\npaperback - PUB: 06/25/2019\r\n\r\nThis Harry Potter origami book comes with fifteen foldable crafts",
@@ -12066,7 +12066,7 @@
     {
         "Reference Handle": "#harry-potter-y-la-piedra-filosofal-harry-potter-and-the-sorcerer-s-stone-paperback",
         "Token": "SCGKIXRLXKFE6JVMEUC3G2PG",
-        "Item Name": "Harry Potter y la Piedra Filosofal = Harry Potter and the Sorcerer's Stone",
+        "ItemName": "Harry Potter y la Piedra Filosofal = Harry Potter and the Sorcerer's Stone",
         "Variation Name": "Paperback",
         "SKU": "9781644732076",
         "Description": "Rowling, J K",
@@ -12098,7 +12098,7 @@
     {
         "Reference Handle": "#harry-potter-chocolate-frog-journal-with-ribbon-charm-regular",
         "Token": "HND56DY3IDZ5GK6RWEHD6QKA",
-        "Item Name": "Harry Potter: Chocolate Frog Journal with Ribbon Charm",
+        "ItemName": "Harry Potter: Chocolate Frog Journal with Ribbon Charm",
         "Variation Name": "Regular",
         "SKU": "9798886631036",
         "Description": "Blank book - 184 Pages\r\nBACKORDERED",
@@ -12130,7 +12130,7 @@
     {
         "Reference Handle": "#harry-potter-film-vault-the-complete-series-special-edition-boxed-set-hardcover",
         "Token": "7UWHBOQNGS7SSXNGY2J3TGZE",
-        "Item Name": "Harry Potter: Film Vault: The Complete Series: Special Edition Boxed Set",
+        "ItemName": "Harry Potter: Film Vault: The Complete Series: Special Edition Boxed Set",
         "Variation Name": "Hardcover",
         "SKU": "9781647221089",
         "Description": "<p>Insight Editions</p><p><strong>All twelve volumes in a beautifully produced box set, perfect for Wizarding World fans everywhere.</strong></p><p><em>Harry Potter: Film Vault </em>compiles the filmmaking secrets and visionary artistry behind the Harry Potter films into twelve deluxe collectible volumes. Intricately designed and packed with concept art and unit photography from the Warner Bros. archive, each volume in the series gives fans striking insights about bringing the Wizarding World to the big screen.</p>",
@@ -12162,7 +12162,7 @@
     {
         "Reference Handle": "#harry-potter-marauder-s-map-tm-journal-with-ribbon-charm-regular",
         "Token": "74CVZJ4IPEFTQW46NDESO23K",
-        "Item Name": "Harry Potter: Marauder's Map(tm) Journal with Ribbon Charm",
+        "ItemName": "Harry Potter: Marauder's Map(tm) Journal with Ribbon Charm",
         "Variation Name": "Regular",
         "SKU": "9798886630947",
         "Description": "0.46\" H x 8.25\" L x 5.75\" W (0.33 lbs) 184 pages\r\npub: 03/21/2023\r\nBACKORDERED",
@@ -12194,7 +12194,7 @@
     {
         "Reference Handle": "#harry-potter-ollivanders-tm-pencil-pouch-paperback",
         "Token": "AVJGPVGDIVN3VCZD24E7HJAA",
-        "Item Name": "Harry Potter: Ollivanders(tm) Pencil Pouch",
+        "ItemName": "Harry Potter: Ollivanders(tm) Pencil Pouch",
         "Variation Name": "Paperback",
         "SKU": "9781647229221",
         "Description": "Insight Editions\r\nBACKORDERED",
@@ -12226,7 +12226,7 @@
     {
         "Reference Handle": "#harry-potter-ollivanders-tm-pouch-and-elder-wand-pen-set-harry-potter--regular",
         "Token": "XKMW22TDQFASNA75LAJ2VGOQ",
-        "Item Name": "Harry Potter: Ollivanders(tm) Pouch and Elder Wand Pen Set (Harry Potter)",
+        "ItemName": "Harry Potter: Ollivanders(tm) Pouch and Elder Wand Pen Set (Harry Potter)",
         "Variation Name": "Regular",
         "SKU": "9781647229238",
         "Description": "Ollivanders Pouch and Elder Wand Pen set\r\nPUB: 03/07/2023\r\nBACKORDERED",
@@ -12258,7 +12258,7 @@
     {
         "Reference Handle": "#harry-potter-spells-and-potions-traveler-s-notebook-set-harry-potter--regular",
         "Token": "YYDBCJ3KQSLNIU2UYXRZPPMM",
-        "Item Name": "Harry Potter: Spells and Potions Traveler's Notebook Set (Harry Potter)",
+        "ItemName": "Harry Potter: Spells and Potions Traveler's Notebook Set (Harry Potter)",
         "Variation Name": "Regular",
         "SKU": "9781647228040",
         "Description": "0.94\" H x 8.9\" L x 6.77\" W (0.65 lbs) 128 pages",
@@ -12290,7 +12290,7 @@
     {
         "Reference Handle": "#harry-potter-the-wand-collection-book--hardcover",
         "Token": "ZOEKFPXW5MBXTRMFJWP7KHT5",
-        "Item Name": "Harry Potter: The Wand Collection (Book)",
+        "ItemName": "Harry Potter: The Wand Collection (Book)",
         "Variation Name": "Hardcover",
         "SKU": "9781683831884",
         "Description": "Peterson, Monique",
@@ -12322,7 +12322,7 @@
     {
         "Reference Handle": "#harry-potter-weekly-planner-notepad-harry-potter-school-planner-harry-potter-gift-harry-potter-stationery-undated-planner-harry-potter--regular",
         "Token": "EQUMTTMRJ6EB6XG77KAEBRDH",
-        "Item Name": "Harry Potter: Weekly Planner Notepad: (Harry Potter School Planner, Harry Potter Gift, Harry Potter Stationery, Undated Planner) (Harry Potter)",
+        "ItemName": "Harry Potter: Weekly Planner Notepad: (Harry Potter School Planner, Harry Potter Gift, Harry Potter Stationery, Undated Planner) (Harry Potter)",
         "Variation Name": "Regular",
         "SKU": "9781647223984",
         "Description": "<p><strong>Celebrate your love of the Harry Potter films with this planner all year long!</strong>This undated weekly planner notepad features iconic imagery from the Harry Potter films and is a perfect gift for Harry Potter fans.<strong>START PLANNING NOW: Fill in the days on this undated</strong> weekly planner to start a year of planning any time</p><p><strong>52 PAGES: </strong>Plenty of room for all of your events, plans, and projects for every week of the year</p><p><strong>CONVENIENT SIZE: </strong>This undated planner is 8.5 x 11 inches, perfect for your desktop to keep track of important dates, deadlines, or weekly goals</p><p><strong>PERFECT FOR STUDENTS AND ADULTS: </strong>Achieve Hermione Granger levels of organization! This undated planner is perfect for keeping both students and adult professionals organized</p>",
@@ -12354,7 +12354,7 @@
     {
         "Reference Handle": "#haunting-adeline-carlton-h-d-",
         "Token": "IM6IXV4P2VANFB2V36B4CFIH",
-        "Item Name": "Haunting Adeline",
+        "ItemName": "Haunting Adeline",
         "Variation Name": "Carlton, H. D.",
         "SKU": "9781957635002",
         "Description": "H. D. Carlton\r\nFiction - Fantasy - Romance\r\nPaperback - PUB: 08/12/2021\r\n\"The Manipulator. I can manipulate the emotions of anyone who lets me. I will make you hurt, make you cry, make you laugh and sigh. But my words don't affect him. Especially not when I plead for him to leave. He's always there, watching and waiting. And I can never look away. Not when I want him to come closer. The Shadow. I didn't mean to fall in love. But now that I have, I can't stay away. I'm mesmerized by her smile, by her eyes, and the way she moves. The way she undresses... I'll keep watching and waiting. Until I can make her mine. And once she is, I'll never let her go. Not even when she begs me to.\"",
@@ -12386,7 +12386,7 @@
     {
         "Reference Handle": "#heard-it-in-a-love-song-paperback",
         "Token": "PXNN27N2ZRE6MQVNTP55VRZQ",
-        "Item Name": "Heard It in a Love Song",
+        "ItemName": "Heard It in a Love Song",
         "Variation Name": "Paperback",
         "SKU": "9781250235695",
         "Description": "<p>Graves, Tracey Garvis</p><p>BACKORDERED</p><p>Fiction - Romance</p><p>paperback - PUB: 01/31/2023</p><p><strong>From Tracey Garvis Graves, the bestselling author of <em>The Girl He Used to Know</em> comes a love song of a story about starting over and second chances in <em>Heard It in a Love Song</em>.</strong></p><p>Love doesn&#39;t always wait until you&#39;re ready.</p>",
@@ -12418,7 +12418,7 @@
     {
         "Reference Handle": "#heart-bones-paperback",
         "Token": "ADPLVTJ2UODBCKUFNZREWLG6",
-        "Item Name": "Heart Bones",
+        "ItemName": "Heart Bones",
         "Variation Name": "Paperback",
         "SKU": "9781668021910",
         "Description": "Hoover, Colleen\r\nFiction - Romance\r\nPaperback - PUB 1/31/2023\r\nBACKORDERED",
@@ -12450,7 +12450,7 @@
     {
         "Reference Handle": "#heir-of-fire-throne-of-glass-3--hardcover",
         "Token": "Z7E25ZLYOFTUD73732CC2BUJ",
-        "Item Name": "Heir of Fire (Throne of Glass #3)",
+        "ItemName": "Heir of Fire (Throne of Glass #3)",
         "Variation Name": "Hardcover",
         "SKU": "9781639730988",
         "Description": "Maas, Sarah J\r\nYoung Adult Fiction\r\nBACKORDERED\r\npaperback - PUB: 09/01/2015\r\nThe third and final book in the Throne of Glass series.",
@@ -12482,7 +12482,7 @@
     {
         "Reference Handle": "#hell-and-back-a-longmire-mystery-hardcover",
         "Token": "FPL4A2EUVQTZGZSKC632V2AI",
-        "Item Name": "Hell and Back: A Longmire Mystery",
+        "ItemName": "Hell and Back: A Longmire Mystery",
         "Variation Name": "Hardcover",
         "SKU": "9780593297285",
         "Description": "Johnson, Craig\r\nFiction - Thriller\r\nHardcover - PUB: 09/06/2022\r\n\"What if you woke up lying in the middle of the street in the infamous town of Fort Pratt, Montana, where thirty, young Native boys perished in a tragic 1896 boarding school fire? What if every person you encountered in that endless night was dead? What if you were covered in blood and missing a bullet from the gun holstered on your hip? What if there was something out there in the yellowed skies--along with the deceased and the smell of ash and dust--something the Northern Cheyenne refer to as the  the Wandering Without, the Stealer of Souls? What if the only way you know who you are is because your name is printed in the leather sweatband of your cowboy hat, and what if it says your name is Walt Longmire-but you don't remember him. In Hell & Back, the eighteenth installment of the Longmire series, author Craig Johnson takes the beloved sheriff to the very limits of his sanity to do battle with the most dangerous advisory he's ever faced-himself\"",
@@ -12514,7 +12514,7 @@
     {
         "Reference Handle": "#hell-bent-hardcover",
         "Token": "XB2X7VZK2XCXY3AJEHPHYZYH",
-        "Item Name": "Hell Bent",
+        "ItemName": "Hell Bent",
         "Variation Name": "Hardcover",
         "SKU": "9781250313102",
         "Description": "Bardugo, Leigh\r\nBACKORDERED",
@@ -12546,7 +12546,7 @@
     {
         "Reference Handle": "#hellbound-heaven-sent-book-two--paperback",
         "Token": "DCC3DMTZFWKHTUE3SPHLDNLE",
-        "Item Name": "Hellbound (Heaven Sent Book Two)",
+        "ItemName": "Hellbound (Heaven Sent Book Two)",
         "Variation Name": "Paperback",
         "SKU": "9781736839614",
         "Description": "<p>Rothstein, Jl</p><p>Fiction - Thriller - Fantasy</p><p>Paperback - PUB: 04/27/2021</p><p><br/></p><p><strong>Hell&#39;s First Army has been preparing a thousand years to reign terror upon this Earth.</strong></p><p><br/></p><p>For centuries Deborah O&#39;Mara and her siblings have been faithful followers of their brethren in Heaven. After Hell murders an Archangel, Deborah begins to question her very mission as a Guardian.</p><p>Rescuing a Sentinel means Deborah will have to shatter The Accord reigniting an age-old Celestial War. She must choose between love and loyalty and find the strength to live with the consequences.</p><p>Battling new enemies, forging desperate alliances, and burdened with a soul-crushing betrayal, Deborah is tempted to pursue the path of the Fallen. Her family races to intervene, but they may be too late to stop her from becoming...HELLBOUND</p>",
@@ -12578,7 +12578,7 @@
     {
         "Reference Handle": "#henrie-es-un-h-roe-henrie-s-hero-hunt--",
         "Token": "NPMYUTXVJ2AZCHBVASWYZPYG",
-        "Item Name": "Henrie es un hÃroe (Henrie's Hero Hunt)",
+        "ItemName": "Henrie es un hÃroe (Henrie's Hero Hunt)",
         "Variation Name": "",
         "SKU": "9781684644667",
         "Description": "Henrie es un hÃroe (Henrie's Hero Hunt)",
@@ -12610,7 +12610,7 @@
     {
         "Reference Handle": "#henrie-s-hero-hunt-book-2--",
         "Token": "K66QI46PDC4YEEXVB45NGPJJ",
-        "Item Name": "Henrie's Hero Hunt (Book 2)",
+        "ItemName": "Henrie's Hero Hunt (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-355-4",
         "Description": "<p><strong>Children - Chapter book</strong></p><p><strong>Age:</strong> 8+</p><p>After Marley Hart calls on the Hero Hotline, Henrie, Marley, and Alex Fischer are in a race against time to find Henrie’s missing parents, a missing gold statue, and the answers to questions piling up... Will Henrie solve the Hunt? Will she find her parents? Or will the House of Melchior shadow her forever?</p><p><br/></p><p><u>Series: House of Heroes</u></p><p>Twelve-year-old Henrie is the first girl heir of the Melchior family in 200 years. For the House of Melchior (HoMe), in the business of heroes for hire – boy heroes, that is – this is terrible news…</p>",
@@ -12642,7 +12642,7 @@
     {
         "Reference Handle": "#henry-el-h-roe-desdichado-hapless-hero-henrie--",
         "Token": "WYFTJQONMDC4KCTUNZHBKMH4",
-        "Item Name": "Henry el hÃroe desdichado (Hapless Hero Henrie)",
+        "ItemName": "Henry el hÃroe desdichado (Hapless Hero Henrie)",
         "Variation Name": "",
         "SKU": "644667",
         "Description": "Henry el hÃroe desdichado (Hapless Hero Henrie)",
@@ -12674,7 +12674,7 @@
     {
         "Reference Handle": "#hester-hardcover",
         "Token": "DX7KVI6KXA4B53UIBMLL6E4J",
-        "Item Name": "Hester",
+        "ItemName": "Hester",
         "Variation Name": "Hardcover",
         "SKU": "9781250278555",
         "Description": "Albanese, Laurie Lico\r\nFiction - Historical - General\r\nHardcover - PUB: 10/04/2022\r\n\"Isobel Gamble is a young seamstress carrying generations of secrets when she sets sail from Scotland in the early 1800s with her husband Edward. ... But only days after they've arrived in Salem, Edward abruptly joins a departing ship as a medic--leaving Isobel penniless and alone in a strange country, forced to make her way by any means possible. When she meets a young Nathaniel Hawthorne, the two are instantly drawn to each other: he is a man haunted by his ancestors, who sent innocent women to the gallows--while she is an unusually gifted needleworker, troubled by her own strange talents. As the weeks pass and Edward's safe return grows increasingly unlikely, Nathaniel and Isobel grow closer and closer. Together, they are a muse and a dark storyteller; the enchanter and the enchanted",
@@ -12706,7 +12706,7 @@
     {
         "Reference Handle": "#hey-jack-the-bravest-kid-regular",
         "Token": "Q5KRBCOYRWO3NQOYSZURMVGE",
-        "Item Name": "Hey Jack! The Bravest Kid",
+        "ItemName": "Hey Jack! The Bravest Kid",
         "Variation Name": "Regular",
         "SKU": "9781610673921",
         "Description": "Sally Rippin\r\nChildren\r\nPUB: 2015",
@@ -12738,7 +12738,7 @@
     {
         "Reference Handle": "#hey-jack-the-circus-lesson-",
         "Token": "KXOPSSMMPGKIEVNE76W3PJNO",
-        "Item Name": "Hey Jack! The Circus Lesson",
+        "ItemName": "Hey Jack! The Circus Lesson",
         "Variation Name": "",
         "SKU": "978-1-61067-186-6",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age:</strong> 4-7</p><p>Jack&#39;s new babysitter is great, but a bit different. Pizza for dinner, juggling lessons and sleeping outside - with no tent! But will Jack let his worrying get in the way of enjoying <em>The Circus Lesson</em>?</p><p>This early reader series featuring Billie B. Brown’s best friend, Jack, is full of down-to-earth, real-life, fun and <em>funny</em> stories that boys can enjoy and relate to. With word art or illustrations on every second page, and no huge blocks of text or intimidating words, they&#39;re perfect for newly independent readers.</p><p><br/></p><p>Please visit <a href=\"http://www.friends.kanemiller.com/talk-play-teach.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kanemiller.com</a> for more resources (games, puzzles, activities etc.) to accompany the books.</p><p><br/></p><p><u>Series: Hey Jack!</u></p><p>Hey Jack! is full of down-to-earth, realistic stories, with word art or illustration on every second page. Jack’s enormous imagination injects the series with fun and humor, and the books are carefully typeset to provide reading breaks.</p>",
@@ -12770,7 +12770,7 @@
     {
         "Reference Handle": "#his-majesty-s-dragon-book-one-of-the-temeraire-paperback",
         "Token": "6AAZWZKZMMU4RYXOZM52MAPI",
-        "Item Name": "His Majesty's Dragon: Book One of the Temeraire",
+        "ItemName": "His Majesty's Dragon: Book One of the Temeraire",
         "Variation Name": "Paperback",
         "SKU": "9780593359549",
         "Description": "Novik, Naomi\r\nBACKORDERED",
@@ -12802,7 +12802,7 @@
     {
         "Reference Handle": "#history-comics-the-transcontinental-railroad-crossing-the-divide-hardcover",
         "Token": "UKEQP5ZEERC2IOPKTQSQLIWG",
-        "Item Name": "History Comics: The Transcontinental Railroad: Crossing the Divide",
+        "ItemName": "History Comics: The Transcontinental Railroad: Crossing the Divide",
         "Variation Name": "Hardcover",
         "SKU": "9781250794765",
         "Description": "Hirsch, Andy",
@@ -12834,7 +12834,7 @@
     {
         "Reference Handle": "#history-comics-the-transcontinental-railroad-crossing-the-divide-paperback",
         "Token": "USW3XKOIS2SC6AKWAEFAAQTL",
-        "Item Name": "History Comics: The Transcontinental Railroad: Crossing the Divide",
+        "ItemName": "History Comics: The Transcontinental Railroad: Crossing the Divide",
         "Variation Name": "Paperback",
         "SKU": "9781250794772",
         "Description": "",
@@ -12866,7 +12866,7 @@
     {
         "Reference Handle": "#holiday-cookies-collection-over-100-recipes-for-the-merriest-season-yet--hardcover",
         "Token": "TSIWMNM7LSXCAGP3BRCAJ2RV",
-        "Item Name": "Holiday Cookies Collection: Over 100 Recipes for the Merriest Season Yet!",
+        "ItemName": "Holiday Cookies Collection: Over 100 Recipes for the Merriest Season Yet!",
         "Variation Name": "Hardcover",
         "SKU": "9780979409042",
         "Description": "Hoffman, Brian Hart",
@@ -12898,7 +12898,7 @@
     {
         "Reference Handle": "#home-front-paperback",
         "Token": "KFCXWWUVZFFM7LTPUMUPTG6H",
-        "Item Name": "Home Front",
+        "ItemName": "Home Front",
         "Variation Name": "Paperback",
         "SKU": "9781250858238",
         "Description": "Hannah, Kristin",
@@ -12930,7 +12930,7 @@
     {
         "Reference Handle": "#hot-chocolate-large-20-oz-",
         "Token": "HPAWKSUVK6KBEA7SUXPYZSG6",
-        "Item Name": "Hot Chocolate",
+        "ItemName": "Hot Chocolate",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -12962,7 +12962,7 @@
     {
         "Reference Handle": "#hot-chocolate-medium-16-oz-",
         "Token": "AO53A3UCHRDJPTEB3GV3NHTO",
-        "Item Name": "Hot Chocolate",
+        "ItemName": "Hot Chocolate",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -12994,7 +12994,7 @@
     {
         "Reference Handle": "#hot-chocolate-small-12-oz-",
         "Token": "UQGLBCAA2EMNHOG3JU5YPA3G",
-        "Item Name": "Hot Chocolate",
+        "ItemName": "Hot Chocolate",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -13026,7 +13026,7 @@
     {
         "Reference Handle": "#hotel-flamingo-book-1--",
         "Token": "ARTKP4ZO57PY24AGPAZWZ6YW",
-        "Item Name": "Hotel Flamingo (Book 1)",
+        "ItemName": "Hotel Flamingo (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-68464-126-0",
         "Description": "<p>Alex Milway</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 6-9</p><p>With the help of T. Bear the doorman, Lemmy the lemur receptionist, and a team of new employees – along with a flamboyant fleet of flamingos – Anna sets to work to bring sunshine and life to Hotel Flamingo, but then a hotel inspector arrives…</p><p><br/></p><p><u>Series: Hotel Flamingo</u></p><p>When young Anna inherits a dilapidated once-grand hotel, she’s determined to restore it to its former glory, but this is no ordinary hotel – all of her staff and guests are animals! As she soon finds out though, running an animal hotel is no easy task.</p>",
@@ -13058,7 +13058,7 @@
     {
         "Reference Handle": "#hotel-flamingo-carnival-caper-book-3--",
         "Token": "DYYXYHHY34AOESIMHLL4ZEK2",
-        "Item Name": "Hotel Flamingo, Carnival Caper (Book 3)",
+        "ItemName": "Hotel Flamingo, Carnival Caper (Book 3)",
         "Variation Name": "",
         "SKU": "978-1-68464-128-4",
         "Description": "<p>Alex Milway</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 6-9</p><p>It’s autumn, which means it’s time for CARNIVAL! But the rainy season comes early, and high winds and torrential rain lash down across Animal Boulevard. Can Anna save the day?</p><p><br/></p><p><u>Series: Hotel Flamingo</u></p><p>When young Anna inherits a dilapidated once-grand hotel, she’s determined to restore it to its former glory, but this is no ordinary hotel – all of her staff and guests are animals! As she soon finds out though, running an animal hotel is no easy task.</p>",
@@ -13090,7 +13090,7 @@
     {
         "Reference Handle": "#hotel-flamingo-fabulous-feast-book-4--",
         "Token": "JROJH7LQTO4MK2GPHDRRX4EF",
-        "Item Name": "Hotel Flamingo, Fabulous Feast (Book 4)",
+        "ItemName": "Hotel Flamingo, Fabulous Feast (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-68464-129-1",
         "Description": "<p>Alex Milway</p><p><strong>Children - </strong>Chapter Book</p><p><strong>Age:</strong> 6-9</p><p>After a long, quiet winter, Anna knows she needs to come up with a plan to get the hotel buzzing again. Bring on the Battle of the Chefs and the most fabulous feast Hotel Flamingo has ever seen…</p><p><br/></p><p><u>Series: Hotel Flamingo</u></p><p>When young Anna inherits a dilapidated once-grand hotel, she’s determined to restore it to its former glory, but this is no ordinary hotel – all of her staff and guests are animals! As she soon finds out though, running an animal hotel is no easy task.</p>",
@@ -13122,7 +13122,7 @@
     {
         "Reference Handle": "#hotel-flamingo-holiday-heat-wave-book-2--",
         "Token": "LKIIWD75G5CA4L477Q4673JH",
-        "Item Name": "Hotel Flamingo, Holiday Heat Wave (Book 2)",
+        "ItemName": "Hotel Flamingo, Holiday Heat Wave (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-127-7",
         "Description": "<p>Alex Milway</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 6-9</p><p>Anna is excited to receive word from Penguin royalty asking to stay in their Royal Suite, but there’s a lot to get done, and it’s not easy to manage the needs of the penguins when there’s a heat wave on and a serious ice shortage. Help!</p><p><br/></p><p><u>Series: Hotel Flamingo</u></p><p>When young Anna inherits a dilapidated once-grand hotel, she’s determined to restore it to its former glory, but this is no ordinary hotel – all of her staff and guests are animals! As she soon finds out though, running an animal hotel is no easy task.</p>",
@@ -13154,7 +13154,7 @@
     {
         "Reference Handle": "#house-brew-large-20-oz-",
         "Token": "FLERFL4PLTQRHIXSLHFMY4XE",
-        "Item Name": "House Brew",
+        "ItemName": "House Brew",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -13186,7 +13186,7 @@
     {
         "Reference Handle": "#house-brew-medium-16-oz-",
         "Token": "GPBBY2SOHQ2R2ZCFLJJ5VBPU",
-        "Item Name": "House Brew",
+        "ItemName": "House Brew",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -13218,7 +13218,7 @@
     {
         "Reference Handle": "#house-brew-small-12-oz-",
         "Token": "ZBOTFVQSR5HTAZSPQGWYYE3Q",
-        "Item Name": "House Brew",
+        "ItemName": "House Brew",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -13250,7 +13250,7 @@
     {
         "Reference Handle": "#house-of-earth-and-blood-maas-sarah-j-",
         "Token": "ZXGXBQHQMJIM2BN3AVI2DPTS",
-        "Item Name": "House of Earth and Blood",
+        "ItemName": "House of Earth and Blood",
         "Variation Name": "Maas, Sarah J.",
         "SKU": "9781635577020",
         "Description": "Paperback",
@@ -13282,7 +13282,7 @@
     {
         "Reference Handle": "#house-of-earth-and-blood-crescent-city--hardcover",
         "Token": "YZVNW5OA3UKB2CBE5DKLAP7W",
-        "Item Name": "House of Earth and Blood (Crescent City)",
+        "ItemName": "House of Earth and Blood (Crescent City)",
         "Variation Name": "Hardcover",
         "SKU": "9781635574043",
         "Description": "<p>Maas, Sarah J</p><p>Fiction - Fantasy - Romance</p><p>Hardcover - PUB: 03/03/2020</p><p><br/></p><p><strong><em>A #1 New York Times</em> bestseller!</strong></p><p><br/></p><p><strong>Sarah J. Maas&#39;s brand-new CRESCENT CITY series begins with <em>House of Earth and Blood</em>: the story of half-Fae and half-human Bryce Quinlan as she seeks revenge in a contemporary fantasy world of magic, danger, and searing romance.</strong></p>",
@@ -13314,7 +13314,7 @@
     {
         "Reference Handle": "#house-of-sky-and-breath-crescent-city--hardcover",
         "Token": "NJAPE3TSQUPIHVOY3XXSBK3F",
-        "Item Name": "House of Sky and Breath (Crescent City)",
+        "ItemName": "House of Sky and Breath (Crescent City)",
         "Variation Name": "Hardcover",
         "SKU": "9781635574074",
         "Description": "<p>Maas, Sarah J</p><p>Fiction - Romance - Fantasy</p><p>Hardcover - PUB: 02/15/2022</p><p><strong>Sequel to the #1 New York Times bestseller!</strong></p><p><strong>Sarah J. Maas&#39;s sexy, groundbreaking CRESCENT CITY series continues with the second installment.</strong></p><p><br/></p>",
@@ -13346,7 +13346,7 @@
     {
         "Reference Handle": "#how-can-i-be-kind-regular",
         "Token": "YSL7GNGCAVKGSCORY2MJHZEF",
-        "Item Name": "How Can I Be Kind",
+        "ItemName": "How Can I Be Kind",
         "Variation Name": "Regular",
         "SKU": "9780794552305",
         "Description": "",
@@ -13378,7 +13378,7 @@
     {
         "Reference Handle": "#how-to-cook-that-crazy-sweet-creations-chocolate-baking-pie-baking-confectionary-desserts-and-more--hardcover",
         "Token": "DYSH5CAR7PRRQJE32TDRYBBM",
-        "Item Name": "How to Cook That: Crazy Sweet Creations (Chocolate Baking, Pie Baking, Confectionary Desserts, and More)",
+        "ItemName": "How to Cook That: Crazy Sweet Creations (Chocolate Baking, Pie Baking, Confectionary Desserts, and More)",
         "Variation Name": "Hardcover",
         "SKU": "9781642505788",
         "Description": "<p>Reardon, Ann</p><p>Non-Fiction, Cookbook</p><p>Hardcover - PUB: 06/15/2021</p><p>Ann Reardon&#39;s award-winning video series <em>How To Cook That</em> draws millions of people from all around the globe each week, eager to learn the secrets of her extravagant cakes, chocolates, and desserts. Now, Ann has created a book to help even more people learn how to make her a non-stop carnival of eye-popping creations and fun and delicious baking projects.</p>",
@@ -13410,7 +13410,7 @@
     {
         "Reference Handle": "#how-to-fake-it-in-hollywood-regular",
         "Token": "QPBZ3FVDJTBEYBUDW7NC2AHU",
-        "Item Name": "How to Fake it in Hollywood",
+        "ItemName": "How to Fake it in Hollywood",
         "Variation Name": "Regular",
         "SKU": "9780593358955",
         "Description": "Ava Wilder\r\nFiction - Romance\r\nPaperback - PUB: 06/14/2022\r\nA talented Hollywood starlet and a reclusive A-lister enter into a fake relationship...and discover that their feelings might be more than a PR stunt\"--Provided by publisher",
@@ -13442,7 +13442,7 @@
     {
         "Reference Handle": "#how-to-sell-a-haunted-house-hardcover",
         "Token": "3Q2MPL2TUPVESWOYECKWSIFB",
-        "Item Name": "How to Sell a Haunted House",
+        "ItemName": "How to Sell a Haunted House",
         "Variation Name": "Hardcover",
         "SKU": "9780593201268",
         "Description": "Hendrix, Grady\r\nBACKORDERED",
@@ -13474,7 +13474,7 @@
     {
         "Reference Handle": "#hunger-games-trilogy-boxed-set-paperback-classic-collection-boxed-set",
         "Token": "4J5EFI7BUGLO4FM5FCUURUSX",
-        "Item Name": "Hunger Games Trilogy Boxed Set: Paperback Classic Collection",
+        "ItemName": "Hunger Games Trilogy Boxed Set: Paperback Classic Collection",
         "Variation Name": "Boxed Set",
         "SKU": "9780545670319",
         "Description": "Collins, Suzanne\r\nYoung Adult Fiction\r\nPaperback Gift set - PUB: 06/24/2014\r\nCollins' extraordinary Hunger Games trilogy is now available in a special edition box set featuring the original cover artwork from the groundbreaking, bestselling trilogy. A perfect gift for fans of the books or movies.",
@@ -13506,7 +13506,7 @@
     {
         "Reference Handle": "#hunting-adeline-carlton-h-d-",
         "Token": "34YQVY2YQBVFA5TCTAOBZRVQ",
-        "Item Name": "Hunting Adeline",
+        "ItemName": "Hunting Adeline",
         "Variation Name": "Carlton, H. D.",
         "SKU": "9781957635019",
         "Description": "Paperback",
@@ -13538,7 +13538,7 @@
     {
         "Reference Handle": "#i-can-count-regular",
         "Token": "GARQ4RXZHBNH4ZWSLSONUFGY",
-        "Item Name": "I Can Count",
+        "ItemName": "I Can Count",
         "Variation Name": "Regular",
         "SKU": "9781610674027",
         "Description": "",
@@ -13570,7 +13570,7 @@
     {
         "Reference Handle": "#i-like-animals-what-jobs-are-there--regular",
         "Token": "764U5YEFLIFJ2MPCCC7UZKS2",
-        "Item Name": "I Like Animals...what jobs are there?",
+        "ItemName": "I Like Animals...what jobs are there?",
         "Variation Name": "Regular",
         "SKU": "9781610679893",
         "Description": "Steve Martin\r\nChildren-Fiction\r\nPUB: 2020",
@@ -13602,7 +13602,7 @@
     {
         "Reference Handle": "#i-really-want-to-fly-to-the-moon-a-really-bird-story-hardcover",
         "Token": "DALXILFPDSOK73RHYMDYOC7U",
-        "Item Name": "I Really Want to Fly to the Moon!: A Really Bird Story",
+        "ItemName": "I Really Want to Fly to the Moon!: A Really Bird Story",
         "Variation Name": "Hardcover",
         "SKU": "9781636550343",
         "Description": "Ziefert, Harriet ; Foster, Travis",
@@ -13634,7 +13634,7 @@
     {
         "Reference Handle": "#i-survived-hurricane-katrina-2005-a-graphic-novel-i-survived-graphic-novel-6--paperback",
         "Token": "3H5OLKCWYA52QESYX2K46EWB",
-        "Item Name": "I Survived Hurricane Katrina, 2005: A Graphic Novel (I Survived Graphic Novel #6)",
+        "ItemName": "I Survived Hurricane Katrina, 2005: A Graphic Novel (I Survived Graphic Novel #6)",
         "Variation Name": "Paperback",
         "SKU": "9781338766943",
         "Description": "Tarshis, Lauren ; Epps, Alvin",
@@ -13666,7 +13666,7 @@
     {
         "Reference Handle": "#if-i-survive-you-hardcover",
         "Token": "KANIUJGNR6JCC2QLFJNCRS6K",
-        "Item Name": "If I Survive You",
+        "ItemName": "If I Survive You",
         "Variation Name": "Hardcover",
         "SKU": "9780374605988",
         "Description": "Escoffery, Jonathan",
@@ -13698,7 +13698,7 @@
     {
         "Reference Handle": "#if-it-bleeds-mr-harrigan-s-phone-the-life-of-chuck-rat-paperback",
         "Token": "HSE6LCYFMQI7M2LX7JH7H55D",
-        "Item Name": "If It Bleeds: Mr. Harrigan's Phone, the Life of Chuck, Rat",
+        "ItemName": "If It Bleeds: Mr. Harrigan's Phone, the Life of Chuck, Rat",
         "Variation Name": "Paperback",
         "SKU": "9781982137984",
         "Description": "King, Stephen\r\nFiction - Thriller\r\nPaperback - PUB: 04/20/2020\r\nReaders adore Stephen King’s novels, and his novellas are their own dark treat, briefer but just as impactful and enduring as his longer fiction. Many of his novellas have been made into iconic films, including “The Body” (Stand by Me) and “Rita Hayworth and Shawshank Redemption” (Shawshank Redemption).\r\n\r\nThe four brilliant tales in If It Bleeds prove as iconic as their predecessors. In the title story, reader favorite Holly Gibney (from the Mr. Mercedes trilogy and The Outsider) must face her fears, and possibly another outsider—this time on her own. In “Mr. Harrigan’s Phone” an intergenerational friendship has a disturbing afterlife. “The Life of Chuck” explores, beautifully, how each of us contains multitudes. And in “Rat,” a struggling writer must contend with the darker side of ambition.\r\n\r\nIf these novellas show King’s range, they also prove that certain themes endure. One of King’s great concerns is evil, and in If It Bleeds, there’s plenty of i",
@@ -13730,7 +13730,7 @@
     {
         "Reference Handle": "#illustrated-fairy-tales-",
         "Token": "NBMK7ZRRZAGRYEVCHBS2LOSR",
-        "Item Name": "Illustrated Fairy Tales",
+        "ItemName": "Illustrated Fairy Tales",
         "Variation Name": "",
         "SKU": "978-0-7945-1717-5",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 7+</p><p>Open these pages and enter an enchanted realm of proud emperors, pretty princesses, helpful fairies and magical animals... This charming collection contains ten classic fairy tales by the Brothers Grimm, Hans Christian Andersen and others. These stories include: Sleeping Beauty, The Emperor and the Nightingale, Beauty and the Beast, The Dragon Painter, The Frog Prince, The Elves and the Shoemaker, Little Red Riding Hood, Cinderella, The Swan Princess and The Emperor&#39;s New Clothes.</p>",
@@ -13762,7 +13762,7 @@
     {
         "Reference Handle": "#immortal-longings-hardcover",
         "Token": "PG3IUC6R355VMQDBNLXW5YEY",
-        "Item Name": "Immortal Longings",
+        "ItemName": "Immortal Longings",
         "Variation Name": "Hardcover",
         "SKU": "9781668000229",
         "Description": "Gong, Chloe\r\nPUB 7/25/2023\r\nBACKORDERED",
@@ -13794,7 +13794,7 @@
     {
         "Reference Handle": "#in-a-dark-dark-wood-paperback",
         "Token": "KISZRP5K4E4FHIDSJUPFRHXR",
-        "Item Name": "In a Dark, Dark Wood",
+        "ItemName": "In a Dark, Dark Wood",
         "Variation Name": "Paperback",
         "SKU": "9781501112331",
         "Description": "<p>Ware, Ruth</p><p>Fiction - Thriller</p><p>Paperback - PUB: 04/19/2016</p><p><strong>*AUTHOR OF<em> THE WOMAN IN CABIN 10 </em>and <em>THE LYING GAME</em></strong></p><p><strong>*INSTANT <em>NEW YORK TIMES</em>, <em>USA TODAY</em>, AND <em>LOS ANGELES TIMES</em> BESTSELLER</strong></p><p><strong>*SOON TO BE A MAJOR MOTION PICTURE An NPR Best Book of the Year</strong></p><p><br/></p>",
@@ -13826,7 +13826,7 @@
     {
         "Reference Handle": "#in-the-jungle-",
         "Token": "GMQUG5IFEKY37BRDPEXCN3QO",
-        "Item Name": "In the Jungle",
+        "ItemName": "In the Jungle",
         "Variation Name": "",
         "SKU": "978-1-68464-350-9",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 2+</p><p>Watch extraordinary displays by jungle animals including the colorful peacock spreading his feathers.</p><p><br/></p><p><u>Series: Animal Magic</u></p><p>Through the magic of Venetian window technology, appealing illustrations of some of Earth&#39;s amazing animals change with every page turn in this nature board book series, perfect for little hands.</p>",
@@ -13858,7 +13858,7 @@
     {
         "Reference Handle": "#in-the-ocean-",
         "Token": "DMACUCMBWZ55UL7UXEBCCCYW",
-        "Item Name": "In the Ocean",
+        "ItemName": "In the Ocean",
         "Variation Name": "",
         "SKU": "978-1-68464-351-6",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 2+</p><p>Remarkable ocean animals like the puffer fish and the octopus show off their fascinating characteristics.</p><p><br/></p><p><u>Series: Animal Magic</u></p><p>Through the magic of Venetian window technology, appealing illustrations of some of Earth&#39;s amazing animals change with every page turn in this nature board book series, perfect for little hands.</p>",
@@ -13890,7 +13890,7 @@
     {
         "Reference Handle": "#interviews-with-monster-girls-11-paperback",
         "Token": "VOUAORDZOGLNOBNSR7HT56UK",
-        "Item Name": "Interviews with Monster Girls 11",
+        "ItemName": "Interviews with Monster Girls 11",
         "Variation Name": "Paperback",
         "SKU": "9781646515806",
         "Description": "Petos",
@@ -13922,7 +13922,7 @@
     {
         "Reference Handle": "#it-ends-with-us-paperback",
         "Token": "QYQ3IZP2KNTLP56QSYX75RTL",
-        "Item Name": "It Ends with Us",
+        "ItemName": "It Ends with Us",
         "Variation Name": "Paperback",
         "SKU": "9781501110368",
         "Description": "Hoover, Colleen\r\nFiction - Romance\r\nPaperback - PUB: 08/02/2016\r\n\"Lily hasn't always had it easy, but that's never stopped her from working hard for the life she wants. She's come a long way from the small town in Maine where she grew up--she graduated from college, moved to Boston, and started her own business. So when she feels a spark with a gorgeous neurosurgeon named Ryle Kincaid, everything in Lily's life suddenly seems almost too good to be true ... But Ryle's complete aversion to relationships is disturbing. Even as Lily finds herself becoming the exception to his 'no dating' rule, she can't help but wonder what made him that way in the first place\"",
@@ -13954,7 +13954,7 @@
     {
         "Reference Handle": "#it-girl-ware-ruth",
         "Token": "4IQEWURV47NULTCEEE4WXY6C",
-        "Item Name": "It Girl",
+        "ItemName": "It Girl",
         "Variation Name": "Ware, Ruth",
         "SKU": "9781432899622",
         "Description": "Hardcover",
@@ -13986,7 +13986,7 @@
     {
         "Reference Handle": "#it-starts-with-us-paperback",
         "Token": "WNZR2H37N4G4LWQXBA6KJCAX",
-        "Item Name": "It Starts with Us",
+        "ItemName": "It Starts with Us",
         "Variation Name": "Paperback",
         "SKU": "9781668001226",
         "Description": "Hoover, Colleen\r\nFiction - Romance\r\nLily and her ex-husband, Ryle, have just settled into a civil coparenting rhythm when she suddenly bumps into her first love, Atlas, again. After nearly two years separated, she is elated that for once, time is on their side, and she immediately says yes when Atlas asks her on a date. But her excitement is quickly hampered by the knowledge that, though they are no longer married, Ryle is still very much a part of her life--and Atlas Corrigan is the one man he will hate being in his ex-wife and daughter's life.",
@@ -14018,7 +14018,7 @@
     {
         "Reference Handle": "#jack-and-the-three-bears-",
         "Token": "44MBH2FQJAEZBIAL7QPSTBTQ",
-        "Item Name": "Jack and the Three Bears",
+        "ItemName": "Jack and the Three Bears",
         "Variation Name": "",
         "SKU": "978-1-68464-161-1",
         "Description": "<p><strong>Children </strong></p><p><strong>Age:</strong> 3+</p><p>Jack is not expecting to bump into Baby Bear in the Giant’s castle. When Mommy Bear and Daddy Bear arrive, they are just as confused, and the Giant’s footsteps are getting closer…</p><p><br/></p><p><u>Series: The Wrong Fairy Tale</u></p><p>Well-known fairy tales are mixed together... with hilarious results!</p>",
@@ -14050,7 +14050,7 @@
     {
         "Reference Handle": "#jamie-lee-s-birthday-treat-school-of-monsters--",
         "Token": "2CR7B7V62J2EQ63PJQIJGFEZ",
-        "Item Name": "Jamie Lee's Birthday Treat (School of Monsters)",
+        "ItemName": "Jamie Lee's Birthday Treat (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-271-7",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age: </strong>5+</p><p>Jamie Lee sure likes to eat! Today she has a special treat...</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -14082,7 +14082,7 @@
     {
         "Reference Handle": "#jar-of-sugar-scrub-regular",
         "Token": "CPKMYLUBQTYDAG66KLNDTFHN",
-        "Item Name": "Jar of Sugar Scrub",
+        "ItemName": "Jar of Sugar Scrub",
         "Variation Name": "Regular",
         "SKU": "A492201",
         "Description": "Hand made by local artist",
@@ -14114,7 +14114,7 @@
     {
         "Reference Handle": "#jason-and-the-argonauts-",
         "Token": "PIU3V2U5KKWF7UT6MYVRFU53",
-        "Item Name": "Jason and the Argonauts",
+        "ItemName": "Jason and the Argonauts",
         "Variation Name": "",
         "SKU": "978-0-7945-4888-9",
         "Description": "<p><strong>Children - </strong>Graphic novels</p><p><strong>Age: </strong>10+</p><p>Young Jason has been set a seemingly impossible task — to retrieve the legendary Golden Fleece from the clutches of a deadly, fire-breathing dragon. But many dangers stand between him and his goal. Ravenous harpies, clashing rocks, and six-armed giants are just some of the perils he must face if he is to reach the prize and reclaim his kingdom. The timeless Greek legend is adapted with dynamic style in this action-packed graphic adventure.</p><p><br/></p><p>Series: Graphic Stories</p><p>These entertaining, action-packed Graphic Legends and Graphic Classics provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy. </p>",
@@ -14146,7 +14146,7 @@
     {
         "Reference Handle": "#jess-makes-a-mess-school-of-monsters--",
         "Token": "CEZDTUQOELCLFVNXWIXS4H6K",
-        "Item Name": "Jess Makes a Mess (School of Monsters)",
+        "ItemName": "Jess Makes a Mess (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-484-1",
         "Description": "<p>Sally Rippin</p><p><strong>Children</strong></p><p><strong>Age:</strong> 5+</p><p>Poor Jess becomes slimy and sticky like glue. You can&#39;t get too close, or she might stick to you!</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -14178,7 +14178,7 @@
     {
         "Reference Handle": "#jigsaw-puzzle-colors-regular",
         "Token": "SXACZVDA67Z3QUVJDJIXUTYO",
-        "Item Name": "Jigsaw Puzzle, COLORS",
+        "ItemName": "Jigsaw Puzzle, COLORS",
         "Variation Name": "Regular",
         "SKU": "9780794553449",
         "Description": "Children",
@@ -14210,7 +14210,7 @@
     {
         "Reference Handle": "#journal-celestial-hardcover",
         "Token": "Y3Z7BSFQKJR5M6OALSL25LN7",
-        "Item Name": "Journal Celestial",
+        "ItemName": "Journal Celestial",
         "Variation Name": "Hardcover",
         "SKU": "9781441316691",
         "Description": "Peter Pauper Press, Inc\r\nThis cover design reproduces a gold-tooled goatskin binding created by progressive bookbinding firm Henry T. Wood of London in 1933 for a book of verses. Gold foil, iridescent highlights, embossed, gold gilded edges, ribbon bookmark. Elegant cover treatments enhance the classic art and designs of these handsome journals. 160 lined pages. Hardcover. Acid-free, archival paper.",
@@ -14242,7 +14242,7 @@
     {
         "Reference Handle": "#journal-mid-music-hardcover",
         "Token": "MUCXBG7QNGIOAS3EKOXT27ZE",
-        "Item Name": "Journal Mid Music",
+        "ItemName": "Journal Mid Music",
         "Variation Name": "Hardcover",
         "SKU": "9781441306593",
         "Description": "Peter Pauper Press, Inc\r\nThe ideal gift for your favorite composer: our Music Journal! With lined left-hand pages for ideas and lyrics, and staffed right-hand pages for composing music, this portable journal is the perfect repository of information. Seize those fragments of song from the shower, the commute, or your dreams before they fade away. Handsome cover design is enhanced with raised embossing and glossy highlights.",
@@ -14274,7 +14274,7 @@
     {
         "Reference Handle": "#journey-to-the-heart-stone-paperback",
         "Token": "YU2N2CRVEHGYSVAVVRC33Q6I",
-        "Item Name": "Journey to the Heart Stone",
+        "ItemName": "Journey to the Heart Stone",
         "Variation Name": "Paperback",
         "SKU": "9781684631674",
         "Description": "<p>Raphael, Catherine</p><p>Fiction - Fantasy</p><p>Paperback - PUB:: 09/27/2022</p><p><strong>Peace reigned for generations through matriarchal rule within the Minca, Dute, and Carroo tribes until one man&#39;s lust for power destroyed this balance. But now Cora&#39;s had a vision that offers hope: her evil uncle can be overthrown--<em>if</em> she can bring the tribes together again.</strong></p><p><br/></p><p><br/></p>",
@@ -14306,7 +14306,7 @@
     {
         "Reference Handle": "#journeys-through-the-radiant-citadel-dungeons-dragons-adventure-book--regular",
         "Token": "TRT6J7ABTSXD4RANNNM75BCS",
-        "Item Name": "Journeys Through the Radiant Citadel (Dungeons & Dragons Adventure Book)",
+        "ItemName": "Journeys Through the Radiant Citadel (Dungeons & Dragons Adventure Book)",
         "Variation Name": "Regular",
         "SKU": "9780786967995",
         "Description": "<p><strong>An anthology of thirteen stand-alone adventures set in wondrous lands for the world’s greatest roleplaying game.</strong></p><p><br/></p><p>Journeys through the Radiant Citadel is a collection of thirteen short, stand-alone D&amp;D adventures featuring challenges for character levels 1–14. Each adventure has ties to the Radiant Citadel, a magical city with connections to lands rich with excitement and danger, and each can be run by itself or as part of an ongoing campaign. Explore this rich and varied collection of adventures in magical lands. </p><p> </p><p>Through the mists of the Ethereal Plane shines the Radiant Citadel. Travelers from across the multiverse flock to this mysterious bastion to share their traditions, stories, and calls for heroes. A crossroads of wonders and adventures, the Radiant Citadel is the first step on the path to legend. Where will your journeys take you? </p><p> </p><ul><li>Thirteen new stand-alone adventures spanning levels 1–14, each with its own set of maps </li><li>Introduces the Radiant Citadel, a new location on the Ethereal Plane that connects adventurers to richly detailed and distinct corners of the D&amp;D multiverse </li><li>Each adventure can be set in any existing D&amp;D campaign setting or on worlds of your own design </li><li>Introduces eleven new D&amp;D monsters</li><li>There’s a story for every adventuring party, from whimsical and light to dark and foreboding and everything in between</li></ul><p> </p><p>For use with the fifth edition Player’s Handbook, Monster Manual, and Dungeon Master’s Guide</p>",
@@ -14338,7 +14338,7 @@
     {
         "Reference Handle": "#justice-league-incarnate-hardcover",
         "Token": "Y52XTOMPLMUMNHBLEZMPYHKC",
-        "Item Name": "Justice League Incarnate",
+        "ItemName": "Justice League Incarnate",
         "Variation Name": "Hardcover",
         "SKU": "9781779517951",
         "Description": "Williamson, Joshua ; Culver, Dennis",
@@ -14370,7 +14370,7 @@
     {
         "Reference Handle": "#kageki-shojo-vol-7-paperback",
         "Token": "H3RYGUCOESJGVU2VHXHOM3BC",
-        "Item Name": "Kageki Shojo!! Vol. 7",
+        "ItemName": "Kageki Shojo!! Vol. 7",
         "Variation Name": "Paperback",
         "SKU": "9781638586043",
         "Description": "Saiki, Kumiko",
@@ -14402,7 +14402,7 @@
     {
         "Reference Handle": "#kaiju-no-8-vol-4-paperback",
         "Token": "I56XXIODIPGF64FYWRJKTHL6",
-        "Item Name": "Kaiju No. 8, Vol. 4",
+        "ItemName": "Kaiju No. 8, Vol. 4",
         "Variation Name": "Paperback",
         "SKU": "9781974732340",
         "Description": "Matsumoto, Naoya",
@@ -14434,7 +14434,7 @@
     {
         "Reference Handle": "#keto-meal-prep-by-flavcity-125-low-carb-recipes-that-actually-taste-good-keto-diet-recipes-allergy-friendly-cooking--paperback",
         "Token": "IET5KJGSGHDEYYGYEXUGVSOR",
-        "Item Name": "Keto Meal Prep by Flavcity: 125 Low Carb Recipes That Actually Taste Good (Keto Diet Recipes, Allergy Friendly Cooking)",
+        "ItemName": "Keto Meal Prep by Flavcity: 125 Low Carb Recipes That Actually Taste Good (Keto Diet Recipes, Allergy Friendly Cooking)",
         "Variation Name": "Paperback",
         "SKU": "9781642506891",
         "Description": "Parrish, Bobby ; Parrish, Dessi\r\nPaperback - PUB: 11/09/2021\r\nPart of the allure of FlavCity is that the authors make healthy food that actually tastes really good--who knew? In a world full of boiled chicken breasts and brown rice, Keto Meal Prep by FlavCity is a beacon of hope. Keto and meal prep are both trending very strong and FlavCity is an authority in that space, ready to help readers embrace the Keto lifestyle.",
@@ -14466,7 +14466,7 @@
     {
         "Reference Handle": "#keys-from-the-golden-vault-dungeons-dragons-adventure-book--regular",
         "Token": "DKZMCU463KMXDOUUDDJDKI7M",
-        "Item Name": "Keys from the Golden Vault (Dungeons & Dragons Adventure Book) -",
+        "ItemName": "Keys from the Golden Vault (Dungeons & Dragons Adventure Book) -",
         "Variation Name": "Regular",
         "SKU": "9780786968961",
         "Description": "BACKORDERED\r\nHardcover - PUB: 02/21/2023\r\nGreetings, adventurer. You've snuck in and found a wondrous treasure! Keys From the Golden Vault is a Dungeons & Dragons adventure anthology with a heist at the center of every tale. Nothing else is yet known about the contents of this tome, but keep an eye on your favorite D&D news sources for your first sneak peek inside.",
@@ -14498,7 +14498,7 @@
     {
         "Reference Handle": "#kid-baby-hats-regular",
         "Token": "VDWH4UVFO2QLZRMZLP23JD2W",
-        "Item Name": "Kid/baby hats",
+        "ItemName": "Kid/baby hats",
         "Variation Name": "Regular",
         "SKU": "J434541",
         "Description": "Hand made by local artist",
@@ -14530,7 +14530,7 @@
     {
         "Reference Handle": "#kiki-s-delivery-service-paperback",
         "Token": "3L7DT7OK6OZ6CGFF3OBSEOXK",
-        "Item Name": "Kiki's Delivery Service",
+        "ItemName": "Kiki's Delivery Service",
         "Variation Name": "Paperback",
         "SKU": "9781984896698",
         "Description": "Kadono, Eiko ; Balistrieri, Emily\r\nChildren \r\nAge: 10+\r\n\"Thirteen-year-old half-witch Kiki travels to the town of Koriko where she makes new friends, overcomes challenges, and shares her magic with her community to make the world a brighter place\"--",
@@ -14562,7 +14562,7 @@
     {
         "Reference Handle": "#kiki-s-delivery-service-journal-hayao-miyazaki-concept-art-notebook-gift-for-studio-ghibli-fan--other",
         "Token": "BJ6XLIJT2QNAFMNQSTPOANYD",
-        "Item Name": "Kiki's Delivery Service Journal: (Hayao Miyazaki Concept Art Notebook, Gift for Studio Ghibli Fan)",
+        "ItemName": "Kiki's Delivery Service Journal: (Hayao Miyazaki Concept Art Notebook, Gift for Studio Ghibli Fan)",
         "Variation Name": "Other",
         "SKU": "9781452171258",
         "Description": "Studio Ghibli",
@@ -14594,7 +14594,7 @@
     {
         "Reference Handle": "#kiki-s-delivery-service-jiji-plush-journal-textured-journal-japanese-anime-journal-cat-journal--other",
         "Token": "JQN3A7LBPUPMJAIXUN2PWFRL",
-        "Item Name": "Kiki's Delivery Service: Jiji Plush Journal: (Textured Journal, Japanese Anime Journal, Cat Journal)",
+        "ItemName": "Kiki's Delivery Service: Jiji Plush Journal: (Textured Journal, Japanese Anime Journal, Cat Journal)",
         "Variation Name": "Other",
         "SKU": "9781452171241",
         "Description": "Studio Ghibli",
@@ -14626,7 +14626,7 @@
     {
         "Reference Handle": "#kill-me-if-you-can-hardcover",
         "Token": "CYABOAHRBFRMLOBXW2RYT5EW",
-        "Item Name": "Kill Me If You Can",
+        "ItemName": "Kill Me If You Can",
         "Variation Name": "Hardcover",
         "SKU": "9781789097641",
         "Description": "Collins, Max Allan ; Spillane, Mickey\r\nFiction - Thriller\r\nHardcover - PUB: 09/20/2022\r\n\"Mike Hammer is on the case, this time hunting the murderer of his old friend and bootlegger-turned-legit-businessman Packy Paragon. Already torn up buy the disappearance of Velda, his beloved secretary, Mike Hammer carves a brutal path for vengeance. Drinking heavily, his relationships fraying, his behaviour self-destructive, Hammer has to track down Paragon's secret ledger, with the names of every corrupt official in town. With deception everywhere, and a whole host of reasons to want the ledger, Hammer has to pull himself together and solve the case before all hell breaks loose.\" -",
@@ -14658,7 +14658,7 @@
     {
         "Reference Handle": "#killadelphia-volume-4-the-end-of-all-paperback",
         "Token": "CYH363XPTNQZQOECAE6E3RXW",
-        "Item Name": "Killadelphia, Volume 4: The End of All",
+        "ItemName": "Killadelphia, Volume 4: The End of All",
         "Variation Name": "Paperback",
         "SKU": "9781534323315",
         "Description": "Barnes, Rodney ; Alexander, Jason Shawn ; NCT, Luis ; Mitten, Chris",
@@ -14690,7 +14690,7 @@
     {
         "Reference Handle": "#killers-of-the-flower-moon-the-osage-murders-and-the-birth-of-the-fbi-paperback",
         "Token": "RODZ2377ZH3K376MDNKOUVWX",
-        "Item Name": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
+        "ItemName": "Killers of the Flower Moon: The Osage Murders and the Birth of the FBI",
         "Variation Name": "Paperback",
         "SKU": "9780307742483",
         "Description": "Grann, David\r\nNon-Fiction\r\nPaperback - PUB: 04/03/2018\r\n\"Grann revisits a ... series of crimes in which dozens of people were murdered in cold blood. Based on years of research and ... new evidence, the book [outlines the steps that reveal] a series of sinister secrets and reversals. But more than that, it is [an] ... indictment of the callousness and prejudice toward American Indians that allowed the murderers to operate with impunity for so long\"",
@@ -14722,7 +14722,7 @@
     {
         "Reference Handle": "#king-arthur-",
         "Token": "BT43IL5GOT4E3C6FFZ4EP335",
-        "Item Name": "King Arthur",
+        "ItemName": "King Arthur",
         "Variation Name": "",
         "SKU": "540951",
         "Description": "<p><strong>Children -  </strong>Graphic Novel</p><p><strong>AGE:</strong> 10+</p><p>With the Kingdom of Britain facing chaos, the mysterious Merlin takes the infant Prince Arthur into hiding. Many years later, the young boy is shocked to discover that he is the country’s rightful ruler. Alongside his brave Knights of the Round Table, the newly-crowned King Arthur must fight many battles to keep his kingdom intact. Swords, sorcery and epic quests come together in this action-packed graphic adventure. Graphic novels are more popular than ever thanks to popular culture and the amount of exposure they get. These new Graphic Stories from Usborne provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy. Specifically designed to be easily readable, with familiar vocabulary and sentence structures, these stories are entertaining, and the fun, action-packed illustrations are a great way to initiate reluctant readers to the pleasure of sitting down and being swept into an imaginary universe and be taken away by a story.</p><p><br/></p><p>Series: Graphic Stories</p><p>These entertaining, action-packed Graphic Legends and Graphic Classics provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy. </p>",
@@ -14754,7 +14754,7 @@
     {
         "Reference Handle": "#king-of-ashes-book-one-of-the-firemane-saga-mass-market-paperbound",
         "Token": "ZCSK6WRQZHSNI5EPM4OVHCKA",
-        "Item Name": "King of Ashes: Book One of the Firemane Saga",
+        "ItemName": "King of Ashes: Book One of the Firemane Saga",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780061468469",
         "Description": "Feist, Raymond E\r\nPUB 07/29/2019",
@@ -14786,7 +14786,7 @@
     {
         "Reference Handle": "#king-of-battle-and-blood-st-clair-scarlett",
         "Token": "OYZJFCYP2MDR6UDZVPSIVM2Y",
-        "Item Name": "King of Battle and Blood",
+        "ItemName": "King of Battle and Blood",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728258416",
         "Description": "Paperback",
@@ -14818,7 +14818,7 @@
     {
         "Reference Handle": "#king-of-scars-king-of-scars-duology-1--paperback",
         "Token": "4QGDIXV3HWRILLMQ3G6D7BRN",
-        "Item Name": "King of Scars ( King of Scars Duology #1)",
+        "ItemName": "King of Scars ( King of Scars Duology #1)",
         "Variation Name": "Paperback",
         "SKU": "9781250618979",
         "Description": "<p>Bardugo, Leigh</p><p>Young Adult - Fantasy</p><p>Paperback - PUB: 12/29/2020</p><p><strong>Enter the Grishaverse with the instant #1 <em>New York Times</em>-bestseller <em>King of Scars</em> by Leigh Bardugo, the first book in the King of Scars Duology</strong></p>",
@@ -14850,7 +14850,7 @@
     {
         "Reference Handle": "#king-of-wrath-kings-of-sin-1--paperback",
         "Token": "OS7WU4CRTQT6LZGOV3Q7DNPG",
-        "Item Name": "King of Wrath (Kings of Sin #1)",
+        "ItemName": "King of Wrath (Kings of Sin #1)",
         "Variation Name": "Paperback",
         "SKU": "9781957464084",
         "Description": "Huang, Ana\r\nFiction - Romance\r\nPaperback - PUB: 10/18/2022\r\n\"Dante Russo thrives on control, both personally and professionally comiillionaire CEO never planned to marry-until the threat of blackmail forces him into an engagement with a woman he barely knows. Vivian Lau, jewelry heiress and daughter of his newest enemy. It doesn't matter how beautiful or charming she is. He'll do everything in his power to destroy the evidence and their betrothal. There's only one problem: now that he has her...he can't bring himself to let her go. Vivian Lau is the perfect daughter and her family's ticket into the highest echelons of high society. Marrying a blue-blooded Russo means opening doors that would otherwise remain closed to her new-money family. While the rude, elusive Dante isn't her idea of a dream partner, she agrees to their arranged marriage out of duty. Craving his touch was never part of the plan. Neither was the worst thing she could possibly do: fall in love with her future husband.\"",
@@ -14882,7 +14882,7 @@
     {
         "Reference Handle": "#kingdom-of-ash-hardcover",
         "Token": "SZ7ZH4WFTWRAIWZDSWGUMRDZ",
-        "Item Name": "Kingdom of Ash",
+        "ItemName": "Kingdom of Ash",
         "Variation Name": "Hardcover",
         "SKU": "9781639731060",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -14914,7 +14914,7 @@
     {
         "Reference Handle": "#kingdom-of-the-cursed-kingdom-of-the-wicked-2--paperback",
         "Token": "V6CIVU7WFG6Z5WOTLS2RLIU3",
-        "Item Name": "Kingdom of the Cursed (Kingdom of the Wicked #2)",
+        "ItemName": "Kingdom of the Cursed (Kingdom of the Wicked #2)",
         "Variation Name": "Paperback",
         "SKU": "9780316428491",
         "Description": "Maniscalco, Kerri\r\nYoung Adult - Fantasy\r\nPaperback - PUB: 08/30/2022\r\nFrom a #1 New York Times bestselling author comes a sizzling, sweepingly romantic story filled with dangerous secrets, evil twins, and powerful magic. Now in paperback!\r\nOne sister.\r\nTwo sinful princes.\r\nInfinite deception with a side of revenge . . . Welcome to Hell.After selling her soul to become Queen of the Wicked, Emilia travels to the Seven Circles with the enigmatic Prince of Wrath, where she's introduced to a seductive world of vice.She vows to do whatever it takes to avenge her beloved sister, Vittoria . . . even if that means accepting the hand of the Prince of Pride, the king of demons.The first rule in the court of the Wicked? Trust no one. With back-stabbing princes, luxurious palaces, mysterious party invitations, and conflicting clues about who really killed her twin, Emilia finds herself more alone than ever before. Can she even trust Wrath, her one-time ally in the mortal world . . or is he keeping dangerous secrets about his t",
@@ -14946,7 +14946,7 @@
     {
         "Reference Handle": "#kingdom-of-the-feared-kingdom-of-the-wicked--hardcover",
         "Token": "2G3RLGE6EQ5XTADGYJ6LUAIG",
-        "Item Name": "Kingdom of the Feared (Kingdom of the Wicked)",
+        "ItemName": "Kingdom of the Feared (Kingdom of the Wicked)",
         "Variation Name": "Hardcover",
         "SKU": "9780316341882",
         "Description": "Maniscalco, Kerri\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 09/27/2022\r\nEmilia is determined to clear Vittoria's name when she is implicated in the murder of a high-ranking member of a rival demon court--even when her investigation forces Emilia to face the demons of her own past.",
@@ -14978,7 +14978,7 @@
     {
         "Reference Handle": "#kingdom-of-the-wicked-paperback",
         "Token": "OAVAAYOHMQRS7V2HA6Z625W2",
-        "Item Name": "Kingdom of the Wicked",
+        "ItemName": "Kingdom of the Wicked",
         "Variation Name": "Paperback",
         "SKU": "9780316428453",
         "Description": "Maniscalco, Kerri\r\nYoung Adult Fiction - Fantasy\r\nPaperback - PUB: 09/07/2021\r\nTwo sisters. One brutal murder.A quest for vengeance that will unleash Hell itself...And an intoxicating romance. Emilia and her twin sister Vittoria are streghe - witches who live secretly among humans, avoiding notice and persecution. One night, Vittoria misses dinner service at the family's renowned Sicilian restaurant. Emilia soon finds the body of her beloved twin...desecrated beyond belief. Devastated, Emilia sets out to find her sister's killer and to seek vengeance at any cost-even if it means using dark magic that's been long forbidden. Then Emilia meets Wrath, one of the Wicked-princes of Hell she has been warned against in tales since she was a child. Wrath claims to be on Emilia's side, tasked by his master with solving the series of women's murders on the island. But when it comes to the Wicked, nothing is as it seems...",
@@ -15010,7 +15010,7 @@
     {
         "Reference Handle": "#kingdom-of-the-wicked-box-set-hardcover",
         "Token": "5X427YUY6G74VG2DNDPIDSF7",
-        "Item Name": "Kingdom of the Wicked Box Set",
+        "ItemName": "Kingdom of the Wicked Box Set",
         "Variation Name": "Hardcover",
         "SKU": "9780316495028",
         "Description": "Maniscalco, Kerri\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 10/11/2022",
@@ -15042,7 +15042,7 @@
     {
         "Reference Handle": "#kisses-cuddles-and-good-night--",
         "Token": "GAQCS2CCH56QJXXCWF4N54GA",
-        "Item Name": "Kisses, Cuddles, and Good Night!",
+        "ItemName": "Kisses, Cuddles, and Good Night!",
         "Variation Name": "",
         "SKU": "978-1-61067-797-4",
         "Description": "<p><strong>Children - </strong>board book</p><p><strong>Age:</strong> 2-5</p><p>Everyone knows the best way to get ready for bed: a kiss, a cuddle, and a &#34;Good night&#34; with a favorite cuddly toy.</p><p>Cat, Pig, Sheep, Chick, and Cow have been busy playing all day, but now it’s time to go to bed. They need kisses, cuddles… and a very special friend before they can say, “good night!” Little readers will love helping the friends pick out the perfect stuffed animal for bedtime using the <strong>five repositionable and reusable</strong> stickers.</p><p><br></p><p><em>To freshen stickers after heavy use, run under cold water and let air dry.</em></p>",
@@ -15074,7 +15074,7 @@
     {
         "Reference Handle": "#kitchen-confidential-adventures-in-the-culinary-underbelly-updated--paperback",
         "Token": "J5IAEQKF7T5JK5RWRTUIDMEL",
-        "Item Name": "Kitchen Confidential: Adventures in the Culinary Underbelly (Updated)",
+        "ItemName": "Kitchen Confidential: Adventures in the Culinary Underbelly (Updated)",
         "Variation Name": "Paperback",
         "SKU": "9780060899226",
         "Description": "Bourdain, Anthony\r\nNon-Fiction, Cooking\r\nPaperback - PUB: 01/01/2007\r\nThe updated edition of the wickedly funny and insightful bestseller filled with \"25 years of sex, drugs, bad behavior, and haute cuisine,\" now includes three new chapters about the author's adventures since the book was originally published.\r\n.",
@@ -15106,7 +15106,7 @@
     {
         "Reference Handle": "#komi-can-t-communicate-vol-21-paperback",
         "Token": "WKXHCDPYO4CTHTHKA6JWDEAW",
-        "Item Name": "Komi Can't Communicate, Vol. 21",
+        "ItemName": "Komi Can't Communicate, Vol. 21",
         "Variation Name": "Paperback",
         "SKU": "9781974731046",
         "Description": "Oda, Tomohito",
@@ -15138,7 +15138,7 @@
     {
         "Reference Handle": "#konosuba-god-s-blessing-on-this-wonderful-world-vol-14-manga--paperback",
         "Token": "3GFFO5LNLMYIJM5NTFSINOSP",
-        "Item Name": "Konosuba: God's Blessing on This Wonderful World!, Vol. 14 (Manga)",
+        "ItemName": "Konosuba: God's Blessing on This Wonderful World!, Vol. 14 (Manga)",
         "Variation Name": "Paperback",
         "SKU": "9781975348205",
         "Description": "Akatsuki, Natsume ; Watari, Masahito\r\nPUB 12/13/2022\r\nBACKORDERED",
@@ -15170,7 +15170,7 @@
     {
         "Reference Handle": "#la-chica-salvaje-where-the-crawdads-sing-paperback",
         "Token": "CJZOMCRCYTP6SPK5BCEUOCZI",
-        "Item Name": "La Chica Salvaje / Where the Crawdads Sing",
+        "ItemName": "La Chica Salvaje / Where the Crawdads Sing",
         "Variation Name": "Paperback",
         "SKU": "9780593081617",
         "Description": "Owens, Delia\r\nFiction - Spanish\r\nPaperback - PUB: 10/29/2019",
@@ -15202,7 +15202,7 @@
     {
         "Reference Handle": "#lapvona-regular",
         "Token": "JXSN25W6GDKTXFBXB62NBNOP",
-        "Item Name": "Lapvona",
+        "ItemName": "Lapvona",
         "Variation Name": "Regular",
         "SKU": "9780593300268",
         "Description": "Ottessa Moshfegh\r\nFantasy & Psychological Fiction\r\nPUB: 06/21/2022",
@@ -15234,7 +15234,7 @@
     {
         "Reference Handle": "#last-tracks-paperback",
         "Token": "VCN3EKJ5RLYS24D2KASRVHJA",
-        "Item Name": "Last Tracks",
+        "ItemName": "Last Tracks",
         "Variation Name": "Paperback",
         "SKU": "9781480835566",
         "Description": "Susie McKenna\r\nFiction-Thriller\r\nPaperback - PUB: August 26th, 2016\r\nYoung married couple Andy and Deana Harris head up to Canada on an exciting snowshoe adventure. When Deana's snowshoe breaks, her husband leaves her to go for help-or does he? Deana soon comes to the horrifying realization that her husband has left her for dead, and she must use all her wilderness know-how to get out alive.\r\nDeana fell for the oldest trick in the book: a handsome face hiding an evil heart. A combination of brains, determination, some luck, and a bit of attitude get Deana back to civilization. Now, it's time for revenge. With the help of an unorthodox group of good guys, she makes a plan to hunt down coldhearted Andy and get back the money he stole from her.\r\nThe trail leads this team of professionals-and some not so professional-from western Canada to Virginia, to the Midwest, and then back north to eastern Canada. The circuitous plot weaves together mystery, good, and evil with the beauty of Mother Nature as a backdrop. It is a",
@@ -15266,7 +15266,7 @@
     {
         "Reference Handle": "#laundry-day-sort-play--",
         "Token": "E5BJASADXBZXCEFZDSMUEQVZ",
-        "Item Name": "Laundry Day Sort & Play!",
+        "ItemName": "Laundry Day Sort & Play!",
         "Variation Name": "",
         "SKU": "978-1-68464-187-1",
         "Description": "<p><strong>Children - </strong>activity books</p><p><strong>Age:</strong> 3+</p><p><br/></p><p>Empty the washing machine, hang out the clothes, then decide where to put them away while learning concepts, from colors, patterns, and shapes, to numbers and opposites. Develop fine motor skills using the ten fuzzy felt pieces that tuck away securely in an attached envelope for storage.</p><p><br/></p><p><u>Series: Little Helpers</u></p><p>So much sort-and-play fun with each book’s ten fuzzy felt pieces that can be tucked away securely in an attached envelope. Includes early-learning concepts from colors, patterns, and shapes, to numbers and opposites, too!</p>",
@@ -15298,7 +15298,7 @@
     {
         "Reference Handle": "#left-right-crayons-set-of-10-other",
         "Token": "KTRXTYXESDBCYJE5IYDG464A",
-        "Item Name": "Left / Right Crayons - Set of 10",
+        "ItemName": "Left / Right Crayons - Set of 10",
         "Variation Name": "Other",
         "SKU": "879426003977",
         "Description": "Left Right Crayons are ergonomic for everyone! These easy-to-hold crayons make drawing works of art comfortable and fun for righties and lefties. -10 Colored Crayons - Ergonomic for Left and Right Handed - Eco-Friendly - Erasable - Nontoxic",
@@ -15330,7 +15330,7 @@
     {
         "Reference Handle": "#legacy-kennedy-elle",
         "Token": "G6QEHBPAIN7DBCKRPTA5EKOL",
-        "Item Name": "Legacy",
+        "ItemName": "Legacy",
         "Variation Name": "Kennedy, Elle",
         "SKU": "9781990101069",
         "Description": "Paperback",
@@ -15362,7 +15362,7 @@
     {
         "Reference Handle": "#legendborn-the-legendborn-cycle--hardcover",
         "Token": "WUG5QZWKOPOS64HUESJ57Y5T",
-        "Item Name": "Legendborn (the Legendborn Cycle)",
+        "ItemName": "Legendborn (the Legendborn Cycle)",
         "Variation Name": "Hardcover",
         "SKU": "9781534441606",
         "Description": "Deonn, Tracy\r\nYoung Adult Fiction - Fantasy\r\nHardcover - Pub: 09/15/2020\r\n\"To discover the truth behind her mother's mysterious death, a teen girl infiltrates a magical secret society claiming to be the descendants of King Arthur and his knights\"",
@@ -15394,7 +15394,7 @@
     {
         "Reference Handle": "#lego-star-wars-lightsaber-gel-pen-set-other",
         "Token": "YMZPOBWUCOQQHX67SQNSF2H2",
-        "Item Name": "Lego Star Wars Lightsaber Gel Pen Set",
+        "ItemName": "Lego Star Wars Lightsaber Gel Pen Set",
         "Variation Name": "Other",
         "SKU": "4895028528751",
         "Description": "Santoki\r\nBACKORDERED",
@@ -15426,7 +15426,7 @@
     {
         "Reference Handle": "#leo-and-the-octopus-",
         "Token": "PQJUHTJGAA2SIVD2ORWRODT3",
-        "Item Name": "Leo and the Octopus",
+        "ItemName": "Leo and the Octopus",
         "Variation Name": "",
         "SKU": "978-1-68464-277-9",
         "Description": "<p><strong>Children - </strong>Features Autism acceptance </p><p><strong>Age:</strong> 5+</p><p>Striking, supportive text and humorous illustrations bring these lovable characters, and this important look at navigating the world, to life. The story will strike a chord with children on the spectrum, as well as anyone who sees the world in a “different” way.</p>",
@@ -15458,7 +15458,7 @@
     {
         "Reference Handle": "#leon-the-extraordinary-a-graphic-novel-leon-1--paperback",
         "Token": "KTUFLX53DWUL5N4PNRSYAYCO",
-        "Item Name": "Leon the Extraordinary: A Graphic Novel (Leon #1)",
+        "ItemName": "Leon the Extraordinary: A Graphic Novel (Leon #1)",
         "Variation Name": "Paperback",
         "SKU": "9781338744156",
         "Description": "Nicholas, Jamar ; Nicholas, Jamar",
@@ -15490,7 +15490,7 @@
     {
         "Reference Handle": "#lessons-in-chemistry-hardcover",
         "Token": "RG7DBBOPGC6MDIXZSQBVQS7W",
-        "Item Name": "Lessons in Chemistry",
+        "ItemName": "Lessons in Chemistry",
         "Variation Name": "Hardcover",
         "SKU": "9780385547345",
         "Description": "Garmus, Bonnie\r\nFiction - General\r\nHardcover - PUB: 04/05/2022\r\n\"Set in 1960s California, this ... debut is the ... story of a female scientist whose career is constantly derailed by the idea that a woman's place is in the home, only to find herself starring as the host of America's most beloved TV cooking show\"-",
@@ -15522,7 +15522,7 @@
     {
         "Reference Handle": "#life-and-death-twilight-reimagined-paperback",
         "Token": "CM6IDD4MHYXNDXW2ZYZ2EZKL",
-        "Item Name": "Life and Death: Twilight Reimagined",
+        "ItemName": "Life and Death: Twilight Reimagined",
         "Variation Name": "Paperback",
         "SKU": "9780316300865",
         "Description": "Meyer, Stephenie\r\nYoung Adult Fiction - Romance\r\nPaperback - PUB: 02/01/2022\r\nYou know Bella and Edward, now get to know Beau and Edythe. When Beaufort Swan moves to the gloomy town of Forks and meets the mysterious, alluring Edythe Cullen, his life takes a thrilling and terrifying turn. With her porcelain skin, golden eyes, mesmerizing voice, and supernatural gifts, Edythe is both irresistible and enigmatic. What Beau doesn't realize is the closer he gets to her, the more he is putting himself and those around him at risk. And, it might be too late to turn back... With a foreword and afterword by Stephenie Meyer, this compelling reimagining of the iconic love story is a must-read for Twilight fans everywhere.",
@@ -15554,7 +15554,7 @@
     {
         "Reference Handle": "#lifesize-",
         "Token": "OMV5DLM4AFWLU5NPF35UZ23A",
-        "Item Name": "Lifesize",
+        "ItemName": "Lifesize",
         "Variation Name": "",
         "SKU": "978-1-68464-143-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age</strong>: 3+</p><p>Come paw to paw with a polar bear and eye to eye with a giant squid in this interactive book that invites readers to compare parts of their bodies with life-size artworks of different animals. Children can compare their ears with a kangaroo, their teeth with a tiger, their hand with a polar bear, and their tongue with a giraffe! A gallery at the back gives fascinating facts and details about all the animals.</p><p><br/></p><p><u>Series: Lifesize</u></p><p>Compare parts of your body with life-size artworks of different animals in these oversized, interactive books. Then find fascinating facts and details about all the animals at the back of the book. Die-cuts and gatefolds add to the fun!</p>",
@@ -15586,7 +15586,7 @@
     {
         "Reference Handle": "#lifesize-baby-animals-",
         "Token": "FANGPYL3RRYUS5KBZ2RPRX4N",
-        "Item Name": "Lifesize Baby Animals",
+        "ItemName": "Lifesize Baby Animals",
         "Variation Name": "",
         "SKU": "978-1-68464-403-2",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 3+</p><p>Step into this book to discover how YOU measure up against some of the world’s most incredible baby animals in this playful introduction to the natural world. Come face-to-face with a baby black bear and cozy up with baby red pandas!</p><p><br/></p><p><u>Series: Lifesize</u></p><p>Compare parts of your body with life-size artworks of different animals in these oversized, interactive books. Then find fascinating facts and details about all the animals at the back of the book. Die-cuts and gatefolds add to the fun!</p>",
@@ -15618,7 +15618,7 @@
     {
         "Reference Handle": "#lift-the-flap-sharks-",
         "Token": "464STXVVNIQDRLEQMH5W63HM",
-        "Item Name": "Lift-the-Flap Sharks",
+        "ItemName": "Lift-the-Flap Sharks",
         "Variation Name": "",
         "SKU": "978-0-7945-1109-8",
         "Description": "Children\r\nAge: 4+\r\nSharks aren’t just scary fish with pointy teeth. Lift the flaps in this richly illustrated book to meet gentle giants, fierce hunters, beady-eyed baby sharks and the weird, weedy wobbegong.",
@@ -15650,7 +15650,7 @@
     {
         "Reference Handle": "#lift-the-flap-computers-and-coding-ir--",
         "Token": "NTI6D5MOSILYMOHJP6XDDG3I",
-        "Item Name": "Lift-the-Flap, Computers and Coding (IR)",
+        "ItemName": "Lift-the-Flap, Computers and Coding (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3574-2",
         "Description": "<p>Children</p><p>Age: 7+</p><p>An interactive introduction to information and communication technology, which explains what goes on inside computers to make them do what they do. With lots of flaps to lift and look beneath, fact-hungry children will devour the fascinating data contained in this bright and engaging non-fiction book. A return to the days when Usborne was a market-leader in computer books for children. Many of today&#39;s tech professionals were inspired by Usborne&#39;s coding books from the 1980s.</p><p><br/></p><p><u>Series: Advanced Lift-the-Flap Board Books</u></p><p>Ideal for improving general knowledge and guaranteed to keep fact-loving, question-asking children entertained for hours.</p>",
@@ -15682,7 +15682,7 @@
     {
         "Reference Handle": "#light-perpetual-hardcover",
         "Token": "ZK27RGWN3EFFNJN5M7JHH37T",
-        "Item Name": "Light Perpetual",
+        "ItemName": "Light Perpetual",
         "Variation Name": "Hardcover",
         "SKU": "9780316593250",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\nHardcover - PUB: 10/25/2022\r\n\r\nAfter his adventures in The Tower of Fools and Warriors of God, Reynevan is on the run again, harried by enemies--some human, and some mystical--at every turn. These are cruel and dangerous times for a man such as Reynevan, and to survive, he must set aside his history as a peaceful healer and idealist and play the brutal role of Hussite spy as crusades sweep through Silesia and the Czech Republic, and the world around him is forever changed.",
@@ -15714,7 +15714,7 @@
     {
         "Reference Handle": "#lightlark-the-lightlark-saga-book-1--hardcover",
         "Token": "C3ZPOUCZCTMMCC6F54UIGQLR",
-        "Item Name": "Lightlark (the Lightlark Saga Book 1)",
+        "ItemName": "Lightlark (the Lightlark Saga Book 1)",
         "Variation Name": "Hardcover",
         "SKU": "9781419760860",
         "Description": "Aster, Alex\r\nYoung Adult Fiction - Fantasy - Thriller\r\nHardcover - PUB: 08/23/2022\r\nIn order to break a curse on her kingdom, Isla Crown, the young ruler of Wilding, must compete in the Centennial, a deadly game that only the rulers of six realms are invited to play, and to survive she must lie, cheat, and betray--even as love threatens to undo everything.",
@@ -15746,7 +15746,7 @@
     {
         "Reference Handle": "#lights-and-sounds-unicorns-",
         "Token": "4GUC6ZUWKH5Y4QBOUPXXJRK4",
-        "Item Name": "Lights and Sounds, Unicorns",
+        "ItemName": "Lights and Sounds, Unicorns",
         "Variation Name": "",
         "SKU": "978-0-7945-5303-6",
         "Description": "<p>Children</p><p>Age: 6m+</p><p>When little children press each button in this unique novelty book, the enchanting scenes are brought to life with twinkling lights and beautiful sounds. Join Rosie the little unicorn and her friends, the fairies, elves, and dragons, as she searches for lots of sparkling things in this magical story.</p><p><br/></p><p><u>Series: Lights and Sounds</u></p><p>See the charming lights and sounds illuminate and fascinate your little ones as each story unfolds!</p>",
@@ -15778,7 +15778,7 @@
     {
         "Reference Handle": "#little-bear-needs-glasses-",
         "Token": "NZCE7UOM6LYO46RA76JIOF2D",
-        "Item Name": "Little Bear Needs Glasses",
+        "ItemName": "Little Bear Needs Glasses",
         "Variation Name": "",
         "SKU": "978-1-61067-620-5",
         "Description": "<p><strong>Children - </strong>Activity Book</p><p><strong>Age: </strong>2-5</p><p>Little Bear can’t see very clearly, and his friends are worried! Dog, Mouse, Pig and Cow all offer their glasses, but they’re not quite right. Little Bear still can’t see very well! He needs glasses of his very own! Little readers will love helping Little Bear pick out the pair that are “just right” for him using the <strong>five repositionable and reusable </strong>stickers.</p><p><br/></p><p><em>To freshen stickers after heavy use, run under cold water and let air dry.</em></p>",
@@ -15810,7 +15810,7 @@
     {
         "Reference Handle": "#little-board-books-five-little-ducks-went-swimmin-",
         "Token": "CNH7HW77SWTI2GYCIGGZGIL2",
-        "Item Name": "Little Board Books, Five Little Ducks Went Swimmin",
+        "ItemName": "Little Board Books, Five Little Ducks Went Swimmin",
         "Variation Name": "",
         "SKU": "978-0-7945-5419-4",
         "Description": "<p><strong>Children - </strong>Board book</p><p><strong>Age: </strong>18m+</p><p>Mother Duck&#39;s five little ducklings just can&#39;t resist swimming off to explore. Find out what they get up to in this charming retelling of the well-loved rhyme. Not only perfect for cozy bedtime reading, but this little board book will also help build very young children&#39;s awareness of simple numeracy.</p><p><br/></p><p><u>Series: Little Board Books</u></p><p>These classic nursery rhymes and stories are retold in beautifully illustrated little board books, which provide a talking point for very young children.</p>",
@@ -15842,7 +15842,7 @@
     {
         "Reference Handle": "#little-morwenna-s-horror-alphabet-primer-paperback",
         "Token": "RF47CFGQW566Y5ICJXGKO3R3",
-        "Item Name": "Little Morwenna's Horror Alphabet Primer",
+        "ItemName": "Little Morwenna's Horror Alphabet Primer",
         "Variation Name": "Paperback",
         "SKU": "9781736025222",
         "Description": "Cuneo, Paul ; Abreu, Juno\r\nFiction - Children\r\nAge: 7+\r\nPaperback - PUB: 09/12/2022\r\nIn the spirit of Edward Gorey's Gashlycrumb Tinies, author Paul Cuneo and illustrator Juno Abreu present the alphabet as taught by a new, gothic heroine for the age. She's dead, but that won't stop her from trying to make friends by sharing a few of her favorite things-like her axe, your burial, a good lament, and her dog Shivers, who seems to have picked up an odor under the floorboards. No matter-sit back, relax, ignore the screams from the marsh, and allow Little Morwenna to unburden you of that annoying obligation you've been feeling to look on the bright side.",
@@ -15874,7 +15874,7 @@
     {
         "Reference Handle": "#little-sticker-dolly-dressing-fairies-regular",
         "Token": "D5AA2U6FNEP2VAXEXYIEIG2E",
-        "Item Name": "Little Sticker Dolly Dressing Fairies",
+        "ItemName": "Little Sticker Dolly Dressing Fairies",
         "Variation Name": "Regular",
         "SKU": "9780794536954",
         "Description": "",
@@ -15906,7 +15906,7 @@
     {
         "Reference Handle": "#little-stickers-sloth-and-their-jungle-friends-regular",
         "Token": "CDXBJMFA6O2LA3ZVBA5FX5G6",
-        "Item Name": "Little Stickers Sloth And Their Jungle Friends",
+        "ItemName": "Little Stickers Sloth And Their Jungle Friends",
         "Variation Name": "Regular",
         "SKU": "9780794550691",
         "Description": "",
@@ -15938,7 +15938,7 @@
     {
         "Reference Handle": "#long-live-the-pumpkin-queen-tim-burton-s-the-nightmare-before-christmas-hardcover",
         "Token": "5IXCCP72R5D6EOJ6GWSTMNFC",
-        "Item Name": "Long Live the Pumpkin Queen: Tim Burton's the Nightmare Before Christmas",
+        "ItemName": "Long Live the Pumpkin Queen: Tim Burton's the Nightmare Before Christmas",
         "Variation Name": "Hardcover",
         "SKU": "9781368069601",
         "Description": "Ernshaw, Shea",
@@ -15970,7 +15970,7 @@
     {
         "Reference Handle": "#long-shadows-hardcover",
         "Token": "HNPQXWZTWENDAPNSXRD5QVSQ",
-        "Item Name": "Long Shadows",
+        "ItemName": "Long Shadows",
         "Variation Name": "Hardcover",
         "SKU": "9781538719824",
         "Description": "Baldacci, David\r\nFiction - Thriller\r\nHardcover - PUB: 10/11/2022\r\n\"When Amos Decker is called to South Florida to investigate a double homicide, the case appears straightforward: A federal judge and her bodyguard have been found dead, the judge's face sporting a blindfold with two eye holes crudely cut out, a clear sign that she'd made one too many enemies over her years on the bench. What at first seems cut and dry is anything but: Not only did the judge have more enemies than Decker can count--from violent gang members, drug dealers, and smugglers to a resentful ex-husband--but the bodyguard presents additional conundrums that muddy the waters even further. Who was the real target in this vicious attack?\"-",
@@ -16002,7 +16002,7 @@
     {
         "Reference Handle": "#look-find-puzzles-bugs-",
         "Token": "VO4LUIC54N3JHTLJKMT2IE45",
-        "Item Name": "Look & Find Puzzles, Bugs",
+        "ItemName": "Look & Find Puzzles, Bugs",
         "Variation Name": "",
         "SKU": "978-0-7945-5427-9",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 4+</p><p>Spot a superhero spider, a bee on a bicycle, and a bug wearing boots, and look for the little white mouse hiding on every page. This lively book is teeming with butterflies, bees, beetles, and other bugs to find, match, count, and talk about.</p><p><br/></p><p><u>Series: Look &amp; Find Puzzles Books</u></p><p>Enjoy spotting, matching, counting and talking about all the animals in these delightful look-and-find books.</p>",
@@ -16034,7 +16034,7 @@
     {
         "Reference Handle": "#look-find-puzzles-on-the-farm-",
         "Token": "ECGNQBFZG6JEOIXOMDFBU5NV",
-        "Item Name": "Look & Find Puzzles, On the Farm",
+        "ItemName": "Look & Find Puzzles, On the Farm",
         "Variation Name": "",
         "SKU": "978-0-7945-5476-7",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>4+</p><p>Spot a dancing pig, a bull in a scarf, and a cat driving a tractor, and look for the little white mouse hiding on every page. This lively book is packed with sheep, pigs, cows, and lots of farmyard friends to find, match, count, and talk about.</p><p><br/></p><p><u>Series: Look &amp; Find Puzzles Books</u></p><p>Enjoy spotting, matching, counting and talking about all the animals in these delightful look-and-find books.</p>",
@@ -16066,7 +16066,7 @@
     {
         "Reference Handle": "#look-inside-how-things-work-ir--",
         "Token": "H5MIQLIPML27B2YCW654HJ5J",
-        "Item Name": "Look Inside, How Things Work (IR)",
+        "ItemName": "Look Inside, How Things Work (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-4287-0",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 5+</p><p>A fascinating flap book packed with interesting information about how lots of things work. Discover the inner workings of cars and boats, farm and building site machines, everyday household items including vacuum cleaners, computers, and fridges, and much more.</p><p><br/></p><p><u>Series: Look Inside Board Books</u></p><p>Look inside the scenes at a bustling airport, dive under water and peer inside hollow trees to see what&#39;s hiding in the shadows, and find out why stars shine. These fascinating flap books are perfect for little fingers and curious minds.</p>",
@@ -16098,7 +16098,7 @@
     {
         "Reference Handle": "#lore-olympus-paperback",
         "Token": "HUQIUBNTXLZC7XJZD5RMTLWF",
-        "Item Name": "Lore Olympus",
+        "ItemName": "Lore Olympus",
         "Variation Name": "Paperback",
         "SKU": "9788418040443",
         "Description": "Smythe, Rachel\r\nPUB 02/21/2023\r\nBACKORDERED",
@@ -16130,7 +16130,7 @@
     {
         "Reference Handle": "#lore-olympus-volume-four-hardcover",
         "Token": "YW7EQLXQMJWRFQA2DF7OZLTJ",
-        "Item Name": "Lore Olympus: Volume Four",
+        "ItemName": "Lore Olympus: Volume Four",
         "Variation Name": "Hardcover",
         "SKU": "9780593599044",
         "Description": "Smythe, Rachel\r\nBACKORDERED",
@@ -16162,7 +16162,7 @@
     {
         "Reference Handle": "#lore-olympus-volume-one-paperback",
         "Token": "G24LOIYNYIRQEMSA6SDIHU53",
-        "Item Name": "Lore Olympus: Volume One",
+        "ItemName": "Lore Olympus: Volume One",
         "Variation Name": "Paperback",
         "SKU": "9780593356074",
         "Description": "Smythe, Rachel\r\nFiction - Comics & Graphic Novels\r\nPaperback - PUB: 11/02/2021\r\n\"This volume collects episodes 1-25 of the #1 Webtoon comic Lore Olympus\"",
@@ -16194,7 +16194,7 @@
     {
         "Reference Handle": "#lore-olympus-volume-three-paperback",
         "Token": "H75L6MHKONOIQJT4FW7OFCQJ",
-        "Item Name": "Lore Olympus: Volume Three",
+        "ItemName": "Lore Olympus: Volume Three",
         "Variation Name": "Paperback",
         "SKU": "9780593356098",
         "Description": "Smythe, Rachel\r\nFiction - Comics & Graphic Novels\r\nPaperback - PUB: 10/11/2022\r\nAll of Olympus--and the Underworld--are talking about the God of the Dead and the sprightly daughter of Demeter. But despite the rumors of their romance, Hades and Persephone have plenty to navigate on their own. Since coming to Olympus, Persephone has struggled to be the perfect maiden goddess. Her attraction to Hades has only complicated the intense burden of the gods' expectations. And after Apollo's assault, Persephone fears she can no longer bury the intense feelings of hurt and love that she's worked so hard to hide. As Persephone contemplates her future, Hades struggles with his past, falling back into toxic habits in Minthe's easy embrace. With all the mounting pressure and expectations--of their family, friends, and enemies--both Hades and Persephone tell themselves to deny their deepest desires, but the pull between them is too tempting, too magnetic. It's fate",
@@ -16226,7 +16226,7 @@
     {
         "Reference Handle": "#lore-olympus-volume-two-paperback",
         "Token": "NJG4VT46E5GIKKJQTRLJJ7CE",
-        "Item Name": "Lore Olympus: Volume Two",
+        "ItemName": "Lore Olympus: Volume Two",
         "Variation Name": "Paperback",
         "SKU": "9780593356081",
         "Description": "Smythe, Rachel\r\nFiction - Comics & Graphic Novels\r\nPaperback - PUB: 07/05/2022",
@@ -16258,7 +16258,7 @@
     {
         "Reference Handle": "#los-monstruos-van-al-cole-billy-and-the-mini-mons-",
         "Token": "LBM2M6R4NIJZTNSK4I5FUNME",
-        "Item Name": "Los monstruos van al cole (Billy and the Mini Mons",
+        "ItemName": "Los monstruos van al cole (Billy and the Mini Mons",
         "Variation Name": "",
         "SKU": "978-0-7945-5388-3",
         "Description": "<p><strong>Children - </strong>Spanish</p><p><strong>Age:</strong> 6+</p><p>Billy tiene problemas con el MATÓN de la clase. Y para colmo, sus traviesas mascotas, los MINI MONSTRUOS, se han empeñado en ir al cole con él. Billy no quiere que vayan pero, ¿y si contar con la ayuda de varios monstruos revoltosos no fuera tan mala idea?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy&#39;s life will never be the same again.</p>",
@@ -16290,7 +16290,7 @@
     {
         "Reference Handle": "#love-other-disasters-regular",
         "Token": "FKZHXTEBB6NQWLAVBMPLVXUB",
-        "Item Name": "Love & Other Disasters",
+        "ItemName": "Love & Other Disasters",
         "Variation Name": "Regular",
         "SKU": "9781538754849",
         "Description": "Anita Kelly\r\nFiction - Romance\r\nPaperback - PUB: 1/18/2022",
@@ -16322,7 +16322,7 @@
     {
         "Reference Handle": "#love-and-lies-12-the-misaki-ending-paperback",
         "Token": "3VEPVUKKFLHXQKQTWPJDBM54",
-        "Item Name": "Love and Lies 12: The Misaki Ending",
+        "ItemName": "Love and Lies 12: The Misaki Ending",
         "Variation Name": "Paperback",
         "SKU": "9781646515813",
         "Description": "Musawo",
@@ -16354,7 +16354,7 @@
     {
         "Reference Handle": "#love-real-food-more-than-100-feel-good-vegetarian-favorites-to-delight-the-senses-and-nourish-the-body-regular",
         "Token": "U3BGXJP2EX7PXPGTZQH2HKL4",
-        "Item Name": "Love Real Food: More than 100 Feel-Good Vegetarian Favorites to Delight the Senses and Nourish the Body",
+        "ItemName": "Love Real Food: More than 100 Feel-Good Vegetarian Favorites to Delight the Senses and Nourish the Body",
         "Variation Name": "Regular",
         "SKU": "9781623367411",
         "Description": "Hardcover - PUB: 05/16/2017",
@@ -16386,7 +16386,7 @@
     {
         "Reference Handle": "#lovecraft-cocktails-elixirs-libations-from-the-lore-of-h-p-lovecraft-hardcover",
         "Token": "IEANDJFG6CNQE3NIXSZ7ULVT",
-        "Item Name": "Lovecraft Cocktails: Elixirs & Libations from the Lore of H. P. Lovecraft",
+        "ItemName": "Lovecraft Cocktails: Elixirs & Libations from the Lore of H. P. Lovecraft",
         "Variation Name": "Hardcover",
         "SKU": "9781682686416",
         "Description": "Slater, Mike ; Red Duke Games LLC\r\nNon-Fiction, Cookbook\r\n75 drinks, potions, concoctions, and offerings for your next haunted housewarming or Samhain soirée.",
@@ -16418,7 +16418,7 @@
     {
         "Reference Handle": "#loved-cast-p-c-",
         "Token": "3JFIGZCFQQHVCOEOZFIA7OIZ",
-        "Item Name": "Loved",
+        "ItemName": "Loved",
         "Variation Name": "Cast, P. C.",
         "SKU": "9781538507568",
         "Description": "Paperback",
@@ -16450,7 +16450,7 @@
     {
         "Reference Handle": "#lovesick-ellie-6-paperback",
         "Token": "PWRY2FYIHILSLMRZQV3CKQP7",
-        "Item Name": "Lovesick Ellie 6",
+        "ItemName": "Lovesick Ellie 6",
         "Variation Name": "Paperback",
         "SKU": "9781646513222",
         "Description": "Fujimomo",
@@ -16482,7 +16482,7 @@
     {
         "Reference Handle": "#luckiest-girl-alive-paperback",
         "Token": "JWRHH7KWQW3QKLNHL7MR34WP",
-        "Item Name": "Luckiest Girl Alive",
+        "ItemName": "Luckiest Girl Alive",
         "Variation Name": "Paperback",
         "SKU": "9781476789644",
         "Description": "Knoll, Jessica\r\nFiction - Thriller\r\nPaperback - PUB: 04/05/2016\r\n\"As a teenager at the prestigious Bradley School, Ani FaNelli endured a shocking, public humiliation that left her desperate to reinvent herself. Now, with a glamorous job, expensive wardrobe, and handsome blue blood fiancâe, she's this close to living the perfect life she's worked so hard to achieve. But Ani has a secret. There's something else buried in her past that still haunts her, something private and painful that threatens to bubble to the surface and destroy everything.\"-",
@@ -16514,7 +16514,7 @@
     {
         "Reference Handle": "#luminary-a-magical-guide-to-self-care-hardcover",
         "Token": "UITSWKE4JWQHWUH74ZYISNEB",
-        "Item Name": "Luminary: A Magical Guide to Self-Care",
+        "ItemName": "Luminary: A Magical Guide to Self-Care",
         "Variation Name": "Hardcover",
         "SKU": "9781665902342",
         "Description": "Scelsa, Kate\r\nYoung Adult Non-Fiction\r\nHardcover - PUB: 11/08/2022\r\n\"Self-care is not only necessary, it's magical! Your road to self-care can be a mystical journey that leaves you feeling more confident, determined and ready to accomplish all those bucket-list items and dreams you have scribbled in your journal. So why not start that journey now? Within Luminary you will find both mystical and practical tools to help deal with stress, depression, and other challenges. Gorgeously illustrated and highly designed, this guide offers different creative ways of living a heart-centered, mindful, and magical life through concrete tools for self-care and advice from a diverse group of practitioners in areas like tarot, astrology, energy work, and much more. Luminary is a book of practical magic that will empower you to pursue mental wellness with curiosity and confidence. But it's also a book of possibility that pushes the boundaries of what self-help can be\"",
@@ -16546,7 +16546,7 @@
     {
         "Reference Handle": "#luna-boo-has-feelings-too-",
         "Token": "FMV6QNB45HDHDFLVIVEIMQYL",
-        "Item Name": "Luna Boo Has Feelings Too",
+        "ItemName": "Luna Boo Has Feelings Too",
         "Variation Name": "",
         "SKU": "978-1-68464-481-0",
         "Description": "<p>Children</p><p>Age: 5+</p><p>Will showing true colors help ghost Luna be seen? Or scare away classmates to run off with a scream?</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -16578,7 +16578,7 @@
     {
         "Reference Handle": "#mad-honey-hardcover",
         "Token": "DC4TAZCWGHU6LJI7TXLZISJL",
-        "Item Name": "Mad Honey",
+        "ItemName": "Mad Honey",
         "Variation Name": "Hardcover",
         "SKU": "9781984818386",
         "Description": "Picoult, Jodi ; Boylan, Jennifer Finney\r\nFiction - Literary\r\nHardcover - PUB: 10/04/2022",
@@ -16610,7 +16610,7 @@
     {
         "Reference Handle": "#maid-prose-nita",
         "Token": "3CDDGZBBKYZ4GFF7OBNPJL36",
-        "Item Name": "Maid",
+        "ItemName": "Maid",
         "Variation Name": "Prose, Nita",
         "SKU": "9780593510841",
         "Description": "Paperback",
@@ -16642,7 +16642,7 @@
     {
         "Reference Handle": "#mame-coordinate-volume-4-volume-4-paperback",
         "Token": "WM2KXONAI7F2FF6LHB76WYXG",
-        "Item Name": "Mame Coordinate, Volume 4: Volume 4",
+        "ItemName": "Mame Coordinate, Volume 4: Volume 4",
         "Variation Name": "Paperback",
         "SKU": "9781427868497",
         "Description": "Miyabe, Sachi",
@@ -16674,7 +16674,7 @@
     {
         "Reference Handle": "#mary-has-the-best-pet-",
         "Token": "BB5JGXEQCJSW7NHFCW5IHFFS",
-        "Item Name": "Mary Has the Best Pet",
+        "ItemName": "Mary Has the Best Pet",
         "Variation Name": "",
         "SKU": "978-1-68464-268-7",
         "Description": "<p>Children</p><p>Age: 5+</p><p>You shouldn’t bring a pet to school... but Mary’s pet is super cool!</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -16706,7 +16706,7 @@
     {
         "Reference Handle": "#mashle-magic-and-muscles-vol-9-paperback",
         "Token": "4HECNTPOFF7B66RBSDYW7DI2",
-        "Item Name": "Mashle: Magic and Muscles, Vol. 9",
+        "ItemName": "Mashle: Magic and Muscles, Vol. 9",
         "Variation Name": "Paperback",
         "SKU": "9781974734191",
         "Description": "Komoto, Hajime",
@@ -16738,7 +16738,7 @@
     {
         "Reference Handle": "#max-meow-book-4-taco-time-machine-hardcover",
         "Token": "ZA2IWEMDJTOZC2OHZSCJ5H75",
-        "Item Name": "Max Meow Book 4: Taco Time Machine",
+        "ItemName": "Max Meow Book 4: Taco Time Machine",
         "Variation Name": "Hardcover",
         "SKU": "9780593479667",
         "Description": "Gallagher, John",
@@ -16770,7 +16770,7 @@
     {
         "Reference Handle": "#mayara-annabelle-vol-1-paperback",
         "Token": "ZEX5HIFQNNSNNM3C23KYKNBG",
-        "Item Name": "Mayara & Annabelle Vol. 1",
+        "ItemName": "Mayara & Annabelle Vol. 1",
         "Variation Name": "Paperback",
         "SKU": "9781953414083",
         "Description": "Casado, Pablo",
@@ -16802,7 +16802,7 @@
     {
         "Reference Handle": "#meet-me-at-the-lake-hardcover",
         "Token": "ZJPZGKLADSX3L7S5OBBHUQ7M",
-        "Item Name": "Meet Me at the Lake",
+        "ItemName": "Meet Me at the Lake",
         "Variation Name": "Hardcover",
         "SKU": "9780593638477",
         "Description": "Fortune, Carley\r\nBACKORDERED",
@@ -16834,7 +16834,7 @@
     {
         "Reference Handle": "#meet-me-in-london-mass-market-paperbound",
         "Token": "XFIRMVRKNQA3TS5MCAB2GJJH",
-        "Item Name": "Meet Me in London",
+        "ItemName": "Meet Me in London",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781335427595",
         "Description": "Toffolo, Georgia\r\nFiction - Romance\r\nPaperback - PUB: 11/29/2022",
@@ -16866,7 +16866,7 @@
     {
         "Reference Handle": "#mermaid-embroidery-kit-regular",
         "Token": "XBFZAATHS5D6FNPGPKR7VO6V",
-        "Item Name": "Mermaid Embroidery Kit",
+        "ItemName": "Mermaid Embroidery Kit",
         "Variation Name": "Regular",
         "SKU": "9780794544645",
         "Description": "",
@@ -16898,7 +16898,7 @@
     {
         "Reference Handle": "#mermaid-magic-painting-regular",
         "Token": "5CS52NWSGN7VOPP64E3HSI2Q",
-        "Item Name": "Mermaid Magic Painting",
+        "ItemName": "Mermaid Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794547240",
         "Description": "",
@@ -16930,7 +16930,7 @@
     {
         "Reference Handle": "#merry-little-meet-cute-not-available",
         "Token": "GMJLZLOGKR6XD26FBKLUQAQ3",
-        "Item Name": "Merry Little Meet Cute",
+        "ItemName": "Merry Little Meet Cute",
         "Variation Name": "Not Available",
         "SKU": "9780063289499",
         "Description": "Paperback",
@@ -16962,7 +16962,7 @@
     {
         "Reference Handle": "#midnight-fright-book-3--",
         "Token": "DV7T3MG7AJWNHFE5HYRVL7FQ",
-        "Item Name": "Midnight Fright (Book 3)",
+        "ItemName": "Midnight Fright (Book 3)",
         "Variation Name": "",
         "SKU": "978-1-68464-165-9",
         "Description": "<p>Children - Chapter book</p><p>Age: 6+</p><p>Vlad’s annoying cousin Lupus is visiting. He’s perfect at all the vampire skills – turning into a bat, flying, and mind control... AND he’s popular at school! Is there ANYTHING Vlad can do better than Lupus?</p><p><br/></p><p><u>Series: Vlad, the World&#39;s Worst Vampire</u></p><p>Misery Manor is home to the Impalers – the bravest vampire family that ever lived. Except for Vlad – he’s not brave at all... He’s even a bit scared of the dark!</p>",
@@ -16994,7 +16994,7 @@
     {
         "Reference Handle": "#midnight-in-everwood-paperback",
         "Token": "KZNIXU7ALZVXSANB7RBTA6XX",
-        "Item Name": "Midnight in Everwood",
+        "ItemName": "Midnight in Everwood",
         "Variation Name": "Paperback",
         "SKU": "9780008450700",
         "Description": "<p>Kuzniar, M a</p><p>Fiction - Fantasy</p><p>Paperback - PUB: 09/06/2022</p><p><strong>In the darkness of night, magic awaits...</strong></p>",
@@ -17026,7 +17026,7 @@
     {
         "Reference Handle": "#midnight-jewel-mead-richelle",
         "Token": "RTH6KQKK6BM24HUNLYDGYL4P",
-        "Item Name": "Midnight Jewel",
+        "ItemName": "Midnight Jewel",
         "Variation Name": "Mead, Richelle",
         "SKU": "9781595148438",
         "Description": "Hardcover",
@@ -17058,7 +17058,7 @@
     {
         "Reference Handle": "#mieruko-chan-vol-6-paperback",
         "Token": "KBNQQ5WAOH7R5XGKGHGENURL",
-        "Item Name": "Mieruko-Chan, Vol. 6",
+        "ItemName": "Mieruko-Chan, Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781975349745",
         "Description": "Izumi, Tomoki",
@@ -17090,7 +17090,7 @@
     {
         "Reference Handle": "#million-dollar-demon-mass-market-paperbound",
         "Token": "ZD3WAO24YTAZ5DJ2V6MM3E7B",
-        "Item Name": "Million Dollar Demon",
+        "ItemName": "Million Dollar Demon",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593101452",
         "Description": "Harrison, Kim\r\nFiction - Fantasy - Romance\r\npaperback - PUB: 04/26/2022\r\nTo save the city, Rachel Morgan will need to show some teeth in the next Hollows novel from #1 New York Times bestselling author Kim Harrison. The new master vampire of Cincinnati has arrived . . . and she wants Rachel Morgan out. No matter where Rachel goes, Constance is there--threatening Rachel's allies, causing city-wide chaos, and, to add insult to injury, even forcing Rachel out of her current quarters. Ever since Rachel found a way to save the souls of vampires, the old undead's longtime ascendancy has been broken. Now Constance sees eliminating Rachel as the key to consolidating her own power. Rachel has no desire to be enthralled or killed--and she's terrified of what may become of the city if Constance forces a return to the ancient ways. But even a witch-born demon can't stand against the old undead--at least, not alone. And if Rachel refuses to claim the role of Cincinnati's master demon, the city will tear itself apart, taking",
@@ -17122,7 +17122,7 @@
     {
         "Reference Handle": "#minecraft-diamond-ore-journal-with-charm-regular",
         "Token": "J2XHTRCN7YEGTTOFX6CWKXPQ",
-        "Item Name": "Minecraft: Diamond Ore Journal with Charm",
+        "ItemName": "Minecraft: Diamond Ore Journal with Charm",
         "Variation Name": "Regular",
         "SKU": "9798886630763",
         "Description": "0.49\" H x 8.25\" L x 5.75\" W (0.71 lbs) 184 pages\r\nPUB: 05/02/2023\r\nBACKORDERED",
@@ -17154,7 +17154,7 @@
     {
         "Reference Handle": "#minecraft-open-world-into-the-nether-graphic-novel--paperback",
         "Token": "DGJEXHTS5LHPQD57FL2ZFRUE",
-        "Item Name": "Minecraft: Open World--Into the Nether (Graphic Novel)",
+        "ItemName": "Minecraft: Open World--Into the Nether (Graphic Novel)",
         "Variation Name": "Paperback",
         "SKU": "9781506718880",
         "Description": "Ramirez, Stephanie ; Ramirez, Stephanie",
@@ -17186,7 +17186,7 @@
     {
         "Reference Handle": "#miss-molly-s-school-of-manners-regular",
         "Token": "PGIU3G33KV7WPHFKUZOSUM7W",
-        "Item Name": "Miss Molly's School Of Manners",
+        "ItemName": "Miss Molly's School Of Manners",
         "Variation Name": "Regular",
         "SKU": "9780794541996",
         "Description": "Children",
@@ -17218,7 +17218,7 @@
     {
         "Reference Handle": "#miss-peregrine-s-museum-of-wonders-an-indispensable-guide-to-the-dangers-and-delights-of-the-peculiar-world-for-the-instruction-of-new-arrivals-hardcover",
         "Token": "H3DQA5TAYLK32HS3GXBNO3FS",
-        "Item Name": "Miss Peregrine's Museum of Wonders: An Indispensable Guide to the Dangers and Delights of the Peculiar World for the Instruction of New Arrivals",
+        "ItemName": "Miss Peregrine's Museum of Wonders: An Indispensable Guide to the Dangers and Delights of the Peculiar World for the Instruction of New Arrivals",
         "Variation Name": "Hardcover",
         "SKU": "9780399538568",
         "Description": "Riggs, Ransom\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 09/27/2022\r\n\"Gloriously rich and utterly delightful, Miss Peregrine's Museum of Wonders is an indispensable guide to the peculiar world, perfect for longtime fans and new readers alike. Covering everything from how to blend in with suspicious normals to the most popular time loops to visit as a temporal tourist, this essential volume is ideal for anyone curious about the world of Miss Peregrine: its strange history, curious practices, fascinating places, most famous (and infamous) names, and much more. Written in Miss Peregrine's inimitable style, it's also a dramatic expansion of the universe fans have already come to love, introducing countless new peculiars, enemies, time loops, stories, and secrets, in addition to hundreds of never-before-seen vintage found photographs and select illustrations",
@@ -17250,7 +17250,7 @@
     {
         "Reference Handle": "#mistborn-secret-history-hardcover",
         "Token": "AYN4MS3JB2PR6QWQ2YJZ2PBL",
-        "Item Name": "Mistborn: Secret History",
+        "ItemName": "Mistborn: Secret History",
         "Variation Name": "Hardcover",
         "SKU": "9781250859143",
         "Description": "Sanderson, Brandon\r\nFiction - Fantasy\r\nHardcover - PUB: 09/20/2022\r\nFrom #1 New York Times bestselling author Brandon Sanderson, \"Mistborn: Secret History\" is a companion story to the original Mistborn trilogy. Building upon the characterization, events, and worldbuilding of the original trilogy, this novella offers a rare glimpse behind the scenes at the fate of a certain reader-favorite character. Ten years in the making, \"Mistborn: Secret History\" might answer a few of your questions\"",
@@ -17282,7 +17282,7 @@
     {
         "Reference Handle": "#mistborn-the-final-empire-mass-market-paperbound",
         "Token": "ZI6H44JDAASGFGOI3RFVCOD4",
-        "Item Name": "Mistborn: The Final Empire",
+        "ItemName": "Mistborn: The Final Empire",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250318541",
         "Description": "Sanderson, Brandon\r\nFiction - Fantasy\r\nPaperback - PUB: 09/24/2019",
@@ -17314,7 +17314,7 @@
     {
         "Reference Handle": "#mistress-of-all-evil-villains-book-4-a-tale-of-the-dark-fairy-hardcover",
         "Token": "MC2XUTBAV7NLLQM6VIDHQOFT",
-        "Item Name": "Mistress of All Evil (Villains, Book 4): A Tale of the Dark Fairy",
+        "ItemName": "Mistress of All Evil (Villains, Book 4): A Tale of the Dark Fairy",
         "Variation Name": "Hardcover",
         "SKU": "9781368009010",
         "Description": "Valentino, Serena\r\nYoung Adult Fiction\r\nHardcover",
@@ -17346,7 +17346,7 @@
     {
         "Reference Handle": "#mobile-suit-gundam-thunderbolt-vol-18-paperback",
         "Token": "BBQHQPTMCPWZFT2CBKCJHFW6",
-        "Item Name": "Mobile Suit Gundam Thunderbolt, Vol. 18",
+        "ItemName": "Mobile Suit Gundam Thunderbolt, Vol. 18",
         "Variation Name": "Paperback",
         "SKU": "9781974732487",
         "Description": "Ohtagaki, Yasuo ; Yatate, Hajime ; Tomino, Yoshiyuki",
@@ -17378,7 +17378,7 @@
     {
         "Reference Handle": "#money-moves-this-is-not-a-get-rich-quick-scheme-it-s-a-conversation-about-money--paperback",
         "Token": "RKLGGDWWI6FM3DFMEPE255ZE",
-        "Item Name": "Money Moves: This Is Not a Get-Rich-Quick Scheme! It's a Conversation About Money.",
+        "ItemName": "Money Moves: This Is Not a Get-Rich-Quick Scheme! It's a Conversation About Money.",
         "Variation Name": "Paperback",
         "SKU": "9798765226322",
         "Description": "Theresa Yong\r\nNon-Fiction\r\nPaperback - PUB: 04/07/2022\r\nManaging your money can be intimidating, scary, and stressful. Theresa Yong wrote this guide as a simple resource for everyday people who want to get a handle on their finances. She explains how to avoid the headaches so often associated with personal financial matters. By following practical steps, you'll be able to: - Create a budget and stick to it; - Build an emergency fund; - Save for a retirement you envision; - Protect your hard-earned nest egg. Theresa also highlights the importance of financial literacy throughout the guide, noting that the earlier people become comfortable with terms such as bills, credit, budget, retirement, savings, and investments, the better equipped they will be to face everyday challenges--especially those associated with developing marketable skills and making their way in the world. Boost your confidence, navigate the future, and put yourself and your loved ones on the right path with the insights and practical guidance in Money Moves.",
@@ -17410,7 +17410,7 @@
     {
         "Reference Handle": "#monsters-at-christmas-",
         "Token": "URBEJRA5D4LXXLNUODL3XVO4",
-        "Item Name": "Monsters at Christmas",
+        "ItemName": "Monsters at Christmas",
         "Variation Name": "",
         "SKU": "978-0-7945-5316-6",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>It&#39;s nearly Christmas, and Billy and Ruby are feeling VERY excited. Billy has asked Santa to bring presents for his Mini Monsters and they&#39;re very excited too... until they try to help with the decorating and bring down the ENTIRE Christmas tree. Now the ornaments are broken, the fairy is squashed, and Billy&#39;s mother is feeling sad. Can the Mini Monsters make Christmas right again? And will Santa still come to them?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17442,7 +17442,7 @@
     {
         "Reference Handle": "#monsters-at-halloween-",
         "Token": "DQABTFK24DUSCADXGDOVVJTF",
-        "Item Name": "Monsters at Halloween",
+        "ItemName": "Monsters at Halloween",
         "Variation Name": "",
         "SKU": "978-0-7945-4766-0",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>When Billy arrives at the Halloween party he finds Sparkle Boogey in the apple bobbing, Trumpet in a pumpkin, and Gloop playing Guess the Body Part. Can Billy save Halloween?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17474,7 +17474,7 @@
     {
         "Reference Handle": "#monsters-at-the-beach-",
         "Token": "MVOQQKV3KTWTWQQ2XMJMY2NK",
-        "Item Name": "Monsters at the Beach",
+        "ItemName": "Monsters at the Beach",
         "Variation Name": "",
         "SKU": "978-0-7945-4515-4",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy and his family are off to the beach. The Mini Monsters are very excited to be going too. Soon they’re building sandcastles and enjoying their picnic. It’s all going so well... until Trumpet is stolen by a seagull! How is Billy EVER going to get him back?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17506,7 +17506,7 @@
     {
         "Reference Handle": "#monsters-at-the-museum-",
         "Token": "WQSMGA3DIH66PA7LNRFY6NWE",
-        "Item Name": "Monsters at the Museum",
+        "ItemName": "Monsters at the Museum",
         "Variation Name": "",
         "SKU": "978-0-7945-4514-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy is feeling nervous about his FIRST EVER school trip, so the Mini Monsters decide to come along too. They promise not to be any trouble…but who’s causing a commotion in the creepy-crawly cages? Why does the T. rex skeleton keep moving? And Billy can&#39;t help wondering about the really tiny Egyptian mummies… Can he save the trip from disaster?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17538,7 +17538,7 @@
     {
         "Reference Handle": "#monsters-go-camping-",
         "Token": "DHRLMF56L47DZEYQBB5QL7LK",
-        "Item Name": "Monsters Go Camping",
+        "ItemName": "Monsters Go Camping",
         "Variation Name": "",
         "SKU": "978-0-7945-5204-6",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>6+</p><p>It&#39;s Billy&#39;s school camping trip. His worst nightmare is having to use the TOILET in the DARK. What if he gets lost in the SCARY WOODS? What if there are WEREWOLVES? Or BEARS? The Mini Monsters decide to brush up on their camping skills and come along too, in case Billy needs their help. Which he definitely does... for it&#39;s not long before his worst nightmare comes true.</p><p><br/></p><p>Series: Billy and the Mini Monsters</p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17570,7 +17570,7 @@
     {
         "Reference Handle": "#monsters-go-green-",
         "Token": "YVU7IRJZU3O7FYKMMHFBL2DZ",
-        "Item Name": "Monsters Go Green",
+        "ItemName": "Monsters Go Green",
         "Variation Name": "",
         "SKU": "978-0-7945-5282-4",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy is learning how to take care of the planet, and the Mini Monster&#39;s want to help too... so they join the school trip to the recycling center, but what will happen when Gloop falls into the recycling machine? Another laugh-out-loud Billy and the Mini Monsters story, with a strong underlying message about looking after the planet.</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17602,7 +17602,7 @@
     {
         "Reference Handle": "#monsters-go-party--",
         "Token": "KC5PI2UA7SIF2GTX4TOMHI7G",
-        "Item Name": "Monsters Go Party!",
+        "ItemName": "Monsters Go Party!",
         "Variation Name": "",
         "SKU": "978-0-7945-4224-5",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy’s off to a birthday party. He can’t wait! And neither can his Mini Monsters… they’ve snuck into the party too! Soon Gloop’s in the gelatin, Trumpet’s on a balloon, and Fang-Face is about to become the birthday surprise…</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17634,7 +17634,7 @@
     {
         "Reference Handle": "#monsters-in-the-dark-book-1--",
         "Token": "BH7LGFNPERFD5VHC6FJLJMOA",
-        "Item Name": "Monsters in the Dark (Book 1)",
+        "ItemName": "Monsters in the Dark (Book 1)",
         "Variation Name": "",
         "SKU": "978-0-7945-4220-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>6+</p><p>Billy is scared of THE DARK. And to make things worse, there is something creeping around his room at night. The something has a squeaky little voice. It likes eating cheese. AND school ties. Strangest of all, it leaves behind tiny purple footprints and has made a nest in his sock drawer. What could it be? Find out in the first of six fantastic adventure stories. Divided into six chapters and contains comic strips as part of the story.</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17666,7 +17666,7 @@
     {
         "Reference Handle": "#monsters-on-a-plane-",
         "Token": "5BD6O6JSG3KIBMZVYBNKZMME",
-        "Item Name": "Monsters on a Plane",
+        "ItemName": "Monsters on a Plane",
         "Variation Name": "",
         "SKU": "978-0-7945-4223-8",
         "Description": "<p>It’s vacation time for Billy and his Mini Monsters. They’re off on a plane to Spain. There are just two small problems – Peep’s been seen by airport security and Trumpet and Gloop have gotten LOST with the luggage. Can Billy get his Mini Monsters back in time for take-off?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17698,7 +17698,7 @@
     {
         "Reference Handle": "#monsters-on-the-loose-",
         "Token": "IFCVPCFTSQFIPMZPJZFMXBHJ",
-        "Item Name": "Monsters on the Loose",
+        "ItemName": "Monsters on the Loose",
         "Variation Name": "",
         "SKU": "978-0-7945-4221-4",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy&#39;s pet Mini Monsters have decided it would be fun to go to school. Billy thinks this is a TERRIBLE IDEA. Little does he realize they&#39;ve snuck into his school bag until it&#39;s too late... now there are monsters on the loose. There are monsters in the classroom, monsters on the playground, and worst of all, monsters in the cafeteria. Will Billy be able to rescue them before it&#39;s too late? Divided into six chapters and contains comic strips as part of the story.</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17730,7 +17730,7 @@
     {
         "Reference Handle": "#monsters-on-the-move-",
         "Token": "ZU6QE5A557ZYDO3TTEICKXIG",
-        "Item Name": "Monsters on the Move",
+        "ItemName": "Monsters on the Move",
         "Variation Name": "",
         "SKU": "978-0-7945-4225-2",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy’s moving house and everything is changing – new bedroom, new neighbors, new school. At least he’s got his Mini Monsters with him… or so he thinks. The Mini Monsters have gotten LOST in the move. How will they ever find their way back to Billy?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17762,7 +17762,7 @@
     {
         "Reference Handle": "#monsters-to-the-rescue-",
         "Token": "ZGGNCOSQVVKPATQK65YZKYGG",
-        "Item Name": "Monsters to the Rescue",
+        "ItemName": "Monsters to the Rescue",
         "Variation Name": "",
         "SKU": "978-0-7945-4222-1",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Billy hates swimming — it&#39;s cold and wet and horrible. And just when Billy thinks things can&#39;t get any worse, his pet Mini Monsters turn up at his swimming lesson and make one very big splash.</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy’s life will never be the same again...</p>",
@@ -17794,7 +17794,7 @@
     {
         "Reference Handle": "#monstruos-en-la-oscuridad-billy-and-the-mini-monsters--",
         "Token": "SDGKP5EZ52CR37MUFR22NXQE",
-        "Item Name": "Monstruos en la oscuridad (Billy and the Mini Monsters)",
+        "ItemName": "Monstruos en la oscuridad (Billy and the Mini Monsters)",
         "Variation Name": "",
         "SKU": "978-0-7945-5389-0",
         "Description": "<p><strong>Children - </strong>Spanish</p><p><strong>Age:</strong> 6+</p><p>A Billy le da miedo la oscuridad. Por ese quiere quedarse despierrto toda la noche. Pero entonces oye una vocecita chillona y descubre unas huellas moradas diminutas. Encima, ALGUIEN parece haber ATACADO el bocadillo de queso de la cena. Pero, ¿quién ha sido? ¿Se atreverá Billy a averiguarlo?</p><p><br/></p><p><u>Series: Billy and the Mini Monsters</u></p><p>Billy is an ordinary boy until one night he finds five mini monsters living in his sock drawer. From the moment he discovers Gloop, Peep, Fang-Face, Captain Snott, and Trumpet, Billy&#39;s life will never be the same again.</p>",
@@ -17826,7 +17826,7 @@
     {
         "Reference Handle": "#moonrise-signed-first-edition-hardcover",
         "Token": "VW6DWAFQ63QZLGC6X55ARPF5",
-        "Item Name": "Moonrise, Signed First Edition",
+        "ItemName": "Moonrise, Signed First Edition",
         "Variation Name": "Hardcover",
         "SKU": "2300260036381",
         "Description": "<p>King, Cassandra</p><p>Fiction - Romance</p><p>Hardcover - PUB: 09/03/2013 <strong>SIGNED</strong></p><p>&#34;MOONRISE is a novel of dark secrets and second chances, the best novel yet from the New York Times&#39; bestselling author of The Sunday Wife and The Same Sweet Girls.&#34;</p><p>When Helen Honeycutt falls in love with a man who has recently lost his wife in a tragic accident, their sudden marriage creates a rift between her new husband and his circle of friends, who resent her intrusion into their circle. When the newlyweds join them for a summer at Moonrise, his late wife&#39;s family home in the beautiful Blue Ridge Mountains, it soon becomes clear that someone is trying to drive her away, in this writer&#39;s homage to Rebecca, by Daphne du Maurier.</p>",
@@ -17858,7 +17858,7 @@
     {
         "Reference Handle": "#mother-knows-best-villains-book-5-a-tale-of-the-old-witch-hardcover",
         "Token": "4ZBHD4D4MSV5DNDEUIIAOK3I",
-        "Item Name": "Mother Knows Best (Villains, Book 5): A Tale of the Old Witch",
+        "ItemName": "Mother Knows Best (Villains, Book 5): A Tale of the Old Witch",
         "Variation Name": "Hardcover",
         "SKU": "9781368009027",
         "Description": "Valentino, Serena\r\nYoung Adult Fiction\r\nHardcover - PUB: 08/07/2018\r\nThe fifth installment of Valentino's Villains series retells the story of Mother Gothel, the old witch who kept Rapunzel in a tower. Here is one version of the story that has remained untold for centuries--a tale of mothers and daughters, youth and dark magic.agic.",
@@ -17890,7 +17890,7 @@
     {
         "Reference Handle": "#mugs-medium",
         "Token": "6FG26EIFGKXVP574Y4UVCRNL",
-        "Item Name": "Mugs",
+        "ItemName": "Mugs",
         "Variation Name": "Medium",
         "SKU": "C981298",
         "Description": "Hand made by local artist",
@@ -17922,7 +17922,7 @@
     {
         "Reference Handle": "#mugs-small",
         "Token": "ENYFORBRY6UGXQQFWB2G6UAI",
-        "Item Name": "Mugs",
+        "ItemName": "Mugs",
         "Variation Name": "Small",
         "SKU": "560565M",
         "Description": "",
@@ -17954,7 +17954,7 @@
     {
         "Reference Handle": "#multitasking-a-baby-blues-collection-volume-39-paperback",
         "Token": "RZDFGSRQFHZSQ7UL3G2GXSLB",
-        "Item Name": "Multitasking: A Baby Blues Collection Volume 39",
+        "ItemName": "Multitasking: A Baby Blues Collection Volume 39",
         "Variation Name": "Paperback",
         "SKU": "9781524875626",
         "Description": "Kirkman, Rick ; Scott, Jerry\r\nBACKORDERED",
@@ -17986,7 +17986,7 @@
     {
         "Reference Handle": "#murci-lago-vol-20-paperback",
         "Token": "H2NMVOIL26TEGDROLBGBKNLL",
-        "Item Name": "Murciélago, Vol. 20",
+        "ItemName": "Murciélago, Vol. 20",
         "Variation Name": "Paperback",
         "SKU": "9781975349707",
         "Description": "Yoshimurakana",
@@ -18018,7 +18018,7 @@
     {
         "Reference Handle": "#murder-at-black-oaks-a-robin-lockwood-novel-hardcover",
         "Token": "BDWRAXIWAAELKHYX6A7D7UYR",
-        "Item Name": "Murder at Black Oaks: A Robin Lockwood Novel",
+        "ItemName": "Murder at Black Oaks: A Robin Lockwood Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781250258465",
         "Description": "Margolin, Phillip\r\nFiction - Thriller\r\nHardcover - PUB: 11/08/2022\r\n\"Defense attorney Robin Lockwood is summoned by retired District Attorney Francis Hardy to meet with him at Black Oaks, the manor he owns up in the Oregon mountains. The manor has an interesting history: originally built in 1628 in England, there's a murderous legend and curse attached to the mansion. Hardy, however, wants Lockwood's help in a legal matter: righting a wrongful conviction from his days as a DA. A young man, Jose Alvarez, was convicted of murdering his girlfriend only for Hardy--years later when in private practice--to have a client of his admit to the murder and to framing the man Hardy convicted\"-",
@@ -18050,7 +18050,7 @@
     {
         "Reference Handle": "#murder-in-the-cathedral-main--hardcover",
         "Token": "XKWUGZREVARV3M62PNRT5GSE",
-        "Item Name": "Murder in the Cathedral (Main)",
+        "ItemName": "Murder in the Cathedral (Main)",
         "Variation Name": "Hardcover",
         "SKU": "9780727850522",
         "Description": "Harrison, Cora\r\nBACKORDERED",
@@ -18082,7 +18082,7 @@
     {
         "Reference Handle": "#my-dad-is-awesome-by-bluey-and-bingo-hardcover",
         "Token": "BF6PTJVTEOZR7QT3ODB5RLTM",
-        "Item Name": "My Dad Is Awesome by Bluey and Bingo",
+        "ItemName": "My Dad Is Awesome by Bluey and Bingo",
         "Variation Name": "Hardcover",
         "SKU": "9780593519653",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 3-5</p><p>Hardcover - Father&#39;s Day edition - PUB: 03/15/2022</p><p><br/></p>",
@@ -18114,7 +18114,7 @@
     {
         "Reference Handle": "#my-dearest-darkest-paperback",
         "Token": "US2TR6BN3NK3JDD3T3554RMZ",
-        "Item Name": "My Dearest Darkest",
+        "ItemName": "My Dearest Darkest",
         "Variation Name": "Paperback",
         "SKU": "9781728236414",
         "Description": "Cottingham, Kayla\r\nYoung Adult Fiction\r\nPaperback - PUB: 03/29/2022\r\nWhen transfer student Finch Chamberlin and popular senior Selena St. Clair accidentally wake something terrifying and ancient in the depths of their school, they must work together to stop the horror they unleashed before it consumes the town.",
@@ -18146,7 +18146,7 @@
     {
         "Reference Handle": "#my-first-reading-library-regular",
         "Token": "V2ATGS5V6SI2A3W2RIIAFN66",
-        "Item Name": "My First Reading Library",
+        "ItemName": "My First Reading Library",
         "Variation Name": "Regular",
         "SKU": "9780794537494",
         "Description": "",
@@ -18178,7 +18178,7 @@
     {
         "Reference Handle": "#my-first-spanish-word-book-ir--",
         "Token": "NCN7EFJE3ALURQOSGR2P36CN",
-        "Item Name": "My First Spanish Word Book (IR)",
+        "ItemName": "My First Spanish Word Book (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3493-6",
         "Description": "<p>Children - Spanish</p><p>Age: 9m+</p><p>Young children need to learn a huge amount of vocabulary before they start to read, and one of the best ways in which to do that is to share books with them. This book is a perfect vocabulary-builder - each Spanish word includes a picture. Simply point to a picture and say the word and your child will soon be picking up new words.</p><p><br/></p><p><u>Series: My First Word Books</u></p><p>There are over 200 words for children to spot and learn in each of these delightfully illustrated books. Each word is brought to life with a friendly illustration and grouped into themes.</p>",
@@ -18210,7 +18210,7 @@
     {
         "Reference Handle": "#my-first-word-book-",
         "Token": "B76Q522TU2XNGU6PBXDXSATR",
-        "Item Name": "My First Word Book",
+        "ItemName": "My First Word Book",
         "Variation Name": "",
         "SKU": "978-0-7945-3381-6",
         "Description": "<p><strong>Children</strong></p><p><strong>Age</strong>: 9m+</p><p>There are over 270 familiar words for children to spot and learn in this delightfully illustrated book. Each word is brought to life with a friendly illustration, and grouped into themes including ‘Animals’, ‘At home’, ‘My body’, ‘Bedtime’ and lots more. With sturdy board pages designed to withstand being read time and time again.</p><p><br/></p><p><u>Series: My First Word Books</u></p><p>There are over 200 words for children to spot and learn in each of these delightfully illustrated books. Each word is brought to life with a friendly illustration and grouped into themes.</p>",
@@ -18242,7 +18242,7 @@
     {
         "Reference Handle": "#my-grandmother-asked-me-to-tell-you-she-s-sorry-paperback",
         "Token": "PS3OFANHZKYBAHSLZMNJ2NAJ",
-        "Item Name": "My Grandmother Asked Me to Tell You She's Sorry",
+        "ItemName": "My Grandmother Asked Me to Tell You She's Sorry",
         "Variation Name": "Paperback",
         "SKU": "9781501115073",
         "Description": "<p>Backman, Fredrik</p><p>Fiction - General</p><p>Paperback - PUB: 04/05/2016</p><p>A charming, warmhearted novel from the author of the <em>New York Times</em> bestseller <em>A Man Called Ove.</em>Elsa is seven years old and different. Her grandmother is seventy-seven years old and crazy--as in standing-on-the-balcony-firing-paintball</p>",
@@ -18274,7 +18274,7 @@
     {
         "Reference Handle": "#my-heart-is-a-chainsaw-the-indian-lake-trilogy-1--paperback",
         "Token": "QRZDXM3AQEAYJQ4GR677KCOS",
-        "Item Name": "My Heart Is a Chainsaw (The Indian Lake Trilogy #1)",
+        "ItemName": "My Heart Is a Chainsaw (The Indian Lake Trilogy #1)",
         "Variation Name": "Paperback",
         "SKU": "9781982137649",
         "Description": "Jones, Stephen Graham\r\nFiction - Thriller\r\nPaperback - PUB: 03/29/2022",
@@ -18306,7 +18306,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-25-volume-25-paperback",
         "Token": "HUTRMBU3IKUNW33B47IYOZJM",
-        "Item Name": "My Hero Academia, Vol. 25: Volume 25",
+        "ItemName": "My Hero Academia, Vol. 25: Volume 25",
         "Variation Name": "Paperback",
         "SKU": "9781974717620",
         "Description": "Horikoshi, Kohei",
@@ -18338,7 +18338,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-26-volume-26-paperback",
         "Token": "GER3EKWCOKF6I64EAPWPATIM",
-        "Item Name": "My Hero Academia, Vol. 26: Volume 26",
+        "ItemName": "My Hero Academia, Vol. 26: Volume 26",
         "Variation Name": "Paperback",
         "SKU": "9781974719778",
         "Description": "Horikoshi, Kohei",
@@ -18370,7 +18370,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-27-volume-27-paperback",
         "Token": "S3G4BEGCWSZ22SHUOR3YRYRP",
-        "Item Name": "My Hero Academia, Vol. 27: Volume 27",
+        "ItemName": "My Hero Academia, Vol. 27: Volume 27",
         "Variation Name": "Paperback",
         "SKU": "9781974721016",
         "Description": "Horikoshi, Kohei",
@@ -18402,7 +18402,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-28-volume-28-paperback",
         "Token": "ADJNXNUCPIXZHPXNTHQSABCT",
-        "Item Name": "My Hero Academia, Vol. 28: Volume 28",
+        "ItemName": "My Hero Academia, Vol. 28: Volume 28",
         "Variation Name": "Paperback",
         "SKU": "9781974722884",
         "Description": "Horikoshi, Kohei",
@@ -18434,7 +18434,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-29-volume-29-paperback",
         "Token": "GJGODI6VSAET2PBQAHH5GWMQ",
-        "Item Name": "My Hero Academia, Vol. 29: Volume 29",
+        "ItemName": "My Hero Academia, Vol. 29: Volume 29",
         "Variation Name": "Paperback",
         "SKU": "9781974725106",
         "Description": "Horikoshi, Kohei",
@@ -18466,7 +18466,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-30-paperback",
         "Token": "EVOW6XB5IWH75IWSJXBXP6GS",
-        "Item Name": "My Hero Academia, Vol. 30",
+        "ItemName": "My Hero Academia, Vol. 30",
         "Variation Name": "Paperback",
         "SKU": "9781974727155",
         "Description": "Horikoshi, Kohei",
@@ -18498,7 +18498,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-31-paperback",
         "Token": "TYHP7SGQDKH3CG6VVCGXT6GL",
-        "Item Name": "My Hero Academia, Vol. 31",
+        "ItemName": "My Hero Academia, Vol. 31",
         "Variation Name": "Paperback",
         "SKU": "9781974732128",
         "Description": "Horikoshi, Kohei",
@@ -18530,7 +18530,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-32-paperback",
         "Token": "FVGUVVS5KKXVK2IRNEWJWK77",
-        "Item Name": "My Hero Academia, Vol. 32",
+        "ItemName": "My Hero Academia, Vol. 32",
         "Variation Name": "Paperback",
         "SKU": "9781974732364",
         "Description": "Horikoshi, Kohei",
@@ -18562,7 +18562,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-33-paperback",
         "Token": "TG2DLROVYPBEDQOEMJSEIO4B",
-        "Item Name": "My Hero Academia, Vol. 33",
+        "ItemName": "My Hero Academia, Vol. 33",
         "Variation Name": "Paperback",
         "SKU": "9781974734740",
         "Description": "Horikoshi, Kohei\r\nPUB 02/07/2023\r\nBACKORDERED",
@@ -18594,7 +18594,7 @@
     {
         "Reference Handle": "#my-hero-academia-vol-34-paperback",
         "Token": "6BWQB4C47DEOYQ5E3ONB35JW",
-        "Item Name": "My Hero Academia, Vol. 34",
+        "ItemName": "My Hero Academia, Vol. 34",
         "Variation Name": "Paperback",
         "SKU": "9781974736638",
         "Description": "Horikoshi, Kohei\r\nPUB 05/02/2023\r\nBACKORDERED",
@@ -18626,7 +18626,7 @@
     {
         "Reference Handle": "#my-hero-academia-school-briefs-vol-5-volume-5-paperback",
         "Token": "3PNSCFUXVQPNU2JEAWGNZLQX",
-        "Item Name": "My Hero Academia: School Briefs, Vol. 5: Volume 5",
+        "ItemName": "My Hero Academia: School Briefs, Vol. 5: Volume 5",
         "Variation Name": "Paperback",
         "SKU": "9781974724079",
         "Description": "Horikoshi, Kohei ; Yoshi, Anri ; Cook, Caleb\r\nPUB 1/24/2023\r\nBACKORDERED",
@@ -18658,7 +18658,7 @@
     {
         "Reference Handle": "#my-hero-academia-school-briefs-vol-6-paperback",
         "Token": "RZ2VDB3BNYTM47BNSI7R4YKZ",
-        "Item Name": "My Hero Academia: School Briefs, Vol. 6",
+        "ItemName": "My Hero Academia: School Briefs, Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781974734252",
         "Description": "Horikoshi, Kohei ; Yoshi, Anri ; Cook, Caleb",
@@ -18690,7 +18690,7 @@
     {
         "Reference Handle": "#my-hero-academia-smash-vol-5-volume-5-paperback",
         "Token": "6YAGT2VBJEWUB36PP4JRRAEY",
-        "Item Name": "My Hero Academia: Smash!!, Vol. 5: Volume 5",
+        "ItemName": "My Hero Academia: Smash!!, Vol. 5: Volume 5",
         "Variation Name": "Paperback",
         "SKU": "9781974708703",
         "Description": "Horikoshi, Kohei ; Neda, Hirofumi",
@@ -18722,7 +18722,7 @@
     {
         "Reference Handle": "#my-hero-academia-team-up-missions-vol-1-paperback",
         "Token": "R2FED36SU423MOKD43VHWAJE",
-        "Item Name": "My Hero Academia: Team-Up Missions, Vol. 1",
+        "ItemName": "My Hero Academia: Team-Up Missions, Vol. 1",
         "Variation Name": "Paperback",
         "SKU": "9781974721559",
         "Description": "Horikoshi, Kohei ; Akiyama, Yoko",
@@ -18754,7 +18754,7 @@
     {
         "Reference Handle": "#my-hero-academia-team-up-missions-vol-2-paperback",
         "Token": "4U367VD4LLVO3OWM5JAMNENE",
-        "Item Name": "My Hero Academia: Team-Up Missions, Vol. 2",
+        "ItemName": "My Hero Academia: Team-Up Missions, Vol. 2",
         "Variation Name": "Paperback",
         "SKU": "9781974727179",
         "Description": "Horikoshi, Kohei ; Akiyama, Yoko",
@@ -18786,7 +18786,7 @@
     {
         "Reference Handle": "#my-hero-academia-team-up-missions-vol-3-paperback",
         "Token": "64VRPOBBFX46RS3IAR4OFLBW",
-        "Item Name": "My Hero Academia: Team-Up Missions, Vol. 3",
+        "ItemName": "My Hero Academia: Team-Up Missions, Vol. 3",
         "Variation Name": "Paperback",
         "SKU": "9781974734757",
         "Description": "Horikoshi, Kohei ; Akiyama, Yoko\r\nPUB 03/14/2023\r\nBACKORDERED",
@@ -18818,7 +18818,7 @@
     {
         "Reference Handle": "#my-hero-academia-ultra-analysis-the-official-character-guide-paperback",
         "Token": "LSSYUSWV7CM25SVB4GHSG2X2",
-        "Item Name": "My Hero Academia: Ultra Analysis--The Official Character Guide",
+        "ItemName": "My Hero Academia: Ultra Analysis--The Official Character Guide",
         "Variation Name": "Paperback",
         "SKU": "9781974724475",
         "Description": "Horikoshi, Kohei",
@@ -18850,7 +18850,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-10-volume-10-paperback",
         "Token": "E4ZFT4S463NMNWW743WBXNMA",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 10: Volume 10",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 10: Volume 10",
         "Variation Name": "Paperback",
         "SKU": "9781974722938",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten",
@@ -18882,7 +18882,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-11-volume-11-paperback",
         "Token": "4D3YGG3ZLVCZZKNDAPNNHSZK",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 11: Volume 11",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 11: Volume 11",
         "Variation Name": "Paperback",
         "SKU": "9781974725168",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten",
@@ -18914,7 +18914,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-13-paperback",
         "Token": "DYMV7PO6R3XIEXTOKE6HCAJS",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 13",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 13",
         "Variation Name": "Paperback",
         "SKU": "9781974732371",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten",
@@ -18946,7 +18946,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-14-paperback",
         "Token": "GFQDCKKV3SJAGLPXQ7ZLD7MV",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 14",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 14",
         "Variation Name": "Paperback",
         "SKU": "9781974736652",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten\r\nPUB 5/09/2023\r\nBACKORDERED",
@@ -18978,7 +18978,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-8-volume-8-paperback",
         "Token": "IXH5YC6ZYJ475BS64GOQDFST",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 8: Volume 8",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 8: Volume 8",
         "Variation Name": "Paperback",
         "SKU": "9781974717637",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten",
@@ -19010,7 +19010,7 @@
     {
         "Reference Handle": "#my-hero-academia-vigilantes-vol-9-volume-9-paperback",
         "Token": "TZ6X6LGMNYBGF7VZRISGBW32",
-        "Item Name": "My Hero Academia: Vigilantes, Vol. 9: Volume 9",
+        "ItemName": "My Hero Academia: Vigilantes, Vol. 9: Volume 9",
         "Variation Name": "Paperback",
         "SKU": "9781974719792",
         "Description": "Horikoshi, Kohei ; Furuhashi, Hideyuki ; Court, Betten",
@@ -19042,7 +19042,7 @@
     {
         "Reference Handle": "#my-little-pony-izzy-does-it-paperback",
         "Token": "ENUAHB2STL4TZORMNVTGJLYW",
-        "Item Name": "My Little Pony: Izzy Does It",
+        "ItemName": "My Little Pony: Izzy Does It",
         "Variation Name": "Paperback",
         "SKU": "9780063037571",
         "Description": "Hasbro ; Hasbro",
@@ -19074,7 +19074,7 @@
     {
         "Reference Handle": "#my-love-mix-up-vol-5-paperback",
         "Token": "IE6SLXFCXQJB7QWGW5NE6SXT",
-        "Item Name": "My Love Mix-Up!, Vol. 5",
+        "ItemName": "My Love Mix-Up!, Vol. 5",
         "Variation Name": "Paperback",
         "SKU": "9781974727216",
         "Description": "Hinekure, Wataru ; Aruko",
@@ -19106,7 +19106,7 @@
     {
         "Reference Handle": "#my-mum-is-the-best-by-bluey-and-bingo-hardcover",
         "Token": "5O7S7Q6GTJBFBDLODRJGNIXD",
-        "Item Name": "My Mum Is the Best by Bluey and Bingo",
+        "ItemName": "My Mum Is the Best by Bluey and Bingo",
         "Variation Name": "Hardcover",
         "SKU": "9780593519660",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 3+</p><p>Hardcover - Mother&#39;s Day edition - PUB: 03/15/2022</p>",
@@ -19138,7 +19138,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-journal-hayao-miyazaki-concept-art-notebook-gift-for-studio-ghibli-fan--other",
         "Token": "YMHJXJZAHTPNK3TDRRKW63YQ",
-        "Item Name": "My Neighbor Totoro Journal: (Hayao Miyazaki Concept Art Notebook, Gift for Studio Ghibli Fan)",
+        "ItemName": "My Neighbor Totoro Journal: (Hayao Miyazaki Concept Art Notebook, Gift for Studio Ghibli Fan)",
         "Variation Name": "Other",
         "SKU": "9781452182674",
         "Description": "<p><strong><em>My Neighbor Totoro Journal </em>showcases gorgeous concept art from Hayao Miyazaki&#39;s animated film <em>My Neighbor Totoro.</em>This captivating notebook features full-color artwork on the front and back covers.Additional spot illustrations</strong> from the Studio&#39;s beloved film are sprinkled throughout the journal.- Features 4 full spreads of concept art</p><p>- A must for fans of Totoro</p><p>- Flexi-bound with a ribbon marker<strong>This paperback journal provides note-taking inspiration for Studio Ghibli and Totoro fans of all ages.</strong>- Perfect for Miyazaki and Studio Ghibli fans, collectors, animation enthusiasts, and fans of Japanese art, stationery, and pop culture</p><p>- A wonderful gift for art and design enthusiasts</p><p>- Great for those who loved <em>My Neighbor Totoro: A Novel </em>by Tsugiko Kubo and Hayao Miyazaki, <em>The Art of My Neighbor Totoro: A Film by Hayao Miyazaki</em> by Hayao Miyazaki, and <em>My Neighbor Totoro Picture Book</em> by Hayao MiyazakiMy Neighbor Totoro (c) 1988 Studio Ghibli</p>",
@@ -19170,7 +19170,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-pencils-other",
         "Token": "Y7V4NBYDC3R2GE3CHABSJKH5",
-        "Item Name": "My Neighbor Totoro Pencils",
+        "ItemName": "My Neighbor Totoro Pencils",
         "Variation Name": "Other",
         "SKU": "9781452179551",
         "Description": "<p>Celebrated for being one of the best hand-drawn films in the history of animation, <em>My Neighbor Totoro</em> is a true inspiration. Let Totoro and friends spark your imagination with this handy set of 10 graphite pencils featuring beloved icons from the animated classic.- The Standard HB/No. 2 pencils offer great writing quality, while the full-color characters printed on them will delight adults and children alike.</p><p>- An easy way to add fun and cuteness to your office supplies or school supplies</p><p>- Makes a great gift for Studio Ghibli and animation fans; collectors; artists; and anyone who owns other <em>My Neighbor Totoro</em> products or loves cute Japanese art, stationery, and pop cultureMy Neighbor Totoro (c) 1988 Studio Ghibli</p>",
@@ -19202,7 +19202,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-sketchbook-other",
         "Token": "ZDMHFBWCGIZCPI25YJI52EUF",
-        "Item Name": "My Neighbor Totoro Sketchbook",
+        "ItemName": "My Neighbor Totoro Sketchbook",
         "Variation Name": "Other",
         "SKU": "9781452179599",
         "Description": "Studio Ghibli",
@@ -19234,7 +19234,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-10-pop-up-notecards-and-envelopes-totoro-products-studio-ghibli-products-totoro-art-books--novelty",
         "Token": "F3OEAPV2EDPWBUBIIKKYH2M7",
-        "Item Name": "My Neighbor Totoro: 10 Pop-Up Notecards and Envelopes: (Totoro Products, Studio Ghibli Products, Totoro Art Books)",
+        "ItemName": "My Neighbor Totoro: 10 Pop-Up Notecards and Envelopes: (Totoro Products, Studio Ghibli Products, Totoro Art Books)",
         "Variation Name": "Novelty",
         "SKU": "9781452168678",
         "Description": "<p>Studio Ghibli comes to life as pop-up notecards! Showcasing classic scenes from the studio&#39;s revered film <em>My Neighbor Totoro</em>, these cards add a pop of whimsy to any correspondence--a joyful note to send and receive for Totoro and animation fans of every age.</p><p><br/></p><p>.My Neighbor Totoro (c) 1988 Studio Ghibli</p>",
@@ -19266,7 +19266,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-cat-bus-plush-journal-other",
         "Token": "5QAATU54SAB3M6QAYVWXI7IP",
-        "Item Name": "My Neighbor Totoro: Cat Bus Plush Journal",
+        "ItemName": "My Neighbor Totoro: Cat Bus Plush Journal",
         "Variation Name": "Other",
         "SKU": "9781452168654",
         "Description": "<p>Adorned with the fantastical Cat Bus character from the animated classic <em>My Neighbor Totoro</em>, this soft plush and embroidered journal is a must-have for Studio Ghibli fans and cat lovers of all ages. Includes lined pages and full-color endsheets.</p><p><br/></p><p>My Neighbor Totoro (c) 1988 Studio Ghibli</p>",
@@ -19298,7 +19298,7 @@
     {
         "Reference Handle": "#my-neighbor-totoro-totoro-plush-journal-other",
         "Token": "B66RADUNRGIETLCNJ6QGR5SW",
-        "Item Name": "My Neighbor Totoro: Totoro Plush Journal",
+        "ItemName": "My Neighbor Totoro: Totoro Plush Journal",
         "Variation Name": "Other",
         "SKU": "9781452168647",
         "Description": "<p>Featuring the mysterious forest spirit from Hayao Miyazaki&#39;s iconic film <em>My Neighbor Totoro</em>, this plush and embroidered journal includes lined interiors and colorful artwork on the front and back pages--sure to delight Totoro fans and all who love irresistibly cute and fluffy characters.</p><p><br/></p><p>My Neighbor Totoro (c) 1988 Studio Ghibli</p>",
@@ -19330,7 +19330,7 @@
     {
         "Reference Handle": "#my-secret-world-of-mermaids-regular",
         "Token": "2BOEMM3QWM5IUVQQS7H4FHJZ",
-        "Item Name": "My Secret World Of Mermaids",
+        "ItemName": "My Secret World Of Mermaids",
         "Variation Name": "Regular",
         "SKU": "9781684641505",
         "Description": "Tamara MacFarlane and Ellie Wharton\r\nChildren's\r\nPUB:2021",
@@ -19362,7 +19362,7 @@
     {
         "Reference Handle": "#my-secret-world-of-unicorns-regular",
         "Token": "DDGGZFHWJPBJALZQY7TTQVPT",
-        "Item Name": "My Secret World Of Unicorns",
+        "ItemName": "My Secret World Of Unicorns",
         "Variation Name": "Regular",
         "SKU": "9781684641499",
         "Description": "Tamara MacFarlane and Ellie Wharton\r\nChildren's\r\nPUB:2021",
@@ -19394,7 +19394,7 @@
     {
         "Reference Handle": "#mystic-moon-journal-diary-notebook--other",
         "Token": "DQEMBOIRYOTXNK2VYT4ZJYJ3",
-        "Item Name": "Mystic Moon Journal (Diary, Notebook)",
+        "ItemName": "Mystic Moon Journal (Diary, Notebook)",
         "Variation Name": "Other",
         "SKU": "9781441337733",
         "Description": "<p>Peter Pauper Press Inc</p><p><strong>An iridescent full moon rises over a mist-filled evergreen forest...</strong></p><ul><li>Lovely journal provides plenty of space for personal reflection, sketching, or jotting down favorite quotations or poems.</li><li><strong>Premium smooth-finish 120 gsm paper takes pen or pencil beautifully.</strong></li><li><strong>Light gray lines subtly guide your writing.</strong></li><li><strong>Paper is acid-free and of archival quality.</strong></li><li><strong>Atmospheric cover design is embossed and embellished with flecks of gold foil.</strong></li><li><strong>An added touch: The journal&#39;s page edges are gilded in gold foil.</strong></li><li><strong>Tuck notes, mementos, and more in the pocket inside the back cover.</strong></li><li><strong>A matching elastic closure secures your journal.</strong></li><li><strong>Interior endsheets complement the design.</strong></li><li><strong>Sturdy book bound-style binding.</strong></li><li><strong>Journal features rounded corners for reduced wear.</strong></li><li>160 pages.</li><li>Popular small-format size -- 5&#39;&#39; wide x 7&#39;&#39; high -- fits easily in most bags and backpacks</li></ul><p><br/></p>",
@@ -19426,7 +19426,7 @@
     {
         "Reference Handle": "#narwhalicorn-and-jelly-a-narwhal-and-jelly-book-7--hardcover",
         "Token": "FJ4I6AMCHPP42PQMQYJZ4O2H",
-        "Item Name": "Narwhalicorn and Jelly (a Narwhal and Jelly Book #7)",
+        "ItemName": "Narwhalicorn and Jelly (a Narwhal and Jelly Book #7)",
         "Variation Name": "Hardcover",
         "SKU": "9780735266728",
         "Description": "Clanton, Ben",
@@ -19458,7 +19458,7 @@
     {
         "Reference Handle": "#narwhals-and-other-sea-creatures-magic-painting-regular",
         "Token": "IM6FSUHHAYHLZ2CCHTRP7VY6",
-        "Item Name": "Narwhals And Other Sea Creatures Magic Painting",
+        "ItemName": "Narwhals And Other Sea Creatures Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794550202",
         "Description": "",
@@ -19490,7 +19490,7 @@
     {
         "Reference Handle": "#nastragull-pirates-paperback",
         "Token": "C2QCZVPJAXIHDGI5WUSSORZZ",
-        "Item Name": "Nastragull: Pirates",
+        "ItemName": "Nastragull: Pirates",
         "Variation Name": "Paperback",
         "SKU": "9789198809008",
         "Description": "Willen, Erik Martin",
@@ -19522,7 +19522,7 @@
     {
         "Reference Handle": "#national-geographic-readers-sharks-level-3-100-fun-facts-about-these-fin-tastic-fish-paperback",
         "Token": "674COJ2X2GX6QXQX4PSX3MUK",
-        "Item Name": "National Geographic Readers: Sharks! ((Level 3)): 100 Fun Facts about These Fin-Tastic Fish",
+        "ItemName": "National Geographic Readers: Sharks! ((Level 3)): 100 Fun Facts about These Fin-Tastic Fish",
         "Variation Name": "Paperback",
         "SKU": "9781426372704",
         "Description": "Drimmer, Stephanie",
@@ -19554,7 +19554,7 @@
     {
         "Reference Handle": "#neon-gods-dark-olympus-1--regular",
         "Token": "374FRO5GOQ3CRNGE7ZLHQ6ZE",
-        "Item Name": "Neon Gods (Dark Olympus #1)",
+        "ItemName": "Neon Gods (Dark Olympus #1)",
         "Variation Name": "Regular",
         "SKU": "9781728231730",
         "Description": "Katee Robert\r\nFiction - Romance\r\nPaperback - PUB: 06/01/2021\r\n\"A modern retelling of Hades and Persephone that's as sinful as it is sweet\"",
@@ -19586,7 +19586,7 @@
     {
         "Reference Handle": "#never-paperback",
         "Token": "7AHYRLL2TEBAPOYYTT7VA5O4",
-        "Item Name": "Never",
+        "ItemName": "Never",
         "Variation Name": "Paperback",
         "SKU": "9780593300039",
         "Description": "Follett, Ken",
@@ -19618,7 +19618,7 @@
     {
         "Reference Handle": "#never-never-villains-book-9--hardcover",
         "Token": "L3XOJX6LAWKOMFAWUWTOPJ4N",
-        "Item Name": "Never Never (Villains, Book 9)",
+        "ItemName": "Never Never (Villains, Book 9)",
         "Variation Name": "Hardcover",
         "SKU": "9781368025294",
         "Description": "Valentino, Serena",
@@ -19650,7 +19650,7 @@
     {
         "Reference Handle": "#nfl-legends-100-years-of-the-nfl-sona-books",
         "Token": "3XYWMKYQZZEXZWV53QQQ64BK",
-        "Item Name": "NFL Legends: 100 Years of the NFL",
+        "ItemName": "NFL Legends: 100 Years of the NFL",
         "Variation Name": "Sona Books",
         "SKU": "9781912918126",
         "Description": "Hardcover",
@@ -19682,7 +19682,7 @@
     {
         "Reference Handle": "#nibbles-soft-character-regular",
         "Token": "RJFPZNMYBJTGNVJYVZVFDIJ5",
-        "Item Name": "Nibbles Soft Character",
+        "ItemName": "Nibbles Soft Character",
         "Variation Name": "Regular",
         "SKU": "9781610675024",
         "Description": "",
@@ -19714,7 +19714,7 @@
     {
         "Reference Handle": "#nibbles-the-dinosaur-guide-regular",
         "Token": "W7ILINKDII4Q4Q35Z4UTQKGT",
-        "Item Name": "Nibbles The Dinosaur Guide",
+        "ItemName": "Nibbles The Dinosaur Guide",
         "Variation Name": "Regular",
         "SKU": "9781610676434",
         "Description": "Emma Yarlett\r\nChildren\r\n2017",
@@ -19746,7 +19746,7 @@
     {
         "Reference Handle": "#nibbles-the-monster-hunt-regular",
         "Token": "76EB7UWYZAM5XNBLH4PW7PJ3",
-        "Item Name": "Nibbles The Monster Hunt",
+        "ItemName": "Nibbles The Monster Hunt",
         "Variation Name": "Regular",
         "SKU": "9781610679572",
         "Description": "Emma Yarlett\r\nChildren\r\n2019",
@@ -19778,7 +19778,7 @@
     {
         "Reference Handle": "#nibbles-colors-",
         "Token": "2ODUOSMKHQCVJQ7H5JJAKIET",
-        "Item Name": "Nibbles, Colors",
+        "ItemName": "Nibbles, Colors",
         "Variation Name": "",
         "SKU": "9781684641383",
         "Description": "Red and yellow and pink and... CHOMP! Uh-oh! Nibbles the book monster has munched his way into a book of colors! Can you catch him before itâ€™s too late?",
@@ -19810,7 +19810,7 @@
     {
         "Reference Handle": "#nibbles-numbers-",
         "Token": "JSFMLPNFYFRWN6423IERGUL4",
-        "Item Name": "Nibbles, Numbers",
+        "ItemName": "Nibbles, Numbers",
         "Variation Name": "",
         "SKU": "9781610678940",
         "Description": "Look out! Nibbles the book monster has munched his way through this book of numbers! Count along with him as he chomps his way from one to tenâ€¦ but wherever will he go next?",
@@ -19842,7 +19842,7 @@
     {
         "Reference Handle": "#nibbles-the-book-monster-",
         "Token": "4QXTU7RGMVN74OBMCSIUJNQE",
-        "Item Name": "Nibbles, The Book Monster",
+        "ItemName": "Nibbles, The Book Monster",
         "Variation Name": "",
         "SKU": "9781610674676",
         "Description": "Nibbles is on the loose, and he's chomping through all of your favorite fairy tales! With books within the book, Emma Yarlett's utterly appealing artwork, and lots and lots of nibbled holes, this laugh-out-loud funny and ferocious charmer's unstoppable appetite for the printed page will nibble a hole right through your heart.\r\n\r\nEmma Yarlett\r\nChildren\r\n2016",
@@ -19874,7 +19874,7 @@
     {
         "Reference Handle": "#nibbles-the-bedtime-book-",
         "Token": "TW3ZP2NJV7U2QFZQSPLSLIDH",
-        "Item Name": "Nibbles: The Bedtime Book",
+        "ItemName": "Nibbles: The Bedtime Book",
         "Variation Name": "",
         "SKU": "9781684644933",
         "Description": "Nibbles: The Bedtime Book\r\nEmma Yarlett\r\nChildren\r\n2022",
@@ -19906,7 +19906,7 @@
     {
         "Reference Handle": "#night-road-paperback",
         "Token": "BIFVU2MW6AAMUB7DUIF5VOQQ",
-        "Item Name": "Night Road",
+        "ItemName": "Night Road",
         "Variation Name": "Paperback",
         "SKU": "9781250838490",
         "Description": "Hannah, Kristin",
@@ -19938,7 +19938,7 @@
     {
         "Reference Handle": "#nine-liars-hardcover",
         "Token": "2DHG455GA4U3PDAURYZ5I3M5",
-        "Item Name": "Nine Liars",
+        "ItemName": "Nine Liars",
         "Variation Name": "Hardcover",
         "SKU": "9780063032651",
         "Description": "Johnson, Maureen\r\nYOUNG ADULT-THRILLER\r\nPUB:2022",
@@ -19970,7 +19970,7 @@
     {
         "Reference Handle": "#nine-perfect-strangers-mass-market-paperbound",
         "Token": "72RQ3AIQGIIDRX2LG5OY324H",
-        "Item Name": "Nine Perfect Strangers",
+        "ItemName": "Nine Perfect Strangers",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250755834",
         "Description": "Moriarty, Liane\r\nFiction- Thriller\r\nPaperback - PUB: 09/29/2020",
@@ -20002,7 +20002,7 @@
     {
         "Reference Handle": "#ninth-house-mass-market-paperbound",
         "Token": "DKXYRFHTGKKPPVLGZ2L54QCI",
-        "Item Name": "Ninth House",
+        "ItemName": "Ninth House",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250798008",
         "Description": "Bardugo, Leigh\r\nFiction - Thriller\r\nPaperback - PUB:06/29/2021\r\n\"Galaxy 'Alex' Stern is the most unlikely member of Yale's freshman class. Raised in the Los Angeles hinterlands by a hippie mom, Alex dropped out of school early and into a world of shady drug-dealer boyfriends, dead-end jobs, and much, much worse. In fact, by age twenty, she is the sole survivor of a horrific, unsolved multiple homicide. Some might say she's thrown her life away. But at her hospital bed, Alex is offered a second chance: to attend one of the world's most prestigious universities on a full ride. What's the catch, and why her? Still searching for answers, Alex arrives in New Haven tasked by her mysterious benefactors with monitoring the activities of Yale's secret societies. Their eight windowless 'tombs' are the well-known haunts of the rich and powerful, from high-ranking politicos to Wall Street's biggest players. But their occult activities are more sinister and more extraordinary than any paranoid imagination might conceive. The",
@@ -20034,7 +20034,7 @@
     {
         "Reference Handle": "#no-plan-b-a-jack-reacher-novel-hardcover",
         "Token": "KVHBQMW47HN7TC2XP2W3DVHQ",
-        "Item Name": "No Plan B: A Jack Reacher Novel",
+        "ItemName": "No Plan B: A Jack Reacher Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781984818546",
         "Description": "Child, Lee ; Child, Andrew\r\nFiction - Thriller\r\nHardcover - PUB: 10/25/2022\r\nIn Gerrardsville, Colorado, two witnesses to the same tragedy give two different accounts. One guy sees a woman throw herself in front of a bus in what authorities will call a suicide. The other witness is Jack Reacher. And he sees what actually happened: a man in a gray hoodie and jeans, moving like a shadow, pushed the victim to her death, before swiftly grabbing the dead woman's purse and strolling away. Reacher follows the killer on foot, not knowing that he's part of something much bigger and far-reaching: a secret conspiracy with many moving parts, with powerful people on the take, all involved in an undertaking that leaves no room for error.",
@@ -20066,7 +20066,7 @@
     {
         "Reference Handle": "#not-remotely-working-volume-50-paperback",
         "Token": "5RKVNM57P45QBQAGE2LD375R",
-        "Item Name": "Not Remotely Working: Volume 50",
+        "ItemName": "Not Remotely Working: Volume 50",
         "Variation Name": "Paperback",
         "SKU": "9781524875633",
         "Description": "Adams, Scott\r\nBACKORDERED",
@@ -20098,7 +20098,7 @@
     {
         "Reference Handle": "#november-9-hoover-colleen",
         "Token": "CGRY24JY6OH7K76GJ4DEPPPB",
-        "Item Name": "November 9",
+        "ItemName": "November 9",
         "Variation Name": "Hoover, Colleen",
         "SKU": "9781501110344",
         "Description": "Paperback",
@@ -20130,7 +20130,7 @@
     {
         "Reference Handle": "#now-and-then-regular",
         "Token": "3RDHCIIBUK5VTXJGXUEK45XN",
-        "Item Name": "Now And Then",
+        "ItemName": "Now And Then",
         "Variation Name": "Regular",
         "SKU": "9781610678636",
         "Description": "",
@@ -20162,7 +20162,7 @@
     {
         "Reference Handle": "#now-is-not-the-time-to-panic-hardcover",
         "Token": "COUM5JZN64JFBJUAAWQVODX4",
-        "Item Name": "Now Is Not the Time to Panic",
+        "ItemName": "Now Is Not the Time to Panic",
         "Variation Name": "Hardcover",
         "SKU": "9780062913500",
         "Description": "Wilson, Kevin\r\nFiction - Literary\r\nHardcover - PUB: 11/08/2022\r\nSixteen-year-old Frankie Budge--aspiring writer, indifferent student, offbeat loner--is determined to make it through yet another summer in Coalfield, Tennessee, when she meets Zeke, a talented artist who has just moved into his grandmother's house and who is as awkward as Frankie is. Romantic and creative sparks begin to fly, and when the two jointly make an unsigned poster, shot through with an enigmatic phrase, it becomes unforgettable to anyone who sees it. When the posters begin appearing everywhere, people wonder who is behind them and start to panic. The rumors won't stop, and soon the mystery has dangerous repercussions that spread far beyond the town. Twenty years later, Frances Eleanor Budge gets a call that threatens to upend her carefully built life: a journalist named Mazzy Brower is writing a story about the Coalfield Panic of 1996. Might Frances know something about that?-",
@@ -20194,7 +20194,7 @@
     {
         "Reference Handle": "#numbers-los-n-meros-",
         "Token": "ADJX5FT4FTUE4OFARBJK7L77",
-        "Item Name": "Numbers / Los nÃºmeros",
+        "ItemName": "Numbers / Los nÃºmeros",
         "Variation Name": "",
         "SKU": "978-1-68464-389-9",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 2+</p><p>Counting to ten is fun with these silly numbers!</p><p><br/></p><p><u>Series: Find &amp; Speak Spanish! * Encontrar y Hablar</u></p><p>A series of conversation starters in English and Spanish for bilingual families (or families that would like to be bilingual!), with easy pronunciation guides. Matching games boost problem-solving skills and extra details offer much to discuss and discover.</p>",
@@ -20226,7 +20226,7 @@
     {
         "Reference Handle": "#oh-what-a-show-ready-to-read-graphics-level-1-paperback",
         "Token": "KLPJPS5Z2JWZANIRDNLZFB4V",
-        "Item Name": "Oh, What a Show!: Ready-To-Read Graphics Level 1",
+        "ItemName": "Oh, What a Show!: Ready-To-Read Graphics Level 1",
         "Variation Name": "Paperback",
         "SKU": "9781665917964",
         "Description": "Schaefer, Lola M ; Allen, Savannah",
@@ -20258,7 +20258,7 @@
     {
         "Reference Handle": "#olivia-s-secret-scribbles-amazing-acrobats-",
         "Token": "3SER7OHXWOXAFZYUTKIGLO5M",
-        "Item Name": "Olivia's Secret Scribbles, Amazing Acrobats",
+        "ItemName": "Olivia's Secret Scribbles, Amazing Acrobats",
         "Variation Name": "",
         "SKU": "9781610678414",
         "Description": "Children - Chapter books\r\nA surprise trip to the circus gives Olivia a GREAT IDEA. Maybe she and her BFF Matilda can become amazing acrobats and perform their own awesome act for EVERYONE!\r\n\r\nMeredith Costain\r\nChildren's\r\nPUB:2019",
@@ -20290,7 +20290,7 @@
     {
         "Reference Handle": "#olivia-s-secret-scribbles-box-car-racers-",
         "Token": "S2PV6XVTL6ZW57DWMAQQ3WVN",
-        "Item Name": "Olivia's Secret Scribbles, Box Car Racers",
+        "ItemName": "Olivia's Secret Scribbles, Box Car Racers",
         "Variation Name": "",
         "SKU": "9781684643028",
         "Description": "Not to be left behind, Ella's little sister, Olivia, shares three new adventures in her own series, Olivia's Secret Scribbles. Itâ€™s Recycling Week at school and Olivia and Matilda have made box cars! The whole class is going to make box cars so they can have a race, but why hasn't Bethany made one? Matilda and Olivia to the rescue!\r\nChildren's\r\n2021",
@@ -20322,7 +20322,7 @@
     {
         "Reference Handle": "#once-upon-a-broken-heart-garber-stephanie",
         "Token": "CSF4JSAKB5IJIWCTRPGO5LIO",
-        "Item Name": "Once Upon a Broken Heart",
+        "ItemName": "Once Upon a Broken Heart",
         "Variation Name": "Garber, Stephanie",
         "SKU": "9781250268396",
         "Description": "Hardcover",
@@ -20354,7 +20354,7 @@
     {
         "Reference Handle": "#one-by-one-paperback",
         "Token": "AJB5OXBHGWMJVWVDMHCAFZPT",
-        "Item Name": "One by One",
+        "ItemName": "One by One",
         "Variation Name": "Paperback",
         "SKU": "9781501188824",
         "Description": "Ruth Ware\r\nFiction - Thriller\r\nPaperback - PUB: 05/04/2021\r\n\"The #1 New York Times bestselling author of The Turn of the Key and In a Dark Dark Wood returns with another suspenseful thriller set on a snow-covered mountain\"-",
@@ -20386,7 +20386,7 @@
     {
         "Reference Handle": "#orient-11-paperback",
         "Token": "7WB22EBFQEAKRDG2X3JBPQE3",
-        "Item Name": "Orient 11",
+        "ItemName": "Orient 11",
         "Variation Name": "Paperback",
         "SKU": "9781646515240",
         "Description": "Ohtaka, Shinobu",
@@ -20418,7 +20418,7 @@
     {
         "Reference Handle": "#origami-tear-off-pad-",
         "Token": "P5HEJWVVH2Q4GETQRKITKFRE",
-        "Item Name": "Origami Tear-Off Pad",
+        "ItemName": "Origami Tear-Off Pad",
         "Variation Name": "",
         "SKU": "978-0-7945-3560-5",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age: </strong>7+</p><p><br/></p><p>Learn the basics of the ancient Japanese art of origami - creating objects from a single sheet of folded paper. This tear-out pad contains 100 sheets of patterned paper, and a gatefold cover features instructions on how to make five different designs - swans, butterflies, foxes, frogs, and boats.</p><p><br/></p><p><u>Series: Tear-off Pads</u></p><p>Whether you’re in a car, train, boat, or plane, long journeys will pass by in a flash with these fun-packed pads.</p>",
@@ -20450,7 +20450,7 @@
     {
         "Reference Handle": "#orion-and-the-dark-hardcover",
         "Token": "CLKTUBEV7SQBFDWHIKKU5SUG",
-        "Item Name": "Orion and the Dark",
+        "ItemName": "Orion and the Dark",
         "Variation Name": "Hardcover",
         "SKU": "9780763675950",
         "Description": "<p>Yarlett, Emma </p><p><strong>Children</strong></p><p><strong>Age</strong>: 3+</p><p>Orion is so scared of the dark, Dark decides to pay him a visit! Orion is scared of a lot of things, but most of all he&#39;s scared of the dark. So one night Dark decides to take Orion on an adventure.</p>",
@@ -20482,7 +20482,7 @@
     {
         "Reference Handle": "#ornaments-snow-flake",
         "Token": "2ADNSKB5JH4XNB63FE6VU2EA",
-        "Item Name": "Ornaments",
+        "ItemName": "Ornaments",
         "Variation Name": "Snow Flake",
         "SKU": "1918329",
         "Description": "Hand made by local artist",
@@ -20514,7 +20514,7 @@
     {
         "Reference Handle": "#ornaments-tree",
         "Token": "NLAI2WQ66OC6BMXLXBT5YPGJ",
-        "Item Name": "Ornaments",
+        "ItemName": "Ornaments",
         "Variation Name": "Tree",
         "SKU": "699887W",
         "Description": "",
@@ -20546,7 +20546,7 @@
     {
         "Reference Handle": "#our-missing-hearts-hardcover",
         "Token": "A4IACWJQHL2PY4WA3OECCLV7",
-        "Item Name": "Our Missing Hearts",
+        "ItemName": "Our Missing Hearts",
         "Variation Name": "Hardcover",
         "SKU": "9780593492543",
         "Description": "Ng, Celeste\r\nFiction - Literary\r\nHardcover- PUB: 10/04/2022",
@@ -20578,7 +20578,7 @@
     {
         "Reference Handle": "#over-50-secret-codes-",
         "Token": "AY7DO457WENLGHQKKIDVQ3JG",
-        "Item Name": "Over 50 Secret Codes",
+        "ItemName": "Over 50 Secret Codes",
         "Variation Name": "",
         "SKU": "978-0-7945-3967-2",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 6+</p><p>Put your code-cracking skills to the test with this entertaining book and learn how to disguise your own secret language.</p><p><br/></p><p><u>Series: Puzzle Books</u></p><p>Packed full of games, puzzles, mazes, and more, these books make any boring day or journey fun! Filled with individual and group activities, these books are sure to keep children (and adults!) amused for hours!</p>",
@@ -20610,7 +20610,7 @@
     {
         "Reference Handle": "#over-80-brain-puzzles-",
         "Token": "KAOSDD76GB5XIMLLCXLILHRW",
-        "Item Name": "Over 80 Brain Puzzles",
+        "ItemName": "Over 80 Brain Puzzles",
         "Variation Name": "",
         "SKU": "978-0-7945-3691-6",
         "Description": "<p>Children</p><p>Age: 6+</p><p>A pocket-sized book packed full of fun, mind-bending puzzles and games. Children can put their brain power to the test by figuring out a pattern puzzle, doing space sums on Saturn and solving riddles. Full of colorful illustrations and space to draw, color and complete the brain teasers, this book is perfect for long journeys and other quiet times. Includes a page of answers at the back of the book.</p><p><br/></p><p><u>Series: Puzzle Books</u></p><p>Packed full of games, puzzles, mazes, and more, these books make any boring day or journey fun! Filled with individual and group activities, these books are sure to keep children (and adults!) amused for hour</p>",
@@ -20642,7 +20642,7 @@
     {
         "Reference Handle": "#pandamonia-regular",
         "Token": "2W3O3EVWVFO6V4E4A3N77RW7",
-        "Item Name": "Pandamonia",
+        "ItemName": "Pandamonia",
         "Variation Name": "Regular",
         "SKU": "9781610676199",
         "Description": "",
@@ -20674,7 +20674,7 @@
     {
         "Reference Handle": "#paperblanks-midnight-steel-mid-other",
         "Token": "FANLWRQ35WHM5EUDJK44NTP4",
-        "Item Name": "Paperblanks Midnight Steel Mid",
+        "ItemName": "Paperblanks Midnight Steel Mid",
         "Variation Name": "Other",
         "SKU": "9781439746011",
         "Description": "Paperblanks Journals Ltd\r\nBACKORDERED",
@@ -20706,7 +20706,7 @@
     {
         "Reference Handle": "#paris-by-starlight-paperback",
         "Token": "6DYFGGS7W5K3DB5MNNCHGPYL",
-        "Item Name": "Paris by Starlight",
+        "ItemName": "Paris by Starlight",
         "Variation Name": "Paperback",
         "SKU": "9781529100471",
         "Description": "Dinsdale, Robert\r\nBACKORDERED",
@@ -20738,7 +20738,7 @@
     {
         "Reference Handle": "#paris-library-charles-janet-skeslien",
         "Token": "CWGULIAKTJ2F77AK3TITUU6H",
-        "Item Name": "Paris Library",
+        "ItemName": "Paris Library",
         "Variation Name": "Charles, Janet Skeslien",
         "SKU": "9781982134204",
         "Description": "Paperback",
@@ -20770,7 +20770,7 @@
     {
         "Reference Handle": "#part-of-your-world-a-twisted-tale-a-twisted-tale-hardcover",
         "Token": "KNVIGDRFDQGPCLZAU6ZJ4T7S",
-        "Item Name": "Part of Your World (a Twisted Tale): A Twisted Tale",
+        "ItemName": "Part of Your World (a Twisted Tale): A Twisted Tale",
         "Variation Name": "Hardcover",
         "SKU": "9781368013819",
         "Description": "Braswell, Liz\r\nYoung Adult Fiction\r\nHardcover - PUB: 09/04/2018\r\nThe latest Twisted Tale novel explores what may have happened to Atlantica and King Triton had Ariel never defeated Ursula the sea witch.",
@@ -20802,7 +20802,7 @@
     {
         "Reference Handle": "#patty-lyons-knitting-bag-of-tricks-over-70-sanity-saving-hacks-for-better-knitting-paperback",
         "Token": "BKB67HQFHH4V346JYUMLFFCA",
-        "Item Name": "Patty Lyons' Knitting Bag of Tricks: Over 70 Sanity Saving Hacks for Better Knitting",
+        "ItemName": "Patty Lyons' Knitting Bag of Tricks: Over 70 Sanity Saving Hacks for Better Knitting",
         "Variation Name": "Paperback",
         "SKU": "9781446309117",
         "Description": "Lyons, Patty\r\nNon-Fiction\r\nPatty Lyons is an expert in all things knitting related - she will help you sort out your gauge, unpick problems like twisted stitches and generally spruce up your knitting know-how in this pocket-sized reference book packed full of her 'purls' of wisdom.",
@@ -20834,7 +20834,7 @@
     {
         "Reference Handle": "#payback-s-a-witch-paperback",
         "Token": "WZGHB6U7V5DM3XVQHDKE4OGL",
-        "Item Name": "Payback's a Witch",
+        "ItemName": "Payback's a Witch",
         "Variation Name": "Paperback",
         "SKU": "9780593336069",
         "Description": "Harper, Lana\r\nFiction - Romance\r\nPaperback - PUB: 10/05/2021",
@@ -20866,7 +20866,7 @@
     {
         "Reference Handle": "#peace-talks-mass-market-paperbound",
         "Token": "B5FALF4EXOP2NV6FIYOKMVV7",
-        "Item Name": "Peace Talks",
+        "ItemName": "Peace Talks",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781101991060",
         "Description": "Butcher, Jim\r\nFiction - Fantasy\r\nWhen the Supernatural nations of the world meet up to negotiate an end to ongoing hostilities, Harry Dresden, Chicago's only professional wizard, joins the White Council's security team to make sure the talks stay civil. But can he succeed, when dark political manipulations threaten the very existence of Chicago--and all he holds dear?",
@@ -20898,7 +20898,7 @@
     {
         "Reference Handle": "#peek-inside-space-regular",
         "Token": "B5BL6AHJD3BRH37I6S27R5L7",
-        "Item Name": "Peek Inside Space",
+        "ItemName": "Peek Inside Space",
         "Variation Name": "Regular",
         "SKU": "9780794537210",
         "Description": "",
@@ -20930,7 +20930,7 @@
     {
         "Reference Handle": "#people-we-meet-on-vacation-paperback",
         "Token": "2SI2APLP52EUVEK6DSB7EFM4",
-        "Item Name": "People We Meet on Vacation",
+        "ItemName": "People We Meet on Vacation",
         "Variation Name": "Paperback",
         "SKU": "9781984806758",
         "Description": "Henry, Emily\r\nFiction - Romance\r\nPaperback - PUB: 05/11/2021\r\n\"When Poppy met Alex, there was no spark, no chemistry, and no reason to think they'd ever talk again. Alex is quiet, studious, and destined for a future in academia. Poppy is a wild child who only came to U of Chicago to escape small-town life. But after sharing a ride home for the summer, the two form a surprising friendship. After all, who better to confide in than someone you could never, ever date? Over the years, Alex and Poppy's lives take them in different directions, but every summer the two find their way back to each other for a magical weeklong vacation. Until one trip goes awry, and in the fallout, they lose touch. Now, two years later, Poppy's in a rut. Her dream job, her relationships, her life--none of it is making her happy. In fact, the last time she remembers feeling truly happy was on that final, ill-fated Summer Trip. The answer to all her problems is obvious: She needs one last vacation to win back her best friend. As a hilarious",
@@ -20962,7 +20962,7 @@
     {
         "Reference Handle": "#percy-jackson-and-the-olympians-the-chalice-of-the-gods-hardcover",
         "Token": "6U4RC77JPHDHAI6624VPPEI6",
-        "Item Name": "Percy Jackson and the Olympians: The Chalice of the Gods",
+        "ItemName": "Percy Jackson and the Olympians: The Chalice of the Gods",
         "Variation Name": "Hardcover",
         "SKU": "9781368098175",
         "Description": "Riordan, Rick\r\nBACKORDERED",
@@ -20994,7 +20994,7 @@
     {
         "Reference Handle": "#persona-5-vol-9-paperback",
         "Token": "JQS7F4ZZOAECSINJXVK4G2AV",
-        "Item Name": "Persona 5, Vol. 9",
+        "ItemName": "Persona 5, Vol. 9",
         "Variation Name": "Paperback",
         "SKU": "9781974734030",
         "Description": "Murasaki, Hisato ; Atlas",
@@ -21026,7 +21026,7 @@
     {
         "Reference Handle": "#pet-vet-cranky-paws-",
         "Token": "ENGRNRCA3MS6BAHN6TIYP2OC",
-        "Item Name": "Pet Vet, Cranky Paws",
+        "ItemName": "Pet Vet, Cranky Paws",
         "Variation Name": "",
         "SKU": "978-1-935279-01-3",
         "Description": "<p>Children - Chapter book</p><p>Age: 7+</p><p>It is Trump’s job to help the sick animals and Trump’s dog senses are so acute she often draws conclusions before the humans have even begun to think! Trump tells the stories of the animal patients and their families and provides young readers with animal tips, vocabulary words, and a new understanding of the animal world. All the patients are interesting, but some are more interesting than others… </p><p><em> “Take Cranky Paws the cat, for example… Her name wasn’t really Cranky Paws, but that’s what Dr. Jeanie and I called her. I’d never met a cat who was so determined to hate everyone!”</em></p><p> </p><p><br/></p><p>Please visit <a href=\"http://www.friends.kanemiller.com/talk-play-teach.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kanemiller.com</a> for more resources (games, puzzles, activities etc.) to accompany the books.</p><p><br/></p><p><u>Series: Pet Vet</u></p><p>Trump is a Jack Russell terrier and she’s also an ALO, an Animal Liaison Officer, whose job it is to help take care of and calm all the animals who come to Pet Vet clinic to see her owner, Dr. Jeanie.</p>",
@@ -21058,7 +21058,7 @@
     {
         "Reference Handle": "#pet-vet-motorbike-bob-",
         "Token": "PQZNPEWVAYIMNPDMINV3BWSZ",
-        "Item Name": "Pet Vet, Motorbike Bob",
+        "ItemName": "Pet Vet, Motorbike Bob",
         "Variation Name": "",
         "SKU": "978-1-935279-08-2",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 7+</p><p>It is Trump’s job to help the sick animals and Trump’s dog senses are so acute she often draws conclusions before the humans have even begun to think! Trump tells the stories of the animal patients and their families and provides young readers with animal tips, vocabulary words, and a new understanding of the animal world. All the patients are interesting, but some are more interesting than others… </p><p><em>“Take Motorbike Bob, for example…He’s a biker dog – he rides around on the back of a motorbike, and is sure he’ll never need a vet.  But when Bob gets into trouble, it’s Pet Vet to the rescue!”</em></p><p> </p><p><br/></p><p>Please visit <a href=\"http://www.friends.kanemiller.com/talk-play-teach.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kanemiller.com</a> for more resources (games, puzzles, activities etc.) to accompany the books.</p><p><br/></p><p><u>Series: Pet Vet</u></p><p>Trump is a Jack Russell terrier and she’s also an ALO, an Animal Liaison Officer, whose job it is to help take care of and calm all the animals who come to Pet Vet clinic to see her owner, Dr. Jeanie.</p>",
@@ -21090,7 +21090,7 @@
     {
         "Reference Handle": "#pet-vet-the-kitten-s-tale-",
         "Token": "LMUEMSO54NZMA3ABL3773QB6",
-        "Item Name": "Pet Vet, The Kitten's Tale",
+        "ItemName": "Pet Vet, The Kitten's Tale",
         "Variation Name": "",
         "SKU": "978-1-935279-76-1",
         "Description": "Children - Chapter book\r\nAge: 7+\r\nIt is Trump’s job to help the sick animals and Trump’s dog senses are so acute she often draws conclusions before the humans have even begun to think! Trump tells the stories of the animal patients and their families and provides young readers with animal tips, vocabulary words, and a new understanding of the animal world. All the patients are interesting, but some are more interesting than others…\r\n\"Take Mangus the kitten for example ... he turns up at Pet Vet by surprise, and he stays because he doesn't have a home. He is cute and cuddly, but terrified of dogs. It is up to Trump to find the mean dog that scared him and, most importantly, to find a home for Magnus!”\r\n\r\nPlease visit kanemiller.com for more resources (games, puzzles, activities etc.) to accompany the books.\r\n\r\nSeries: Pet Vet\r\nTrump is a Jack Russell terrier and she’s also an ALO, an Animal Liaison Officer, whose job it is to help take care of and calm all the animals who come to Pet Vet clinic to see her owner, Dr.",
@@ -21122,7 +21122,7 @@
     {
         "Reference Handle": "#pet-vet-the-python-problem-",
         "Token": "HBVQ4FG6CVPUQI3MRRI7BANV",
-        "Item Name": "Pet Vet, The Python Problem",
+        "ItemName": "Pet Vet, The Python Problem",
         "Variation Name": "",
         "SKU": "978-1-935279-16-7",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 7+</p><p>It is Trump’s job to help the sick animals and Trump’s dog senses are so acute she often draws conclusions before the humans have even begun to think! Trump tells the stories of the animal patients and their families and provides young readers with animal tips, vocabulary words, and a new understanding of the animal world. All the patients are interesting, but some are more interesting than others… </p><p><em>&#34;Take Diamond the python for example ... When Diamond escapes from a moving van, all the animals in Jeandabah panic. It’s up to Trump, Dr. Jeanie’s Jack Russell terrier, to calm them down, and to help find Diamond!&#34;</em></p><p><br/></p><p><br/></p><p>Please visit <a href=\"http://www.friends.kanemiller.com/talk-play-teach.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kanemiller.com</a> for more resources (games, puzzles, activities etc.) to accompany the books.</p><p><br/></p><p><u>Series: Pet Vet</u></p><p>Trump is a Jack Russell terrier and she’s also an ALO, an Animal Liaison Officer, whose job it is to help take care of and calm all the animals who come to Pet Vet clinic to see her owner, Dr. Jeanie.</p>",
@@ -21154,7 +21154,7 @@
     {
         "Reference Handle": "#pete-s-big-feet-",
         "Token": "PJWMMD6YQAI6DSJDF4WER4LO",
-        "Item Name": "Pete's Big Feet",
+        "ItemName": "Pete's Big Feet",
         "Variation Name": "",
         "SKU": "978-1-68464-270-0",
         "Description": "<p><strong>Children </strong></p><p><strong>Age: </strong>5+</p><p>Today it’s Sports Day in the sun, but do you think that Pete can run?</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -21186,7 +21186,7 @@
     {
         "Reference Handle": "#pets-sound-book-",
         "Token": "DTAMMX4YJHKMJEZ2XAB5UNHO",
-        "Item Name": "Pets Sound Book",
+        "ItemName": "Pets Sound Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5369-2",
         "Description": "<p>Children - sensory book</p><p>Age: 3+</p><p>From cozy cats purring to playful dogs yipping in the park, the world of pets comes to life with the ten sounds in this delightfully illustrated book. Holes in the pages and finger trails help to create a tactile world for children to explore while they listen.</p><p><br/></p><p><u>Series: Press-a-Sound Books</u></p><p>Press the button on each page to hear wonderful sounds and noises. The beautiful illustrations complement these beautiful first picture books for young children with fully embedded sounds.</p>",
@@ -21218,7 +21218,7 @@
     {
         "Reference Handle": "#pickle-regular",
         "Token": "NC7OOHJUUN4VKL6QFTG77HGV",
-        "Item Name": "Pickle",
+        "ItemName": "Pickle",
         "Variation Name": "Regular",
         "SKU": "683499K",
         "Description": "Hand made by local artist",
@@ -21250,7 +21250,7 @@
     {
         "Reference Handle": "#pirates-little-transfer-book-regular",
         "Token": "AFIJZCWYLNIVOIV5RXQPOJ4L",
-        "Item Name": "Pirates, Little Transfer Book",
+        "ItemName": "Pirates, Little Transfer Book",
         "Variation Name": "Regular",
         "SKU": "9780794544997",
         "Description": "",
@@ -21282,7 +21282,7 @@
     {
         "Reference Handle": "#pizza-and-taco-too-cool-for-school-hardcover",
         "Token": "J2DSCXIFILY4SV4X5LIZHVFP",
-        "Item Name": "Pizza and Taco: Too Cool for School",
+        "ItemName": "Pizza and Taco: Too Cool for School",
         "Variation Name": "Hardcover",
         "SKU": "9780593376072",
         "Description": "Shaskan, Stephen",
@@ -21314,7 +21314,7 @@
     {
         "Reference Handle": "#plants-vs-zombies-volume-18-constructionary-tales-tobin-paul",
         "Token": "EGZY3BHG24DKSN5KBKK6ZEBJ",
-        "Item Name": "Plants vs. Zombies Volume 18: Constructionary Tales",
+        "ItemName": "Plants vs. Zombies Volume 18: Constructionary Tales",
         "Variation Name": "Tobin, Paul",
         "SKU": "9781506720913",
         "Description": "Hardcover",
@@ -21346,7 +21346,7 @@
     {
         "Reference Handle": "#plants-vs-zombies-volume-19-dream-a-little-scheme-tobin-paul",
         "Token": "36L5ECSZ2FYMRY3LQTJ4QZPN",
-        "Item Name": "Plants vs. Zombies Volume 19: Dream a Little Scheme",
+        "ItemName": "Plants vs. Zombies Volume 19: Dream a Little Scheme",
         "Variation Name": "Tobin, Paul",
         "SKU": "9781506720920",
         "Description": "Hardcover",
@@ -21378,7 +21378,7 @@
     {
         "Reference Handle": "#poke-a-dot-construction-vehicles-board-books",
         "Token": "DOYONWD5ZF6LBPSX36B5GZKD",
-        "Item Name": "Poke-A-Dot: Construction Vehicles",
+        "ItemName": "Poke-A-Dot: Construction Vehicles",
         "Variation Name": "Board Books",
         "SKU": "000772315333",
         "Description": "<p>Melissa &amp; Doug</p><p><strong>Children </strong>- sensory book</p><p>Poke irresistible buttons to hear satisfying clicks and pops as kids read and count along with sturdy board books. Patented!</p>",
@@ -21410,7 +21410,7 @@
     {
         "Reference Handle": "#poke-a-dot-dinosaurs-a-to-z-board-books",
         "Token": "V3SIUI2HHDTHG62IGFBME6KQ",
-        "Item Name": "Poke-A-Dot: Dinosaurs A to Z",
+        "ItemName": "Poke-A-Dot: Dinosaurs A to Z",
         "Variation Name": "Board Books",
         "SKU": "000772313476",
         "Description": "<p>Melissa &amp; Doug</p><p><strong>Children</strong> - Sensory book</p><p>Board book  - PUB: 12/04/2019</p><p>Get ready for some DINO-mite fun! Poke the irresistible click-to-count buttons to hear satisfying &#34;clicks&#34; and &#34;pops&#34; as you learn about dinosaurs from A to Z! This sturdy 20-page interactive board book invites kids to pop along as they discover the amazing world of dinosaurs and learn fun facts along the way. Poke-a-Dot(R) books help encourage language development, counting, and fine motor skills. Patented Pop-a-Tronic(TM) technology lets kids discover different popping sounds by poking the dots from the front or the back, with pages raised or flat!</p>",
@@ -21442,7 +21442,7 @@
     {
         "Reference Handle": "#poke-a-dot-night-before-christmas-board-books",
         "Token": "FVMABW5X7J4AE3I7CUYWEHLI",
-        "Item Name": "Poke-A-Dot: Night Before Christmas",
+        "ItemName": "Poke-A-Dot: Night Before Christmas",
         "Variation Name": "Board Books",
         "SKU": "9781950013623",
         "Description": "Melissa & Doug\r\nBACKORDERED",
@@ -21474,7 +21474,7 @@
     {
         "Reference Handle": "#poor-unfortunate-soul-villains-book-3-a-tale-of-the-sea-witch-hardcover",
         "Token": "JC3AVUM4EXJSBTROTUPXPE4Y",
-        "Item Name": "Poor Unfortunate Soul (Villains, Book 3): A Tale of the Sea Witch",
+        "ItemName": "Poor Unfortunate Soul (Villains, Book 3): A Tale of the Sea Witch",
         "Variation Name": "Hardcover",
         "SKU": "9781484724057",
         "Description": "Valentino, Serena\r\nYoung Adult Fiction \r\nHardcover - PUB: 07/26/2016\r\n\"Adapted in part from Disney's The Little Mermaid\"",
@@ -21506,7 +21506,7 @@
     {
         "Reference Handle": "#pop-loki-sylvie-vinyl-figure-other",
         "Token": "7Z7W2I7AXXRKTK5OM7CVFBI2",
-        "Item Name": "Pop Loki Sylvie Vinyl Figure",
+        "ItemName": "Pop Loki Sylvie Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "0889698557443",
         "Description": "Funko\r\nPUB: 09/29/2021\r\nStylized collectable stands 3.75 inches tall, perfect for any Marvel fan!",
@@ -21538,7 +21538,7 @@
     {
         "Reference Handle": "#pop-my-hero-academia-10-inch-infinite-deku-vinyl-figure-other",
         "Token": "O3FCX6XME6YZ336JRH5RQVGM",
-        "Item Name": "Pop My Hero Academia 10 Inch Infinite Deku Vinyl Figure",
+        "ItemName": "Pop My Hero Academia 10 Inch Infinite Deku Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "0889698519014",
         "Description": "Funko POP \r\nBACKORDERED",
@@ -21570,7 +21570,7 @@
     {
         "Reference Handle": "#pop-my-hero-academia-eri-vinyl-figure-other",
         "Token": "L22H2YVHHCEAHRLPWBMQ756U",
-        "Item Name": "Pop My Hero Academia Eri Vinyl Figure",
+        "ItemName": "Pop My Hero Academia Eri Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "0889698475945",
         "Description": "Funko POP \r\nBACKORDERED",
@@ -21602,7 +21602,7 @@
     {
         "Reference Handle": "#pop-pokemon-dragonite-vinyl-figure-regular",
         "Token": "A3KOK2VUSFX6X3SZDZXOJ4Z4",
-        "Item Name": "Pop Pokemon Dragonite Vinyl Figure",
+        "ItemName": "Pop Pokemon Dragonite Vinyl Figure",
         "Variation Name": "Regular",
         "SKU": "0889698563123",
         "Description": "Stylized collectable stands 3.75 inches tall, perfect for any Pokemon fan!\r\nBackordered",
@@ -21634,7 +21634,7 @@
     {
         "Reference Handle": "#pop-star-wars-mandalorian-mando-holding-child-vinyl-figure-other",
         "Token": "OY5NCBGXXWM6X4HYQYFKYWK4",
-        "Item Name": "Pop Star Wars Mandalorian Mando Holding Child Vinyl Figure",
+        "ItemName": "Pop Star Wars Mandalorian Mando Holding Child Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "0889698545259",
         "Description": "Funko\r\nPUB: 10/20/2021\r\nStylized collectable stands 3.75 inches tall, perfect for any Star Wars fan!",
@@ -21666,7 +21666,7 @@
     {
         "Reference Handle": "#pop-stranger-things-joyce-vinyl-figure-other",
         "Token": "ILRAPKKOUNNH3UG5TQXDM4JU",
-        "Item Name": "Pop Stranger Things Joyce Vinyl Figure",
+        "ItemName": "Pop Stranger Things Joyce Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "889698409575",
         "Description": "Funko POP \r\nBACKORDERED",
@@ -21698,7 +21698,7 @@
     {
         "Reference Handle": "#pop-train-nightmare-before-christmas-sally-in-cat-cart-vinyl-figure-other",
         "Token": "PRUC6IPEYWOCKTQVATGANIXU",
-        "Item Name": "Pop Train Nightmare Before Christmas Sally in Cat Cart Vinyl Figure",
+        "ItemName": "Pop Train Nightmare Before Christmas Sally in Cat Cart Vinyl Figure",
         "Variation Name": "Other",
         "SKU": "889698506311",
         "Description": "Funko POP\r\nBACKORDERED",
@@ -21730,7 +21730,7 @@
     {
         "Reference Handle": "#pop-up-seasons-regular",
         "Token": "ZGXUQYFOUYREZIQSQQFBOAZR",
-        "Item Name": "Pop Up Seasons",
+        "ItemName": "Pop Up Seasons",
         "Variation Name": "Regular",
         "SKU": "9780794551148",
         "Description": "",
@@ -21762,7 +21762,7 @@
     {
         "Reference Handle": "#pop-up-butterflies-",
         "Token": "VPIBC6OXYOFYAWR33SSEOKLY",
-        "Item Name": "Pop-Up, Butterflies",
+        "ItemName": "Pop-Up, Butterflies",
         "Variation Name": "",
         "SKU": "978-0-7945-5380-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>3+</p><p>Celebrate the beauty of butterflies as they flit and flutter off the pages of this book. Incredible pop-ups show butterflies actually moving their wings, emerging from a chrysalis, and migrating in clouds right off the page. Learn how butterflies&#39; wings can help them hide or dazzle predators, witness the magical metamorphosis of a caterpillar into a butterfly, and even meet the biggest butterfly in the world at actual size!</p><p><br/></p><p><u>Series: Pop-Up Books</u></p><p>Illustrations are brought to life in a burst of color and detail as you turn each page to see a 3-dimensional scene emerge.</p>",
@@ -21794,7 +21794,7 @@
     {
         "Reference Handle": "#pretty-girls-mass-market-paperbound",
         "Token": "UVLNA54AQTZRC7Q2UQGYQ64G",
-        "Item Name": "Pretty Girls",
+        "ItemName": "Pretty Girls",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062429070",
         "Description": "Slaughter, Karin\r\nFiction - Thriller\r\nPaperback - PUB: 04/26/2016",
@@ -21826,7 +21826,7 @@
     {
         "Reference Handle": "#priest-simone-sierra",
         "Token": "CD4FI3RL3C5JADE5UTX76WFQ",
-        "Item Name": "Priest",
+        "ItemName": "Priest",
         "Variation Name": "Simone, Sierra",
         "SKU": "9781949364248",
         "Description": "Paperback",
@@ -21858,7 +21858,7 @@
     {
         "Reference Handle": "#queen-among-the-dead-hardcover",
         "Token": "EJXOYF4HN3DGHCL4OQD46KST",
-        "Item Name": "Queen Among the Dead",
+        "ItemName": "Queen Among the Dead",
         "Variation Name": "Hardcover",
         "SKU": "9781638930181",
         "Description": "Livingston, Lesley\r\nBACKORDERED",
@@ -21890,7 +21890,7 @@
     {
         "Reference Handle": "#queen-of-myth-and-monsters-st-clair-scarlett",
         "Token": "3DHFRHZ6MTNBUXKODT3SETYQ",
-        "Item Name": "Queen of Myth and Monsters",
+        "ItemName": "Queen of Myth and Monsters",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728259642",
         "Description": "St Clair, Scarlett\r\nFiction - Romance - Fantasy\r\nPaperback - PUB: 12/20/2022\r\n\"The next book in the vampire fantasy series by USA Today and international bestselling author Scarlett St. Clair. Isolde, newly coronated queen, has finally found a king worthy of her in the vampire Adrian. But their love for each other has cost Isolde her father and her homeland. With two opposing goddesses playing mortals and vampires against one another, Isolde is uncertain who her allies are in the vampire stronghold of Revekka. Now, as politics in the Red Palace grow more underhanded, inexplicable monster attacks plague the villages, and a deadly crimson mist threatens all of Cordova, Isolde must trust in the bond she's formed with Adrian, even as she learns troubling information about his complicated past\"",
@@ -21922,7 +21922,7 @@
     {
         "Reference Handle": "#queen-of-shadows-hardcover",
         "Token": "OP5UA6RLUB2CVUKYNQHNLGHK",
-        "Item Name": "Queen of Shadows",
+        "ItemName": "Queen of Shadows",
         "Variation Name": "Hardcover",
         "SKU": "9781639731008",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -21954,7 +21954,7 @@
     {
         "Reference Handle": "#queen-of-storms-book-two-of-the-firemane-saga-mass-market-paperbound",
         "Token": "XGOYGUQSQZJCDUC3GEAU6NBO",
-        "Item Name": "Queen of Storms: Book Two of the Firemane Saga",
+        "ItemName": "Queen of Storms: Book Two of the Firemane Saga",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062315939",
         "Description": "Feist, Raymond E\r\nFiction - Fantasy\r\nPaperback - PUB: 04/27/2021\r\n\"Hatushaly and his young wife Hava, are not the ordinary, loving couple they appear to be. They are assassins from the mysterious island of Coaltachin, home to the powerful and lethal hidden warriors known as nocusara. Posing as innkeepers in the trading town of Beran's Hill, they await insturctions from their masters in the Kingdom of Night. But Hatu conceals an even more dangerous secret. He is the last remaining member of the legendary Firemanes, the ruling family of Ithrace. Known as the Kingdom of Flames, Ithrace was one of the five greatest realms of Tembria, ruled by Hatu's father until he and his people were betrayed. Hatu--then a baby--was hidden among the nocusara, who raised him to become a deadly spy. Even as Hatu hides his true identity, unexpected calamity forces him to make choices he could not have dreamed awaited him. A series of horrific events shatters the peace of Beran's Hill, bringing death and devastation and unleasing monst",
@@ -21986,7 +21986,7 @@
     {
         "Reference Handle": "#rainbows-magic-painting-regular",
         "Token": "EIJMHITDOMD6LKQ5VSTWZCLF",
-        "Item Name": "Rainbows Magic Painting",
+        "ItemName": "Rainbows Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794552428",
         "Description": "",
@@ -22018,7 +22018,7 @@
     {
         "Reference Handle": "#real-life-mysteries-",
         "Token": "2GUWXAMTHM5VW3B4B2WICNUM",
-        "Item Name": "Real-Life Mysteries",
+        "ItemName": "Real-Life Mysteries",
         "Variation Name": "",
         "SKU": "978-1-61067-952-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 7+</p><p>From mysteries like Shackleton’s ghostly companion to the Loch Ness Monster and friends, read the amazing evidence about these mysterious cases and make up your own mind. Things are not always what they seem…</p>",
@@ -22050,7 +22050,7 @@
     {
         "Reference Handle": "#red-bull-italian-soda-large-24oz-",
         "Token": "EXQNKCTVFFL7ZWMHQMMLZLOG",
-        "Item Name": "Red Bull Italian Soda",
+        "ItemName": "Red Bull Italian Soda",
         "Variation Name": "Large (24oz)",
         "SKU": "",
         "Description": "",
@@ -22082,7 +22082,7 @@
     {
         "Reference Handle": "#red-bull-italian-soda-large-24oz--1",
         "Token": "5B25U27EGVREDYQLWE4ARQD6",
-        "Item Name": "Red Bull Italian Soda",
+        "ItemName": "Red Bull Italian Soda",
         "Variation Name": "Large (24oz)",
         "SKU": "",
         "Description": "",
@@ -22114,7 +22114,7 @@
     {
         "Reference Handle": "#red-white-royal-blue-paperback",
         "Token": "UKGW35BOSZBVOFWFJYTRPPYD",
-        "Item Name": "Red, White & Royal Blue",
+        "ItemName": "Red, White & Royal Blue",
         "Variation Name": "Paperback",
         "SKU": "9781250316776",
         "Description": "McQuiston, Casey\r\nFiction - Romance \r\nA big-hearted romantic comedy in which the First Son falls in love with the Prince of Wales after an incident of international proportions forces them to pretend to be best friends",
@@ -22146,7 +22146,7 @@
     {
         "Reference Handle": "#red-white-royal-blue-collector-s-edition-hardcover",
         "Token": "L26ADR2QTV7CCZELHLQKOFGZ",
-        "Item Name": "Red, White & Royal Blue: Collector's Edition",
+        "ItemName": "Red, White & Royal Blue: Collector's Edition",
         "Variation Name": "Hardcover",
         "SKU": "9781250856036",
         "Description": "<p>McQuiston, Casey</p><p>Fiction - Romance - <strong>Collector&#39;s Edition</strong></p><p>Hardcover - PUBL: 10/11/2022</p><p>First Son Alex Claremont-Diaz, with his sister and the Veep&#39;s genius granddaughter, are the White House Trio, a beautiful millennial marketing strategy for his mother, President Ellen Claremont. Then photos of a confrontation with his longtime nemesis Prince Henry at a royal wedding leak to the tabloids. The plan for damage control: stage a fake friendship between the First Son and the Prince. Alex soon discovers that beneath Henry&#39;s Prince Charming veneer, there&#39;s a soft-hearted eccentric with a dry sense of humor and more than one ghost haunting him. As President Claremont kicks off her reelection bid, Alex finds himself hurtling into a relationship with Henry that could derail the campaign and upend two nations.</p>",
@@ -22178,7 +22178,7 @@
     {
         "Reference Handle": "#redbull-sugar-free",
         "Token": "K35YN3S565NHMKCDBZINEZQG",
-        "Item Name": "Redbull",
+        "ItemName": "Redbull",
         "Variation Name": "Sugar Free",
         "SKU": "7619704",
         "Description": "",
@@ -22210,7 +22210,7 @@
     {
         "Reference Handle": "#redbull-regular",
         "Token": "QZXHEOZV7HCHILZ64VFPY57K",
-        "Item Name": "Redbull",
+        "ItemName": "Redbull",
         "Variation Name": "Regular",
         "SKU": "957266W",
         "Description": "",
@@ -22242,7 +22242,7 @@
     {
         "Reference Handle": "#redeemed-special-edition-asher-lauren",
         "Token": "FBZWAILSTWGW42NI2QB7QCXQ",
-        "Item Name": "Redeemed Special Edition",
+        "ItemName": "Redeemed Special Edition",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781734258790",
         "Description": "Lauren Asher\r\nRomance\r\nPaperback\r\nPUB:2021",
@@ -22274,7 +22274,7 @@
     {
         "Reference Handle": "#reign-of-x-vol-17-paperback",
         "Token": "ITQB3VU7FTTJ2XGEMUEI7RSF",
-        "Item Name": "Reign of X Vol. 17",
+        "ItemName": "Reign of X Vol. 17",
         "Variation Name": "Paperback",
         "SKU": "9781302945305",
         "Description": "Percy, Benjamin ; Howard, Tini ; Duggan, Gerry ; Wells, Zeb ; Kubert, Adam ; To, Marcus ; Larraz, Pepe ; Antonio, Roge",
@@ -22306,7 +22306,7 @@
     {
         "Reference Handle": "#reign-returned-the-felserpent-chronicles-paperback",
         "Token": "ODS2XCKO6WMX2HEHTFRZP3D7",
-        "Item Name": "Reign Returned: The Felserpent Chronicles",
+        "ItemName": "Reign Returned: The Felserpent Chronicles",
         "Variation Name": "Paperback",
         "SKU": "9781684631551",
         "Description": "Keridan, Katie\r\nYoung Adult Fiction - Fantasy - Romance\r\nPaperback - PUB: 09/13/2022\r\nBorn into warring realms divided by gold and silver blood, Kyra and Sebastian are destined to be enemies--but when an outlawed magic that hasn't been seen in centuries surfaces, they are forced to work together to master it. As they uncover the secrets of their realms, they also discover secrets within their own pasts . . . pasts that are far more intertwined than they ever imagined",
@@ -22338,7 +22338,7 @@
     {
         "Reference Handle": "#reindeer-regular",
         "Token": "5FU7RZTHK3AR7TZWUQNPWQPY",
-        "Item Name": "Reindeer",
+        "ItemName": "Reindeer",
         "Variation Name": "Regular",
         "SKU": "D939485",
         "Description": "Hand made by local artist",
@@ -22370,7 +22370,7 @@
     {
         "Reference Handle": "#reminders-of-him-hoover-colleen",
         "Token": "57NBAA5HE4BWTM2AB6IX7K5R",
-        "Item Name": "Reminders of Him",
+        "ItemName": "Reminders of Him",
         "Variation Name": "Hoover, Colleen",
         "SKU": "9781542025607",
         "Description": "Paperback",
@@ -22402,7 +22402,7 @@
     {
         "Reference Handle": "#remote-control-hardcover",
         "Token": "FJDLB6BEZTFMVIHMPADS6X55",
-        "Item Name": "Remote Control",
+        "ItemName": "Remote Control",
         "Variation Name": "Hardcover",
         "SKU": "9781250772800",
         "Description": "Okorafor, Nnedi\r\nFiction - Sci Fi\r\nHardcover - PUB: 01/19/2021\r\nAn alien artifact turns a young girl into Death's adopted daughter in this thrilling sci-fi tale of community and female empowerment from Nebula- and Hugo Award-winner Okorafor.",
@@ -22434,7 +22434,7 @@
     {
         "Reference Handle": "#rent-a-girlfriend-15-paperback",
         "Token": "CO65XVNBZO3RME6ZZCMXLOO4",
-        "Item Name": "Rent-A-Girlfriend 15",
+        "ItemName": "Rent-A-Girlfriend 15",
         "Variation Name": "Paperback",
         "SKU": "9781646515349",
         "Description": "Miyajima, Reiji",
@@ -22466,7 +22466,7 @@
     {
         "Reference Handle": "#righteous-prey-hardcover",
         "Token": "YIGUFY7VY2BUTVQTTK3YBYDT",
-        "Item Name": "Righteous Prey",
+        "ItemName": "Righteous Prey",
         "Variation Name": "Hardcover",
         "SKU": "9780593422472",
         "Description": "Sandford, John\r\nFiction - Thriller\r\nHardcover - PUB: 10/04/2022\r\n\"Beloved heroes Lucas Davenport and Virgil Flowers are up against a powerful vigilante group with an eye on vengeance in a stunning new novel from #1 New York Times bestselling author John Sandford\"--",
@@ -22498,7 +22498,7 @@
     {
         "Reference Handle": "#riven-hardcover",
         "Token": "QNEHDZE6XLDFNRKCRGH3H27M",
-        "Item Name": "Riven",
+        "ItemName": "Riven",
         "Variation Name": "Hardcover",
         "SKU": "9780063057838",
         "Description": "Arnett, Mindee\r\nBACKORDERED",
@@ -22530,7 +22530,7 @@
     {
         "Reference Handle": "#robin-hood-",
         "Token": "2HRDSOHNY4WX5CCA3MYUCMZX",
-        "Item Name": "Robin Hood",
+        "ItemName": "Robin Hood",
         "Variation Name": "",
         "SKU": "978-0-7945-4096-8",
         "Description": "<p><strong>Children - </strong>Graphic Novels</p><p><strong>Age: </strong>10+</p><p>England 1194. The poor folk of Nottingham find themselves at the mercy of the heartless money-grabbing Sheriff. But deep in Sherwood Forest, rebellion is brewing. Join brave Robin Hood and his band of daring friends as they pit their wits against the Sheriff and his ruthless ally, Guy of Gisbourne. Swash-buckling thrills come thick and fast in this action-packed graphic adventure story.Graphic novels are more popular than ever thanks to popular culture and the amount of exposure they get. These new Graphic Stories from Usborne provide a great gateway to somewhat difficult stories for relunctant readers to learn to enjoy. Specifically designed to be easily readable, with familiar vocabulary and sentence structures, these stories are entertaining, and the fun, action-packed illustrations are a great way to initiate reluctant readers to the pleasure of sitting down and being swept into an imaginary universe and be taken away by a story.</p><p><br/></p><p>Series: Graphic Stories</p><p>These entertaining, action-packed Graphic Legends and Graphic Classics provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy.</p>",
@@ -22562,7 +22562,7 @@
     {
         "Reference Handle": "#robot-hide-and-seek-regular",
         "Token": "T2V2FJGSUXG7K7CRYFC3Z4D6",
-        "Item Name": "Robot Hide And Seek",
+        "ItemName": "Robot Hide And Seek",
         "Variation Name": "Regular",
         "SKU": "9781684642434",
         "Description": "",
@@ -22594,7 +22594,7 @@
     {
         "Reference Handle": "#rocks-and-minerals-ir--",
         "Token": "JVHJUXHSZYDNZIYHNYZIDMHF",
-        "Item Name": "Rocks and Minerals (IR)",
+        "ItemName": "Rocks and Minerals (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-1304-7",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 7+</p><p>Usborne Spotter&#39;s Guides are essential â€“ written by experts, accurately illustrated and easy to use. Use the detailed descriptions to identify more than 80 rocks and minerals. Record your sightings and track your spotting successes on the checklist. Find further inspiration with links to fascinating geological websites.</p>",
@@ -22626,7 +22626,7 @@
     {
         "Reference Handle": "#romper-el-c-rculo-it-ends-with-us-spanish-edition--paperback",
         "Token": "AOR2ZJTGBGHWXMK7M7NFT3D2",
-        "Item Name": "Romper El Círculo / It Ends with Us (Spanish Edition)",
+        "ItemName": "Romper El Círculo / It Ends with Us (Spanish Edition)",
         "Variation Name": "Paperback",
         "SKU": "9786070788147",
         "Description": "Hoover, Colleen\r\nBACKORDERED \r\nspanish edition",
@@ -22658,7 +22658,7 @@
     {
         "Reference Handle": "#rule-of-wolves-paperback",
         "Token": "ECTV5EMV3Z3MSVQL5NPYJEN3",
-        "Item Name": "Rule of Wolves",
+        "ItemName": "Rule of Wolves",
         "Variation Name": "Paperback",
         "SKU": "9781250820617",
         "Description": "Bardugo, Leigh\r\nBACKORDERED",
@@ -22690,7 +22690,7 @@
     {
         "Reference Handle": "#runestone-saga-children-of-ragnarok-hardcover",
         "Token": "HXRBXWALASBO7LVLN7DBK2DH",
-        "Item Name": "Runestone Saga: Children of Ragnarok",
+        "ItemName": "Runestone Saga: Children of Ragnarok",
         "Variation Name": "Hardcover",
         "SKU": "9780063018686",
         "Description": "Chima, Cinda Williams\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 11/08/2022\r\nDesperate to escape her demon master, runecaster Reggin Eiklund flees to the Grove, while Eiric Halvorsen, falsely accused of murdering his modir and stepfadir, journeys to the Grove at the behest of a powerful jarl interested in restoring magic to the world.",
@@ -22722,7 +22722,7 @@
     {
         "Reference Handle": "#saga-volume-10-paperback",
         "Token": "DLVJFY6GMNQQ5MDQQG3TK3HP",
-        "Item Name": "Saga, Volume 10",
+        "ItemName": "Saga, Volume 10",
         "Variation Name": "Paperback",
         "SKU": "9781534323346",
         "Description": "Vaughan, Brian K ; Staples, Fiona\r\nBACKORDERED",
@@ -22754,7 +22754,7 @@
     {
         "Reference Handle": "#saint-simone-sierra",
         "Token": "5VTZCTCMVEPG3DAXA4TENUBT",
-        "Item Name": "Saint",
+        "ItemName": "Saint",
         "Variation Name": "Simone, Sierra",
         "SKU": "9781949364279",
         "Description": "Paperback",
@@ -22786,7 +22786,7 @@
     {
         "Reference Handle": "#sakamoto-days-vol-4-paperback",
         "Token": "VAGYFJFAKNJLIRPYUW4GWAO7",
-        "Item Name": "Sakamoto Days, Vol. 4",
+        "ItemName": "Sakamoto Days, Vol. 4",
         "Variation Name": "Paperback",
         "SKU": "9781974733965",
         "Description": "Suzuki, Yuto",
@@ -22818,7 +22818,7 @@
     {
         "Reference Handle": "#santa-bag-snow-ball-set-regular",
         "Token": "2ME3BVCNTCLIW53ZI75TQGHX",
-        "Item Name": "Santa Bag/Snow Ball set",
+        "ItemName": "Santa Bag/Snow Ball set",
         "Variation Name": "Regular",
         "SKU": "Q507852",
         "Description": "Hand made by local artist",
@@ -22850,7 +22850,7 @@
     {
         "Reference Handle": "#santa-post-",
         "Token": "QSRTTKADFAO5NZQCCKA7F4CD",
-        "Item Name": "Santa Post",
+        "ItemName": "Santa Post",
         "Variation Name": "",
         "SKU": "978-1-68464-196-3",
         "Description": "<p>Emma Yarlett</p><p><strong>Children </strong></p><p><strong>Age:</strong> 4+</p><p>It’s nearly Christmas Eve when Santa gets a letter – it’s some very late Santa Post. The only problem is, Amy wants just one thing, and Santa can’t read what it is. He asks the elves, Mr. Polar Bear, and the Chief Reindeer for help, and they all do their best, sending back gifts and letters for readers to open, but… is this really what Amy wanted?</p>",
@@ -22882,7 +22882,7 @@
     {
         "Reference Handle": "#science-in-the-kitchen-",
         "Token": "ELNWFL7UBTBEEBAPIYDX6ERD",
-        "Item Name": "Science in the Kitchen",
+        "ItemName": "Science in the Kitchen",
         "Variation Name": "",
         "SKU": "978-0-7945-1405-1",
         "Description": "<p><strong>Children - </strong>Activity book</p><p><strong>Age:</strong> 6+</p><p>This colorful book is packed with exciting scientific activities, from blowing bubbles to making soft drinks and invisible ink. The experiments are safe and easy to carry out, using ordinary household equipment. They are all carefully designed to help young children explore the fascinating world of the kitchen. Usborne Science Activities is an innovative series which responds to the growing emphasis on scientific exploration for young children. The text and illustrations are simple and clear so</p>",
@@ -22914,7 +22914,7 @@
     {
         "Reference Handle": "#score-kennedy-elle",
         "Token": "OK7TOG3WCRYYYOI34DTFO2NE",
-        "Item Name": "Score",
+        "ItemName": "Score",
         "Variation Name": "Kennedy, Elle",
         "SKU": "9781775293958",
         "Description": "Paperback",
@@ -22946,7 +22946,7 @@
     {
         "Reference Handle": "#scrunchies-regular",
         "Token": "7UGJU3R5AFGYNLOL6YHMPJDK",
-        "Item Name": "Scrunchies",
+        "ItemName": "Scrunchies",
         "Variation Name": "Regular",
         "SKU": "276731G",
         "Description": "Hand made by local artist",
@@ -22978,7 +22978,7 @@
     {
         "Reference Handle": "#sealife-sketches-journal-other",
         "Token": "TT2VQSKXIJ3ELJULSDPJTQIG",
-        "Item Name": "Sealife Sketches Journal",
+        "ItemName": "Sealife Sketches Journal",
         "Variation Name": "Other",
         "SKU": "9781441332264",
         "Description": "<p>Immerse your musings within the pages of this magical sea-themed journal!</p><ul><li><strong>160 lightly lined pages provide plenty of space for personal reflection, sketching, or jotting down favorite quotations or poems.</strong></li><li><strong>Smooth-finish acid-free archival-quality paper supports a variety of pens or pencils beautifully.</strong></li><li><strong>Inside back cover pocket holds notes, mementos, and more.</strong></li><li>Striking journal design is made up of delicately depicted aquatic motifs -- sea ferns, sea shells, jellyfish, and more -- outlined and embellished with gold foil.</li><li>Matte cover is awash in pale tropical blue.</li><li>Bronze interior endsheets.</li><li>Matching elastic closure.</li><li>Durable hardcover binding.</li><li>Journal measures 6-1/4&#39;&#39; wide x 8-1/4&#39;&#39; high</li></ul><p><br/></p>",
@@ -23010,7 +23010,7 @@
     {
         "Reference Handle": "#season-of-storms-hardcover",
         "Token": "FMCMA3GQDJEWQYWUCFTFY76O",
-        "Item Name": "Season of Storms",
+        "ItemName": "Season of Storms",
         "Variation Name": "Hardcover",
         "SKU": "9780316457231",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\n\"Geralt of Rivia is a Witcher, one of the few capable of hunting the monsters that prey on humanity. He uses magical signs, potions, and the pride of every Witcher--two swords, steel and silver. But a contract has gone wrong, and Geralt finds himself without his signature weapons. Now he needs them back, because sorcerers are scheming, and across the world clouds are gathering\"--",
@@ -23042,7 +23042,7 @@
     {
         "Reference Handle": "#see-inside-how-things-work-ir--",
         "Token": "FWWAURWXQZTDGHPUVOV7P5XJ",
-        "Item Name": "See Inside, How Things Work (IR)",
+        "ItemName": "See Inside, How Things Work (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-3044-0",
         "Description": "<p><strong>Children</strong></p><p><strong>Age:</strong> 7+</p><p>Have you ever wondered just what happens when you flush a toilet, or what goes on inside a light bulb? Do you want to know how a digger scoops up soil, why boats float and what keeps planes up in the air? Lift the flaps to see inside how things work--from everyday inventions to massive machines.</p><p><br/></p><p><u>Series: See Inside Board Books</u></p><p>Packed with lively illustrations and fascinating flaps, these books are bursting to reveal amazing secrets.</p>",
@@ -23074,7 +23074,7 @@
     {
         "Reference Handle": "#see-inside-microscopic-world-ir--",
         "Token": "P4NCRPXJFJ6FAFP6APMIOGS3",
-        "Item Name": "See Inside, Microscopic World (IR)",
+        "ItemName": "See Inside, Microscopic World (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-5411-8",
         "Description": "<p><strong>Children</strong></p><p><strong>Age</strong>: 7+</p><p>This book peers through the microscope to reveal TINY unimaginable wonders. Discover bizarre minibeasts and peculiar plants, meet the millions of microbes that live around and inside you, and marvel at miniature technology. The perfect introduction to a fascinating area of science.</p><p><br/></p><p><u>Series: See Inside Board Books</u></p><p>Packed with lively illustrations and fascinating flaps, these books are bursting to reveal amazing secrets.</p>",
@@ -23106,7 +23106,7 @@
     {
         "Reference Handle": "#see-inside-the-solar-system-ir--",
         "Token": "3UO3WYH6HCVOHFGRWIYPOPKV",
-        "Item Name": "See Inside, The Solar System (IR)",
+        "ItemName": "See Inside, The Solar System (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-5458-3",
         "Description": "<p><strong>Children</strong></p><p><strong>Age: </strong>7+</p><p>Blast off to explore our Solar System - from the fearsome heat of the Sun to the freezing distant planets, plus moons, asteroids, and more. Discover how humans are planning to visit Mars, what you would weigh on Jupiter, and what makes Venus so deadly.</p><p><br/></p><p><u>Series: See Inside Board Books</u></p><p>Packed with lively illustrations and fascinating flaps, these books are bursting to reveal amazing secrets.</p>",
@@ -23138,7 +23138,7 @@
     {
         "Reference Handle": "#see-inside-your-body-",
         "Token": "IMN33N2TLBAKZVOQOPSSWCFK",
-        "Item Name": "See Inside, Your Body",
+        "ItemName": "See Inside, Your Body",
         "Variation Name": "",
         "SKU": "978-0-7945-2045-8",
         "Description": "<p>Children</p><p>Age: 7+</p><p>Follow your food as it travels through your body. Take a deep breath and explore your lungs. Let your mind boggle at what your brain can do. This exciting book, packed with lively illustrations and fascinating flaps, is bursting to reveal your body&#39;s amazing secrets.</p><p><br/></p><p><u>Series: See Inside Board Books</u></p><p>Packed with lively illustrations and fascinating flaps, these books are bursting to reveal amazing secrets.</p>",
@@ -23170,7 +23170,7 @@
     {
         "Reference Handle": "#self-care-truth-or-dare-pick-a-stick-other",
         "Token": "BREOTHI2XBWF727Y3YMTIHUG",
-        "Item Name": "Self-Care Truth or Dare: Pick-A-Stick",
+        "ItemName": "Self-Care Truth or Dare: Pick-A-Stick",
         "Variation Name": "Other",
         "SKU": "9781797210445",
         "Description": "Chronicle Books",
@@ -23202,7 +23202,7 @@
     {
         "Reference Handle": "#serena-valentino-s-villains-box-set-books-1-3-boxed-set",
         "Token": "ZYNFFZBX7NRDD6SKQDJ6ZSH7",
-        "Item Name": "Serena Valentino's Villains Box Set: Books 1-3",
+        "ItemName": "Serena Valentino's Villains Box Set: Books 1-3",
         "Variation Name": "Boxed Set",
         "SKU": "9781368009058",
         "Description": "<p>Valentino, Serena ; Disney Storybook Art Team</p><p>Young Adult Fiction - Fantasy</p><p>Hardcover editions of Books 1-3 of Valentino&#39;s Villains series-- <em>Fairest of All, The Beast Within, and Poor Unfortunate Soul--are collected in this boxed set that includes a sneak peak of Book 4, Mistress of All Evil.</em></p>",
@@ -23234,7 +23234,7 @@
     {
         "Reference Handle": "#servamp-vol-17-paperback",
         "Token": "FKE7EFETJH52JED4MNN5NC7P",
-        "Item Name": "Servamp Vol. 17",
+        "ItemName": "Servamp Vol. 17",
         "Variation Name": "Paperback",
         "SKU": "9781638586159",
         "Description": "Tanaka, Strike",
@@ -23266,7 +23266,7 @@
     {
         "Reference Handle": "#seven-faceless-saints-hardcover",
         "Token": "3Y6FDZWMY3VKWFP6IIBGW2K5",
-        "Item Name": "Seven Faceless Saints",
+        "ItemName": "Seven Faceless Saints",
         "Variation Name": "Hardcover",
         "SKU": "9780316386883",
         "Description": "Lobb, M K\r\nBACKORDERED",
@@ -23298,7 +23298,7 @@
     {
         "Reference Handle": "#shadow-and-bone-the-collector-s-edition-shadow-and-bone-trilogy--regular",
         "Token": "CZLFYCRW6HOZUDKGZ246QWGO",
-        "Item Name": "Shadow and Bone: The Collector's Edition (Shadow and Bone Trilogy)",
+        "ItemName": "Shadow and Bone: The Collector's Edition (Shadow and Bone Trilogy)",
         "Variation Name": "Regular",
         "SKU": "9781250781611",
         "Description": "<p>Leigh Bardugo</p><p>Young Adult Fiction - Fantasy</p><p>Age: 12+</p><p>Hardcover - PUB: 11/10/2020</p><p><strong>Read from the beginning with this beautiful deluxe collector&#39;s edition of the first novel in the worldwide-bestselling Shadow and Bone Trilogy by Leigh Bardugo. This edition features brand-new artwork, a hardcover slipcase with exclusive design, a ribbon pull, and more.</strong></p><p><br/></p><p><br/></p>",
@@ -23330,7 +23330,7 @@
     {
         "Reference Handle": "#shadow-chaser-qr--",
         "Token": "HZMWIEFC5AGGAZSTJHXTE7LZ",
-        "Item Name": "Shadow Chaser (QR)",
+        "ItemName": "Shadow Chaser (QR)",
         "Variation Name": "",
         "SKU": "978-0-7945-5298-5",
         "Description": "<p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 10+</p><p>This thrilling gamebook plunges you into a story with a difference - one where the hero is YOU. Woken one night by a bang at the door, you creep to the window and see five hooded strangers below. The leader looks up and beckons you down. What do you do? The choice is yours. Open the door, play for time, or escape through the window out back... From this point onwards, you are in control of an epic adventure, and your survival depends upon the decisions you make. Which way to run? Which battles to fight? And who to trust? As you race across land, sea, and sky, the mysteries of your past are revealed, and it becomes clear that it&#39;s not just your fate that hangs in the balance - it&#39;s the fate of the entire kingdom. Bringing together a sweeping story, beautifully illustrated picture puzzles, and an exciting combat system, this is an adventure that will have you gripped from beginning to end.</p>",
@@ -23362,7 +23362,7 @@
     {
         "Reference Handle": "#shadow-fire-mass-market-paperbound",
         "Token": "3EO4UREQ5YL5JEHBUSUEJ7S7",
-        "Item Name": "Shadow Fire",
+        "ItemName": "Shadow Fire",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780593439128",
         "Description": "Feehan, Christine\r\nFiction - Romance\r\nPaperback - PUB: 04/26/2022\r\nIncludes an excerpt from Red on the river.",
@@ -23394,7 +23394,7 @@
     {
         "Reference Handle": "#sharks-beginners-ir--",
         "Token": "PUFOHDONMUQEYHIZWS6PUD6Q",
-        "Item Name": "Sharks, Beginners (IR)",
+        "ItemName": "Sharks, Beginners (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-1581-2",
         "Description": "<p>Children</p><p>Age: 6+</p><p>What do sharks like to eat? Which shark glows in the dark? And why do some sharks never stop swimming? You’ll find out the answers and lots more fun facts in this shark-infested book.</p><p><br/></p><p><u>Series: Beginners</u></p><p>How many eyes do spiders have? What do fire fighters wear? What kind of truck can transport the space shuttle? Find the answers to these questions and lots more in these exciting books for children who are learning to read on their own.</p>",
@@ -23426,7 +23426,7 @@
     {
         "Reference Handle": "#she-who-became-the-sun-radiant-emperor-duology-1--hardcover",
         "Token": "Z2Y75Q3WDA45UYK3BQ5UA6KR",
-        "Item Name": "She Who Became the Sun (Radiant Emperor Duology #1)",
+        "ItemName": "She Who Became the Sun (Radiant Emperor Duology #1)",
         "Variation Name": "Hardcover",
         "SKU": "9781250621801",
         "Description": "Parker-Chan, Shelley\r\nFiction - Fantasy\r\nHardcover - PUB: 07/20/2021\r\n\"To possess the Mandate of Heaven, the female monk Zhu will do anything 'I refuse to be nothing...' In a famine-stricken village on a dusty yellow plain, two children are given two fates. A boy, greatness. A girl, nothingness... In 1345, China lies under harsh Mongol rule. For the starving peasants of the Central Plains, greatness is something found only in stories. When the Zhu family's eighth-born son, Zhu Chongba, is given a fate of greatness, everyone is mystified as to how it will come to pass. The fate of nothingness received by the family's clever and capable second daughter, on the other hand, is only as expected. When a bandit attack orphans the two children, though, it is Zhu Chongba who succumbs to despair and dies. Desperate to escape her own fated death, the girl uses her brother's identity to enter a monastery as a young male novice. There, propelled by her burning desire to survive, Zhu learns she is capable of doing whatever it",
@@ -23458,7 +23458,7 @@
     {
         "Reference Handle": "#shine-a-light-dinosaurs-",
         "Token": "2CXWYLFKXH4EMK7JPA65PBS5",
-        "Item Name": "Shine-A-Light, Dinosaurs",
+        "ItemName": "Shine-A-Light, Dinosaurs",
         "Variation Name": "",
         "SKU": "978-1-61067-717-2",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Explore a world that existed millions of years before people lived on the Earth, when extraordinary animals roamed the land. From the fierce Tyrannosaurus rex to the birdlike Compsognathus, the hidden wonders of the dinosaur world are revealed.</p><p><br/></p><p><u>Series: Shine-A-Light</u></p><p>Shine a flashlight behind the page or hold it to the light to reveal what is hidden in and around different places and things. Discover a world of great surprises!</p>",
@@ -23490,7 +23490,7 @@
     {
         "Reference Handle": "#shine-a-light-secrets-of-the-vegetable-garden-",
         "Token": "XB4EIOSKKWX356TU3PE7GYJO",
-        "Item Name": "Shine-A-Light, Secrets of the Vegetable Garden",
+        "ItemName": "Shine-A-Light, Secrets of the Vegetable Garden",
         "Variation Name": "",
         "SKU": "978-1-61067-413-3",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>A vegetable garden grows under the sun. If you look closely between the stalks, beneath the leaves, and under the soil, you will spot the animals and plants living there. Hold a page up to the light to reveal what is hidden in and around the vegetable garden, and discover a small world of great surprises.</p><p><br/></p><p><br/></p><p><u>Series: Shine-A-Light</u></p><p>Shine a flashlight behind the page or hold it to the light to reveal what is hidden in and around different places and things. Discover a world of great surprises!</p>",
@@ -23522,7 +23522,7 @@
     {
         "Reference Handle": "#shine-a-light-secrets-of-winter-",
         "Token": "KXT3FEK2WTHRA4L5MLGONAPK",
-        "Item Name": "Shine-A-Light, Secrets of Winter",
+        "ItemName": "Shine-A-Light, Secrets of Winter",
         "Variation Name": "",
         "SKU": "978-1-61067-369-3",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Who is out and about during wintertime? Shine a light behind the pages and discover a natural winter world full of surprises!</p><p><br/></p><p><u>Series: Shine-A-Light</u></p><p>Shine a flashlight behind the page or hold it to the light to reveal what is hidden in and around different places and things. Discover a world of great surprises!</p>",
@@ -23554,7 +23554,7 @@
     {
         "Reference Handle": "#shine-a-light-wonders-of-our-world-",
         "Token": "D4Y4EVEWBPLBYD3XXUD2KNZB",
-        "Item Name": "Shine-A-Light, Wonders of Our World",
+        "ItemName": "Shine-A-Light, Wonders of Our World",
         "Variation Name": "",
         "SKU": "978-1-61067-718-9",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Journey across our world to explore natural and man-made marvels. Peer inside ancient buildings, climb mighty mountains, dive under the surface of the sea, and much more when you shine a light behind the page and see...</p><p><br/></p><p><u>Series: Shine-A-Light</u></p><p>Shine a flashlight behind the page or hold it to the light to reveal what is hidden in and around different places and things. Discover a world of great surprises!</p>",
@@ -23586,7 +23586,7 @@
     {
         "Reference Handle": "#shrieking-serpent-the-book-4--",
         "Token": "7YRAMH5MTY6W5HHGZC347UNF",
-        "Item Name": "Shrieking Serpent, The (Book 4)",
+        "ItemName": "Shrieking Serpent, The (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-68464-488-9",
         "Description": "<p>Children - Chapter book</p><p>Age: 7+</p><p>Leo must venture deep into the forest to the endless mines for more magical stones. Along the way, he’ll encounter old foes, forest folk, and his most deadly monster yet.</p><p><br/></p><p><u>Series: Leo&#39;s Map of Monsters</u></p><p>A fantasy adventure series for emergent readers with intriguing characters, plenty of thrills, action, and a new monster to battle in every book! Character fact files, a map of the landscape, and imaginative detailed illustrations add to the fun.</p>",
@@ -23618,7 +23618,7 @@
     {
         "Reference Handle": "#signal-fires-regular",
         "Token": "YCRTLR574JYL5SYHGK52AMO2",
-        "Item Name": "Signal Fires",
+        "ItemName": "Signal Fires",
         "Variation Name": "Regular",
         "SKU": "9780593534724",
         "Description": "Dani Shapiro\r\nPsychological Fiction\r\nPUB: 10/18/2022   \r\n\"Late on a summer night in 1985, three teenagers are in a tragic car crash on the quiet, suburban Division Avenue. A girl is killed, and Theo and Sarah Wilf are left with a devastating secret that will haunt their family forever. By the time the Shenkmans move in across the street, the accident has faded into the past, but secrets haunt both families and cause them to become intimately intertwined. When Waldo Shenkman, a brilliant but lonely child, befriends Ben Wilf, who is struggling with his wife's decline from Alzheimer's, he once again entangles the families' fates and sets in motion the spellbinding, unforgettable climax\".",
@@ -23650,7 +23650,7 @@
     {
         "Reference Handle": "#silver-in-the-mist-original--hardcover",
         "Token": "CQYU2IL7ECDSPTAOGSDMZ7CT",
-        "Item Name": "Silver in the Mist (Original)",
+        "ItemName": "Silver in the Mist (Original)",
         "Variation Name": "Hardcover",
         "SKU": "9781335406705",
         "Description": "Victoria, Emily\r\nYoung Adult Fiction\r\nHardcover - PUB: 11/01/2022\r\n\"Eight years ago, everything changed for Devlin: Her country was attacked. Her father was killed. And her mother became the Whisperer of Aris, the head of the spies, retreating into her position away from everyone... even her daughter. Joining the spy ranks herself, Dev sees her mother only when receiving assignments. She wants more, but she understands the peril their country, Aris, is in. The malevolent magic force of The Mists is swallowing Aris's edges, their country is vulnerable to another attack from their wealthier neighbor, and the magic casters who protect them from both are burning out. Dev has known strength and survival her whole life, but with a dangerous new assignment of infiltrating the royal court of their neighbor country Cerena to steal the magic they need, she learns that not all that glitters is weak. And not all stories are true",
@@ -23682,7 +23682,7 @@
     {
         "Reference Handle": "#silver-surfer-rebirth-paperback",
         "Token": "KJT5VENQLGGKYYGWD2ZIHS4T",
-        "Item Name": "Silver Surfer Rebirth",
+        "ItemName": "Silver Surfer Rebirth",
         "Variation Name": "Paperback",
         "SKU": "9781302932213",
         "Description": "Comics & Graphic Novels\r\n\"Ron Marz and Ron Lim return to the Sentinel of the Spaceways with a brand new tale of cosmic adventure set during their classic 1990s run on SILVER SURFER! When the Reality Gem is stolen from safekeeping by an unknown antagonist, the resulting chaos attracts the attention of Thanos -- and the Mad Titan seeks the aid of the Surfer to recover the gem! As reality fractures around them, our unlikely duo cross paths with familiar faces including Nebula, Jack of Hearts, Galactus -- and Mar-Vell! But will even the awesome power of the Silver Surfer and Thanos be enough to restore order to the Marvel Universe?\"",
@@ -23714,7 +23714,7 @@
     {
         "Reference Handle": "#silverborn-the-mystery-of-morrigan-crow-hardcover",
         "Token": "FHSXI4ZJGAHCURYGDPRHMQRM",
-        "Item Name": "Silverborn: The Mystery of Morrigan Crow",
+        "ItemName": "Silverborn: The Mystery of Morrigan Crow",
         "Variation Name": "Hardcover",
         "SKU": "9780316348393",
         "Description": "Townsend, Jessica\r\nBACKORDERED",
@@ -23746,7 +23746,7 @@
     {
         "Reference Handle": "#sinner-simone-sierra",
         "Token": "5QBNUEM2GAGBZ64PQ4UONPAO",
-        "Item Name": "Sinner",
+        "ItemName": "Sinner",
         "Variation Name": "Simone, Sierra",
         "SKU": "9781949364262",
         "Description": "Paperback",
@@ -23778,7 +23778,7 @@
     {
         "Reference Handle": "#skylark-the-dragon-lady-paperback",
         "Token": "IDTIFIRSMPSO4CGE2TZQKPXH",
-        "Item Name": "Skylark: The Dragon Lady",
+        "ItemName": "Skylark: The Dragon Lady",
         "Variation Name": "Paperback",
         "SKU": "9781631958366",
         "Description": "<p>Madison, Emily N</p><p>Fiction - Fantasy</p><p>Paperback - PUB: 08/02/2022</p><p><em>Skylark, The Dragon Lady</em> is an adventurous fantasy that pulls readers into Belladonna Skylark&#39;s world of piracy, prophecies, dark forces, and personal challenges--propelling the protagonist into tests of her character and resolve.</p>",
@@ -23810,7 +23810,7 @@
     {
         "Reference Handle": "#slasher-maidens-vol-6-paperback",
         "Token": "W5ILCBGALNFJ6EV44W3ORSQW",
-        "Item Name": "Slasher Maidens, Vol. 6",
+        "ItemName": "Slasher Maidens, Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781975347376",
         "Description": "Tashiro, Tetsuya",
@@ -23842,7 +23842,7 @@
     {
         "Reference Handle": "#sleep-no-more-hardcover",
         "Token": "S73OFNIBDJUNAHEVWMIQ5XFV",
-        "Item Name": "Sleep No More",
+        "ItemName": "Sleep No More",
         "Variation Name": "Hardcover",
         "SKU": "9780593337820",
         "Description": "Krentz, Jayne Ann\r\nBACKORDERED",
@@ -23874,7 +23874,7 @@
     {
         "Reference Handle": "#sleepy-princess-in-the-demon-castle-vol-19-paperback",
         "Token": "POMAPZTGLFPYOBWVYLRJK37D",
-        "Item Name": "Sleepy Princess in the Demon Castle, Vol. 19",
+        "ItemName": "Sleepy Princess in the Demon Castle, Vol. 19",
         "Variation Name": "Paperback",
         "SKU": "9781974732296",
         "Description": "Kumanomata, Kagiji",
@@ -23906,7 +23906,7 @@
     {
         "Reference Handle": "#sm-jrnl-blue-agate-other",
         "Token": "MEL37NNR3RO5YV4HQWPQ3JDG",
-        "Item Name": "SM Jrnl Blue Agate",
+        "ItemName": "SM Jrnl Blue Agate",
         "Variation Name": "Other",
         "SKU": "9781441330871",
         "Description": "Peter Pauper Press, Inc\r\n162 lined pages ] 5\" wide x 7\" high (12.7 cm wide x 17.8 cm high) ] Bookbound hardcover ] Elastic band place holder ] Archival/acid-free paper ] Inside back cover pocket ]Gold foil.",
@@ -23938,7 +23938,7 @@
     {
         "Reference Handle": "#sm-jrnl-cats-other",
         "Token": "QCMROE45DLO3T6PCFDPK7G57",
-        "Item Name": "SM Jrnl Cats",
+        "ItemName": "SM Jrnl Cats",
         "Variation Name": "Other",
         "SKU": "9781441326690",
         "Description": "Peter Pauper Press, Inc\r\n160 lined pages, 5\" wide x 7\" high. (12.7 cm wide x 17.8 cm high) Bookbound hardcover. Elastic band place holder. Acid-free, archival paper. Inside back cover pocket. Gloss highlights, embossed.",
@@ -23970,7 +23970,7 @@
     {
         "Reference Handle": "#small-favors-craig-erin-a-",
         "Token": "4QZFJLRHM3VHJVEHHMNHDM3W",
-        "Item Name": "Small Favors",
+        "ItemName": "Small Favors",
         "Variation Name": "Craig, Erin A.",
         "SKU": "9780593306772",
         "Description": "Paperback",
@@ -24002,7 +24002,7 @@
     {
         "Reference Handle": "#snatched-paperback",
         "Token": "5QHBHIJJF4ABJ75WPDAIFWSL",
-        "Item Name": "Snatched",
+        "ItemName": "Snatched",
         "Variation Name": "Paperback",
         "SKU": "9781504077903",
         "Description": "<p>Jackson, Gillian</p><p>Fiction - Thriller</p><p>Paperback - PUB: 09/19/2022</p><p><br/></p><p><strong>A ransom demand leads to secrets revealed, in this twisting crime suspense from the author of <em>The Victim</em>. </strong>Eleven-year-old Danny Stone is snatched on his way home from school, bundled into the back of a van, and driven to a remote, deserted farmhouse. Danny&#39;s parents, Martha and Richard, are frantic when their only child goes missing and call the police. Their home in Bristol is searched, and their lives and Richard&#39;s career as a solicitor come under scrutiny. Finally, a ransom demand arrives. Martha wants to pay, but Richard procrastinates. When he leaves the house, Martha searches through his papers. It&#39;s clear her husband has been keeping something from her. But as she tries to untangle his lies, while the police continue their search, Richard risks a dangerous negotiation on his own. And the question remains--how long can Danny survive?</p><p><br/></p>",
@@ -24034,7 +24034,7 @@
     {
         "Reference Handle": "#snoopy-cannonball-a-peanuts-collection-volume-15-paperback",
         "Token": "HDB6XK6DYVKRB6QO2TO5MWEW",
-        "Item Name": "Snoopy: Cannonball!: A Peanuts Collection Volume 15",
+        "ItemName": "Snoopy: Cannonball!: A Peanuts Collection Volume 15",
         "Variation Name": "Paperback",
         "SKU": "9781524875596",
         "Description": "Schulz, Charles M\r\nChildren - Comics & Graphic Novels\r\nAge: 7+\r\n\"Look out, below! Whether he's playing football, howling for his dinner, or writing on his typewriter, Snoopy always makes a splash. Along the way, his brother Marbles pays a visit, Sally goes to beanbag camp, Marcy is recruited for the school safety patrol, and Charlie Brown hopes his baseball team can finally win a game -- or at least avoid getting rained on while they lose. Dive in and join the Peanuts gang in this thrilling collection of comics selected especially for young readers",
@@ -24066,7 +24066,7 @@
     {
         "Reference Handle": "#snow-flake-garland-regular",
         "Token": "JR3BJGMILNG6YQT2QNFB4Z65",
-        "Item Name": "Snow Flake Garland",
+        "ItemName": "Snow Flake Garland",
         "Variation Name": "Regular",
         "SKU": "B133048",
         "Description": "Hand made by local artist",
@@ -24098,7 +24098,7 @@
     {
         "Reference Handle": "#snow-white-with-the-red-hair-vol-21-paperback",
         "Token": "WLYT4IXITQKB5YJRK7CQ4JWW",
-        "Item Name": "Snow White with the Red Hair, Vol. 21",
+        "ItemName": "Snow White with the Red Hair, Vol. 21",
         "Variation Name": "Paperback",
         "SKU": "9781974720699",
         "Description": "Akiduki, Sorata\r\n\r\nShirayuki is an herbalist famous for her naturally bright-red hair, and the prince of Tanbarun wants her all to himself! The prince from the neighboring kingdom, Zen, rescues her from her plight, and thus begins their love story. Zen's vacation is over, and he's back home at the palace. While Kiki's engagement moves ahead at a fever pitch, Izana formally assigns Zen to a post at Wirant Castle. Meanwhile, the new glowing plant that Shirayuki and the others created in Lilias will soon be submitted for official recognition! As new paths open up for everyone, how will they resolve to move forward?",
@@ -24130,7 +24130,7 @@
     {
         "Reference Handle": "#snowman-regular",
         "Token": "BHMOJ4ULKJJKSLBQRKHOOIFU",
-        "Item Name": "Snowman",
+        "ItemName": "Snowman",
         "Variation Name": "Regular",
         "SKU": "545793W",
         "Description": "Hand made by local artist",
@@ -24162,7 +24162,7 @@
     {
         "Reference Handle": "#somebody-feed-phil-the-book-untold-stories-behind-the-scenes-photos-and-favorite-recipes-a-cookbook-hardcover",
         "Token": "NPYTVHQPPZAN2V3QTN3IZKZI",
-        "Item Name": "Somebody Feed Phil the Book: Untold Stories, Behind-The-Scenes Photos and Favorite Recipes: A Cookbook",
+        "ItemName": "Somebody Feed Phil the Book: Untold Stories, Behind-The-Scenes Photos and Favorite Recipes: A Cookbook",
         "Variation Name": "Hardcover",
         "SKU": "9781982170998",
         "Description": "Rosenthal, Phil ; Garbee, Jenn ; Bottura, Massimo\r\nNon-Fiction - Cookbook\r\nHardcover - PUB: 10/18/2022",
@@ -24194,7 +24194,7 @@
     {
         "Reference Handle": "#something-is-killing-the-children-vol-5-paperback",
         "Token": "EGO2LOMTT7BA7QSDC2ZU5DPQ",
-        "Item Name": "Something Is Killing the Children Vol. 5",
+        "ItemName": "Something Is Killing the Children Vol. 5",
         "Variation Name": "Paperback",
         "SKU": "9781684158539",
         "Description": "Tynion IV, James",
@@ -24226,7 +24226,7 @@
     {
         "Reference Handle": "#song-of-silver-flame-like-night-hardcover",
         "Token": "WTF43G6E54CQEEFJ36WN7IN5",
-        "Item Name": "Song of Silver, Flame Like Night",
+        "ItemName": "Song of Silver, Flame Like Night",
         "Variation Name": "Hardcover",
         "SKU": "9780593487501",
         "Description": "Zhao, Amélie Wen\r\nBACKORDERED",
@@ -24258,7 +24258,7 @@
     {
         "Reference Handle": "#sonic-the-hedgehog-imposter-syndrome-paperback",
         "Token": "TKC3OV3PKKPVCPEEC2KHGMHC",
-        "Item Name": "Sonic the Hedgehog: Imposter Syndrome",
+        "ItemName": "Sonic the Hedgehog: Imposter Syndrome",
         "Variation Name": "Paperback",
         "SKU": "9781684059003",
         "Description": "Flynn, Ian ; Rothlisberger, Thomas ; Hammerstrom, Aaron ; Fonseca, Mauro\r\nChildren - Graphic Novels & Comics\r\nAge: 8+\r\n\"Rivals, fakers, and doppelgèangers have been scourges to Sonic for years, but Dr. Starline's newest creations pose an entirely new threat. New challengers Surge and Kit were designed for a single purpose: to replace Sonic and Tails as the world's greatest heroes! And that means it's not just the Blue Blur and his friends who should be wary--Dr. Eggman better watch out too! But has Dr. Starline gone too far this time? Will his master plan succeed, or will these imposters prove impossible to control? One thing's for sure: Surge and Kit mean to make a splash, and Sonic's world will never be the same!\"",
@@ -24290,7 +24290,7 @@
     {
         "Reference Handle": "#sorry-bro-paperback",
         "Token": "IYZKBEQ266LFGXE44MKPNJX5",
-        "Item Name": "Sorry, Bro",
+        "ItemName": "Sorry, Bro",
         "Variation Name": "Paperback",
         "SKU": "9780593547304",
         "Description": "Voskuni, Taleen\r\nBACKORDERED",
@@ -24322,7 +24322,7 @@
     {
         "Reference Handle": "#soul-of-the-deep-hardcover",
         "Token": "O2APD76SBTW2YPJQGNVEW4ZB",
-        "Item Name": "Soul of the Deep",
+        "ItemName": "Soul of the Deep",
         "Variation Name": "Hardcover",
         "SKU": "9780593120989",
         "Description": "Bowen, Natasha\r\nYoung Adult Fiction\r\nHardcover - PUB: 09/27/2022\r\nWhen signs of the eight ajogun begin to appear, Simi teams up with the corrupt trickster god Esu to stop the demon warlords before they enter the human realm and ruin humankind.",
@@ -24354,7 +24354,7 @@
     {
         "Reference Handle": "#space-magic-painting-regular",
         "Token": "QTO2URFSE6CXZ67ZN7NH522Y",
-        "Item Name": "Space Magic Painting",
+        "ItemName": "Space Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794551056",
         "Description": "",
@@ -24386,7 +24386,7 @@
     {
         "Reference Handle": "#space-wordsearches-",
         "Token": "GFU36N7NRZAMSC7FCDRTQ42F",
-        "Item Name": "Space Wordsearches",
+        "ItemName": "Space Wordsearches",
         "Variation Name": "",
         "SKU": "978-0-7945-4508-6",
         "Description": "<p>Children - Activity book</p><p>Age: 6+</p><p>Over 100 fun wordsearches with bright, cartoon-style illustrations.</p><p><br/></p><p><u>Series: Puzzle Books</u></p><p>Packed full of games, puzzles, mazes, and more, these books make any boring day or journey fun! Filled with individual and group activities, these books are sure to keep children (and adults!) amused for hours!</p>",
@@ -24418,7 +24418,7 @@
     {
         "Reference Handle": "#spacely-regular",
         "Token": "ZPE3SEHVPYFW4KTAJJQHHHZ7",
-        "Item Name": "Spacely",
+        "ItemName": "Spacely",
         "Variation Name": "Regular",
         "SKU": "9781684642281",
         "Description": "",
@@ -24450,7 +24450,7 @@
     {
         "Reference Handle": "#spider-man-2099-exodus-paperback",
         "Token": "PAGVOQNKSP5BS4KCXTOS5WUI",
-        "Item Name": "Spider-Man 2099: Exodus",
+        "ItemName": "Spider-Man 2099: Exodus",
         "Variation Name": "Paperback",
         "SKU": "9780785194774",
         "Description": "Paperback - PUB: 11/01/2022\r\nComics & Graphic Novels\r\n\"After fighting battles across the timestream, Miguel O'Hara -- Spider-Man of the year 2099 -- is back home at last, defending his present...and our future! But the only thing constant about life in Nueva York is change n a cataclysmic crash creates a new Garden of Eden in what was once the American Wastelands, Spider-Man knows exactly what the next atrocity will be. The deadly Cabal plans to set society ablaze -- and you'll never guess who is leading them! Meanwhile, everyone's got something to gain from Paradise...including Winter Soldier 13! Salvaged from the black market as a child and raised on mad science, this newest Winter Soldier is now bent on vengeance and rebirth! And as the Cabal preys upon society's dregs, Loki -- last survivor of Ragnarok -- schemes to resurrect Asgard!\"",
@@ -24482,7 +24482,7 @@
     {
         "Reference Handle": "#spirited-away-pencils-other",
         "Token": "SPL2FXL75OEXY7IEWVWTW2FQ",
-        "Item Name": "Spirited Away Pencils",
+        "ItemName": "Spirited Away Pencils",
         "Variation Name": "Other",
         "SKU": "9781797202679",
         "Description": "Studio Ghibli",
@@ -24514,7 +24514,7 @@
     {
         "Reference Handle": "#spirited-away-sketchbook-other",
         "Token": "NUKJZVCNDXYUHSPCVLIIKZ7A",
-        "Item Name": "Spirited Away Sketchbook",
+        "ItemName": "Spirited Away Sketchbook",
         "Variation Name": "Other",
         "SKU": "9781797204277",
         "Description": "Studio Ghibli X Chronicle Books",
@@ -24546,7 +24546,7 @@
     {
         "Reference Handle": "#spirited-away-30-postcards-novelty",
         "Token": "TEZMTHAXH7CLZKNKT2ZXPYHW",
-        "Item Name": "Spirited Away: 30 Postcards",
+        "ItemName": "Spirited Away: 30 Postcards",
         "Variation Name": "Novelty",
         "SKU": "9781797204260",
         "Description": "Studio Ghibli X Chronicle Books",
@@ -24578,7 +24578,7 @@
     {
         "Reference Handle": "#spirited-away-no-face-plush-journal-other",
         "Token": "PURVQMKC476DXWVCI3PPZDIW",
-        "Item Name": "Spirited Away: No Face Plush Journal",
+        "ItemName": "Spirited Away: No Face Plush Journal",
         "Variation Name": "Other",
         "SKU": "9781797204284",
         "Description": "Studio Ghibli X Chronicle Books",
@@ -24610,7 +24610,7 @@
     {
         "Reference Handle": "#spitfang-lizard-the-book-2--",
         "Token": "T36HU4PP5K32R5G74YLCOYXM",
-        "Item Name": "Spitfang Lizard, The (Book 2)",
+        "ItemName": "Spitfang Lizard, The (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-486-5",
         "Description": "<p>Children - Chapter book</p><p>Age: 7+</p><p>Leo must track down two deadly Spitfang Lizards before they reach the village. He is given one piece of advice—first they spit, then they bite. If you see a Spitfang&#39;s throat swell up... run!</p><p><br/></p><p><u>Series: Leo&#39;s Map of Monsters</u></p><p>A fantasy adventure series for emergent readers with intriguing characters, plenty of thrills, action, and a new monster to battle in every book! Character fact files, a map of the landscape, and imaginative detailed illustrations add to the fun.</p>",
@@ -24642,7 +24642,7 @@
     {
         "Reference Handle": "#splatoon-vol-15-paperback",
         "Token": "XJLACUJOWG2SV43SEYAMCALT",
-        "Item Name": "Splatoon, Vol. 15",
+        "ItemName": "Splatoon, Vol. 15",
         "Variation Name": "Paperback",
         "SKU": "9781974732456",
         "Description": "Hinodeya, Sankichi",
@@ -24674,7 +24674,7 @@
     {
         "Reference Handle": "#spook-tacular-surprise-book-4--",
         "Token": "XZTYRQSIL2NLXZOCSAYRPJA6",
-        "Item Name": "Spook-tacular Surprise (Book 4)",
+        "ItemName": "Spook-tacular Surprise (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-68464-166-6",
         "Description": "<p>Children - Chapter book</p><p>Age: 6+</p><p>The stage is set for the school play and Vlad wants to be the star, but if his family find out he’s been going to human school, there’ll be serious trouble... To keep it secret, Vlad needs to put on the best performance of his life!</p><p><br/></p><p><u>Series: Vlad, the World&#39;s Worst Vampire</u></p><p>Misery Manor is home to the Impalers – the bravest vampire family that ever lived. Except for Vlad – he’s not brave at all... He’s even a bit scared of the dark!</p>",
@@ -24706,7 +24706,7 @@
     {
         "Reference Handle": "#spy-mazes-",
         "Token": "MW5BMENRNY5FLVWGM56EHB54",
-        "Item Name": "Spy Mazes",
+        "ItemName": "Spy Mazes",
         "Variation Name": "",
         "SKU": "978-0-7945-5431-6",
         "Description": "<p>Children - Activity book</p><p>Age: 6+</p><p>From spy school, secret bases, and submarines to drones, double agents, and decoding devices, delve into the world of espionage as you find your way through this super selection of spy mazes.</p><p><br/></p><p><u>Series: Maze Books</u></p><p>Wind your way through lots of imaginative mazes to find lost friends, escape danger, discover treasure, and complete extra puzzles as you go.</p>",
@@ -24738,7 +24738,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-animals-",
         "Token": "62ZQITHSPJ5SXM2JINCQ62DR",
-        "Item Name": "Stained Glass Coloring, Animals",
+        "ItemName": "Stained Glass Coloring, Animals",
         "Variation Name": "",
         "SKU": "978-1-68464-214-4",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Turn your window into a zoo with these stained glass pictures of 16 animals to color with felt-tip pens or colored pencils and display.</p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24770,7 +24770,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-dinosaurs-",
         "Token": "F7DXTTZWD3VIH3WWMZKWF44M",
-        "Item Name": "Stained Glass Coloring, Dinosaurs",
+        "ItemName": "Stained Glass Coloring, Dinosaurs",
         "Variation Name": "",
         "SKU": "978-1-68464-001-0",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Sixteen friendly dinosaur designs to trace and color, then tape to a window for the stained glass effect.</p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24802,7 +24802,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-mermaids-",
         "Token": "UCKJLAOGQXQ3FUOJBTUGAQB7",
-        "Item Name": "Stained Glass Coloring, Mermaids",
+        "ItemName": "Stained Glass Coloring, Mermaids",
         "Variation Name": "",
         "SKU": "978-1-68464-217-5",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Create a magical underwater world with these stained glass pictures to color with felt-tip pens or colored pencils, then display on a window.</p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24834,7 +24834,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-monsters-",
         "Token": "GZYJ5PXITSVHPOGANGL2CJ6M",
-        "Item Name": "Stained Glass Coloring, Monsters",
+        "ItemName": "Stained Glass Coloring, Monsters",
         "Variation Name": "",
         "SKU": "978-1-68464-216-8",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Sixteen awesomely monstrous creatures are waiting for you to color with felt-tip pens or colored pencils, then display for your own “house of horrors.” </p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24866,7 +24866,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-princesses-",
         "Token": "WNOGKEPHPALO54SXDAHPF7M5",
-        "Item Name": "Stained Glass Coloring, Princesses",
+        "ItemName": "Stained Glass Coloring, Princesses",
         "Variation Name": "",
         "SKU": "978-1-68464-215-1",
         "Description": "<p>Children - Activity books</p><p>Age: 4+</p><p>Welcome royalty with these stained glass pictures of 16 lovely princesses to color with felt-tip pens or colored pencils. </p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24898,7 +24898,7 @@
     {
         "Reference Handle": "#stained-glass-coloring-unicorns-",
         "Token": "BGAMWTHKEYETNGSB7J3ZJMRE",
-        "Item Name": "Stained Glass Coloring, Unicorns",
+        "ItemName": "Stained Glass Coloring, Unicorns",
         "Variation Name": "",
         "SKU": "978-1-68464-000-3",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Sixteen magical unicorn designs to trace and color, then tape to a window for the stained glass effect.</p><p><br/></p><p><u>Series: Color &amp; Create</u></p><p>Place the gatefold at the back under each tracing paper page to color with your favorite felt-tip pens. Then tape your page to a window for maximum effect!</p>",
@@ -24930,7 +24930,7 @@
     {
         "Reference Handle": "#star-wars-yoda-bring-you-wisdom-i-will-star-wars-figurine-wisdom-cards-inspirational-booklet--other",
         "Token": "VABGJHFHDEOVYKS3CUBDP6ZW",
-        "Item Name": "Star Wars Yoda: Bring You Wisdom, I Will.: (Star Wars Figurine, Wisdom Cards, Inspirational Booklet)",
+        "ItemName": "Star Wars Yoda: Bring You Wisdom, I Will.: (Star Wars Figurine, Wisdom Cards, Inspirational Booklet)",
         "Variation Name": "Other",
         "SKU": "9780811874700",
         "Description": "<p>The ultimate Jedi Master from <em>Star Wars</em> is also the perfect totem for wisdom in all of life&#39;s pursuits. Having explored the galaxy and studied the Force for hundreds of years, Yoda has passed on his knowledge of the Jedi arts to generations of the galaxy&#39;s greatest heroes. Now you can have your own Yoda sensei in your life! This one-of-a-kind, hand-painted Yoda statue comes with a customizable galactic display stand, a booklet of Yoda&#39;s most inspirational musings alongside full-color illustrations, and a sheet of removable stickers of select quotes. Perfect for the office, mantle, bedside table, or anywhere else the Force might come in handy.</p>",
@@ -24962,7 +24962,7 @@
     {
         "Reference Handle": "#star-wars-darth-vader-by-greg-pak-vol-4-crimson-reign-paperback",
         "Token": "2L522YFBLG4SZXRMM6G6JBNU",
-        "Item Name": "Star Wars: Darth Vader by Greg Pak Vol. 4: Crimson Reign",
+        "ItemName": "Star Wars: Darth Vader by Greg Pak Vol. 4: Crimson Reign",
         "Variation Name": "Paperback",
         "SKU": "9781302926236",
         "Description": "Comics & Graphic Novels\r\n\"Red revenge! Lady Qi'ra not only insulted the Empire, but challenged it. In the end, Darth Vader showed her criminal organization that the Empire is not to be toyed with. But now, fearful whispers echo in every corner of the Empire -- Darth Vader is on the hunt, searching for anyone with any connection to the Crimson Dawn. How deep has the Dawn infiltrated the galaxy -- and are all their operations worthy of the wrath of Vader? In the bowels of Bespin, Darth Vader once told his son he wanted to bring order to the galaxy. Now his promise will be put to the test, as he leads an unlikely crew of heroes and assassins against the Crimson Dawn!\"",
@@ -24994,7 +24994,7 @@
     {
         "Reference Handle": "#star-wars-galactic-baking-the-official-cookbook-of-sweet-and-savory-treats-from-tatooine-hoth-and-beyond-hardcover",
         "Token": "A4O5SS3XEBPXPGA65KXVQBPC",
-        "Item Name": "Star Wars: Galactic Baking: The Official Cookbook of Sweet and Savory Treats from Tatooine, Hoth, and Beyond",
+        "ItemName": "Star Wars: Galactic Baking: The Official Cookbook of Sweet and Savory Treats from Tatooine, Hoth, and Beyond",
         "Variation Name": "Hardcover",
         "SKU": "9781647223779",
         "Description": "Non-Fiction, Cookbook\r\nHardcover\r\nPresents recipes for Star wars-themed treats",
@@ -25026,7 +25026,7 @@
     {
         "Reference Handle": "#star-wars-han-solo-chewbacca-vol-1-the-crystal-run-part-one-paperback",
         "Token": "KYQZZY6MSUAD2QEHU2UXUXZO",
-        "Item Name": "Star Wars: Han Solo & Chewbacca Vol. 1: The Crystal Run Part One",
+        "ItemName": "Star Wars: Han Solo & Chewbacca Vol. 1: The Crystal Run Part One",
         "Variation Name": "Paperback",
         "SKU": "9781302933050",
         "Description": "Comics & Graphic Novels\r\n\"The galaxy's best buddies star in a hair-raising adventure from the days before they joined the Rebellion! Loveable rogue Han Solo and his Wookiee partner-in-smuggling, Chewbacca, set off on a heist for none other than Jabba the Hutt -- and this time, the Rodian bounty hunter named Greedo is working alongside them! It's supposed to be a nice, straightforward job. What could possibly go wrong? Well, for starters, how about a reunion with the very last person Han expected to see? When the target safe is cracked, you won't believe what's inside! Plus, celebrate the galaxy's favorite holiday with a collection of festive tales from all across the saga of Star Wars. Happy Life Day!\"--",
@@ -25058,7 +25058,7 @@
     {
         "Reference Handle": "#star-wars-the-halcyon-legacy-paperback",
         "Token": "LYFK4AZKTK4OHCNAU2355IHB",
-        "Item Name": "Star Wars: The Halcyon Legacy",
+        "ItemName": "Star Wars: The Halcyon Legacy",
         "Variation Name": "Paperback",
         "SKU": "9781302933036",
         "Description": "Comics & Graphic Novels\r\n\"For over 300 years, the Halcyon has been the preeminent cruise ship in the galaxy. As Republics and an Empire have risen and fallen, this luxury space vessel has been a constant...despite an occasional bumpy ride or two. Now, prepare to learn the incredible story of the ship at the heart of the sensational Star Wars: Galactic Starcruiser hotel at Walt Disney World! Get ready to journey across the galaxy, enjoying stories that straddle genres and explore different eras of Star Wars -- each of which illustrates the rich history of the Halcyon. And you're sure to recognize a few familiar faces along the way!\"--",
@@ -25090,7 +25090,7 @@
     {
         "Reference Handle": "#star-wars-thrawn-ascendancy-book-ii-greater-good--hardcover",
         "Token": "6DTESRCQSONWK4BROI67VB47",
-        "Item Name": "Star Wars: Thrawn Ascendancy (Book II: Greater Good)",
+        "ItemName": "Star Wars: Thrawn Ascendancy (Book II: Greater Good)",
         "Variation Name": "Hardcover",
         "SKU": "9780593158296",
         "Description": "Fiction - Sci Fi - Fantasy\r\nWhen a mysterious enemy strikes at the very foundation of the Ascendancy by widening the rifts between the Nine Ruling Families and Forty Great Houses, Thrawn and his allies must decide what matters most--the security of their family or the survival of the Ascendancy itself.",
@@ -25122,7 +25122,7 @@
     {
         "Reference Handle": "#stellarlune-hardcover",
         "Token": "LGYQETSPXBKCMFL2AXVNNITB",
-        "Item Name": "Stellarlune",
+        "ItemName": "Stellarlune",
         "Variation Name": "Hardcover",
         "SKU": "9781534438521",
         "Description": "Messenger, Shannon\r\nChildren - Chapter book\r\nAge: 8+\r\n\"With her friends divided and scattered, and the Black Swan wanting her to focus on their projects, Sophie is led in a different direction to Stellarlune, which might be their salvation or destruction, and learns the true meaning of power--and evil.\"--",
@@ -25154,7 +25154,7 @@
     {
         "Reference Handle": "#step-by-step-drawing-book-",
         "Token": "AUVBFZDAEH5BIDTJETUG4DWI",
-        "Item Name": "Step-By-Step Drawing Book",
+        "ItemName": "Step-By-Step Drawing Book",
         "Variation Name": "",
         "SKU": "978-0-7945-2953-6",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Discover how to draw lots of things by following the simple step-by-steps in this delightful book, which has space for you to draw in. From rockets to robots… monkeys to monsters... there’s so much to inspire.</p><p><br/></p><p><u>Series: Step-by-Step Drawing</u></p><p>Discover how to draw lots of things in these delightful books. There’s lots of space for you to draw in, so follow the simple step-by-step instructions and start drawing!</p>",
@@ -25186,7 +25186,7 @@
     {
         "Reference Handle": "#step-by-step-drawing-people-",
         "Token": "HFVJNBRTC6TCWP3THOAE2OLD",
-        "Item Name": "Step-By-Step Drawing People",
+        "ItemName": "Step-By-Step Drawing People",
         "Variation Name": "",
         "SKU": "978-0-7945-2456-2",
         "Description": "<p>Children - Activity book</p><p>Age: 4+</p><p>Children love to draw people and faces and they can create satisfying results every time with this clear, easy-to-follow, step-by-step drawing book. This write-in book includes instructions, hints and tips, as well as space to practice. With plenty of space in the book for doing your own drawings.</p><p><br/></p><p><u>Series: Step-by-Step Drawing</u></p><p>Discover how to draw lots of things in these delightful books. There’s lots of space for you to draw in, so follow the simple step-by-step instructions and start drawing!</p>",
@@ -25218,7 +25218,7 @@
     {
         "Reference Handle": "#step-by-step-pyrography-for-beginners-learn-woodburning-with-16-projects-paperback",
         "Token": "WHODZZSHXUWC7J4DZ2GW7DFK",
-        "Item Name": "Step-By-Step Pyrography for Beginners: Learn Woodburning with 16 Projects",
+        "ItemName": "Step-By-Step Pyrography for Beginners: Learn Woodburning with 16 Projects",
         "Variation Name": "Paperback",
         "SKU": "9781685392581",
         "Description": "<p>Carver, Aney</p><p>Non-Fiction</p><p>Paperback - PUB: 12/20/2022</p><p><strong>Take crafting to new Fahrenheits</strong></p><p>Pyrography engages your senses like few other creative activities, from the aroma of sizzling wood to the sound of crackling as it burns. Learn the art of woodburning with this easy-to-follow ...</p>",
@@ -25250,7 +25250,7 @@
     {
         "Reference Handle": "#stepping-into-trust-a-poetic-journey-of-recovery-paperback",
         "Token": "ZUKXRUTXVJRXTX6PFJNIYNQU",
-        "Item Name": "Stepping into Trust: A Poetic Journey of Recovery",
+        "ItemName": "Stepping into Trust: A Poetic Journey of Recovery",
         "Variation Name": "Paperback",
         "SKU": "9781973641896",
         "Description": "Non-Fiction\r\nPaperback - PUB: 10/25/2018\r\nBrenda Rausch understands. She understands the power of addiction and the challenges of recovery. More than anything, she understands that God can do far more than we ask or imagine in our lives.\r\n\r\nIn a collaboration collection of poetry, art, and personal stories, Rausch shares a raw, real, and relatable view of her journey of recovery as she embarked on a difficult path to face her addiction, acknowledge it, and ultimately heal from it. As she depicts the difficult yet wonderful healing process from addiction and past emotional trauma, Rausch writes from the heart in a way that connects others with the emotional pain of the darker moments as well as joys of a beautiful walk of healing into deeper trust, belonging, joy, and inner-peace.\r\n\r\nStepping into Trust: A Poetic Journey of Recovery lyrically details a recovering addict's path to acceptance and healing as she learned to trust in God, herself, and the power of personal transformation.",
@@ -25282,7 +25282,7 @@
     {
         "Reference Handle": "#sticker-photo-mosaic-cats-kittens-other",
         "Token": "3MJG4QMNRJTM6ZP7GT5V7SGO",
-        "Item Name": "Sticker Photo Mosaic: Cats & Kittens",
+        "ItemName": "Sticker Photo Mosaic: Cats & Kittens",
         "Variation Name": "Other",
         "SKU": "9781338792737",
         "Description": "Create 12 mini posters with a fun search-and-find activity by matching tiny stickers featuring hundreds of adorable cats and kittens! Simply pick out a mosaic you would like to create. Then, find the page with the corresponding stickers. Sit back and start sticking to create a purrfect mosaic masterpiece! Each mosaic is perforated to easily remove and display, and the book includes 2800+ individual stickers for hours of crafting fun.",
@@ -25314,7 +25314,7 @@
     {
         "Reference Handle": "#stormlight-archive-mm-boxed-set-i-books-1-3-the-way-of-kings-words-of-radiance-oathbringer-mass-market-paperbound",
         "Token": "MO6AU6AIAXTLL2N7W65YYNQA",
-        "Item Name": "Stormlight Archive MM Boxed Set I, Books 1-3: The Way of Kings, Words of Radiance, Oathbringer",
+        "ItemName": "Stormlight Archive MM Boxed Set I, Books 1-3: The Way of Kings, Words of Radiance, Oathbringer",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250776631",
         "Description": "<p>Sanderson, Brandon</p><p>Paperback - PUB: 08/25/2020</p><p><strong>#1 <em>New York Times</em> bestselling author Brandon Sanderson&#39;s <em>Stormlight Archive Boxed Set I</em> includes books 1-3 in the epic fantasy series.</strong></p><p>Welcome to the remarkable world of Roshar, a world both alien and magical, where gigantic hurricane-like storms scour the surface every few days and life has adapted accordingly. Roshar is shared by humans and the enigmatic, humanoid Parshendi, with whom they are at war.This mass market paperback boxed set includes:<em>The Way of Kings</em></p><p><em>Words of Radiance</em></p><p><em>Oathbringer</em></p>",
@@ -25346,7 +25346,7 @@
     {
         "Reference Handle": "#strange-vol-1-i-belong-to-death-paperback",
         "Token": "YKC7O7A3534REB2NRNI7FWIP",
-        "Item Name": "Strange Vol. 1: I Belong to Death",
+        "ItemName": "Strange Vol. 1: I Belong to Death",
         "Variation Name": "Paperback",
         "SKU": "9781302946029",
         "Description": "Comics & Graphic Novels\r\n\"Doctor Strange is dead -- long live the Sorcerer Supreme! Or should we say...Sorceress? Haunted by her recently returned memories, Clea longs to bring Stephen Strange back from the grave. But when a dangerous group targets Earth, she must rise to task of being the planet's sole defender against otherworldly magical threats! Clea comes face-to-face with the mysterious Harvestman as they both face off against an undead foe! And she finds herself caught in the middle when mortals target monsters! But just as Clea begins to uncover ways to bring Stephen Strange back to life, another impossible assault upon the magical realm rears its head. But Clea is not just any Sorcerer Supreme, she is a warlord...and these attacks will not stand under her rule!\"--",
@@ -25378,7 +25378,7 @@
     {
         "Reference Handle": "#stranger-things-rebel-robin-hardcover",
         "Token": "GFQ7Z7AIWD3FP66JJGFSMXXA",
-        "Item Name": "Stranger Things: Rebel Robin",
+        "ItemName": "Stranger Things: Rebel Robin",
         "Variation Name": "Hardcover",
         "SKU": "9780593375563",
         "Description": "Young Adult Fiction\r\nHardcover - PUB: 06/29/2021\r\n\"The backstory of the Stranger Things's Robin, and her journey of coming into her own personality, interests, and sexuality\"--",
@@ -25410,7 +25410,7 @@
     {
         "Reference Handle": "#stuck-up-big-shot-signed-edition-regular",
         "Token": "N244MJ6Y7BTUVDMLZBXXZPLL",
-        "Item Name": "Stuck-up Big Shot, Signed Edition",
+        "ItemName": "Stuck-up Big Shot, Signed Edition",
         "Variation Name": "Regular",
         "SKU": "9781733946285",
         "Description": "Sierra Hill\r\nFiction-Romance\r\nPUB:2020",
@@ -25442,7 +25442,7 @@
     {
         "Reference Handle": "#studio-ghibli-100-collectible-postcards-final-frames-from-the-feature-films-novelty",
         "Token": "VLESGDSB3JKBPWEH2JJHDDQS",
-        "Item Name": "Studio Ghibli: 100 Collectible Postcards: Final Frames from the Feature Films",
+        "ItemName": "Studio Ghibli: 100 Collectible Postcards: Final Frames from the Feature Films",
         "Variation Name": "Novelty",
         "SKU": "9781452168661",
         "Description": "<p>Celebrate the art of Studio Ghibli, the beloved Japanese animation film studio, with this extensive collection of 100 full-color postcards showcasing final frames from all their feature-length films--from <em>Nausicaa of the Valley of the Wind</em> (1984) to <em>When Marnie Was There</em> (2014). Housed in a keepsake box with a lifting ribbon, these gorgeously detailed images will delight Studio Ghibli and animation fans of every age.(c) 2001 Studio Ghibli - NDDTM</p>",
@@ -25474,7 +25474,7 @@
     {
         "Reference Handle": "#studio-series-colored-pencil-30set-other",
         "Token": "LAEACXT7TN7YF4UYTFPNYRPW",
-        "Item Name": "Studio Series Colored Pencil/30set",
+        "ItemName": "Studio Series Colored Pencil/30set",
         "Variation Name": "Other",
         "SKU": "9781441314512",
         "Description": "Create luminous drawings with these premium pigments! Soft-core leads for superb color laydown. Smooth, easy shading and blending. Packaging includes tips for using your colored pencils . Packaged in reusable storage case. 30 premium colored pencils. Soft-core leads for superb color laydown. Smooth, easy shading and blending. Sharpener. Eraser.",
@@ -25506,7 +25506,7 @@
     {
         "Reference Handle": "#suicide-squad-king-shark-paperback",
         "Token": "DU23P7GCPMLWOD2H5LRYGSXK",
-        "Item Name": "Suicide Squad: King Shark",
+        "ItemName": "Suicide Squad: King Shark",
         "Variation Name": "Paperback",
         "SKU": "9781779516718",
         "Description": "Comics & Graphic Novels\r\n\"On leave from the Suicide Squad, King Shark and unfortunate tagalong the Defacer get swept into a mystical tournament for totemic animal spirits at the behest of King Shark's father, the god of sharks! Now King Shark must battle brutal warriors like Queen Tiger, King Roach, Prince Nematode, Princess Peregrine, and the terrifying Man King to finally attain his destiny and make his dour dad proud\"--",
@@ -25538,7 +25538,7 @@
     {
         "Reference Handle": "#super-turbo-gets-caught-paperback",
         "Token": "MSZKWU66KYH6HB6O3QLHSVOQ",
-        "Item Name": "Super Turbo Gets Caught",
+        "ItemName": "Super Turbo Gets Caught",
         "Variation Name": "Paperback",
         "SKU": "9781665915779",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 5+\r\n\"While on a mission to acquire snacks for a party, Super Turbo and Boss Bunny are caught in one of the janitor's rat traps and their only hope for escape lies in the paws of their enemy Whiskerface\"--",
@@ -25570,7 +25570,7 @@
     {
         "Reference Handle": "#sweet-vengeance-hardcover",
         "Token": "WQBPUYRDRH2SQAYDFYVWZPVX",
-        "Item Name": "Sweet Vengeance",
+        "ItemName": "Sweet Vengeance",
         "Variation Name": "Hardcover",
         "SKU": "9781649371263",
         "Description": "Wolff, Tracy\r\nBACKORDERED",
@@ -25602,7 +25602,7 @@
     {
         "Reference Handle": "#sword-of-destiny-illustrated-edition-hardcover",
         "Token": "WH3QTPFANEORLTF3ZSC7HP7Y",
-        "Item Name": "Sword of Destiny: Illustrated Edition",
+        "ItemName": "Sword of Destiny: Illustrated Edition",
         "Variation Name": "Hardcover",
         "SKU": "9780316453264",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\nHardcover - PUB: 12/06/2022",
@@ -25634,7 +25634,7 @@
     {
         "Reference Handle": "#tales-of-brave-and-brilliant-girls-from-around-the-",
         "Token": "4ZAP6WVTLQFQA4I3KBR7XONU",
-        "Item Name": "Tales of Brave and Brilliant Girls from Around the",
+        "ItemName": "Tales of Brave and Brilliant Girls from Around the",
         "Variation Name": "",
         "SKU": "978-0-7945-5106-3",
         "Description": "<p>Children</p><p>Age: 7+</p><p>Here are traditional tales from every corner of the globe, all featuring bold and clever heroines who battle dragons, fight sea serpents, or save their village from monstrous thieves. This is a sequel to the best-selling title Forgotten Fairy Tales of Brave and Brilliant Girls. Stories included are: Mulan, Nanbolele, Vasilisa and Prince Vladimir, Moremi and the Egunguns, The Legend of Tokoyo, The Dragon Slayer, The Sleep Watchers, and The Warrior Queen.</p><p><br/></p><p><u>Series: Brave and Brilliant Girls</u></p><p>Fairy tales come from an oral tradition, so they are always changing — until the Victorians wrote them down, when they stayed the same for many years. To have meaning today, it’s important that fairy tales change with the times. So in this series, after their heroic and clever deeds, the girls don’t always end up getting married and settling down. They go off and have other adventures of their own. Every story may not end in instant marriage, but good triumphs over evil and there is always a happy ending.</p>",
@@ -25666,7 +25666,7 @@
     {
         "Reference Handle": "#tea-large-20-oz-",
         "Token": "XNCEHRK756YI7VS5OQ4NOYFJ",
-        "Item Name": "Tea",
+        "ItemName": "Tea",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -25698,7 +25698,7 @@
     {
         "Reference Handle": "#tea-medium-16-oz-",
         "Token": "PZLXCATOGNW2VZZQDESURKIV",
-        "Item Name": "Tea",
+        "ItemName": "Tea",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -25730,7 +25730,7 @@
     {
         "Reference Handle": "#tea-small-12-oz-",
         "Token": "RUIFHEASRV5PH4Y7AY3DFY3U",
-        "Item Name": "Tea",
+        "ItemName": "Tea",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -25762,7 +25762,7 @@
     {
         "Reference Handle": "#teenage-mutant-ninja-turtles-reborn-vol-5-mystic-sister-paperback",
         "Token": "7YW2OFDK7UIJ6J3RX3JXXHIV",
-        "Item Name": "Teenage Mutant Ninja Turtles: Reborn, Vol. 5 - Mystic Sister",
+        "ItemName": "Teenage Mutant Ninja Turtles: Reborn, Vol. 5 - Mystic Sister",
         "Variation Name": "Paperback",
         "SKU": "9781684059164",
         "Description": "Campbell, Sophie ; Garing, Ken ; Tunica, Pablo ; Gregori, Tony",
@@ -25794,7 +25794,7 @@
     {
         "Reference Handle": "#terms-and-conditions-asher-lauren",
         "Token": "DELGSXUC45JINZ5IENZR7UV3",
-        "Item Name": "Terms and Conditions",
+        "ItemName": "Terms and Conditions",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781737507734",
         "Description": "Paperback",
@@ -25826,7 +25826,7 @@
     {
         "Reference Handle": "#text-for-you-paperback",
         "Token": "KSJSTXCU4LUNNVMB6YVF3W6L",
-        "Item Name": "Text for You",
+        "ItemName": "Text for You",
         "Variation Name": "Paperback",
         "SKU": "9780143136903",
         "Description": "Cramer, Sofie\r\nFiction - Romance\r\nPaperback -  PUB:02/08/2022\r\n\"First published in German as SMS fèur dich by Rowohlt Taschenbuch Verlag, an imprint of Rowohlt Verlag GmbH, Reinbek bei Hamburg\"",
@@ -25858,7 +25858,7 @@
     {
         "Reference Handle": "#that-s-not-my-cow-",
         "Token": "TISPXJGGNBMPWJWQG4NUHSWO",
-        "Item Name": "That's Not My Cow",
+        "ItemName": "That's Not My Cow",
         "Variation Name": "",
         "SKU": "978-0-7945-3544-5",
         "Description": "Children - Sensory book\r\nAge: 9m+\r\nThere’s a whole herd of friendly cows for children to meet in this touchy-feely board book for babies and toddlers. From soft ears to bumpy hooves and fluffy tails, little children will love exploring new textures on every page as they look for their cow. \r\n\r\nSeries: A THAT'S NOT MY® Series Book\r\nBabies and toddlers will love touching the textured patches on every page. The bright pictures and textures to stroke are designed to help develop sensory and language awareness.",
@@ -25890,7 +25890,7 @@
     {
         "Reference Handle": "#that-s-not-my-flamingo-with-foil-edges-",
         "Token": "5CVW7VMG74LSBYDLDTVRD27V",
-        "Item Name": "That's Not My Flamingo - With Foil Edges",
+        "ItemName": "That's Not My Flamingo - With Foil Edges",
         "Variation Name": "",
         "SKU": "978-0-7945-4384-6",
         "Description": "Children - Sensory book\r\nAge: 9m+\r\nCelebrate the 20th anniversary of That’s not my... with this tropical new addition to the series, complete with pink holographic edges and adorable flamingos on every page.\r\n\r\nSeries: A THAT'S NOT MY® Series Book\r\nBabies and toddlers will love touching the textured patches on every page. The bright pictures and textures to stroke are designed to help develop sensory and language awareness.",
@@ -25922,7 +25922,7 @@
     {
         "Reference Handle": "#that-s-not-my-pony-",
         "Token": "UF2SGEZND6PWRWH3GOXH7SW4",
-        "Item Name": "That's Not My Pony",
+        "ItemName": "That's Not My Pony",
         "Variation Name": "",
         "SKU": "978-0-7945-1630-7",
         "Description": "<p>Children - Sensory book</p><p>Age: 9m+</p><p>This delightful series of board books is aimed at very young children. The bright pictures, with their patches of different textures, are designed to develop sensory and language awareness. Babies and toddlers will love turning the pages and touching the feely patches.</p><p><br/></p><p><u>Series: A THAT&#39;S NOT MY® Series Book</u></p><p>Babies and toddlers will love touching the textured patches on every page. The bright pictures and textures to stroke are designed to help develop sensory and language awareness.</p>",
@@ -25954,7 +25954,7 @@
     {
         "Reference Handle": "#that-s-not-my-tractor-",
         "Token": "IELKNITRM5CNSCCUIWMG7LGF",
-        "Item Name": "That's Not My Tractor",
+        "ItemName": "That's Not My Tractor",
         "Variation Name": "",
         "SKU": "978-0-7945-1464-8",
         "Description": "Children - Sensory book\r\nAge: 9m+\r\nThis delightful series of board books is aimed at very young children. The bright pictures with their patches of different textures are designed to develop sensory and language awareness. Babies and toddlers will love turning the pages and touching the feely patches.\r\n\r\nSeries: A THAT'S NOT MY® Series Book\r\nBabies and toddlers will love touching the textured patches on every page. The bright pictures and textures to stroke are designed to help develop sensory and language awareness.",
@@ -25986,7 +25986,7 @@
     {
         "Reference Handle": "#the-a-to-z-farm-joke-book-",
         "Token": "Z5ZTBEWFS5E73YVM7CTL4SCQ",
-        "Item Name": "The A to Z Farm Joke Book",
+        "ItemName": "The A to Z Farm Joke Book",
         "Variation Name": "",
         "SKU": "978-1-68464-324-0",
         "Description": "<p>Children</p><p>Age: 5+</p><p>From acorn to zebra, these hilarious one-liners will drive readers hog wild!</p><p><br/></p><p><u>Series: A to Z Joke Books</u></p><p>Each book in this series is packed with 300 hilarious one-line jokes that are bound to appeal to all young comedians. The jokes have been arranged from A to Z, so finding the perfect gag for every occasion is as simple as A, B, C...</p>",
@@ -26018,7 +26018,7 @@
     {
         "Reference Handle": "#the-a-to-z-school-joke-book-",
         "Token": "Z73KC37WV7BNWQTYRIIBPAIA",
-        "Item Name": "The A to Z School Joke Book",
+        "ItemName": "The A to Z School Joke Book",
         "Variation Name": "",
         "SKU": "978-1-68464-325-7",
         "Description": "<p>Children</p><p>Age: 5+</p><p>Become a class-act comedian with this collection of school-themed one-liners.</p><p><br/></p><p><u>Series: A to Z Joke Books</u></p><p>Each book in this series is packed with 300 hilarious one-line jokes that are bound to appeal to all young comedians. The jokes have been arranged from A to Z, so finding the perfect gag for every occasion is as simple as A, B, C...</p>",
@@ -26050,7 +26050,7 @@
     {
         "Reference Handle": "#the-abcs-of-self-care-your-guide-to-creating-a-happy-healthy-more-peaceful-life-paperback",
         "Token": "RXGXCIMP2ZRITMTPIIBNGSTO",
-        "Item Name": "The Abcs of Self-Care: Your Guide to Creating a Happy, Healthy & More Peaceful Life",
+        "ItemName": "The Abcs of Self-Care: Your Guide to Creating a Happy, Healthy & More Peaceful Life",
         "Variation Name": "Paperback",
         "SKU": "9781982272357",
         "Description": "Betts, Sheri E ; Frankel, Lois\r\nNon-Fiction\r\nPaperback - PUB:09/21/2021\r\nCreating a happier, healthier, and more peaceful life is as simple as a-b-c with this practical and interactive guide to making self-care a lifestyle. In the same way that 26 letters can create an entire language, The ABCs of Self-Care offers an easy-to-follow alphabet of tools and techniques that can create an entirely new way of living, regardless of your starting point. Learning and practicing these ABCs of self-care will help you develop the kind of self-love that prevents you from becoming overworked and undervalued - by yourself and others. Self-care can be viewed as the practice of taking an active role in protecting your own well-being and happiness. Whether your current state of well-being is \"numb\" or \"moderately satisfied\", you can make different choices starting now to create a happier, healthier, and more peaceful life. This book will help you do that! Join me on this journey of creating your best life",
@@ -26082,7 +26082,7 @@
     {
         "Reference Handle": "#the-adventures-of-alfie-onion-",
         "Token": "4DD2ZQM3JT3R2M2SCSY5Y2DS",
-        "Item Name": "The Adventures of Alfie Onion",
+        "ItemName": "The Adventures of Alfie Onion",
         "Variation Name": "",
         "SKU": "978-1-61067-732-5",
         "Description": "Children - Chapter book\r\nAge: 7+\r\nAlfie Onion is off on a great adventure… carrying his brother’s luggage. But when elder brother, Magnifico turns out not to be the hero he’s cracked up to be, Alfie saves the day – with a little help from his loyal dog, a talking horse, and a pair of meddling magpies.",
@@ -26114,7 +26114,7 @@
     {
         "Reference Handle": "#the-adventures-of-team-pom-the-last-dodo-team-pom-book-2-paperback",
         "Token": "5W6IJX7NI2EDXPT447F6R7EY",
-        "Item Name": "The Adventures of Team Pom: The Last Dodo: Team POM Book 2",
+        "ItemName": "The Adventures of Team Pom: The Last Dodo: Team POM Book 2",
         "Variation Name": "Paperback",
         "SKU": "9781838740559",
         "Description": "Roxas, Isabel\r\nChildren - Comics & Graphic Novels\r\nPaperback - PUB: 10/18/2022\r\nAge: 7+\r\n\"The oddball adventures of Team Pom continue with another action-packed romp through New York City--this time with even more hilarious shenanigans, sticky situations, and hungry villains in bowler hats ... It's the summer break in Shadyside, Queens, and Team Pom's investigation into the mysterious organization called C.A.O.S, and its sinister boss Steve, have hit a dead end. Seeking a bit of inspiration, Roberta, Ruby and Agnes head to the Natural History Museum to spend time with Ruby's aunt, a de-extinction biologist in training who's just stumbled upon a precious sample of Dodo remains. But C.A.O.S. lurks in the shadows with Dodo schemes of their own! Can Team Pom foil Steve's plans in time to save the entire city? Can peanut butter really fight evil? Or is New York City finally going to the birds?\"",
@@ -26146,7 +26146,7 @@
     {
         "Reference Handle": "#the-ancient-magus-bride-wizard-s-blue-vol-5-paperback",
         "Token": "P7JLVGCZB64TJEOI3DBNCEG6",
-        "Item Name": "The Ancient Magus' Bride: Wizard's Blue Vol. 5",
+        "ItemName": "The Ancient Magus' Bride: Wizard's Blue Vol. 5",
         "Variation Name": "Paperback",
         "SKU": "9781638583813",
         "Description": "Yamazaki, Kore ; Sanda, Makoto ; Tsukumo, Isuo",
@@ -26178,7 +26178,7 @@
     {
         "Reference Handle": "#the-assassin-s-blade-the-throne-of-glass-prequel-novellas-hardcover",
         "Token": "O4ODWX4N4S4GUF3AT4WXQM44",
-        "Item Name": "The Assassin's Blade: The Throne of Glass Prequel Novellas",
+        "ItemName": "The Assassin's Blade: The Throne of Glass Prequel Novellas",
         "Variation Name": "Hardcover",
         "SKU": "9781639731084",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -26210,7 +26210,7 @@
     {
         "Reference Handle": "#the-awakening-the-dragon-heart-legacy-book-1-paperback",
         "Token": "U3BKD2ZLLCDYOZD22WYDOEW3",
-        "Item Name": "The Awakening: The Dragon Heart Legacy, Book 1",
+        "ItemName": "The Awakening: The Dragon Heart Legacy, Book 1",
         "Variation Name": "Paperback",
         "SKU": "9781250770486",
         "Description": "Roberts, Nora\r\nFiction - Fantasy - Romance\r\nPaperback - PUB: 10/05/2021\r\n\"In the realm of Talamh, a teenage warrior named Keegan emerges from a lake holding a sword--representing both power and the terrifying responsibility to protect the Fey. In another realm known as Philadelphia, a young woman has just discovered she possesses a treasure of her own ... When Breen Kelly was a girl, her father would tell her stories of magical places. Now she's an anxious twentysomething mired in student debt and working a job she hates. But one day she stumbles upon a shocking discovery: her mother has been hiding an investment account in her name. It has been funded by her long-lost father--and it's worth nearly four million dollars. This newfound fortune would be life-changing for anyone. But little does Breen know that when she uses some of the money to journey to Ireland, it will unlock mysteries she couldn't have imagined\"-",
@@ -26242,7 +26242,7 @@
     {
         "Reference Handle": "#the-ballad-of-never-after-once-upon-a-broken-heart-2--garber-stephanie",
         "Token": "WFE2Q6HZHJQ6YHLGVOZKND53",
-        "Item Name": "The Ballad of Never After (Once Upon a Broken Heart #2)",
+        "ItemName": "The Ballad of Never After (Once Upon a Broken Heart #2)",
         "Variation Name": "Garber, Stephanie",
         "SKU": "9781250268426",
         "Description": "Stephanie Garber\r\nYoung Adult - Fantasy - Romance\r\nHardcover - PUB: 09/13/2022\r\nAfter the discovery of a murderous curse, Evangaline Fox once again enters into a tenuous partnership with Jacks, the Prince of Hearts, and to break the spell they go on a journey of magic, mystery, and possible heartbreak.",
@@ -26274,7 +26274,7 @@
     {
         "Reference Handle": "#the-ballad-of-songbirds-and-snakes-a-hunger-games-novel--hardcover",
         "Token": "V6JBOJ3RCHUOWZ35NUFQV65F",
-        "Item Name": "The Ballad of Songbirds and Snakes (a Hunger Games Novel)",
+        "ItemName": "The Ballad of Songbirds and Snakes (a Hunger Games Novel)",
         "Variation Name": "Hardcover",
         "SKU": "9781338635171",
         "Description": "Collins, Suzanne\r\nYoung Adult Fiction\r\nHardcover - PUB: 05/19/2020\r\n\"Revisit[s] the world of Panem sixty-four years before the events of The Hunger Games, starting on the morning of the reaping of the Tenth Hunger Games\"",
@@ -26306,7 +26306,7 @@
     {
         "Reference Handle": "#the-banned-bookshop-of-maggie-banks-paperback",
         "Token": "WJCBIE3NHR5IIQEAYRIDWGIJ",
-        "Item Name": "The Banned Bookshop of Maggie Banks",
+        "ItemName": "The Banned Bookshop of Maggie Banks",
         "Variation Name": "Paperback",
         "SKU": "9781728246444",
         "Description": "Robinson, Shauna\r\nFiction - Romance\r\nPaperback - PUB: 11/01/2022\r\n\"Maggie Banks's life is a bit of a mess. After losing a job and moving back home with her parents, she's desperate for a new Life Plan. So when her best friend asks for help running her struggling bookstore in the quaint town of Bells River, Maggie jumps on the opportunity. She doesn't even like books, per se, but anything's better than obsessively checking job boards from her childhood bedroom. It turns out Maggie's not prepared for small-town life. More specifically, the strict rules enforced by the local historical society: the bookstore is only allowed to sell 'classics.' But with a town full of people looking for fresh stories, Maggie knows she'll have to get creative to keep the store afloat\"",
@@ -26338,7 +26338,7 @@
     {
         "Reference Handle": "#the-beast-of-blackmoor-bog-book-3-of-the-impossible-quest--",
         "Token": "ILGENG6ZY2Z4FPDNRN6NSZB7",
-        "Item Name": "The Beast of Blackmoor Bog (Book 3 of The Impossible Quest)",
+        "ItemName": "The Beast of Blackmoor Bog (Book 3 of The Impossible Quest)",
         "Variation Name": "",
         "SKU": "978-1-61067-416-4",
         "Description": "<p>Kate Forsyth</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age</strong>: 9-13</p><p><br/></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p><p>Four unlikely heroes are forced on a perilous quest to save their people. But first, Tom, Elanor, Sebastian and Quinn must escape the overrun castle. Only they can find the four impossible elements needed to wake the sleeping warriors of the legend. Only they can drive back the darkness that reigns over the land.</p><p><br/></p><p><em>The dragons are long gone ... this beast is something else. Something huge and black and hairy.</em></p><p><br/></p><p>After escaping the bog-men in the wilds of the Witchwood, Sebastian, Quinn, Elanor and Tom journey south on their impossible quest. Sebastian and Elanor seek help from Crowthorne Castle, but both allies and enemies will reveal themselves. Tom and Quinn venture into the mysterious moors ... where a hideous beast lies in waiting.</p><p><br/></p><p><u>Series: The Impossible Quest</u></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p>",
@@ -26370,7 +26370,7 @@
     {
         "Reference Handle": "#the-beast-within-villains-book-2-a-tale-of-beauty-s-prince-hardcover",
         "Token": "4C7YYCFLSJARXX7TU6OSNCC4",
-        "Item Name": "The Beast Within (Villains, Book 2): A Tale of Beauty's Prince",
+        "ItemName": "The Beast Within (Villains, Book 2): A Tale of Beauty's Prince",
         "Variation Name": "Hardcover",
         "SKU": "9781423159124",
         "Description": "Valentino, Serena ; Disney Storybook Art Team\r\nYoung Adult Fiction\r\nHardcover - PUB: 07/22/2014\r\nBased on Disney's animated film \"Beauty and the Beast, \" this follow-up to Valentino's \"Fairest of All\" explores how the prince, once jovial and beloved by his people, became a reclusive and bitter monster. Is it possible that he can find true love and break the curse that has been placed upon him?",
@@ -26402,7 +26402,7 @@
     {
         "Reference Handle": "#the-becoming-dragon-heart-legacy-2--paperback",
         "Token": "ZHF2BSFBVSZFVJIH6HEC3K6Q",
-        "Item Name": "The Becoming (Dragon heart legacy #2)",
+        "ItemName": "The Becoming (Dragon heart legacy #2)",
         "Variation Name": "Paperback",
         "SKU": "9781250771780",
         "Description": "Roberts, Nora\r\nFiction - Fantasy - Romance\r\nPaperback - PUB: 10/25/2022",
@@ -26434,7 +26434,7 @@
     {
         "Reference Handle": "#the-big-adventures-of-babymouse-once-upon-a-messy-whisker-book-1--paperback",
         "Token": "CNMHG7RAYUJGU75T4YV7ZZJ5",
-        "Item Name": "The Big Adventures of Babymouse: Once Upon a Messy Whisker (Book 1)",
+        "ItemName": "The Big Adventures of Babymouse: Once Upon a Messy Whisker (Book 1)",
         "Variation Name": "Paperback",
         "SKU": "9780593430934",
         "Description": "Holm, Jennifer L ; Holm, Matthew\r\nChildren - Comics & Graphic Novels\r\nAge: 7+\r\nPaperback - PUB: 09/27/2022\r\n\"Babymouse has a BIG imagination that comes to life when she dreams of having straight whiskers\"",
@@ -26466,7 +26466,7 @@
     {
         "Reference Handle": "#the-big-chicken-mystery-book-5--",
         "Token": "DCNTMCAZVGUMEPA3KXB322AR",
-        "Item Name": "The Big Chicken Mystery (Book 5)",
+        "ItemName": "The Big Chicken Mystery (Book 5)",
         "Variation Name": "",
         "SKU": "978-1-68464-301-1",
         "Description": "<p>Children - Chapter book</p><p>Age: 6+</p><p>The school chickens need new homes! Olivia designed the best chicken house, but when the chickens arrived, their eggs disappeared. Olivia must get to the bottom of this chicken mystery!</p><p><br/></p><p><u>Series: Olivia&#39;s Secret Scribbles</u></p><p>Ella’s little sister has started writing down her own hilarious thoughts and adventures! It’s time to find out all about Olivia. She’s funny, fearless, and full of fun.</p>",
@@ -26498,7 +26498,7 @@
     {
         "Reference Handle": "#the-bob-s-burgers-burger-book-real-recipes-for-joke-burgers-hardcover",
         "Token": "HK6YJADYFF6PWUVC5VLUYLDQ",
-        "Item Name": "The Bob's Burgers Burger Book: Real Recipes for Joke Burgers",
+        "ItemName": "The Bob's Burgers Burger Book: Real Recipes for Joke Burgers",
         "Variation Name": "Hardcover",
         "SKU": "9781368071062",
         "Description": "Bouchard, Loren\r\nBACKORDERED",
@@ -26530,7 +26530,7 @@
     {
         "Reference Handle": "#the-book-of-azrael-paperback",
         "Token": "ZUIJF5P2DZMI5BUE3UH4HQJR",
-        "Item Name": "The Book of Azrael",
+        "ItemName": "The Book of Azrael",
         "Variation Name": "Paperback",
         "SKU": "9781737706755",
         "Description": "Nicole, Amber\r\nFiction - Fantasy\r\nPaperback - PUB: 04/26/2022\r\nWorld Ender meets Ender of Worlds...",
@@ -26562,7 +26562,7 @@
     {
         "Reference Handle": "#the-book-of-magic-hardcover",
         "Token": "SYI2E36ZQSAMC35NKWLAMWYJ",
-        "Item Name": "The Book of Magic",
+        "ItemName": "The Book of Magic",
         "Variation Name": "Hardcover",
         "SKU": "9781982151485",
         "Description": "Hoffman, Alice\r\nFiction - Fantasy - Romance\r\nHardcover - PUB: 10/12/2021\r\n\"The Owens family has been cursed in matters of love for over three-hundred years but all of that is about to change. The novel begins in a library, the best place for a story to be conjured, when beloved aunt Jet Owens hears the deathwatch beetle and knows she has only seven days to live. Jet is not the only one in danger--the curse is already at work\"",
@@ -26594,7 +26594,7 @@
     {
         "Reference Handle": "#the-book-on-rental-property-investing-how-to-create-wealth-with-intelligent-buy-and-hold-real-estate-investing-paperback",
         "Token": "A35VPGCQSIAE7IFR33NKD4SQ",
-        "Item Name": "The Book on Rental Property Investing: How to Create Wealth with Intelligent Buy and Hold Real Estate Investing",
+        "ItemName": "The Book on Rental Property Investing: How to Create Wealth with Intelligent Buy and Hold Real Estate Investing",
         "Variation Name": "Paperback",
         "SKU": "9780990711797",
         "Description": "Turner, Brandon\r\nNon-Fiction\r\nPaperback - PUB: 10/28/2015\r\nWith half a million units sold worldwide, this fan-favorite will show you every strategy, tool, tip, and technique you need to become a millionaire rental property investor",
@@ -26626,7 +26626,7 @@
     {
         "Reference Handle": "#the-boy-in-the-striped-pajamas-paperback",
         "Token": "BC3EGZGNIJ2R2I264E5VKCAA",
-        "Item Name": "The Boy in the Striped Pajamas",
+        "ItemName": "The Boy in the Striped Pajamas",
         "Variation Name": "Paperback",
         "SKU": "9780385751537",
         "Description": "Boyne, John\r\nYoung Adult Fiction - Historical\r\nAge: 12+\r\nPaperback - PUB: 10/23/2007",
@@ -26658,7 +26658,7 @@
     {
         "Reference Handle": "#the-butcher-and-the-wren-hardcover",
         "Token": "VQKSEBGXW22ZBEHELGBJXXT4",
-        "Item Name": "The Butcher and the Wren",
+        "ItemName": "The Butcher and the Wren",
         "Variation Name": "Hardcover",
         "SKU": "9781638930143",
         "Description": "Urquhart, Alaina\r\nFiction - Thriller\r\nHardcover - PUB: 09/13/2022\r\nINSTANT NEW YORK TIMES BESTSELLER\r\nFrom the co-host of chart-topping true crime podcast Morbid, a thrilling debut novel told from the dueling perspectives of a notorious serial killer and the medical examiner following where his trail of victims leads\r\nSomething dark is lurking in the Louisiana bayou: a methodical killer with a penchant for medical experimentation is hard at work completing his most harrowing crime yet, taunting the authorities who desperately try to catch up.\r\nBut forensic pathologist Dr. Wren Muller is the best there is. Armed with an encyclopedic knowledge of historical crimes, and years of experience working in the Medical Examiner's office, she's never encountered a case she couldn't solve. Until now. Case after case is piling up on Wren's examination table, and soon she is sucked into an all-consuming cat-and-mouse chase with a brutal murderer getting more brazen by the day.\r\nAn addictive read with straight-from-the-morgue deta",
@@ -26690,7 +26690,7 @@
     {
         "Reference Handle": "#the-cabin-at-the-end-of-the-world-mass-market-paperbound",
         "Token": "OY6D6PBXTHWA5XAW6GM3YXET",
-        "Item Name": "The Cabin at the End of the World",
+        "ItemName": "The Cabin at the End of the World",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062912237",
         "Description": "Tremblay, Paul\r\nFiction-Thriller\r\nPUB:2019",
@@ -26722,7 +26722,7 @@
     {
         "Reference Handle": "#the-candy-house-hardcover",
         "Token": "YUQVFGLWHD72JG57ARICUZZH",
-        "Item Name": "The Candy House",
+        "ItemName": "The Candy House",
         "Variation Name": "Hardcover",
         "SKU": "9781476716763",
         "Description": "Egan, Jennifer\r\nFiction - Psychological\r\nHardcover - PUB: 04/05/2022\r\n\"The Candy House opens with the staggeringly brilliant Bix Bouton, whose company, Mandala, is so successful that he is 'one of those tech demi-gods with whom we're all on a first name basis.' Bix is 40, with four kids, restless, desperate for a new idea, when he stumbles into a conversation group, mostly Columbia professors, one of whom is experimenting with downloading or 'externalizing' memory. It's 2010. Within a decade, Bix's new technology, 'Own Your Unconscious'--that allows you access to every memory you've ever had, and to share every memory in exchange for access to the memories of others--has seduced multitudes. But not everyone. In ... interlocking narratives, Egan spins out the consequences of Own Your Unconscious through the lives of multiple characters whose paths intersect over several decades",
@@ -26754,7 +26754,7 @@
     {
         "Reference Handle": "#the-case-of-the-missing-bicycles-ready-to-read-graphics-level-3-paperback",
         "Token": "BS7WSK2LJ3KUQ6CYXBAHTX53",
-        "Item Name": "The Case of the Missing Bicycles: Ready-To-Read Graphics Level 3",
+        "ItemName": "The Case of the Missing Bicycles: Ready-To-Read Graphics Level 3",
         "Variation Name": "Paperback",
         "SKU": "9781665919630",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 4+\r\nPaperback - PUB: 08/30/2022\r\nWhen bicycles go missing at Fairville Elementary School, it's up to nine-year-old Kim Webster to listen to witnesses and evidence presented by her friends and settle the case in her treehouse court.",
@@ -26786,7 +26786,7 @@
     {
         "Reference Handle": "#the-chemist-paperback",
         "Token": "TC2UEVFGRWTZMN2UDPC5KOXP",
-        "Item Name": "The Chemist",
+        "ItemName": "The Chemist",
         "Variation Name": "Paperback",
         "SKU": "9780316387842",
         "Description": "Meyer, Stephenie\r\nFiction - Thriller\r\nPaperback - PUB: 07/11/2017\r\nShe used to work for the United States government, but very few people ever knew that. An expert in her field, she was one of the darkest secrets of an agency so clandestine it doesn't even have a name. And when they decided she was a liability, they came for her without warning. Now, she rarely stays in the same place or uses the same name for long. They've killed the only person she trusted, but something she knows still poses a threat. When her former handler offers her a way out, she realizes it's her only chance to erase the giant target on her back. But it means taking one last job for her ex-employers. To her horror, the information she acquires only makes her situation more dangerous. Resolving to meet the threat head on, she prepares for the toughest fight of her life, but finds herself falling for a man who can only complicate her likelihood of survival. As she sees her choices being rapidly whittled down, she must apply her unique tale",
@@ -26818,7 +26818,7 @@
     {
         "Reference Handle": "#the-cherry-pie-princess-",
         "Token": "QSFURVHI47SD3LM6JQ4WJK2B",
-        "Item Name": "The Cherry Pie Princess",
+        "ItemName": "The Cherry Pie Princess",
         "Variation Name": "",
         "SKU": "978-1-61067-733-2",
         "Description": "Children - Chapter book\r\nAge: 7+\r\nBored and lonely Princess Peony wants to learn how to DO things – like cooking! But when Peony borrows a cookbook from the public library, the king has the old librarian who tried to help the princess arrested for \"speaking out of turn.\" Can Peony stand up to her father and make things right?",
@@ -26850,7 +26850,7 @@
     {
         "Reference Handle": "#the-child-of-venlet-regular",
         "Token": "DQOCR4D7AYM7VH7OGOKBOD2F",
-        "Item Name": "The Child Of Venlet",
+        "ItemName": "The Child Of Venlet",
         "Variation Name": "Regular",
         "SKU": "9798218023065",
         "Description": "<p>K.C. Nuzum </p><p>Fiction-Fantasy - <strong>Independent local author</strong></p><p>Paperback - PUB: 06/29/2022</p><p>In the village of Venlet the Child lives unwelcome and abused, desperate to get away and see the rest of Zel. But that was before the unthinkable happens and her life is changed for the worse. One bad thing leads to another and her and her friends, Pul and Tane, are taken on a journey that will forever scar them.</p><p>Can they survive the terrible wrath of the <em>Order of Garatos</em>, or will they succumb and leave a longer legacy of dead for their people?</p><p>Though their faith in one another is strong, will it be enough to oppose the will of the gods?</p><p><em>“He would see her soon enough when the time is right. What he saw in her he wanted for himself, and he would have it all in the end – no matter the cost…”</em></p>",
@@ -26882,7 +26882,7 @@
     {
         "Reference Handle": "#the-choice-the-dragon-heart-legacy-book-3-hardcover",
         "Token": "4MN6CIPNFZ7YU72376YIKLS6",
-        "Item Name": "The Choice: The Dragon Heart Legacy, Book 3",
+        "ItemName": "The Choice: The Dragon Heart Legacy, Book 3",
         "Variation Name": "Hardcover",
         "SKU": "9781250272720",
         "Description": "Roberts, Nora\r\nFiction - Fantasy - Romance\r\nHardcover - PUB: 11/22/2022",
@@ -26914,7 +26914,7 @@
     {
         "Reference Handle": "#the-chosen-and-the-beautiful-hardcover",
         "Token": "3OVYD2SNCLJMJO2EMV4MUTPK",
-        "Item Name": "The Chosen and the Beautiful",
+        "ItemName": "The Chosen and the Beautiful",
         "Variation Name": "Hardcover",
         "SKU": "9781250784780",
         "Description": "Vo, Nghi\r\nHistorical LGbT\r\nPUB:June 2022",
@@ -26946,7 +26946,7 @@
     {
         "Reference Handle": "#the-christmas-hummingbird-hardcover",
         "Token": "AE6NUMWEGFUOHDCH3VXS54N3",
-        "Item Name": "The Christmas Hummingbird",
+        "ItemName": "The Christmas Hummingbird",
         "Variation Name": "Hardcover",
         "SKU": "9781496736574",
         "Description": "Bunn, Davis",
@@ -26978,7 +26978,7 @@
     {
         "Reference Handle": "#the-cloisters-hardcover",
         "Token": "2O3MJB7RPVMVAWJRLIZQEIBF",
-        "Item Name": "The Cloisters",
+        "ItemName": "The Cloisters",
         "Variation Name": "Hardcover",
         "SKU": "9781668004401",
         "Description": "Hays, Katy\r\nFiction - Thrillers\r\nHardcover - PUB: 11/01/2022\r\n\"When Ann Stilwell arrives in New York City, she expects to spend her summer working as a curatorial associate at the Metropolitan Museum of Art. Instead she finds herself assigned to The Cloisters, a gothic museum and garden renowned for its medieval art collection and its group of enigmatic researchers studying the history of divination. Desperate to escape her painful past, Ann is happy to indulge the researchers' more outlandish theories about the history of fortune telling. But what begins as academic curiosity quickly turns into obsession when Ann discovers a hidden 15th-century deck of tarot cards that might hold the key to predicting the future. As the dangerous game of power, seduction, and ambition at The Cloisters turns deadly, Ann becomes locked in a race for answers as the line between the arcane and the modern blurs.\"",
@@ -27010,7 +27010,7 @@
     {
         "Reference Handle": "#the-color-purple-paperback",
         "Token": "WJ3QBZPX6SKKA3LRSPYH6G4A",
-        "Item Name": "The Color Purple",
+        "ItemName": "The Color Purple",
         "Variation Name": "Paperback",
         "SKU": "9780143135692",
         "Description": "Walker, Alice\r\nFiction - Literary\r\nPaperback - PUB: 12/10/2019",
@@ -27042,7 +27042,7 @@
     {
         "Reference Handle": "#the-complete-crystal-handbook-your-guide-to-more-than-500-crystals-paperback",
         "Token": "PJKKQ67QFXPWDLZ44KOMYLSF",
-        "Item Name": "The Complete Crystal Handbook: Your Guide to More Than 500 Crystals",
+        "ItemName": "The Complete Crystal Handbook: Your Guide to More Than 500 Crystals",
         "Variation Name": "Paperback",
         "SKU": "9781402778711",
         "Description": "Eason, Cassandra",
@@ -27074,7 +27074,7 @@
     {
         "Reference Handle": "#the-complete-peanuts-1983-1984-vol-17-paperback-edition-paperback",
         "Token": "VQTVTWR23HYAX4AP3XNQGTMG",
-        "Item Name": "The Complete Peanuts 1983-1984: Vol. 17 Paperback Edition",
+        "ItemName": "The Complete Peanuts 1983-1984: Vol. 17 Paperback Edition",
         "Variation Name": "Paperback",
         "SKU": "9781683965756",
         "Description": "Schulz, Charles M ; Maltin, Leonard\r\nComics & Graphic Novels\r\nPaperback - PUB: 05/31/2022\r\nAs Peanuts hits the mid-'80s, Peppermint Patty and Snoopy's brother Spike take starring roles.",
@@ -27106,7 +27106,7 @@
     {
         "Reference Handle": "#the-cookie-mystery-book-2--",
         "Token": "HU43PPKNTU3LUFLZ7UQ5TU2W",
-        "Item Name": "The Cookie Mystery (Book 2)",
+        "ItemName": "The Cookie Mystery (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-067-6",
         "Description": "<p>Children - Chapter book</p><p>Age: 5+</p><p>A famous actress’ much-loved and pampered cat is catnapped from the Van de Lune Hotel. Then Bernard’s cat Otto disappears too! It’s up to Freddie to discover what’s going on …</p><p><br/></p><p><u>Series: Freddie&#39;s Amazing Bakery</u></p><p>Friendly and helpful Freddie Bonbon runs the most amazing bakery in Belville in this tasty series flavored with a bit of mystery. Baking fans will relish the recipe and glossary terms included in each book!</p>",
@@ -27138,7 +27138,7 @@
     {
         "Reference Handle": "#the-cool-code-paperback",
         "Token": "MQ2SMVZITOVQKXXDBYBZ664Q",
-        "Item Name": "The Cool Code",
+        "ItemName": "The Cool Code",
         "Variation Name": "Paperback",
         "SKU": "9780358549314",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 8+\r\nIn an attempt to fit in, Zoey develops an app called the Cool Code with a cute llama avatar that will tell her everything--from what to say to what to wear based on pop culture algorithms she's uploaded",
@@ -27170,7 +27170,7 @@
     {
         "Reference Handle": "#the-crown-of-the-desert-book-3-of-empyrian-odyssey--regular",
         "Token": "QTJGHVZELJLNP5H7SSBWBP22",
-        "Item Name": "The Crown of the Desert (Book 3 of Empyrian Odyssey)",
+        "ItemName": "The Crown of the Desert (Book 3 of Empyrian Odyssey)",
         "Variation Name": "Regular",
         "SKU": "9798839374690",
         "Description": "N.L. Willcome\r\nFiction - Fantasy\r\nPUB: 2022\r\n**Independent Author**",
@@ -27202,7 +27202,7 @@
     {
         "Reference Handle": "#the-crystal-collector-s-journal-paperback",
         "Token": "EVCSWKEBNYUGZW4ECJ6OISPC",
-        "Item Name": "The Crystal Collector's Journal",
+        "ItemName": "The Crystal Collector's Journal",
         "Variation Name": "Paperback",
         "SKU": "9781667863399",
         "Description": "Danielle, Jazmine\r\nPUB 10/21/2022\r\nBACKORDERED",
@@ -27234,7 +27234,7 @@
     {
         "Reference Handle": "#the-dangers-in-my-heart-vol-5-paperback",
         "Token": "576BQ5TIH2QHZPR2ZT47DAKS",
-        "Item Name": "The Dangers in My Heart Vol. 5",
+        "ItemName": "The Dangers in My Heart Vol. 5",
         "Variation Name": "Paperback",
         "SKU": "9781638587231",
         "Description": "Sakurai, Norio",
@@ -27266,7 +27266,7 @@
     {
         "Reference Handle": "#the-dark-history-of-the-reincarnated-villainess-vol-6-paperback",
         "Token": "PTX2EETDGHQTZUN2IECNR4LL",
-        "Item Name": "The Dark History of the Reincarnated Villainess, Vol. 6",
+        "ItemName": "The Dark History of the Reincarnated Villainess, Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781975341435",
         "Description": "Touka, Akiharu\r\nManga - Comics & Graphic Novels",
@@ -27298,7 +27298,7 @@
     {
         "Reference Handle": "#the-dark-solstice-book-one-of-an-empyrian-odyssey-regular",
         "Token": "JJBPSG5ZUF56T24GNSUO44JO",
-        "Item Name": "The Dark Solstice (Book One of an Empyrian Odyssey",
+        "ItemName": "The Dark Solstice (Book One of an Empyrian Odyssey",
         "Variation Name": "Regular",
         "SKU": "9781544723327",
         "Description": "N. L. Willcome\r\nFiction - Fantasy \r\nPUB: 2017\r\n**Independent Author**",
@@ -27330,7 +27330,7 @@
     {
         "Reference Handle": "#the-darkest-unicorn-book-2--",
         "Token": "UQCYHHMVQLGWMBWOOOE3IE5C",
-        "Item Name": "The Darkest Unicorn (Book 2)",
+        "ItemName": "The Darkest Unicorn (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-361-5",
         "Description": "<p>Children - Chapter book</p><p>Age: 11+</p><p>In the usually peaceful kingdom of Essendor, people are going missing. Despite the new strict curfew, adventurous Thandie sneaks out at night on a dare from her friends and encounters a strange, unsettling boy. Little does she know that this meeting will force her life wildly off track, pushing her toward an unexpected danger and a fearsome unicorn who is at the very heart of the terrible disappearances she&#39;s heard so much about.</p><p><br/></p><p><u>Series: Dark Unicorns</u></p><p>Set off on journeys of adventure, mystery, and danger with these epic tales filled with magical unicorns, fearsome villains, and inspiring heroines</p>",
@@ -27362,7 +27362,7 @@
     {
         "Reference Handle": "#the-dead-romantics-paperback",
         "Token": "PPCP5XZ4FO6V5B2OIJJX5KUO",
-        "Item Name": "The Dead Romantics",
+        "ItemName": "The Dead Romantics",
         "Variation Name": "Paperback",
         "SKU": "9780593336489",
         "Description": "Poston, Ashley\r\nFiction - Romance\r\nPaperback - PUB: 06/28/2022\r\n\"The Good Morning America book club\"--Cover.",
@@ -27394,7 +27394,7 @@
     {
         "Reference Handle": "#the-demon-girl-next-door-vol-6-paperback",
         "Token": "7I5LTFSL2S2Q2WFIPGSQEJLE",
-        "Item Name": "The Demon Girl Next Door Vol. 6",
+        "ItemName": "The Demon Girl Next Door Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781638586180",
         "Description": "Ito, Izumo\r\nComics & Graphic Novels - Manga",
@@ -27426,7 +27426,7 @@
     {
         "Reference Handle": "#the-demon-sword-master-of-excalibur-academy-vol-1-manga--paperback",
         "Token": "QZTB5CCN26SCAWBKAVXJRUKG",
-        "Item Name": "The Demon Sword Master of Excalibur Academy, Vol. 1 (Manga)",
+        "ItemName": "The Demon Sword Master of Excalibur Academy, Vol. 1 (Manga)",
         "Variation Name": "Paperback",
         "SKU": "9781975350819",
         "Description": "Comics & Graphic Novels - Manga\r\nPaperback - PUB: 11/22/2022",
@@ -27458,7 +27458,7 @@
     {
         "Reference Handle": "#the-devil-is-a-part-timer-vol-19-manga--paperback",
         "Token": "Q7J5ZZFEPLYQJ3K6VJOTXBYE",
-        "Item Name": "The Devil Is a Part-Timer!, Vol. 19 (Manga)",
+        "ItemName": "The Devil Is a Part-Timer!, Vol. 19 (Manga)",
         "Variation Name": "Paperback",
         "SKU": "9781975351076",
         "Description": "Comics & Graphic Novels - Manga\r\nPaperback - PUB: 11/22/2022",
@@ -27490,7 +27490,7 @@
     {
         "Reference Handle": "#the-drowned-kingdom-book-4-of-the-impossible-quest--",
         "Token": "WGO35YVOXMXFPYHUD6QGRPZ3",
-        "Item Name": "The Drowned Kingdom (Book 4 of the Impossible Quest)",
+        "ItemName": "The Drowned Kingdom (Book 4 of the Impossible Quest)",
         "Variation Name": "",
         "SKU": "978-1-61067-417-1",
         "Description": "<p>Kate Forsyth</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age: </strong>9-13</p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p><p>Four unlikely heroes are forced on a perilous quest to save their people. But first, Tom, Elanor, Sebastian and Quinn must escape the overrun castle. Only they can find the four impossible elements needed to wake the sleeping warriors of the legend. Only they can drive back the darkness that reigns over the land.</p><p><br/></p><p><em>I’ve heard of a kingdom that was flooded and drowned...</em></p><p><em>And that is where the sea serpents live...</em></p><p><br/></p><p>Quinn, Sebastian, Elanor and Tom have found a dragon and conquered the dreaded Beast of Blackmoor Bog. Only one item remains on their impossible quest—the scale of a sea-serpent. Now they must journey to the drowned kingdom, where they will face their deadliest challenge yet. And there they will uncover the truth behind all that has happened... the truth that will change everything.</p><p><br/></p><p><br/></p><p><u>Series: The Impossible Quest</u></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p>",
@@ -27522,7 +27522,7 @@
     {
         "Reference Handle": "#the-duke-of-death-and-his-maid-vol-3-paperback",
         "Token": "5LSAICYZBP2A5A6EFQ5IYMWC",
-        "Item Name": "The Duke of Death and His Maid Vol. 3",
+        "ItemName": "The Duke of Death and His Maid Vol. 3",
         "Variation Name": "Paperback",
         "SKU": "9781638587248",
         "Description": "Inoue",
@@ -27554,7 +27554,7 @@
     {
         "Reference Handle": "#the-elusive-samurai-vol-3-paperback",
         "Token": "DLUC6K3QOKJ6BJMHYDJSBLAC",
-        "Item Name": "The Elusive Samurai, Vol. 3",
+        "ItemName": "The Elusive Samurai, Vol. 3",
         "Variation Name": "Paperback",
         "SKU": "9781974733989",
         "Description": "Matsui, Yusei",
@@ -27586,7 +27586,7 @@
     {
         "Reference Handle": "#the-encounter-animorphs-graphix-3--paperback",
         "Token": "3OZMP4TDPSD4ORXGJ2ZMOV66",
-        "Item Name": "The Encounter (Animorphs Graphix #3)",
+        "ItemName": "The Encounter (Animorphs Graphix #3)",
         "Variation Name": "Paperback",
         "SKU": "9781338538403",
         "Description": "Applegate, K a ; Grant, Michael ; Grine, Chris",
@@ -27618,7 +27618,7 @@
     {
         "Reference Handle": "#the-eyes-of-the-dragon-a-story-mass-market-paperbound",
         "Token": "GBFUF4GVG7RDY2QLMIZQWHRO",
-        "Item Name": "The Eyes of the Dragon: A Story",
+        "ItemName": "The Eyes of the Dragon: A Story",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781982197087",
         "Description": "King, Stephen\r\nFiction - Fantasy - thriller\r\nPaperback - PUB: 05/24/2022\r\nThe Kingdom of Delain is at stake when King Roland is murdered and his son and rightful heir, Peter, is framed for the crime. Plotting against him is the evil Flagg and his pawn, young Prince Thomas. Yet with every plan there are holes--like Thomas's terrible secret. And the determined Prince Peter, who is planning a daring escape from his imprisonment.",
@@ -27650,7 +27650,7 @@
     {
         "Reference Handle": "#the-four-agreements-a-practical-guide-to-personal-freedom-paperback",
         "Token": "24SBBWFGGYBRQDBL74A3HVPJ",
-        "Item Name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "ItemName": "The Four Agreements: A Practical Guide to Personal Freedom",
         "Variation Name": "Paperback",
         "SKU": "9781878424310",
         "Description": "Ruiz, Don Miguel ; Mills, Janet\r\nNon-Fiction\r\nPaperback -  PUB: 11/07/1997\r\nRooted in traditional Toltec wisdom beliefs, four agreements in life are essential steps on the path to personal freedom. As beliefs are transformed through maintaining these agreements, shamanic teacher and healer don Miguel Ruiz asserts lives will \"become filled with grace, peace, and unconditional love\".",
@@ -27682,7 +27682,7 @@
     {
         "Reference Handle": "#the-four-winds-paperback",
         "Token": "XDPHD3FACKPQCGO4T5IDPEWQ",
-        "Item Name": "The Four Winds",
+        "ItemName": "The Four Winds",
         "Variation Name": "Paperback",
         "SKU": "9781250178619",
         "Description": "Hannah, Kristin\r\nBACKORDERED",
@@ -27714,7 +27714,7 @@
     {
         "Reference Handle": "#the-foxglove-king-hardcover",
         "Token": "OYDYXFXIUXOHGZYT7ISKQHYX",
-        "Item Name": "The Foxglove King",
+        "ItemName": "The Foxglove King",
         "Variation Name": "Hardcover",
         "SKU": "9780316434997",
         "Description": "Whitten, Hannah\r\nBACKORDERED",
@@ -27746,7 +27746,7 @@
     {
         "Reference Handle": "#the-frightmare-leo-s-map-of-monsters-3--",
         "Token": "S3B7BZJW2UDS2QDNNTYNBTRY",
-        "Item Name": "The Frightmare (Leo's Map of Monsters #3)",
+        "ItemName": "The Frightmare (Leo's Map of Monsters #3)",
         "Variation Name": "",
         "SKU": "9781684644872",
         "Description": "Book 3 of Leo's Map of Monsters.",
@@ -27778,7 +27778,7 @@
     {
         "Reference Handle": "#the-game-master-s-book-of-legendary-dragons-epic-new-dragons-dragon-kin-and-monsters-plus-dragon-cults-classes-combat-and-magic-for-5th-edition-rpg-a-game-master--regular",
         "Token": "ZUGATCCOJDM4IM5S2RN5YCKC",
-        "Item Name": "The Game Master's Book of Legendary Dragons: Epic New Dragons, Dragon-Kin and Monsters, Plus Dragon Cults, Classes, Combat and Magic for 5th Edition RPG A (Game Master)",
+        "ItemName": "The Game Master's Book of Legendary Dragons: Epic New Dragons, Dragon-Kin and Monsters, Plus Dragon Cults, Classes, Combat and Magic for 5th Edition RPG A (Game Master)",
         "Variation Name": "Regular",
         "SKU": "9781956403053",
         "Description": "Hardcover - PUB: 10/11/2022\r\nThis incredible book details more than two dozen unique, heart-stopping dragons, plus dragon-kin, dragon-related organizations and magic - everything you need to make dragons the centerpiece of your campaign, full of mystery, terror and legendary excitement.",
@@ -27810,7 +27810,7 @@
     {
         "Reference Handle": "#the-game-master-s-book-of-non-player-characters-500-unique-bartenders-brawlers-mages-merchants-royals-rogues-sages-sailors-warriors-weirdos-and-game-master-the-game-master-s-book-of-non-player-characters-500-unique-bartenders-brawlers-mage-regular",
         "Token": "GUQOPKYYJSZWBJQRXJVERU6S",
-        "Item Name": "The Game Master's Book of Non-Player Characters: 500+ Unique Bartenders, Brawlers, Mages, Merchants, Royals, Rogues, Sages, Sailors, Warriors, Weirdos and (Game Master)The Game Master's Book of Non-Player Characters: 500+ Unique Bartenders, Brawlers, Mage",
+        "ItemName": "The Game Master's Book of Non-Player Characters: 500+ Unique Bartenders, Brawlers, Mages, Merchants, Royals, Rogues, Sages, Sailors, Warriors, Weirdos and (Game Master)The Game Master's Book of Non-Player Characters: 500+ Unique Bartenders, Brawlers, Mage",
         "Variation Name": "Regular",
         "SKU": "9781948174800",
         "Description": "<p><em>The Game Master&#39;s Book of Non-Player Characters</em> is an incredible resource, packed with 500+ non-player characters for use in your favorite 5E tabletop fantasy roleplaying game.</p>",
@@ -27842,7 +27842,7 @@
     {
         "Reference Handle": "#the-game-master-s-book-of-random-encounters-500-customizable-maps-tables-and-story-hooks-to-create-5th-edition-adventures-on-demand-game-master--regular",
         "Token": "SA7NKBHN73H6AZLTQMMGYSSF",
-        "Item Name": "The Game Master's Book of Random Encounters: 500+ Customizable Maps, Tables and Story Hooks to Create 5th Edition Adventures on Demand (Game Master)",
+        "ItemName": "The Game Master's Book of Random Encounters: 500+ Customizable Maps, Tables and Story Hooks to Create 5th Edition Adventures on Demand (Game Master)",
         "Variation Name": "Regular",
         "SKU": "9781948174374",
         "Description": "<p>Hardcover - PUB: 09/15/2020</p><p>Designed to provide Game Masters with the information they need to fill in the holes in their campaign play, <em>The Game Master&#39;s Book of Random Encounters</em> enables fantasy RPG referees to instantly add depth, color and expanded gameplay to unexpected or underwritten people, places and things at a moment&#39;s notice</p>",
@@ -27874,7 +27874,7 @@
     {
         "Reference Handle": "#the-game-master-s-book-of-traps-puzzles-and-dungeons-a-punishing-collection-of-bone-crunching-contraptions-brain-teasing-riddles-and-stamina-testing-en-game-master--regular",
         "Token": "MAJLCGJ2XDBYUESF4RCJBFEV",
-        "Item Name": "The Game Master's Book of Traps, Puzzles and Dungeons: A Punishing Collection of Bone-Crunching Contraptions, Brain-Teasing Riddles and Stamina-Testing En (Game Master)",
+        "ItemName": "The Game Master's Book of Traps, Puzzles and Dungeons: A Punishing Collection of Bone-Crunching Contraptions, Brain-Teasing Riddles and Stamina-Testing En (Game Master)",
         "Variation Name": "Regular",
         "SKU": "9781948174985",
         "Description": "Hardcover - PUB: 06/21/2022\r\nAll the information Game Master's needs to create compelling dungeon crawls, deadly fortress traps and clever riddles or puzzles to activate players' critical thinking skills alongside their critical rolls during tabletop RPG play.",
@@ -27906,7 +27906,7 @@
     {
         "Reference Handle": "#the-gas-we-pass-regular",
         "Token": "VQV23CDA73MR7GLR32WFSL7A",
-        "Item Name": "The Gas We Pass",
+        "ItemName": "The Gas We Pass",
         "Variation Name": "Regular",
         "SKU": "9781929132157",
         "Description": "Shinta Cho\r\nChildren\r\nPUB: 1994",
@@ -27938,7 +27938,7 @@
     {
         "Reference Handle": "#the-geeky-chef-cookbook-real-life-recipes-for-your-favorite-fantasy-foods-unofficial-recipes-from-doctor-who-game-of-thrones-harry-potter--paperback",
         "Token": "L34W2OJNSKJSDOSSCS3SO5DR",
-        "Item Name": "The Geeky Chef Cookbook: Real-Life Recipes for Your Favorite Fantasy Foods - Unofficial Recipes from Doctor Who, Game of Thrones, Harry Potter,",
+        "ItemName": "The Geeky Chef Cookbook: Real-Life Recipes for Your Favorite Fantasy Foods - Unofficial Recipes from Doctor Who, Game of Thrones, Harry Potter,",
         "Variation Name": "Paperback",
         "SKU": "9781631060496",
         "Description": "Reeder, Cassandra\r\nBACKORDERED",
@@ -27970,7 +27970,7 @@
     {
         "Reference Handle": "#the-golden-enclaves-hardcover",
         "Token": "CLBPDLQ67ODD2IVI74E76R2P",
-        "Item Name": "The Golden Enclaves",
+        "ItemName": "The Golden Enclaves",
         "Variation Name": "Hardcover",
         "SKU": "9780593158357",
         "Description": "Novik, Naomi\r\nFiction - Fantasy\r\nHardcover - PUB: 09/27/2022\r\n\"The one thing you never talk about while you're in the Scholomance is what you'll do when you get out. Not even the richest enclaver would tempt fate that way. But it's all we dream about: the hideously slim chance we'll survive to make it out the gates and improbably find ourselves with a life ahead of us, a life outside the Scholomance halls. And now the impossible dream has come true. I'm out, we're all out--and I didn't even have to turn into a monstrous dark witch to make it happen. So much for my great-grandmother's prophecy of doom and destruction. I didn't kill enclavers, I saved them. Me and Orion and our allies. Our graduation plan worked to perfection: We saved everyone and made the world safe for all wizards and brought peace and harmony to all the enclaves everywhere. Ha, only joking! Actually, it's gone all wrong. Someone else has picked up the project of destroying enclaves in my stead, and probably everyone we saved is about to get ki",
@@ -28002,7 +28002,7 @@
     {
         "Reference Handle": "#the-good-daughter-mass-market-paperbound",
         "Token": "DCMUPX6DHA63ZYEINAZQTPRX",
-        "Item Name": "The Good Daughter",
+        "ItemName": "The Good Daughter",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780062430250",
         "Description": "Slaughter, Karin\r\nFiction - Thriller\r\nPaperback - PUB: 04/17/2018\r\nThe acclaimed, \"New York Times\"-bestselling author of \"The Kept Woman\" delivers another stand-alone novel in which a lawyer returns to the South to defend a teenage girl of a heinous crime. Tall Premium Edition",
@@ -28034,7 +28034,7 @@
     {
         "Reference Handle": "#the-great-raspberry-mix-up-book-1--",
         "Token": "4OC4Q3IFZIUBXFM4JTHXKMIJ",
-        "Item Name": "The Great Raspberry Mix-up (Book 1)",
+        "ItemName": "The Great Raspberry Mix-up (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-68464-066-9",
         "Description": "<p>Children - Chapter book</p><p>AGE: 5+</p><p>The Belville Cake competition is just around the corner and Freddie’s friends have persuaded him to enter – but rival baker Bernard will stop at nothing to sabotage Freddie at every turn.</p><p><br/></p><p><u>Series: Freddie&#39;s Amazing Bakery</u></p><p>Friendly and helpful Freddie Bonbon runs the most amazing bakery in Belville in this tasty series flavored with a bit of mystery. Baking fans will relish the recipe and glossary terms included in each book!</p>",
@@ -28066,7 +28066,7 @@
     {
         "Reference Handle": "#the-heartstopper-yearbook-hardcover",
         "Token": "FS75PMRDUA3DBY6G67RM72VP",
-        "Item Name": "The Heartstopper Yearbook",
+        "ItemName": "The Heartstopper Yearbook",
         "Variation Name": "Hardcover",
         "SKU": "9781338853896",
         "Description": "Oseman, Alice\r\nYoung Adult Fiction - Comics & Graphic Novels\r\nAge: 13+\r\n\"The Heartstopper Yearbook is packed full of exclusive content from the Heartstopper universe: never-before-seen illustrations, an exclusive minicomic, character profiles, trivia, and insight into Alice Oseman's creative process, narrated by a cartoon version of Alice herself. In full-color for the first time, this companion book is perfect for fans of Heartstopper!",
@@ -28098,7 +28098,7 @@
     {
         "Reference Handle": "#the-hidden-dungeon-only-i-can-enter-manga-vol-7-paperback",
         "Token": "EV6VNMZS4QGFGWDQ72QF7FUN",
-        "Item Name": "The Hidden Dungeon Only I Can Enter (Manga) Vol. 7",
+        "ItemName": "The Hidden Dungeon Only I Can Enter (Manga) Vol. 7",
         "Variation Name": "Paperback",
         "SKU": "9781638587279",
         "Description": "Seto, Meguru ; Tomoyuki, Hino ; Note, Takehana",
@@ -28130,7 +28130,7 @@
     {
         "Reference Handle": "#the-hidden-prince-paperback",
         "Token": "UP7QNJCBQ2U6PJ5JO4IHIMOR",
-        "Item Name": "The Hidden Prince",
+        "ItemName": "The Hidden Prince",
         "Variation Name": "Paperback",
         "SKU": "9781496458223",
         "Description": "Afshar, Tessa\r\nFiction - Romance\r\nPaperback - PUB: 11/08/2022\r\n\"The beloved daughter of Jewish captives in Babylon, Keren is sold into Daniel's household to help her family survive. She becomes Daniel's most trusted scribe, while taking lessons and swordsmanship training alongside Daniel's sons and their best friend, Jared. But after a tragic accident changes the course of her life, Keren finds herself in a foreign country, charged with a mysterious task: teaching a shepherd boy how to become a lord. When she overhears whispers that hint at his true identity, she realizes she must protect him from the schemes of a bloodthirsty king. Jared cannot forgive Keren. Still, he finds himself traveling over mountains to fetch her back to the safety of home. When he discovers the secret identity of Keren's pupil, Jared knows he must help protect him. Love battles bitterness as they flee from the king's agents, trying to save the boy who could one day deliver their people from captivity.\"",
@@ -28162,7 +28162,7 @@
     {
         "Reference Handle": "#the-high-notes-hardcover",
         "Token": "W7CHGDQNK26JUNGX3N5O4QQ2",
-        "Item Name": "The High Notes",
+        "ItemName": "The High Notes",
         "Variation Name": "Hardcover",
         "SKU": "9781984821744",
         "Description": "Steel, Danielle\r\nFiction - Romance\r\nHardcover - PUB: 10/11/2022\r\nIris Cooper has been singing ever since she can remember, hitting the high notes like no one else. When she is twelve, her father convinces the owner of a bar in Lake City, Texas, to let her perform, and she stuns the audience. In the ensuing years, never staying anywhere for long, father and daughter move from one dusty town to the next, her passion for music growing every time she takes the mike in another roadhouse. But it is not an easy life for Iris with her father in charge and using her income to pay for gambling, women, and booze. When she starts to tour at age eighteen, she takes on a real manager. Yet he exploits her too, and the singers and musicians she tours with are really the only family she has. It is they who give Iris the courage to finally fly free, leave the tour, and follow her dreams. After years of enduring the hardships of the road, exploitation, and abuse to do what she loves, Iris's big chance comes as her talent soars. Bu",
@@ -28194,7 +28194,7 @@
     {
         "Reference Handle": "#the-honeys-paperback",
         "Token": "7NNEFBB6T2HYFDBURKO5MEAM",
-        "Item Name": "The Honeys",
+        "ItemName": "The Honeys",
         "Variation Name": "Paperback",
         "SKU": "9781338745337",
         "Description": "La Sala, Ryan\r\nBACKORDERED",
@@ -28226,7 +28226,7 @@
     {
         "Reference Handle": "#the-hotel-nantucket-hardcover",
         "Token": "HVLBNO4QE2B4LPKDKFV2LN56",
-        "Item Name": "The Hotel Nantucket",
+        "ItemName": "The Hotel Nantucket",
         "Variation Name": "Hardcover",
         "SKU": "9780316258678",
         "Description": "Hilderbrand, Elin\r\nFiction - Family Life\r\nHardcover - PUB: 06/14/2022\r\nAfter a tragic fire in 1922 that killed 19-year-old chambermaid Grace Hadley, The Hotel Nantucket descended from a gilded age gem to a mediocre budget-friendly lodge to an abandoned eyesore--until it's purchased and renovated top to bottom by London billionaire Xavier Darling. Xavier hires Nantucket sweetheart Lizbet Keaton as his general manager, and Lizbet, in turn, pulls together a charismatic if inexperienced staff who shares the vision of turning the fate of the hotel around. They face challenges in getting along with one another (and with the guests), in overcoming the hotel's bad reputation, and in surviving the (mostly) harmless shenanigans of Grace Hadley herself-- who won't stop haunting the hotel until her murder is acknowledged.",
@@ -28258,7 +28258,7 @@
     {
         "Reference Handle": "#the-hour-of-embers-book-2-of-an-empyrian-odyssey--regular",
         "Token": "6STJ7VOEJF7LH6TTH43GPUBG",
-        "Item Name": "The Hour of Embers (Book 2 of an Empyrian Odyssey)",
+        "ItemName": "The Hour of Embers (Book 2 of an Empyrian Odyssey)",
         "Variation Name": "Regular",
         "SKU": "9781726301756",
         "Description": "N. L. Willcome\r\nFiction - Fantasy\r\nPUB: 2018\r\n**Independent Author**",
@@ -28290,7 +28290,7 @@
     {
         "Reference Handle": "#the-house-in-the-cerulean-sea-paperback",
         "Token": "V7F7G7IF66JK35YEVPQRQTWA",
-        "Item Name": "The House in the Cerulean Sea",
+        "ItemName": "The House in the Cerulean Sea",
         "Variation Name": "Paperback",
         "SKU": "9781250217318",
         "Description": "Klune, Tj\r\nFiction - Fantasy\r\nPaperback - PUB: 12/29/2020\r\nIncludes an excerpt from Under the whispering door.",
@@ -28322,7 +28322,7 @@
     {
         "Reference Handle": "#the-house-with-the-golden-door-volume-2-hardcover",
         "Token": "WMUNGSI46EM55H5FMCUTN3L3",
-        "Item Name": "The House with the Golden Door: Volume 2",
+        "ItemName": "The House with the Golden Door: Volume 2",
         "Variation Name": "Hardcover",
         "SKU": "9781454946625",
         "Description": "Harper, Elodie\r\nFiction - Romance\r\nHardcover - PUB: 09/06/2022\r\nAmara has escaped her life as a slave in the Wolf Den brothel, but now her survival depends on the affections of her mercurial patron. At night, her dreams are haunted by her past. She longs for the women she left behind and finds herself pursued by the man who once owned her. To be free, she'll need to be as ruthless as he is. Amara knows her existence in Pompeii is subject to Venus, goddess of love. Yet finding love may prove to be the most dangerous act of all. This is the second installment in Elodie Harper's acclaimed Wolf Den Trilogy.",
@@ -28354,7 +28354,7 @@
     {
         "Reference Handle": "#the-husband-s-secret-paperback",
         "Token": "FLWM4UPRWPSAYBWUAUSVUL5I",
-        "Item Name": "The Husband's Secret",
+        "ItemName": "The Husband's Secret",
         "Variation Name": "Paperback",
         "SKU": "9780425267721",
         "Description": "Moriarty, Liane\r\nFiction - General\r\nPaperback - PUB: 03/03/2015",
@@ -28386,7 +28386,7 @@
     {
         "Reference Handle": "#the-immortal-a-paranormal-romance-mass-market-paperbound",
         "Token": "BWBMKTI3G6XFFXOB3ZJ6KFDA",
-        "Item Name": "The Immortal: A Paranormal Romance",
+        "ItemName": "The Immortal: A Paranormal Romance",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781335428523",
         "Description": "Showalter, Gena\r\nBACKORDERED",
@@ -28418,7 +28418,7 @@
     {
         "Reference Handle": "#the-inheritance-cycle-4-book-hard-cover-boxed-set-regular",
         "Token": "TC3A4ABNB5IOLCQ2I5CKW6Q4",
-        "Item Name": "The Inheritance Cycle 4-Book Hard Cover Boxed Set",
+        "ItemName": "The Inheritance Cycle 4-Book Hard Cover Boxed Set",
         "Variation Name": "Regular",
         "SKU": "9780307930675",
         "Description": "<p>Hardcover 4-Book Boxed Set</p><p>Fiction - Fantasy</p><p>Age: 12+</p><p><strong>Eragon; Eldest; Brisingr; Inheritance</strong> <strong>(Inheritance Cycle)</strong></p><p><br/></p>",
@@ -28450,7 +28450,7 @@
     {
         "Reference Handle": "#the-invisible-life-of-addie-larue-hardcover",
         "Token": "SOMG3MZ6NEDF2DCMNUDGVGLK",
-        "Item Name": "The Invisible Life of Addie Larue",
+        "ItemName": "The Invisible Life of Addie Larue",
         "Variation Name": "Hardcover",
         "SKU": "9780765387561",
         "Description": "Schwab, V E\r\nFiction - Fantasy\r\nHardcover - PUB: 10/06/2020\r\nMaking a Faustian bargain to live forever but never be remembered, a woman from early eighteenth-century France endures unacknowledged centuries before meeting a man who remembers her name.",
@@ -28482,7 +28482,7 @@
     {
         "Reference Handle": "#the-it-girl-paperback",
         "Token": "ZBXQ7EX5GBC4MVIDUTSCT6KB",
-        "Item Name": "The It Girl",
+        "ItemName": "The It Girl",
         "Variation Name": "Paperback",
         "SKU": "9781982155278",
         "Description": "Ware, Ruth\r\nPUB 03/28/2023\r\nBACKORDERED",
@@ -28514,7 +28514,7 @@
     {
         "Reference Handle": "#the-keeper-of-stories-hardcover",
         "Token": "FQA5FZ7OTNI7OT22DFRZF35U",
-        "Item Name": "The Keeper of Stories",
+        "ItemName": "The Keeper of Stories",
         "Variation Name": "Hardcover",
         "SKU": "9798212169882",
         "Description": "Page, Sally\r\nPUB 01/24/2023\r\nBACKORDERED",
@@ -28546,7 +28546,7 @@
     {
         "Reference Handle": "#the-kingdoms-hardcover",
         "Token": "GBPN43TQKUQ5PQS2MWL5UY43",
-        "Item Name": "The Kingdoms",
+        "ItemName": "The Kingdoms",
         "Variation Name": "Hardcover",
         "SKU": "9781635576085",
         "Description": "<p>Pulley, Natasha</p><p>Fiction - Fantasy</p><p>Hardcover - PUB: 05/25/2021</p><p><strong>For fans of <em>The 7 1/2 Deaths of Evelyn Hardcastle</em> and David Mitchell, a genre bending, time twisting alternative history that asks whether it&#39;s worth changing the past to save the future, even if it costs you everyone you&#39;ve ever loved.</strong></p>",
@@ -28578,7 +28578,7 @@
     {
         "Reference Handle": "#the-kite-runner-anniversary--paperback",
         "Token": "NRKUDGGQHXZGWQ76LQTX7NY6",
-        "Item Name": "The Kite Runner (Anniversary)",
+        "ItemName": "The Kite Runner (Anniversary)",
         "Variation Name": "Paperback",
         "SKU": "9781594631931",
         "Description": "Hosseini, Khaled\r\nFiction - Literary\r\nPaperback - PUB: 03/05/2013\r\nThe 10th anniversary edition of the \"New York Times\"-bestseller and international classic loved by millions of readers. The unforgettable, heartbreaking story of the unlikely friendship between a wealthy boy and the son of his father's servant, it is a beautifully crafted novel set in a country that is in the process of being destroyed.",
@@ -28610,7 +28610,7 @@
     {
         "Reference Handle": "#the-lady-of-the-lake-paperback",
         "Token": "EZ753KBFWTCOZPFAMO6A237I",
-        "Item Name": "The Lady of the Lake",
+        "ItemName": "The Lady of the Lake",
         "Variation Name": "Paperback",
         "SKU": "9780316453066",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\nPaperback - PUB: 07/05/2022\r\n\"The Witcher returns in this action-packed sequel to The Tower of Swallows, in the New York Times bestselling series that inspired The Witcher video games. After walking through the portal in the Tower of Swallows while narrowly escaping death, Ciri finds herself in a completely different world ... an Elven world. She is trapped with no way out. Time does not seem to exist and there are no obvious borders or portals to cross back into her home world. But this is Ciri, the child of prophecy, and she will not be defeated. She knows she must escape to finally rejoin the Witcher, Geralt, and his companions - and also to try to conquer her worst nightmare. Leo Bonhart, the man who chased, wounded and tortured Ciri, is still on her trail. And the world is still at war\"",
@@ -28642,7 +28642,7 @@
     {
         "Reference Handle": "#the-last-graduate-hardcover",
         "Token": "WZLFW3ZJ2PN4YKLWWKAQ6LJX",
-        "Item Name": "The Last Graduate",
+        "ItemName": "The Last Graduate",
         "Variation Name": "Hardcover",
         "SKU": "9780593128862",
         "Description": "Novik, Naomi\r\nFiction - Fantasy\r\nHardcover - PUB: 09/28/2021\r\n\"A budding dark sorceress determined not to use her formidable powers uncovers yet more secrets about the workings of her world in the stunning sequel to A Deadly Education, the start of Naomi Novik's groundbreaking crossover series. At the Scholomance, El, Orion, and the other students are faced with their final year--and the looming specter of matriculation, a deadly ritual that leaves few students alive after. El is determined that her group will make it out alive, but it is a prospect that is looking harder by the day as the savagery of the school ramps up. Until El realizes that sometimes winning the game means throwing out all the rules . . \"",
@@ -28674,7 +28674,7 @@
     {
         "Reference Handle": "#the-last-tale-of-the-flower-bride-hardcover",
         "Token": "EUYY6CV7DGMFOQRT6AGTEZQW",
-        "Item Name": "The Last Tale of the Flower Bride",
+        "ItemName": "The Last Tale of the Flower Bride",
         "Variation Name": "Hardcover",
         "SKU": "9780063206502",
         "Description": "Chokshi, Roshani\r\nBACKORDERED",
@@ -28706,7 +28706,7 @@
     {
         "Reference Handle": "#the-last-wish-introducing-the-witcher-book-1--mass-market-paperbound",
         "Token": "OYSOC47TMWA2NH3V5GIX7KMD",
-        "Item Name": "The Last Wish: Introducing the Witcher (Book 1)",
+        "ItemName": "The Last Wish: Introducing the Witcher (Book 1)",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780316495967",
         "Description": "<p>Sapkowski, Andrzej ; Stok, Danusia</p><p>Fiction - Fantasy</p><p>Andrzej Sapkowski, winner of the World Fantasy Lifetime Achievement award, started an international phenomenon with his Witcher series. <em>The Last Wish short story collection is the perfect introduction to this one of a kind fantasy world.</em></p>",
@@ -28738,7 +28738,7 @@
     {
         "Reference Handle": "#the-latecomer-regular",
         "Token": "XZGEDUOON4SMWT2RYEMYGTSX",
-        "Item Name": "The Latecomer",
+        "ItemName": "The Latecomer",
         "Variation Name": "Regular",
         "SKU": "9781250790798",
         "Description": "Jean Hanff Korelitz\r\nFiction - Coming of Age\r\nPUB: 05/31/2022",
@@ -28770,7 +28770,7 @@
     {
         "Reference Handle": "#the-library-of-the-unwritten-paperback",
         "Token": "VJFZ3IFGKBRNAXN5HXMXZGQE",
-        "Item Name": "The Library of the Unwritten",
+        "ItemName": "The Library of the Unwritten",
         "Variation Name": "Paperback",
         "SKU": "9781984806376",
         "Description": "Hackwith, A J\r\nFiction - Fantasy\r\nPaperback - PUB: 10/01/2019\r\nClaire is head librarian of the Unwritten Wing--a neutral space in Hell where all the stories unfinished by their authors reside. Her job includes keeping an eye on restless stories that risk materializing as characters and escaping the Library. When a hero escapes, Claire must capture him. him.",
@@ -28802,7 +28802,7 @@
     {
         "Reference Handle": "#the-lies-that-bind-paperback",
         "Token": "PT4URURLSICZI75GXXOTLILQ",
-        "Item Name": "The Lies that Bind",
+        "ItemName": "The Lies that Bind",
         "Variation Name": "Paperback",
         "SKU": "9781504077965",
         "Description": "Protzel, Ed\r\nFiction - Thriller\r\nPaperback - PUB: 10/25/2022",
@@ -28834,7 +28834,7 @@
     {
         "Reference Handle": "#the-light-we-lost-regular",
         "Token": "KI7SMLSVZTE6XTIYJZGNUE2A",
-        "Item Name": "The Light We Lost",
+        "ItemName": "The Light We Lost",
         "Variation Name": "Regular",
         "SKU": "9780735212763",
         "Description": "Jill Santopolo\r\nFiction - Romance\r\nPaperback - PUB: 02/06/2018",
@@ -28866,7 +28866,7 @@
     {
         "Reference Handle": "#the-lost-apothecary-first-time-trade--regular",
         "Token": "27VQU34ZKLZNUFGNUV7EMRTO",
-        "Item Name": "The Lost Apothecary (First Time Trade)",
+        "ItemName": "The Lost Apothecary (First Time Trade)",
         "Variation Name": "Regular",
         "SKU": "9780778311973",
         "Description": "Sarah Penner\r\nHistorical Fiction\r\nPUB: 02/22/2022\r\n\"Hidden in the depths of eighteenth-century London, a secret apothecary shop caters to an unusual kind of clientele. Women across the city whisper of a mysterious figure named Nella who sells well-disguised poisons to use against the oppressive men in their lives. But the apothecary's fate is jeopardized when her newest patron, a precocious twelve-year-old, makes a fatal mistake, sparking a string of consequences that echo through the centuries. Meanwhile in present-day London, aspiring historian Caroline Parcewell spends her tenth wedding anniversary alone, running from her own demons. When she stumbles upon a clue to the unsolved apothecary murders that haunted London two hundred years ago, her life collides with the apothecary's in a stunning twist of fate--and not everyone will survive.\"",
@@ -28898,7 +28898,7 @@
     {
         "Reference Handle": "#the-lost-reindeer-regular",
         "Token": "QU5YZ4365BEKDYI2LVTFVOCB",
-        "Item Name": "The Lost Reindeer",
+        "ItemName": "The Lost Reindeer",
         "Variation Name": "Regular",
         "SKU": "9781684643097",
         "Description": "",
@@ -28930,7 +28930,7 @@
     {
         "Reference Handle": "#the-love-hypothesis-paperback",
         "Token": "WJKSDS673C5BT3IM3EXBSQIO",
-        "Item Name": "The Love Hypothesis",
+        "ItemName": "The Love Hypothesis",
         "Variation Name": "Paperback",
         "SKU": "9780593336823",
         "Description": "Hazelwood, Ali\r\nFiction - Romance\r\nPaperback - PUB: 09/14/2021",
@@ -28962,7 +28962,7 @@
     {
         "Reference Handle": "#the-luminaries-hardcover",
         "Token": "FWBUY5HIV6J5CN4ISTDB5QZ3",
-        "Item Name": "The Luminaries",
+        "ItemName": "The Luminaries",
         "Variation Name": "Hardcover",
         "SKU": "9781250194046",
         "Description": "Dennard, Susan\r\nYoung Adult Fiction\r\nHardcover - PUB: 11/01/2022\r\n\"Winnie Wednesday, an outcast from the Luminaries, is determined to restore her family's good name by taking the deadly hunter trials on her sixteenth birthday, but when she turns to her former best friend Jay Friday for help, they discover a danger lurking in the forest no one in Hemlock Falls is prepared for\"",
@@ -28994,7 +28994,7 @@
     {
         "Reference Handle": "#the-magic-carnival-and-the-adventure-of-the-landon-knight-regular",
         "Token": "3OFT74LER6I33C7Q5ZTSLYQO",
-        "Item Name": "The Magic Carnival and The Adventure of the Landon Knight",
+        "ItemName": "The Magic Carnival and The Adventure of the Landon Knight",
         "Variation Name": "Regular",
         "SKU": "9781790999149",
         "Description": "N. L. Willcome\r\nChildren - chapter book\r\nPUB: 2019\r\n**Independent Author**",
@@ -29026,7 +29026,7 @@
     {
         "Reference Handle": "#the-magic-order-volume-2-paperback",
         "Token": "EDNPT72ZLAOSGF4FOFUEWYKS",
-        "Item Name": "The Magic Order, Volume 2",
+        "ItemName": "The Magic Order, Volume 2",
         "Variation Name": "Paperback",
         "SKU": "9781534322202",
         "Description": "Millar, Mark ; Immonen, Stuart\r\nComics & Graphic Novels\r\nPaperback - PUB: 05/31/2022",
@@ -29058,7 +29058,7 @@
     {
         "Reference Handle": "#the-mare-s-tale-regular",
         "Token": "JCG4KRTMH3ULUJSG6WXGO5TK",
-        "Item Name": "The Mare's Tale",
+        "ItemName": "The Mare's Tale",
         "Variation Name": "Regular",
         "SKU": "9781935279020",
         "Description": "Darrel & Sally Odgers\r\nChildren\r\nPUB: 2009",
@@ -29090,7 +29090,7 @@
     {
         "Reference Handle": "#the-maze-hardcover",
         "Token": "NHVJY6HW33R5NBJ32ZQ2MU6Y",
-        "Item Name": "The Maze",
+        "ItemName": "The Maze",
         "Variation Name": "Hardcover",
         "SKU": "9781501101786",
         "Description": "DeMille, Nelson\r\nFiction - Thriller\r\nHardcover - PUB: 10/11/2022\r\n\"The Maze opens with Corey ... in forced retirement from his last job as a Federal Agent with the Diplomatic Surveillance Group. Corey is restless and looking for action, so when his former lover, Detective Beth Penrose, appears with a job offer, Corey has to once again make some decisions about his career-and about reuniting with Beth Penrose. Inspired by, and based on the actual and still unsolved Gilgo Beach murders, The Maze takes the reader on a dangerous hunt for an apparent serial killer who has murdered nine-and maybe more-prostitutes and hidden their bodies in the thick undergrowth on a lonely stretch of beach. As Corey digs deeper into this case, which has made national news, he comes to suspect that the failure of the local police to solve this sensational case may not be a result of their inexperience and incompetence-it may be something else. Something more sinister.\"",
@@ -29122,7 +29122,7 @@
     {
         "Reference Handle": "#the-midnight-library-hardcover",
         "Token": "57RXY5MECZMSHLHYMDQULKJO",
-        "Item Name": "The Midnight Library",
+        "ItemName": "The Midnight Library",
         "Variation Name": "Hardcover",
         "SKU": "9780525559474",
         "Description": "Haig, Matt\r\nFiction - Sci FI - Literary\r\nHardcover - PUB: 09/29/2020",
@@ -29154,7 +29154,7 @@
     {
         "Reference Handle": "#the-midnight-unicorn-book-1--",
         "Token": "ERQKILYZ4AQX2AB72VXMY3IF",
-        "Item Name": "The Midnight Unicorn (Book 1)",
+        "ItemName": "The Midnight Unicorn (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-68464-360-8",
         "Description": "<p>Children - Chapter book</p><p>Age: 11+</p><p>In a faraway kingdom, two girls live separate lives. Growing up in the wilderness of the west, Alette is the daughter of a sorcerer. In the warmth of the east, Audrey is the daughter of a baker. The girls could not be more different... and yet something draws them together. Are they connected by the unanswered questions of their pasts? Or by the identical pendants they both wear around their necks?</p><p><br/></p><p><u>Series: Dark Unicorns</u></p><p>Set off on journeys of adventure, mystery, and danger with these epic tales filled with magical unicorns, fearsome villains, and inspiring heroines.</p>",
@@ -29186,7 +29186,7 @@
     {
         "Reference Handle": "#the-mystery-of-the-jeweled-moth-book-2--",
         "Token": "WDICQWICBQ44U6PGP6SLYTKZ",
-        "Item Name": "The Mystery of the Jeweled Moth (Book 2)",
+        "ItemName": "The Mystery of the Jeweled Moth (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-61067-438-6",
         "Description": "<p>Children - Chapter book</p><p>Age: 10+</p><p>Once again our heroines, Sophie and Lil are on the case, donning cunning disguises and mingling in high society, leading them straight to London&#39;s most dangerous criminal mastermind.</p><p>A fast-paced and compelling mystery adventure with gorgeous Edwardian period detail, <strong>The Mystery of the Jeweled Moth</strong> will thrill and captivate readers of all ages.</p><p><br/></p><p><br/></p><p><u>Series: The Clockwork Sparrow</u></p><p>Recently orphaned Sophie Taylor, a shopgirl at the newly opened Sinclair’s department store, finds herself involved in mystery and adventure in Edwardian England.</p>",
@@ -29218,7 +29218,7 @@
     {
         "Reference Handle": "#the-mystery-of-the-midnight-peacock-book-4--",
         "Token": "3SUN47VN3EPS3VBG5IM6UVD3",
-        "Item Name": "The Mystery of the Midnight Peacock (Book 4)",
+        "ItemName": "The Mystery of the Midnight Peacock (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-61067-842-1",
         "Description": "<p>Children - Chapter book</p><p>Age: 11+</p><p>The festive season has come to Sinclair’s and Sophie and Lil are spending the holidays at snowy Winter Hall. As sinister secrets come to light, our intrepid heroines find themselves faced with a more baffling mystery than ever before.</p><p><br/></p><p><u>Series: The Clockwork Sparrow</u></p><p>Recently orphaned Sophie Taylor, a shopgirl at the newly opened Sinclair’s department store, finds herself involved in mystery and adventure in Edwardian England.</p>",
@@ -29250,7 +29250,7 @@
     {
         "Reference Handle": "#the-naturals-paperback",
         "Token": "OYC63V4I5FRAMNYFYZFB655E",
-        "Item Name": "The Naturals",
+        "ItemName": "The Naturals",
         "Variation Name": "Paperback",
         "SKU": "9781423168317",
         "Description": "Barnes, Jennifer Lynn",
@@ -29282,7 +29282,7 @@
     {
         "Reference Handle": "#the-never-king-paperback",
         "Token": "RA2GGODWMTDYEHYKFPKVFMSR",
-        "Item Name": "The Never King",
+        "ItemName": "The Never King",
         "Variation Name": "Paperback",
         "SKU": "9798985421217",
         "Description": "<p>St Crowe, Nikki</p><p>Fiction - Fantasy - Romance</p><p>Paperback - PUB: 02/21/2022</p><p><strong>The stories were all wrong - Hook was never the villain.</strong></p><p><br/></p><p>For two centuries, all of the Darling women have disappeared on their 18th birthday. Sometimes they&#39;re gone for only a day, some a week or a month. But they always return broken.</p><p><br/></p><p>Now, on the afternoon of my 18th birthday, my mother is running around the house making sure all the windows are barred and the doors locked.</p><p>But it&#39;s pointless.</p><p><br/></p><p>Because when night falls, he comes for me<em>.</em> And this time, the Never King and the Lost Boys aren&#39;t willing to let me go.</p><p><br/></p><p>NOTE: <em>The Never King</em> is a reimagining of <em>Peter and Wendy</em>. Characters have been aged up for this darker, grittier version. If you like your enemies to lovers romance with hot, ruthless, morally gray love interests, you&#39;ll enjoy The Never King and the Lost Boys. You can expect hate kissing, fighting, bickering, and &#39;touch her and I&#39;ll unalive you&#39; vibes. Book one ends on a cliff.</p><p><br/></p><p>Please check the author&#39;s website for CWs.</p>",
@@ -29314,7 +29314,7 @@
     {
         "Reference Handle": "#the-night-circus-paperback",
         "Token": "FHZN2IWXXO6NDIIPGRG4HHZT",
-        "Item Name": "The Night Circus",
+        "ItemName": "The Night Circus",
         "Variation Name": "Paperback",
         "SKU": "9780307744432",
         "Description": "Morgenstern, Erin\r\nFiction - Romance - Fantasy\r\nPaperback - PUB: 07/03/2012\r\nA fierce competition is underway--a duel between two young circus magicians who have been trained since childhood for this purpose. This is a game in which only one can be left standing, and the circus is but the stage for a remarkable battle of imagination and will.",
@@ -29346,7 +29346,7 @@
     {
         "Reference Handle": "#the-night-she-disappeared-paperback",
         "Token": "6VYPK5LX6VB6ORKKQOIIB4VF",
-        "Item Name": "The Night She Disappeared",
+        "ItemName": "The Night She Disappeared",
         "Variation Name": "Paperback",
         "SKU": "9781982137373",
         "Description": "Jewell, Lisa\r\nFiction - Thriller\r\nPaperback - PUB: 05/03/2022",
@@ -29378,7 +29378,7 @@
     {
         "Reference Handle": "#the-nightingale-paperback",
         "Token": "2SDP4CRRKXF743ZCCWG7VOZ5",
-        "Item Name": "The Nightingale",
+        "ItemName": "The Nightingale",
         "Variation Name": "Paperback",
         "SKU": "9781250080400",
         "Description": "Hannah, Kristin\r\nFiction - Historical\r\nPaperback - PUB: 04/25/2017\r\nIncludes a reading group guide with an interview with the author, recommended reading list, and discussion questions.",
@@ -29410,7 +29410,7 @@
     {
         "Reference Handle": "#the-nightmare-before-christmas-the-official-cookbook-entertaining-guide-hardcover",
         "Token": "OV2FAKUXWFLY4IUI6NCOX4GQ",
-        "Item Name": "The Nightmare Before Christmas: The Official Cookbook & Entertaining Guide",
+        "ItemName": "The Nightmare Before Christmas: The Official Cookbook & Entertaining Guide",
         "Variation Name": "Hardcover",
         "SKU": "9781647221577",
         "Description": "Laidlaw, Kim ; Revenson, Jody ; Hall, Caroline",
@@ -29442,7 +29442,7 @@
     {
         "Reference Handle": "#the-odd-sisters-villains-book-6-a-villains-novel-hardcover",
         "Token": "YQ2YTPVBJRDM7R6NT42FPHA5",
-        "Item Name": "The Odd Sisters (Villains, Book 6): A Villains Novel",
+        "ItemName": "The Odd Sisters (Villains, Book 6): A Villains Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781368013185",
         "Description": "Valentino, Serena\r\nYoung Adult Fiction\r\nHardcover - PUB: 07/02/2019\r\n\"Throughout the Villains series, the Odd Sisters have meddled in the lives of the Wicked Queen, The Beast, Ursula, Maleficent, and Mother Gothel, changing the course of fate for the greatest villains ever known. Now, it's time for their reckoning. This latest novel by the author of the wildly popular Villains series goes deeper into the lives of the twisted, diabolical Odd Sisters, finally revealing the dark truth about who they are and where they're from\"--",
@@ -29474,7 +29474,7 @@
     {
         "Reference Handle": "#the-odyssey-",
         "Token": "SON4G6YZYVZEEH4QQ6SV7N7O",
-        "Item Name": "The Odyssey",
+        "ItemName": "The Odyssey",
         "Variation Name": "",
         "SKU": "978-0-7945-4416-4",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 10+\r\nThe timeless Greek legend of gods and monsters comes to life in this action-packed graphic novel adaptation. Join Odysseus on his quest to return to his island home, as a host of strange creatures and scheming characters try to stop him. Fabiano Fiorin’s distinctive illustrations draw the reader into the dramatic world of Ancient Greece.\r\n\r\nSeries: Graphic Stories\r\nThese entertaining, action-packed Graphic Legends and Graphic Classics provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy.",
@@ -29506,7 +29506,7 @@
     {
         "Reference Handle": "#the-official-amazing-race-travel-companion-more-than-20-years-of-roadblocks-detours-and-real-life-activities-to-experience-around-the-globe-paperback",
         "Token": "22XRSTPJVSIJUZVLR6XAYAWR",
-        "Item Name": "The Official Amazing Race Travel Companion: More Than 20 Years of Roadblocks, Detours, and Real-Life Activities to Experience Around the Globe",
+        "ItemName": "The Official Amazing Race Travel Companion: More Than 20 Years of Roadblocks, Detours, and Real-Life Activities to Experience Around the Globe",
         "Variation Name": "Paperback",
         "SKU": "9781982177393",
         "Description": "Doganieri, Elise ; Keoghan, Phil\r\nNon-Fiction\r\nPaperback - PUB: 10/04/2022\r\n\"Written by co-creator and executive producer of the show Elise Doganeiri, [this guide to the series contains] a wealth of information that highlights unique travel plans through the lens of the show allowing travel fans and fans of the show alike to level up their vacation plans with a dash of excitement and adventure\"",
@@ -29538,7 +29538,7 @@
     {
         "Reference Handle": "#the-official-harry-potter-baking-book-40-recipes-inspired-by-the-films-hardcover",
         "Token": "A2YE5UQQEFKX2DQVOSXFOEVC",
-        "Item Name": "The Official Harry Potter Baking Book: 40+ Recipes Inspired by the Films",
+        "ItemName": "The Official Harry Potter Baking Book: 40+ Recipes Inspired by the Films",
         "Variation Name": "Hardcover",
         "SKU": "9781338285260",
         "Description": "Farrow, Joanna\r\nNon-Fiction - Cookbook\r\nHardcover - PUB: 07/20/2021\r\n\"Delight in 43 tasty recipes inspired by the Harry Potter films! From Pumpkin Patch Pies to Owl Muffins, Luna's Spectrespecs Cookies to Hogwarts Gingerbread, The Official Harry Potter Baking Cookbook is packed with mouthwatering recipes that will, dare we say, ... ensnare the senses.\"",
@@ -29570,7 +29570,7 @@
     {
         "Reference Handle": "#the-planets-qr--",
         "Token": "47YXRUUQXZVCDG2MB5BC6VCZ",
-        "Item Name": "The Planets (QR)",
+        "ItemName": "The Planets (QR)",
         "Variation Name": "",
         "SKU": "978-0-7945-5127-8",
         "Description": "<p>Children - Sensory book</p><p>Age: 3+</p><p>Press the pages to hear beautifully arranged pieces of Holst&#39;s Planets. Discover the wonders of our universe and the wonders of classical music in this calming music book.</p><p><br/></p><p><u>Series: Press-a-Sound Books</u></p><p>Press the button on each page to hear wonderful sounds and noises. The beautiful illustrations complement these beautiful first picture books for young children with fully embedded sounds.</p>",
@@ -29602,7 +29602,7 @@
     {
         "Reference Handle": "#the-price-of-scandal-a-bluewater-billionaires-romantic-comedy-paperback",
         "Token": "EAGEG6QU2OSXXXPMB4DFJ66A",
-        "Item Name": "The Price of Scandal: A Bluewater Billionaires Romantic Comedy",
+        "ItemName": "The Price of Scandal: A Bluewater Billionaires Romantic Comedy",
         "Variation Name": "Paperback",
         "SKU": "9781728282732",
         "Description": "Score, Lucy\r\nPUB 10/07/2022\r\nBACKORDERED",
@@ -29634,7 +29634,7 @@
     {
         "Reference Handle": "#the-resemblance-hardcover",
         "Token": "PDBBS3R57EMK27UJU6535PLJ",
-        "Item Name": "The Resemblance",
+        "ItemName": "The Resemblance",
         "Variation Name": "Hardcover",
         "SKU": "9781250843241",
         "Description": "Nossett, Lauren\r\nFiction - Thriller\r\nHardcover - PUB: 11/08/2022",
@@ -29666,7 +29666,7 @@
     {
         "Reference Handle": "#the-rewind-paperback",
         "Token": "DKLELIWT7CUD7VAPVYZY63G2",
-        "Item Name": "The Rewind",
+        "ItemName": "The Rewind",
         "Variation Name": "Paperback",
         "SKU": "9780593546536",
         "Description": "Scotch, Allison Winn\r\nFiction - Romance\r\nPaperback - PUB: 11/01/2022\r\n\"When college sweethearts Frankie and Ezra broke up before graduation, they vowed to never speak to each other again. Ten years later, on the eve of the new millennium, they find themselves back on their snowy, picturesque New England campus together for the first time for the wedding of mutual friends. Frankie's on the rise as a music agent for the hottest bands of the late '90s, and Ezra's ready to propose to his girlfriend after the wedding. Everything is going to plan-they just have to avoid the chasm of emotions brought up when they see each other. But when they wake up in bed next to each other the following morning with Ezra's grandmother's diamond on Frankie's finger, they have zero memory of how they got there-or about any of the events that transpired the night before. Now Frankie and Ezra have to put aside old grievances in order to figure out what happened, what didn't happen...and to ask themselves the most troubling question of a",
@@ -29698,7 +29698,7 @@
     {
         "Reference Handle": "#the-rose-code-paperback",
         "Token": "OFWIABC53EZTHGFJI6XEBM2J",
-        "Item Name": "The Rose Code",
+        "ItemName": "The Rose Code",
         "Variation Name": "Paperback",
         "SKU": "9780062943477",
         "Description": "Quinn, Kate\r\nFiction - Thriller - Historical\r\nPaperback - PUB: 03/09/2021\r\nIncludes P.S. insights, interviews & more with reading group guide discussion questions",
@@ -29730,7 +29730,7 @@
     {
         "Reference Handle": "#the-saint-s-magic-power-is-omnipotent-manga-vol-6-paperback",
         "Token": "WXGBGNHQ5W2SPXV7NP4EUTV2",
-        "Item Name": "The Saint's Magic Power Is Omnipotent (Manga) Vol. 6",
+        "ItemName": "The Saint's Magic Power Is Omnipotent (Manga) Vol. 6",
         "Variation Name": "Paperback",
         "SKU": "9781638583080",
         "Description": "Manga - Comics & Graphic Novels\r\nPaperback - PUB: 10/11/2022\r\nOnce a humble office worker, Sei is now the Holy Saint of the Kingdom of Salutania, key to driving back the evil miasma that threatens its lands. What she enjoys most, however, are her peaceful days in the capital city working as a potionmaker. After helping to purify the forest near the capital, Sei hoped those days might return...but her reprieve is short-lived. A sudden acute shortage of potion ingredients sees her joining the knights of the realm on a journey to the Klausner Domain, rumored to be the home of secret potions found nowhere else!",
@@ -29762,7 +29762,7 @@
     {
         "Reference Handle": "#the-saints-of-swallow-hill-a-fascinating-depression-era-historical-novel-paperback",
         "Token": "A7CLDN2RI7V5U45KZ44OL5KY",
-        "Item Name": "The Saints of Swallow Hill: A Fascinating Depression Era Historical Novel",
+        "ItemName": "The Saints of Swallow Hill: A Fascinating Depression Era Historical Novel",
         "Variation Name": "Paperback",
         "SKU": "9781496733320",
         "Description": "Everhart, Donna\r\nFiction - Historical\r\nPaperback - PUB: 01/25/2022\r\nIn the dense pine forests of North Carolina, turpentiners labor, hacking into tree trunks to draw out the sticky sap that gives the Tar Heel State its nickname, and hauling the resin to stills to be refined. Among them is Rae Lynn Cobb and her husband, Warren, who run a small turpentine farm together. Though the work is hard and often dangerous, Rae Lynn, who spent her childhood in an orphanage, is thankful for it--and for her kind if careless husband. When Warren falls victim to his own negligence, Rae Lynn undertakes a desperate act of mercy. To keep herself from jail, she disguises herself as a man named Ray and heads to the only place she can think of that might offer anonymity--a turpentine camp in Georgia named Swallow Hill.",
@@ -29794,7 +29794,7 @@
     {
         "Reference Handle": "#the-sandman-book-five-paperback",
         "Token": "ZAV74NGGDMHTPHLOA36N5GBS",
-        "Item Name": "The Sandman Book Five",
+        "ItemName": "The Sandman Book Five",
         "Variation Name": "Paperback",
         "SKU": "9781779521514",
         "Description": "Gaiman, Neil ; Quitely, Frank ; Russell, P Craig\r\nPUB 2/07/2023\r\nBACKORDERED",
@@ -29826,7 +29826,7 @@
     {
         "Reference Handle": "#the-school-for-good-and-evil-movie-tie-in-edition-now-a-netflix-originals-movie-hardcover",
         "Token": "XH3J7RMZBO2RGZPKWIECAGUM",
-        "Item Name": "The School for Good and Evil: Movie Tie-In Edition: Now a Netflix Originals Movie",
+        "ItemName": "The School for Good and Evil: Movie Tie-In Edition: Now a Netflix Originals Movie",
         "Variation Name": "Hardcover",
         "SKU": "9780063230965",
         "Description": "Chainani, Soman\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 08/30/2022\r\n\"Two best friends have been chosen to be students at the fabled School for Good and Evil, where odinary boys and girls are trained to be fairy-tale heroes and villains. One will train for Good; one will become Evil's new hope. Each thinks they know where they belong, but when they are swept into the Endless Woods, they're switched into the opposite schools. Together they'll discover who they really are and what they are capable of, because the only way out of a fairy tale... is to live through it\"--",
@@ -29858,7 +29858,7 @@
     {
         "Reference Handle": "#the-school-for-good-and-evil-the-complete-6-book-box-set-the-school-for-good-and-evil-the-school-for-good-and-evil-a-world-without-princes-the-school-paperback",
         "Token": "MWA6ILOTUTPXPU2WXAYGIKAZ",
-        "Item Name": "The School for Good and Evil: The Complete 6-Book Box Set: The School for Good and Evil, the School for Good and Evil: A World Without Princes, the School",
+        "ItemName": "The School for Good and Evil: The Complete 6-Book Box Set: The School for Good and Evil, the School for Good and Evil: A World Without Princes, the School",
         "Variation Name": "Paperback",
         "SKU": "9780063222809",
         "Description": "<p>Chainani, Soman</p><p>Young Adult Fiction - Fantasy</p><p>Paperback - PUB: 05/31/2022</p><p><strong>THE SCHOOL FOR GOOD AND EVIL is the #1 movie now streaming on Netflix--starring Academy Award winner Charlize Theron, Kerry Washington, Laurence Fishburne, Michelle Yeoh, Sofia Wylie, Sophie Anne Caruso, Jamie Flatters, Earl Cave, Kit Young, and many others!</strong></p><p><strong>Don&#39;t miss all six books in Soman Chainani&#39;s <em>New York Times </em>bestselling fantasy series, The School for Good and Evil, now available in a deluxe paperback box set!</strong></p><p>Journey into a dazzling new world when two best friends enter the School for Good and Evil, where ordinary boys and girls are trained to be fairy-tale heroes and villains. One will train for Good, one will become Evil&#39;s new hope. Each thinks they know where they belong.</p><p>But when the two friends are swept into the Endless Woods, they find their fortunes are reversed. . . The aftermath leads to unexpected paths, new alliances, and forces that divide them in an exhilarating quest to find their true Ever After.</p><p>Featuring all six books in the <em>New York Times</em> bestselling series, this paperback box set will delight both readers that are new to the series and die-hard fans alike.</p><p><br/></p>",
@@ -29890,7 +29890,7 @@
     {
         "Reference Handle": "#the-seven-husbands-of-evelyn-hugo-paperback",
         "Token": "BDQS4QPGC4YUCZUF5GEYVAKS",
-        "Item Name": "The Seven Husbands of Evelyn Hugo",
+        "ItemName": "The Seven Husbands of Evelyn Hugo",
         "Variation Name": "Paperback",
         "SKU": "9781501161933",
         "Description": "Reid, Taylor Jenkins\r\nFiction - Romance\r\nPaperback - PUB: 05/29/2018\r\nIncludes a reading guide and topic and questions for discussion",
@@ -29922,7 +29922,7 @@
     {
         "Reference Handle": "#the-shadow-murders-a-department-q-novel-hardcover",
         "Token": "DF3XFUYPQYWQR7N3E4V7NM36",
-        "Item Name": "The Shadow Murders: A Department Q Novel",
+        "ItemName": "The Shadow Murders: A Department Q Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781524742584",
         "Description": "Adler-Olsen, Jussi ; Frost, William\r\nFiction - Thriller\r\nHardcover - PUB: 09/27/2022",
@@ -29954,7 +29954,7 @@
     {
         "Reference Handle": "#the-shattered-shore-8--paperback",
         "Token": "R7LECD3426JIPHV5R7KISVED",
-        "Item Name": "The Shattered Shore (#8)",
+        "ItemName": "The Shattered Shore (#8)",
         "Variation Name": "Paperback",
         "SKU": "9781665904582",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 5+\r\n\"Ruskin, Cinder, Groth, and Roke travel to the Shattered Shore to honor of Villinelle, and while there, the four dragons make discoveries that will help in the upcoming battle.\"--",
@@ -29986,7 +29986,7 @@
     {
         "Reference Handle": "#the-side-job-paperback",
         "Token": "DB5GTHWJPP5YBVO4MJMQFIH2",
-        "Item Name": "The Side Job",
+        "ItemName": "The Side Job",
         "Variation Name": "Paperback",
         "SKU": "9798885905084",
         "Description": "Martin, Vincent J\r\nFiction - Thriller - Romance\r\nPaperback - PUB: 08/30/2022",
@@ -30018,7 +30018,7 @@
     {
         "Reference Handle": "#the-silent-patient-paperback",
         "Token": "IXFVI7LNBYPSOKU5U2QDUKAP",
-        "Item Name": "The Silent Patient",
+        "ItemName": "The Silent Patient",
         "Variation Name": "Paperback",
         "SKU": "9781250301703",
         "Description": "Michaelides, Alex\r\nFiction - Thriller\r\nPaperback - PUB: 05/04/2021\r\nAlicia Berenson's life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London's most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word. Alicia's refusal to talk or give any kind of explanation turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the spotlight of the tabloids at the Grove, a secure forensic unit in North London. Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His search for the truth leads him down a terrifying path and threatens to consume him.",
@@ -30050,7 +30050,7 @@
     {
         "Reference Handle": "#the-silmarillion-illustrated-edition-illustrated-by-j-r-r-tolkien-hardcover",
         "Token": "RS6PHDGGJMBHVPVGYDRBOA6T",
-        "Item Name": "The Silmarillion [Illustrated Edition]: Illustrated by J.R.R. Tolkien",
+        "ItemName": "The Silmarillion [Illustrated Edition]: Illustrated by J.R.R. Tolkien",
         "Variation Name": "Hardcover",
         "SKU": "9780063280779",
         "Description": "Tolkien, J R R\r\nFiction - Fantasy - Gift \r\nHardcover - PUB: 11/08/2022\r\n\"For the first time ever, a very special edition of the forerunner to The Lord of the Rings, illustrated throughout in color by J.R.R. Tolkien himself and with the complete text printed in two colors. The Silmarillion fills in the background which lies behind the more popular work, and gives the earlier history of Middle-earth, introducing some of the key characters.\"",
@@ -30082,7 +30082,7 @@
     {
         "Reference Handle": "#the-song-of-achilles-paperback",
         "Token": "A74QR24VKHZB4DWEEGCJ2DJZ",
-        "Item Name": "The Song of Achilles",
+        "ItemName": "The Song of Achilles",
         "Variation Name": "Paperback",
         "SKU": "9780062060624",
         "Description": "Miller, Madeline\r\nFiction - Historical\r\nPaperback - PUB: 08/28/2012\r\nAt once a scholar s homage to The Iliad and startlingly original work of art by an incredibly talented new novelist .A book I could not put down. Ann Patchett\r\nMary Renault lives again! declares Emma Donoghue, author of Room, referring to The Song of Achilles, Madeline Miller s thrilling, profoundly moving, and utterly unique retelling of the legend of Achilles and the Trojan War. A tale of gods, kings, immortal fame, and the human heart, The Song of Achilles is a dazzling literary feat that brilliantly reimagines Homer s enduring masterwork, The Iliad. An action-packed adventure, an epic love story, a marvelously conceived and executed page-turner, Miller s monumental debut novel has already earned resounding acclaim from some of contemporary fiction s brightest lights and fans of Mary Renault, Bernard Cornwell, Steven Pressfield, and Colleen McCullough s Masters of Rome series will delight in this unforgettable journey back to ancient Greece",
@@ -30114,7 +30114,7 @@
     {
         "Reference Handle": "#the-starless-sea-paperback",
         "Token": "WLG5AIVR3VMDXQ26G7YQJPY6",
-        "Item Name": "The Starless Sea",
+        "ItemName": "The Starless Sea",
         "Variation Name": "Paperback",
         "SKU": "9781101971383",
         "Description": "Morgenstern, Erin\r\nFiction - Romance - Fantasy\r\nPaperback - PUB: 08/04/2020",
@@ -30146,7 +30146,7 @@
     {
         "Reference Handle": "#the-sticky-cake-race-book-4--",
         "Token": "YFJV4BXEVMWEUVKZM4JEQJUZ",
-        "Item Name": "The Sticky Cake Race (Book 4)",
+        "ItemName": "The Sticky Cake Race (Book 4)",
         "Variation Name": "",
         "SKU": "978-1-68464-069-0",
         "Description": "<p>Children - Chapter book</p><p>Age: 5+</p><p>Belville loves its community events and the Belville Rally is no exception! The contestants have been tinkering, polishing, and priming their vehicles ready to race around the town’s streets and over the canal bridges, but there’s someone who’s willing to win at any cost. Can Freddie save the race?</p><p><br/></p><p><u>Series: Freddie&#39;s Amazing Bakery</u></p><p>Friendly and helpful Freddie Bonbon runs the most amazing bakery in Belville in this tasty series flavored with a bit of mystery. Baking fans will relish the recipe and glossary terms included in each book!</p>",
@@ -30178,7 +30178,7 @@
     {
         "Reference Handle": "#the-stolen-heir-a-novel-of-elfhame-hardcover",
         "Token": "NQWLRPADX7XSEETJQRBKEBUC",
-        "Item Name": "The Stolen Heir: A Novel of Elfhame",
+        "ItemName": "The Stolen Heir: A Novel of Elfhame",
         "Variation Name": "Hardcover",
         "SKU": "9780316592703",
         "Description": "Black, Holly\r\nBACKORDERED",
@@ -30210,7 +30210,7 @@
     {
         "Reference Handle": "#the-stories-we-tell-every-piece-of-your-story-matters-hardcover",
         "Token": "QMT3TKCXZQLXXMV5E6JTR4VR",
-        "Item Name": "The Stories We Tell: Every Piece of Your Story Matters",
+        "ItemName": "The Stories We Tell: Every Piece of Your Story Matters",
         "Variation Name": "Hardcover",
         "SKU": "9781400333875",
         "Description": "Gaines, Joanna",
@@ -30242,7 +30242,7 @@
     {
         "Reference Handle": "#the-story-of-inventions-ir--",
         "Token": "TTEO2LJN5JUVQXFMUD5EKWMQ",
-        "Item Name": "The Story of Inventions (IR)",
+        "ItemName": "The Story of Inventions (IR)",
         "Variation Name": "",
         "SKU": "517106",
         "Description": "Toasters, toilets and televisions, computers, cars and chocolate bars, flying machines and even your jeans. All these everyday things and many more are only here because someone bothered to invent them. This book reveals the real-life stories and bright sparks behind dozens of brilliant inventions.",
@@ -30274,7 +30274,7 @@
     {
         "Reference Handle": "#the-swan-daughter-the-daughters-of-hastings-trilogy-paperback",
         "Token": "W6BZOGF6KZ5XJEWZEUMTSZYR",
-        "Item Name": "The Swan-Daughter: The Daughters of Hastings Trilogy",
+        "ItemName": "The Swan-Daughter: The Daughters of Hastings Trilogy",
         "Variation Name": "Paperback",
         "SKU": "9781472283894",
         "Description": "McGrath, Carol\r\nBACKORDERED",
@@ -30306,7 +30306,7 @@
     {
         "Reference Handle": "#the-things-we-cannot-say-a-wwii-historical-fiction-novel-original--paperback",
         "Token": "EYNWWK4DB5ZNMJ6ZXMWTOO7K",
-        "Item Name": "The Things We Cannot Say: A WWII Historical Fiction Novel (Original)",
+        "ItemName": "The Things We Cannot Say: A WWII Historical Fiction Novel (Original)",
         "Variation Name": "Paperback",
         "SKU": "9781525823565",
         "Description": "Rimmer, Kelly",
@@ -30338,7 +30338,7 @@
     {
         "Reference Handle": "#the-three-musketeers-",
         "Token": "DIEUMI3ZWX4DQSIGQNRMWQQQ",
-        "Item Name": "The Three Musketeers",
+        "ItemName": "The Three Musketeers",
         "Variation Name": "",
         "SKU": "545123",
         "Description": "This adventure story is full of intrigue, secret meetings, spies, unexpected turns of events, and mysteries. Renowned comics artist Mike Collins is the series consultant.",
@@ -30370,7 +30370,7 @@
     {
         "Reference Handle": "#the-time-of-contempt-hardcover",
         "Token": "I4YIGZPUGFW7K5YSWPQA4HUS",
-        "Item Name": "The Time of Contempt",
+        "ItemName": "The Time of Contempt",
         "Variation Name": "Hardcover",
         "SKU": "9780316451550",
         "Description": "Sapkowski, Andrzej ; French, David",
@@ -30402,7 +30402,7 @@
     {
         "Reference Handle": "#the-tower-of-fools-paperback",
         "Token": "T7UVFNKYYU5D6ZNAHSWEO4J4",
-        "Item Name": "The Tower of Fools",
+        "ItemName": "The Tower of Fools",
         "Variation Name": "Paperback",
         "SKU": "9780316423694",
         "Description": "Sapkowski, Andrzej ; French, David",
@@ -30434,7 +30434,7 @@
     {
         "Reference Handle": "#the-tower-of-swallows-hardcover",
         "Token": "2UGRBXLUPGWGEQUMW33ATX2X",
-        "Item Name": "The Tower of Swallows",
+        "ItemName": "The Tower of Swallows",
         "Variation Name": "Hardcover",
         "SKU": "9780316457033",
         "Description": "Sapkowski, Andrzej ; French, David",
@@ -30466,7 +30466,7 @@
     {
         "Reference Handle": "#the-travels-of-ermine-cv--",
         "Token": "N47CMUZB4QG3NT5WJMZEA2L4",
-        "Item Name": "The Travels of Ermine (CV)",
+        "ItemName": "The Travels of Ermine (CV)",
         "Variation Name": "",
         "SKU": "978-0-7945-4904-6",
         "Description": "Children - Chapter book\r\nAge: 7+\r\nShe may be small, but she's on a big journey around the world. Join Ermine on her travels to London, Sydney, and New York! Ermine is one fabulously funny and furry heroine who can’t help but find adventure wherever she goes. Enjoy three stories from bestselling and award-winning author Jennifer Gray, with gorgeous black-and-white illustrations from Elisa Paganelli throughout.",
@@ -30498,7 +30498,7 @@
     {
         "Reference Handle": "#the-unofficial-beetlejuice-beetlejuice-beetlejuice-cookbook-75-darkly-delicious-recipes-inspired-by-the-tim-burton-classic-hardcover",
         "Token": "H46L5Z4WNXT2X4A2TXOO56GI",
-        "Item Name": "The Unofficial Beetlejuice! Beetlejuice! Beetlejuice! Cookbook: 75 Darkly Delicious Recipes Inspired by the Tim Burton Classic",
+        "ItemName": "The Unofficial Beetlejuice! Beetlejuice! Beetlejuice! Cookbook: 75 Darkly Delicious Recipes Inspired by the Tim Burton Classic",
         "Variation Name": "Hardcover",
         "SKU": "9781956403299",
         "Description": "James, Thea ; Minunni, Isabel\r\nPUB 08/15/2023\r\nBACKORDERED",
@@ -30530,7 +30530,7 @@
     {
         "Reference Handle": "#the-unofficial-harry-potter-vegan-cookbook-extraordinary-plant-based-meals-inspired-by-the-realm-of-wizards-and-witches-hardcover",
         "Token": "4F3JB7Z5U4G2ILPCDAJHE5HF",
-        "Item Name": "The Unofficial Harry Potter Vegan Cookbook: Extraordinary Plant-Based Meals Inspired by the Realm of Wizards and Witches",
+        "ItemName": "The Unofficial Harry Potter Vegan Cookbook: Extraordinary Plant-Based Meals Inspired by the Realm of Wizards and Witches",
         "Variation Name": "Hardcover",
         "SKU": "9781956403060",
         "Description": "Non-Fiction - Cookbook\r\nHardcover - PUB: 11/01/2022\r\nThis beautiful book is the first completely vegan Harry Potter-themed cookbook. Packed with more than 75 recipes and breath-taking, eye-popping photography, the book captures the magic of Hogwarts on each and every page.",
@@ -30562,7 +30562,7 @@
     {
         "Reference Handle": "#the-unofficial-joke-book-for-fans-of-harry-potter-4-book-box-set-includes-volumes-1-4-paperback",
         "Token": "QASQ6X7LEMZLNZB6OICYAFHM",
-        "Item Name": "The Unofficial Joke Book for Fans of Harry Potter 4-Book Box Set: Includes Volumes 1-4",
+        "ItemName": "The Unofficial Joke Book for Fans of Harry Potter 4-Book Box Set: Includes Volumes 1-4",
         "Variation Name": "Paperback",
         "SKU": "9781510748163",
         "Description": "Boone, Brian ; Brack, Amanda",
@@ -30594,7 +30594,7 @@
     {
         "Reference Handle": "#the-unofficial-witcher-cookbook-daringly-delicious-recipes-for-fans-of-the-fantasy-classic-hardcover",
         "Token": "KDOY2NEKWOULMWSKJCTKTZ64",
-        "Item Name": "The Unofficial Witcher Cookbook: Daringly Delicious Recipes for Fans of the Fantasy Classic",
+        "ItemName": "The Unofficial Witcher Cookbook: Daringly Delicious Recipes for Fans of the Fantasy Classic",
         "Variation Name": "Hardcover",
         "SKU": "9781646044122",
         "Description": "<p>Non-Fiction - Cook book</p><p>Hardcover - PUB: 11/08/2022</p><p><strong>Join Geralt of Rivia on his adventures throughout The Continent as you learn to cook 50 delicious and totally unofficial recipes inspired by the hit fantasy books, video games, and show <em>The Witcher</em>.</strong>Andrzej Sapkowski&#39;s epic fantasy saga of the witcher Geralt has captivated pop culture for nearly 30 years. Through books, graphic novels, TV shows, and video games, the witcher&#39;s adventures have brought audiences face-to-face with monsters, sorceresses, kings, and destiny. Now, you can have your very own taste of the legendary adventures of a witcher.<em>The Unofficial Witcher Cookbook </em>is filled with 50 recipes ranging from humble meals and tavern stews to bountiful feasts fit for a king, including:</p><ul><li>Prized Potato Soup Blacksmith Dumplings Feast of Ham and Nightshade House Specialty Soup Honey Cakes for a Coin And more!</li></ul><p>This cookbook is perfect for die-hard fans of <em>The Witcher, </em>as well as those who just can&#39;t get enough epic fantasy in their life.</p>",
@@ -30626,7 +30626,7 @@
     {
         "Reference Handle": "#the-veiled-threat-of-magic-hardcover",
         "Token": "QBYPFR7SGJ6BYJMNZRTX3DKH",
-        "Item Name": "The Veiled Threat of Magic",
+        "ItemName": "The Veiled Threat of Magic",
         "Variation Name": "Hardcover",
         "SKU": "9781643973258",
         "Description": "Gibson, Natalie\r\nBACKORDERED",
@@ -30658,7 +30658,7 @@
     {
         "Reference Handle": "#the-vermilion-emporium-hardcover",
         "Token": "K52KXXXBAR5X54PQI55DYSWE",
-        "Item Name": "The Vermilion Emporium",
+        "ItemName": "The Vermilion Emporium",
         "Variation Name": "Hardcover",
         "SKU": "9781682634882",
         "Description": "Pacton, Jamie\r\nYoung Adult Fiction\r\nHardcover - PUB: 11/22/2022\r\n\"On the morning Twain, a lonely boy with a knack for danger, discovers a strand of starlight on the cliffs outside of Severon, a mysterious curiosity shop appears in town. Meanwhile, Quinta, the ordinary daughter of an extraordinary circus performer, chases rumors of the shop, the Vermilion Emporium, desperate for a way to live up to her mother's magical legacy. When Quinta meets Twain outside of the Emporium, two things happen: One, Quinta is sure she's infatuated with this starlight boy, who uses his charm to hide his scars. Two, they enter the store and discover a book that teaches them how to weave starlight into lace. Soon, their lace catches the eye of the Casorina, the ruler of Severon. She commissions Quinta and Twain to make her a starlight dress and will reward them handsomely enough to make their dreams come true. However, they can't sew a dress without more material, and the secret to starlight's origins has been lost for decades. As Qu",
@@ -30690,7 +30690,7 @@
     {
         "Reference Handle": "#the-very-secret-society-of-irregular-witches-regular",
         "Token": "LKE7MPTA2VUSYJC2J64BVEF2",
-        "Item Name": "The Very Secret Society of Irregular Witches",
+        "ItemName": "The Very Secret Society of Irregular Witches",
         "Variation Name": "Regular",
         "SKU": "9780593439357",
         "Description": "Sangu Mandanna\r\nFiction - Romance\r\nPaperback - PUB: 08/23/2022",
@@ -30722,7 +30722,7 @@
     {
         "Reference Handle": "#the-villa-hardcover",
         "Token": "QSIKPRF6D4P6VSFC3B3LBLNU",
-        "Item Name": "The Villa",
+        "ItemName": "The Villa",
         "Variation Name": "Hardcover",
         "SKU": "9781250280015",
         "Description": "Hawkins, Rachel\r\nBACKORDERED",
@@ -30754,7 +30754,7 @@
     {
         "Reference Handle": "#the-viper-hardcover",
         "Token": "FGBZ6T2LLLEMF7TG4KIZDLKY",
-        "Item Name": "The Viper",
+        "ItemName": "The Viper",
         "Variation Name": "Hardcover",
         "SKU": "9781982179908",
         "Description": "Ward, J R\r\nFiction - Romance\r\nHardcover - PUB: 09/20/2022\r\nHorribly injured after saving one of his fellow inmates, Kane can't help but fall in love with the nurse overseeing his convalescence. But with both of them trapped in the notorious prison camp and his health hanging in the balance, Kane knows he's not going to survive much longer. When a chance for liberation comes from an unexpected source, however, he vows to free his love no matter the cost, even if he can't make it out alive.",
@@ -30786,7 +30786,7 @@
     {
         "Reference Handle": "#the-wilderwomen-hardcover",
         "Token": "XN3IDVWP7R3SHDKSGYIOD3WB",
-        "Item Name": "The Wilderwomen",
+        "ItemName": "The Wilderwomen",
         "Variation Name": "Hardcover",
         "SKU": "9781250246912",
         "Description": "Lang, Ruth Emmie\r\nFiction - Fantasy\r\nHardcover - PUB: 11/15/2022",
@@ -30818,7 +30818,7 @@
     {
         "Reference Handle": "#the-witch-hunt-hardcover",
         "Token": "LQTCGM4FJXWVGEY4QINHWQYY",
-        "Item Name": "The Witch Hunt",
+        "ItemName": "The Witch Hunt",
         "Variation Name": "Hardcover",
         "SKU": "9781534454415",
         "Description": "Smith, Sasha Peyton\r\nYoung Adult Fiction\r\nHardcover - PUB: 10/11/2022\r\n\"When an opportunity to visit Paris arises, Frances jumps at the chance to go, longing for adventure and seeking answers about her own power. Once she and her classmates Maxine and Lena reach the vibrant streets of France, Frances learns that the spell she used to speak to her dead brother has had terrible consequences. The veil between the living and the dead has been torn by her recklessness, and a group of magicians are using the rift for their own gain at a horrifying cost. To right this wrong, and to save lives and her own magical powers, Frances must hunt down answers in the parlors of Parisian secret societies, the halls of the Louvre, and the tunnels of the catacombs.\"--",
@@ -30850,7 +30850,7 @@
     {
         "Reference Handle": "#the-witch-s-cookbook-magical-recipes-inspired-by-hocus-pocus-bewitched-harry-potter-charmed-wicked-sabrina-and-more--hardcover",
         "Token": "WBGXYK2C7BDQ2JC2DIDJUV3D",
-        "Item Name": "The Witch's Cookbook: Magical Recipes Inspired by Hocus Pocus, Bewitched, Harry Potter, Charmed, Wicked, Sabrina, and More!",
+        "ItemName": "The Witch's Cookbook: Magical Recipes Inspired by Hocus Pocus, Bewitched, Harry Potter, Charmed, Wicked, Sabrina, and More!",
         "Variation Name": "Hardcover",
         "SKU": "9781510775275",
         "Description": "Huey, Deanna\r\nBACKORDERED",
@@ -30882,7 +30882,7 @@
     {
         "Reference Handle": "#the-witch-s-throne-volume-1-paperback",
         "Token": "TIOAGIENFUX7A4FW6HANTUVN",
-        "Item Name": "The Witch's Throne: Volume 1",
+        "ItemName": "The Witch's Throne: Volume 1",
         "Variation Name": "Paperback",
         "SKU": "9781524876500",
         "Description": "Young Adult Fiction - Comics & Graphic Novels\r\nPaperback - PUB: 10/25/2022\r\n\"Every ten years, throne seekers compete to become the four heroes destined to slay the Witch threatening their world. Optimistic young alchemist Agni eagerly sets off to fulfill her dream of being one of these sacred heroes. She expects to save the world...and maybe make some friends along the way. But she soon realizes that nothing is as straightforward as it is in her childhood stories, and becoming a hero may come at a terrible cost",
@@ -30914,7 +30914,7 @@
     {
         "Reference Handle": "#the-witcher-boxed-set-blood-of-elves-the-time-of-contempt-baptism-of-fire-the-tower-of-swallows-the-lady-of-the-lake-paperback",
         "Token": "S3O5WXFSKIIKOVGM63VJUDXP",
-        "Item Name": "The Witcher Boxed Set: Blood of Elves, the Time of Contempt, Baptism of Fire, the Tower of Swallows, the Lady of the Lake",
+        "ItemName": "The Witcher Boxed Set: Blood of Elves, the Time of Contempt, Baptism of Fire, the Tower of Swallows, the Lady of the Lake",
         "Variation Name": "Paperback",
         "SKU": "9780316498845",
         "Description": "Fiction - Fantasy - Gift Set\r\nPaperback - PUB: 09/20/2022",
@@ -30946,7 +30946,7 @@
     {
         "Reference Handle": "#the-wolf-den-volume-1-paperback",
         "Token": "BCMEXV5PRLC2Z2AYEM6WGY7K",
-        "Item Name": "The Wolf Den: Volume 1",
+        "ItemName": "The Wolf Den: Volume 1",
         "Variation Name": "Paperback",
         "SKU": "9781454946540",
         "Description": "<p>Harper, Elodie</p><p>Fiction - Romance</p><p>Paperback - PUB: 03/29/2022</p><p>Amara was once the beloved daughter of a doctor in Greece, until her father&#39;s sudden death plunged her mother into destitution. Now Amara is a slave and prostitute in Pompeii&#39;s notorious Wolf Den brothel or lupanar, owned by a cruel and ruthless man. Intelligent and resourceful, she is forced to hide her true self. But her spirit is far from broken. Buoyed by the sisterhood she forges with the brothel&#39;s other women, Amarafindssolace in the laughterand hopes they all share. For the streets of the city are alive with opportunity--here, even the lowest-born slave can dream of a new beginning. But everything in Pompeii has a price. How much will Amara&#39;s freedom cost her? <em>The Wolf Den</em> is the first in a trilogy of novels about the lives of women in ancient Pompeii.</p>",
@@ -30978,7 +30978,7 @@
     {
         "Reference Handle": "#the-woman-in-cabin-10-paperback",
         "Token": "QM24BV5VVUYUMJ4OWLS22ZJC",
-        "Item Name": "The Woman in Cabin 10",
+        "ItemName": "The Woman in Cabin 10",
         "Variation Name": "Paperback",
         "SKU": "9781501132957",
         "Description": "Ware, Ruth\r\nFiction - Thriller\r\nPaperback - PUB: 04/11/2017",
@@ -31010,7 +31010,7 @@
     {
         "Reference Handle": "#the-woman-in-the-library-paperback",
         "Token": "4CFMBAPCBBLRHGBUS7ZZOKFB",
-        "Item Name": "The Woman in the Library",
+        "ItemName": "The Woman in the Library",
         "Variation Name": "Paperback",
         "SKU": "9781464215872",
         "Description": "Gentill, Sulari\r\nFiction - Thriller\r\nPaperback - PUB: 06/07/2022\r\n\"The beautifully ornate reading room at the Boston Public Library is completely silent one weekday morning, until a woman's terrified scream echoes through the room. Security guards immediately appear and instruct everyone inside to stay put until they determine there is no threat. While they wait for the all-clear, four strangers who had been sitting in the reading room get to chatting and quickly become friendly. Harriet, Marigold, Whit, and Caine each have their own reasons for being in the reading room that morning--and it just happens that one of them may turn out to be a murderer. For readers of Midnight at the Bright Ideas Bookstore, with shades of The Secret History, THE WOMAN IN THE LIBRARY is an unexpectedly twisty literary adventure that examines the complicated nature of friendship and shows us that words can be the most dangerous weapons of all\"",
@@ -31042,7 +31042,7 @@
     {
         "Reference Handle": "#the-world-we-make-hardcover",
         "Token": "Z7ULQ2WGBKRYQWKFOPSU2FGG",
-        "Item Name": "The World We Make",
+        "ItemName": "The World We Make",
         "Variation Name": "Hardcover",
         "SKU": "9780316509893",
         "Description": "Jemisin, N K\r\nFiction - Fantasy\r\nHardcover - PUB: 11/01/2022\r\n\"Every great city has a soul. A human avatar that embodies their city's heart and wields its magic. New York? She's got six. But all is not well in the city that never sleeps. Though Brooklyn, Manny, Bronca, Venezia, Padmini, and Neek have temporarily managed to stop the Woman in White from invading--and destroying the entire universe in the process--the mysterious capital \"E\" Enemy has more subtle powers at her disposal. A new candidate for mayor wielding the populist rhetoric of gentrification, xenophobia, and \"law and order\" may have what it takes to change the very nature of New York itself and take it down from the inside. In order to defeat him, and the Enemy who holds his purse strings, the avatars will have to join together with the other Great Cities of the world in order to bring her down for good and protect their world from complete destruction\"",
@@ -31074,7 +31074,7 @@
     {
         "Reference Handle": "#the-zero-night-a-jonathan-stride-novel-hardcover",
         "Token": "QXUSXG3L625SFENIKL2X3DNP",
-        "Item Name": "The Zero Night: A Jonathan Stride Novel",
+        "ItemName": "The Zero Night: A Jonathan Stride Novel",
         "Variation Name": "Hardcover",
         "SKU": "9781094082349",
         "Description": "Freeman, Brian\r\nBACKORDERED",
@@ -31106,7 +31106,7 @@
     {
         "Reference Handle": "#things-have-gotten-worse-since-we-last-spoke-and-other-misfortunes-larocca-eric",
         "Token": "TRWCGRNYGB3JZA2MAMJHGQEJ",
-        "Item Name": "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes",
+        "ItemName": "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes",
         "Variation Name": "Larocca, Eric",
         "SKU": "9781803361499",
         "Description": "Hardcover",
@@ -31138,7 +31138,7 @@
     {
         "Reference Handle": "#things-we-hide-from-the-light-paperback",
         "Token": "MV4AYX6W2AHN2D55BU6TRKSM",
-        "Item Name": "Things We Hide from the Light",
+        "ItemName": "Things We Hide from the Light",
         "Variation Name": "Paperback",
         "SKU": "9781728276113",
         "Description": "Score, Lucy\r\nPUB 2/23/2023\r\nBACKORDERED",
@@ -31170,7 +31170,7 @@
     {
         "Reference Handle": "#things-we-never-got-over-paperback",
         "Token": "N3IIPGVQD4G2OXTXS6BCKQSE",
-        "Item Name": "Things We Never Got Over",
+        "ItemName": "Things We Never Got Over",
         "Variation Name": "Paperback",
         "SKU": "9781945631832",
         "Description": "Score, Lucy\r\nFiction - Romance\r\nPaperback - PUB: 01/12/2022\r\n\"Bearded, bad-boy barber Knox prefers to live his life the way he takes his coffee: alone--unless you count his basset hound Waylon. Knox doesn't tolerate drama, even when it comes in the form of a stranded runaway bride. Naomi wasn't just running away from her wedding. She was riding to the rescue of her estranged twin to Knockemout, Virginia, a rough-around-the-edges town where disputes are settled the old-fashioned way: with fists and beer. Usually in that order. Too bad for Naomi her evil twin hasn't changed at all. After helping herself to Naomi's car and cash, Tina leaves her with something unexpected: the niece Naomi didn't know she had\"",
@@ -31202,7 +31202,7 @@
     {
         "Reference Handle": "#this-is-owl-regular",
         "Token": "VWAWE77YT2BOINKJBXEVIBTZ",
-        "Item Name": "This Is Owl",
+        "ItemName": "This Is Owl",
         "Variation Name": "Regular",
         "SKU": "9781610678964",
         "Description": "",
@@ -31234,7 +31234,7 @@
     {
         "Reference Handle": "#thor-",
         "Token": "RDH7ECE2VPOWURJAZBSMWIS3",
-        "Item Name": "Thor",
+        "ItemName": "Thor",
         "Variation Name": "",
         "SKU": "978-0-7945-4889-6",
         "Description": "Children - Comics & Graphic Novels\r\nAge: 10+\r\nNorse god Thor is always itching for a fight. So when he’s presented with a magical war hammer called Mjölnir, he can’t wait to go into battle. From his home of Asgard to the realms beyond, Thor confronts a host of fearsome opponents including stone colossus Hrungnir, gigantic sea serpent Jormungand, and Thrym, king of the frost giants. The most famous warrior of the Norse myths is brought to life in this collection of fantastic graphic adventures.\r\n\r\nSeries: Graphic Stories\r\nThese entertaining, action-packed Graphic Legends and Graphic Classics provide a great gateway to somewhat difficult stories for reluctant readers to learn to enjoy.",
@@ -31266,7 +31266,7 @@
     {
         "Reference Handle": "#thousand-heartbeats-cass-kiera",
         "Token": "ACSQX5IPE7W64MUY2HTNVUZT",
-        "Item Name": "Thousand Heartbeats",
+        "ItemName": "Thousand Heartbeats",
         "Variation Name": "Cass, Kiera",
         "SKU": "9780062665782",
         "Description": "Hardcover",
@@ -31298,7 +31298,7 @@
     {
         "Reference Handle": "#thrawn-star-wars-1--mass-market-paperbound",
         "Token": "E3EVYWTSVKXGJI2DYKHKJLGJ",
-        "Item Name": "Thrawn (Star Wars) (#1)",
+        "ItemName": "Thrawn (Star Wars) (#1)",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781101967027",
         "Description": "Zahn, Timothy\r\nFiction - Sci FI\r\nPaperback - PUB: 01/30/2018",
@@ -31330,7 +31330,7 @@
     {
         "Reference Handle": "#thrawn-alliances-star-wars-2--mass-market-paperbound",
         "Token": "RAEMYJFUDJFVJXC3O3D42Y52",
-        "Item Name": "Thrawn: Alliances (Star Wars) (#2)",
+        "ItemName": "Thrawn: Alliances (Star Wars) (#2)",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780525481287",
         "Description": "Zahn, Timothy\r\nFiction - Sci Fi\r\nPaperback - PUB: 02/26/2019\r\nZahn's #1 \"New York Times\"-bestselling sequel to \"Thrawn\" follows the rise of Grand Admiral Thrawn to the heights of Imperial power--and accompanies him into the past, witnessing his first encounter with the man who will one day become Darth Vader. Tall Premium Edition. Rey.",
@@ -31362,7 +31362,7 @@
     {
         "Reference Handle": "#thrawn-treason-star-wars-3--mass-market-paperbound",
         "Token": "V7BI56IOSLKO3RXSRKRZKLGA",
-        "Item Name": "Thrawn: Treason (Star Wars) (#3)",
+        "ItemName": "Thrawn: Treason (Star Wars) (#3)",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781984820037",
         "Description": "Zahn, Timothy\r\nFiction - Sci Fi\r\nPaperback - PUB: 03/31/2020",
@@ -31394,7 +31394,7 @@
     {
         "Reference Handle": "#three-kings-a-wild-cards-mosaic-novel-book-two-of-the-british-arc--paperback",
         "Token": "QLRIRN5EREVLVCVN3IL2EUBH",
-        "Item Name": "Three Kings: A Wild Cards Mosaic Novel (Book Two of the British Arc)",
+        "ItemName": "Three Kings: A Wild Cards Mosaic Novel (Book Two of the British Arc)",
         "Variation Name": "Paperback",
         "SKU": "9781250167941",
         "Description": "Martin, George R R\r\nBACKORDERED",
@@ -31426,7 +31426,7 @@
     {
         "Reference Handle": "#throne-of-glass-hardcover",
         "Token": "OTQDNHJJ7RWZ5UQWNZPKQX34",
-        "Item Name": "Throne of Glass",
+        "ItemName": "Throne of Glass",
         "Variation Name": "Hardcover",
         "SKU": "9781639730940",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -31458,7 +31458,7 @@
     {
         "Reference Handle": "#throne-of-glass-collector-s-edition-hardcover",
         "Token": "QASJFDQAQAEDKMAHU5JPAWAX",
-        "Item Name": "Throne of Glass Collector's Edition",
+        "ItemName": "Throne of Glass Collector's Edition",
         "Variation Name": "Hardcover",
         "SKU": "9781547601325",
         "Description": "Maas, Sarah J\r\nYoung Adult Fiction - Fantasy - Romance \r\nHardcover - PUB: 11/06/2018\r\nThis lush, one-of-a-kind edition of the first title in Maas' \"New York Times\"-bestselling series features a cloth slipcase with unique foil art on the case and the book cover, a ribbon pull, beautiful brand-new interior page designs, metallic endpapers, and a new map of Erilea.",
@@ -31490,7 +31490,7 @@
     {
         "Reference Handle": "#throttled-special-edition-asher-lauren",
         "Token": "NJRSDOLMHMOYZ75ETZB64YN3",
-        "Item Name": "Throttled Special Edition",
+        "ItemName": "Throttled Special Edition",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781734258769",
         "Description": "Paperback",
@@ -31522,7 +31522,7 @@
     {
         "Reference Handle": "#tick-tock-mass-market-paperbound",
         "Token": "6DDVK44CFDXNADCAAZVTRBXP",
-        "Item Name": "Tick Tock",
+        "ItemName": "Tick Tock",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781420154245",
         "Description": "Michaels, Fern\r\nBACKORDERED",
@@ -31554,7 +31554,7 @@
     {
         "Reference Handle": "#timothy-dinoman-saves-the-cat-book-1-paperback",
         "Token": "SS4HNSL3JBMOD63QZQ5QASP2",
-        "Item Name": "Timothy Dinoman Saves the Cat: Book 1",
+        "ItemName": "Timothy Dinoman Saves the Cat: Book 1",
         "Variation Name": "Paperback",
         "SKU": "9781728463094",
         "Description": "Thueson, Steve \r\nYoung Adult Fiction - Comics & Graphic Novels\r\nAge: 8+\r\nPaperback - PUB: 10/04/2022",
@@ -31586,7 +31586,7 @@
     {
         "Reference Handle": "#tiny-tots-my-little-library-",
         "Token": "3OMK7TJJV5SEQCJ5PMME5KKA",
-        "Item Name": "Tiny Tots, My Little Library",
+        "ItemName": "Tiny Tots, My Little Library",
         "Variation Name": "",
         "SKU": "978-1-68464-186-4",
         "Description": "Children \r\nAge: Newborn +\r\nSix, simple first concept books for toddlers! With bold, bright illustrations, they are unbreakable and adorable! Each book is printed on tearproof, waterproof, wipe-clean material and sewn to withstand tough handling.",
@@ -31618,7 +31618,7 @@
     {
         "Reference Handle": "#titans-of-war-hardcover",
         "Token": "4KXGTLSYK5HJADNFZSL2TNCT",
-        "Item Name": "Titans of War",
+        "ItemName": "Titans of War",
         "Variation Name": "Hardcover",
         "SKU": "9781838779085",
         "Description": "Smith, Wilbur\r\nPUB 10/18/2022",
@@ -31650,7 +31650,7 @@
     {
         "Reference Handle": "#titans-united-paperback",
         "Token": "RWJNKWXCR6CXWBQMG6RIKDZD",
-        "Item Name": "Titans United",
+        "ItemName": "Titans United",
         "Variation Name": "Paperback",
         "SKU": "9781779516749",
         "Description": "Scott, Cavan ; Luis, Jose\r\nComics & Graphic Novels\r\n\r\n\"The Titans uncover a plot against them: someone has been stealing their powers, but who? And what has it got to do with Superboy, and his close encounter with Tamaranean royalty--namely Blackfire? And Beast Boy? All Beast Boy wants to do is enjoy his milkshake in peace. The characters featured in the Titans TV series on HBO Max--Nightwing, Donna Troy, Superboy, Starfire, Raven, Beast Boy, Red Hood, and Hawk and Dove--unite for [a] ... comic book adventure, one that will lead one of their own to question not only their place on the team, but their very existence\"",
@@ -31682,7 +31682,7 @@
     {
         "Reference Handle": "#to-sleep-in-a-sea-of-stars-mass-market-paperbound",
         "Token": "NE57VOKOBJTIUGAVZ7OSLOIW",
-        "Item Name": "To Sleep in a Sea of Stars",
+        "ItemName": "To Sleep in a Sea of Stars",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9781250786739",
         "Description": "Paolini, Christopher\r\nFiction - Fantasy - Sci Fi\r\nPaperback - PUB: 07/26/2022\r\n\r\n\"During a routine survey mission on an uncolonized planet, Kira finds an alien relic. At first she's delighted, but elation turns to terror when the ancient dust around her begins to move. As war erupts among the stars, Kira is launched into a galaxy-spanning odyssey of discovery and transformation. First contact isn't at all what she imagined, and events push her to the very limits of what it means to be human. While Kira faces her own horrors, Earth and its colonies stand upon the brink of annihilation. Now, Kira might be humanity's greatest and final hope . . .\"-",
@@ -31714,7 +31714,7 @@
     {
         "Reference Handle": "#tote-bag-regular",
         "Token": "TV3NKUWTSBABCKMIZ4UEPJLX",
-        "Item Name": "Tote Bag",
+        "ItemName": "Tote Bag",
         "Variation Name": "Regular",
         "SKU": "H818467",
         "Description": "",
@@ -31746,7 +31746,7 @@
     {
         "Reference Handle": "#tote-bag-1-regular",
         "Token": "BSY2BLVVUTM5VOYGYSJLRAPQ",
-        "Item Name": "Tote bag",
+        "ItemName": "Tote bag",
         "Variation Name": "Regular",
         "SKU": "N504484",
         "Description": "",
@@ -31778,7 +31778,7 @@
     {
         "Reference Handle": "#tote-bag-2-regular",
         "Token": "J3SOMCVSINRRZXS6QM5QONYN",
-        "Item Name": "Tote Bag",
+        "ItemName": "Tote Bag",
         "Variation Name": "Regular",
         "SKU": "E628278",
         "Description": "",
@@ -31810,7 +31810,7 @@
     {
         "Reference Handle": "#touch-of-darkness-st-clair-scarlett",
         "Token": "RZZCOVSJI6LFAXTBZL3MYWC6",
-        "Item Name": "Touch of Darkness",
+        "ItemName": "Touch of Darkness",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728258454",
         "Description": "Paperback",
@@ -31842,7 +31842,7 @@
     {
         "Reference Handle": "#touch-of-malice-st-clair-scarlett",
         "Token": "ZMPL2HDOK6WXWZJ5QYOGPBTN",
-        "Item Name": "Touch of Malice",
+        "ItemName": "Touch of Malice",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728258478",
         "Description": "Paperback",
@@ -31874,7 +31874,7 @@
     {
         "Reference Handle": "#touch-of-ruin-st-clair-scarlett",
         "Token": "N7KSZUJTWAJIPHEQSRTTLMM3",
-        "Item Name": "Touch of Ruin",
+        "ItemName": "Touch of Ruin",
         "Variation Name": "St Clair, Scarlett",
         "SKU": "9781728258461",
         "Description": "Paperback",
@@ -31906,7 +31906,7 @@
     {
         "Reference Handle": "#touring-after-the-apocalypse-vol-1-paperback",
         "Token": "GL7NKX6SQUNEH3PMFUMA6SWT",
-        "Item Name": "Touring After the Apocalypse, Vol. 1",
+        "ItemName": "Touring After the Apocalypse, Vol. 1",
         "Variation Name": "Paperback",
         "SKU": "9781975348809",
         "Description": "Saito, Sakae\r\nComics & Graphic Novels\r\nPaperback - PUB: 11/22/2022",
@@ -31938,7 +31938,7 @@
     {
         "Reference Handle": "#tower-of-dawn-paperback",
         "Token": "76XSPJK5HXLHLPAN3OR7NIWM",
-        "Item Name": "Tower of Dawn",
+        "ItemName": "Tower of Dawn",
         "Variation Name": "Paperback",
         "SKU": "9781639731053",
         "Description": "Maas, Sarah J\r\nBACKORDERED",
@@ -31970,7 +31970,7 @@
     {
         "Reference Handle": "#tower-of-god-volume-one-hardcover",
         "Token": "WY4GZMLIFXVQ2ZF64V4V53HJ",
-        "Item Name": "Tower of God Volume One",
+        "ItemName": "Tower of God Volume One",
         "Variation Name": "Hardcover",
         "SKU": "9781990259760",
         "Description": "Young Adult Fiction - Comics & Graphic Novels\r\nHardcover - PUB: 11/22/2022\r\nAge: 13+\r\n\"Twenty-Fifth Bam must journey skyward in a mysterious tower if he has any chance of reuniting with his best friend Rachel, even if that means facing his own death. Bam tries to climb higher and higher up the Tower, despite the dangers at every turn, and makes both allies and enemies on his quest to find Rachel. But behind each ascension is a revelation about their friendship, revealing a much deeper, darker secret.\"",
@@ -32002,7 +32002,7 @@
     {
         "Reference Handle": "#tractor-tractor-",
         "Token": "6NU7UHNHJ6LZ6BEHYF4KDZHF",
-        "Item Name": "Tractor Tractor",
+        "ItemName": "Tractor Tractor",
         "Variation Name": "",
         "SKU": "978-1-68464-395-0",
         "Description": "<p>Children - board book</p><p>Age: 2+</p><p>A little kindness saves the day when the two tractors, opposites in every way, take to the road.</p><p><br/></p><p><u>Series: The Funny Farm</u></p><p>Farmyard characters take center stage in these lift-the-flap books. Each warmhearted rhyming story contains an early-learning concept.</p>",
@@ -32034,7 +32034,7 @@
     {
         "Reference Handle": "#tread-of-angels-hardcover",
         "Token": "LZBLM4I3GX7BEKUVDLCJ6OCO",
-        "Item Name": "Tread of Angels",
+        "ItemName": "Tread of Angels",
         "Variation Name": "Hardcover",
         "SKU": "9781982166182",
         "Description": "Roanhorse, Rebecca\r\nFiction - Fantasy\r\nHardcover - PUB: 11/15/2022\r\n\"Celeste, a card sharp with a need for justice, takes on the role of advocatus diaboli, to defend her sister Mariel, accused of murdering a Virtue, a member of the ruling class ... The year is 1883, and the mining town of Goetia is booming as prospectors from near and far come to mine the powerful new element Divinity from the high mountains of Colorado with the help of the pariahs of society known as the Fallen. The Fallen are the descendants of demonkind living among the Virtues, the winners in an ancient war, with the descendants of both sides choosing to live alongside Abaddon's mountain in this tale of the mythological West\"-",
@@ -32066,7 +32066,7 @@
     {
         "Reference Handle": "#trial-of-the-amazons-hardcover",
         "Token": "G35MX4YUPBKC4MA3UNGVU5WS",
-        "Item Name": "Trial of the Amazons",
+        "ItemName": "Trial of the Amazons",
         "Variation Name": "Hardcover",
         "SKU": "9781779516824",
         "Description": "Cloonan, Becky ; Conrad, Michael ; Williams, Stephanie ; Ayala, Vita ; Jones, Joëlle\r\nComics & Graphic Novels\r\nHardcover - PUB: 10/04/2022\r\n\"After the events of Nubia & the Amazons, the dangers of Doom's Doorway have found their way to Man's World and garnered the attention of not one, but all three Amazonian tribes. Tempers rise and swords are brandished as the women argue about the best course of action. Now Queen Nubia must show them all the way to peace by calling for one of the most famous Amazon traditions: the Contest. Who among them is worthy of leading them into the future? Find out as the bravest, wisest, and fiercest warriors compete to be champion of all the Amazons\"",
@@ -32098,7 +32098,7 @@
     {
         "Reference Handle": "#turtle-regular",
         "Token": "ILXU72IQFHW5X2CDG376SR32",
-        "Item Name": "Turtle",
+        "ItemName": "Turtle",
         "Variation Name": "Regular",
         "SKU": "E501790",
         "Description": "Hand made by local artist",
@@ -32130,7 +32130,7 @@
     {
         "Reference Handle": "#twin-star-exorcists-vol-26-onmyoji-paperback",
         "Token": "H6Z36PN6YBCFHRQRSDHJTBP2",
-        "Item Name": "Twin Star Exorcists, Vol. 26: Onmyoji",
+        "ItemName": "Twin Star Exorcists, Vol. 26: Onmyoji",
         "Variation Name": "Paperback",
         "SKU": "9781974733996",
         "Description": "Sukeno, Yoshiaki",
@@ -32162,7 +32162,7 @@
     {
         "Reference Handle": "#twisted-games-twisted-2--paperback",
         "Token": "EUGXCW6WKEP5ITS5O3KRCFDM",
-        "Item Name": "Twisted Games (Twisted #2)",
+        "ItemName": "Twisted Games (Twisted #2)",
         "Variation Name": "Paperback",
         "SKU": "9781728274874",
         "Description": "Huang, Ana\r\nFiction - Romance\r\nPaperback - PUB: 09/27/2022\r\nStoic, broody, and arrogant, elite bodyguard Rhys Larsen has two rules: 1) Protect his clients at all costs 2) Do not become emotionally involved. Ever. He has never once been tempted to break those rules ... until her. Bridget von Ascheberg. A princess with a stubborn streak and a hidden fire that reduces his rules to ash. She's nothing he expected and everything he never knew he needed. Day by day, inch by inch, she breaks down his defenses until he's faced with a truth he can no longer deny: he swore an oath to protect her, but all he wants is to ruin her. Because she's his. His princess. His forbidden fruit. His every depraved fantasy. Regal, strong-willed, and bound by the chains of duty, Princess Bridget dreams of the freedom to live and love as she chooses. But when her brother abdicates, she's suddenly faced with the prospect of a loveless, politically expedient marriage and a throne she never wanted. And as she navigates the intricacies-and tre",
@@ -32194,7 +32194,7 @@
     {
         "Reference Handle": "#twisted-hate-twisted-3--paperback",
         "Token": "CF6I66RHGXFTYHR2EGEL4PXK",
-        "Item Name": "Twisted Hate (Twisted #3)",
+        "ItemName": "Twisted Hate (Twisted #3)",
         "Variation Name": "Paperback",
         "SKU": "9781728274881",
         "Description": "Huang, Ana\r\nPUB 09/27/2022",
@@ -32226,7 +32226,7 @@
     {
         "Reference Handle": "#twisted-lies-twisted-4--paperback",
         "Token": "JRAGIGL2E6FCZ6GH2GPOQZUR",
-        "Item Name": "Twisted Lies (Twisted #4)",
+        "ItemName": "Twisted Lies (Twisted #4)",
         "Variation Name": "Paperback",
         "SKU": "9781728274898",
         "Description": "Huang, Ana\r\nFiction - Romance\r\nPaperback - PUB: 09/27/2022\r\n\r\n\"Charming, deadly, and smart enough to hide it, Christian Harper is a monster dressed in the perfectly tailored suits of a gentleman. He has little use for morals and even less use for love, but he can't deny the strange pull he feels toward the woman living just one floor below him. She's the object of his darkest desires, the only puzzle he can't solve. And when the opportunity to get closer to her arises, he breaks his own rules to offer her a deal she can't refuse. Every monster has their weakness. She's his. Sweet, shy, and introverted despite her social media fame, Stella Alonso is a romantic who keeps her heart in a cage. Between her two jobs, she has little time or desire for a relationship. But when a threat from her past drives her into the arms-and house-of the most dangerous man she's ever met, she's tempted to let herself feel something for the first time in a long time. Theirs is a love twisted with secrets and tainted by lies...and when",
@@ -32258,7 +32258,7 @@
     {
         "Reference Handle": "#twisted-love-twisted-1--paperback",
         "Token": "63RH6DH6SXFINN5N7XVO67TU",
-        "Item Name": "Twisted Love (Twisted #1)",
+        "ItemName": "Twisted Love (Twisted #1)",
         "Variation Name": "Paperback",
         "SKU": "9781728274867",
         "Description": "Huang, Ana\r\nFiction - Romance\r\nPaperback - PUB: 09/27/2022\r\n\"He has a heart of ice...but for her, he'd burn the world. Alex Volkov is a devil blessed with the face of an angel and cursed with a past he can't escape. Driven by a tragedy that has haunted him for most of his life, his ruthless pursuits for success and vengeance leave little room for matters of the heart. But when he's forced to look after his best friend's sister, he starts to feel something in his chest: A crack. A melt. A fire that could end his world as he knew it\"",
@@ -32290,7 +32290,7 @@
     {
         "Reference Handle": "#ugly-love-paperback",
         "Token": "ELOOLQQPPYP6NE3KD6ZZYSZ4",
-        "Item Name": "Ugly Love",
+        "ItemName": "Ugly Love",
         "Variation Name": "Paperback",
         "SKU": "9781476753188",
         "Description": "Hoover, Colleen\r\nFiction - Romance\r\nPaperback - PUB: 08/05/2014\r\n\"It's not exactly love at first sight for Tate Collins when she meets the tormented and secretive Miles Archer. They wouldn't even go so far as to consider themselves friends. The only thing Tate and Miles have in common is a mutual physical attraction that can't be denied. Once their desires are out in the open, they realize they might have stumbled on the perfect no-strings arrangement\r\n. He isn't looking for love, and she doesn't have time for it--so that leaves just the sex. What they've got could be surprisingly satisfying, as long as Tate can stick to the two rules Miles has for her: never ask about the past; don't expect a future. They think they can handle it, but everything is different when real emotions start to change the equation.\"--Page 4 of cover.\r\nColleen Hoover\r\nFiction-romance\r\nPUB:2014",
@@ -32322,7 +32322,7 @@
     {
         "Reference Handle": "#unbound-my-story-of-liberation-and-the-birth-of-the-me-too-movement-paperback",
         "Token": "TXBXRSTBN5YZGHQDQQ6KNE7E",
-        "Item Name": "Unbound: My Story of Liberation and the Birth of the Me Too Movement",
+        "ItemName": "Unbound: My Story of Liberation and the Birth of the Me Too Movement",
         "Variation Name": "Paperback",
         "SKU": "9781250621740",
         "Description": "Burke, Tarana\r\nNon-Fiction\r\nPaperback - PUB: 09/13/2022\r\n\"For more than 25 years, activist, advocate, and author Tarana J. Burke has worked at the intersection of sexual violence and racial justice. Fueled by commitments to interrupt sexual violence and other systemic inequalities disproportionately impacting marginalized people, particularly Black women and girls, Tarana has created and led various campaigns focused on increasing access to resources and support for impacted communities, including the 'me too.' Movement, which has galvanized millions of survivors and allies around the world, and the me too. International nonprofit organization, founded in 2018. Her New York Times bestselling books You Are Your Best Thing and Unbound have illuminated the power of healing, vulnerability, and storytelling in the movement to end sexual violence.\"",
@@ -32354,7 +32354,7 @@
     {
         "Reference Handle": "#understanding-business-ir--",
         "Token": "XMMOHRIUJCVLRMXL5LA34EL3",
-        "Item Name": "Understanding, Business (IR)",
+        "ItemName": "Understanding, Business (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-4420",
         "Description": "Children\r\nAge: 10+\r\nUnderstand the ins and outs of business with this approachable, quirky book. The diagrams and cartoons will explain in terms people can understand how the global market works, what businesses and companies do, what they need, and what purpose they serve. From a small market stall to the biggest worldwide companies, no business will hold any secret for readers of this book.\r\n\r\nSeries: Understanding…\r\nUnderstanding politics, business, and other sociology topics are essential to understand the world around you. Learn how laws are decided upon and applied to countries and the ins and outs of business with these approachable, quirky books.",
@@ -32386,7 +32386,7 @@
     {
         "Reference Handle": "#understanding-physics-ir--",
         "Token": "5EKSKJUH3IDRB2X542ZSV3HM",
-        "Item Name": "Understanding, Physics (IR)",
+        "ItemName": "Understanding, Physics (IR)",
         "Variation Name": "",
         "SKU": "978-0-7945-5402-6",
         "Description": "<p>Children</p><p>Age: 10+</p><p>Rather than explaining details about how to do physics, this book focuses on explaining what different branches of physics are about, how we know about them, and what mysteries remain for budding physicists to uncover. It doesn&#39;t shy away from the hard stuff, tackling Black Holes, quantum mechanics, and even Einstein&#39;s theory of relativity.</p><p><br/></p><p><u>Series: Understanding…</u></p><p>Understanding politics, business, and other sociology topics are essential to understand the world around you. Learn how laws are decided upon and applied to countries and the ins and outs of business with these approachable, quirky books.</p>",
@@ -32418,7 +32418,7 @@
     {
         "Reference Handle": "#unhurry-magic-painting-book-",
         "Token": "Q7XSQKGQJ5NZNBAPGY4RVQWF",
-        "Item Name": "Unhurry, Magic Painting Book",
+        "ItemName": "Unhurry, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5151-3",
         "Description": "<p>Children - Activity book</p><p>Age: 5+</p><p>Now breathe…and relax. This magic painting book is all about taking a little time to breathe, focus and be calm, with the help of some friendly sloths.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -32450,7 +32450,7 @@
     {
         "Reference Handle": "#unicorns-magic-painting-book-",
         "Token": "IISP2B7SNYFDUBF5CKO46MTF",
-        "Item Name": "Unicorns, Magic Painting Book",
+        "ItemName": "Unicorns, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-4359-4",
         "Description": "<p>CHildren - Activity book</p><p>Age: 5+</p><p>Explore the enchanting world of unicorns with this incredible magic painting book. Sweep carefully over the wonderful black and white patterns and drawings with the paintbrush provided, and watch the colors magically appear. With clear instruction on the front, this book couldn&#39;t be easier for children and adults to use.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -32482,7 +32482,7 @@
     {
         "Reference Handle": "#unrest-paperback",
         "Token": "5USPHLLKEPLIJBV3R27JDG4R",
-        "Item Name": "Unrest",
+        "ItemName": "Unrest",
         "Variation Name": "Paperback",
         "SKU": "9781509230419",
         "Description": "Arteaga, Victor\r\nFiction - Fantasy\r\nPaperback - PUB: 04/22/2020\r\nRemembrance Day is just an excuse for vampires and humans to throw themselves a parade. They like to pretend they did us werewolves a favor. But I guess it's not all bad. I do get cheap booze, live in an underground lunar city, which some would find cool, and I am employed. Sejanus Industries isn't a benevolent corporate ruler, but they're the d...",
@@ -32514,7 +32514,7 @@
     {
         "Reference Handle": "#unworry-magic-painting-book-",
         "Token": "GHORFJDVO7QC24FMFUWGQKMC",
-        "Item Name": "Unworry, Magic Painting Book",
+        "ItemName": "Unworry, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5024-0",
         "Description": "<p>Children - Activity book</p><p>Age: 5+</p><p>Everybody worries. This book is a way to help you put your unwanted thoughts to the side and focus on the here and now instead, by simply sweeping a wet paintbrush over the pages and watching them burst into color. Sixteen detailed pictures include under the sea, meadow, and rainforest scenes, plus calming patterns and mandalas to color. With a handy fold-out back cover to prevent colors from running through to the page beneath.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -32546,7 +32546,7 @@
     {
         "Reference Handle": "#val-x-love-vol-13-paperback",
         "Token": "7ELQUAKQ42RUCRGIESN25WE4",
-        "Item Name": "Val X Love, Vol. 13",
+        "ItemName": "Val X Love, Vol. 13",
         "Variation Name": "Paperback",
         "SKU": "9781975345457",
         "Description": "Asakura, Ryosuke\r\nPUB 12/13/2022\r\nBACKORDERED",
@@ -32578,7 +32578,7 @@
     {
         "Reference Handle": "#vengeance-heaven-sent-book-three--paperback",
         "Token": "2NEDAS22ZP3TGVVHVKBK2QNB",
-        "Item Name": "Vengeance (Heaven Sent Book Three)",
+        "ItemName": "Vengeance (Heaven Sent Book Three)",
         "Variation Name": "Paperback",
         "SKU": "9781736839652",
         "Description": "Rothstein, Jl\r\nFiction - Fantasy - thriller\r\nPaperback - PUB: 07/12/2022\r\nHell's First Army is rampaging across the world, leaving death and destruction in their wake.\r\nThe O'Mara sisters are devastated after their tragic defeat at the hands of the fallen archangel, Azza. Gen's bold determination may not be enough to hold her family together. To rescue Marcus, Deb must align herself with sworn enemies in Hell. Kelly will have to embrace all she has lost if she ever hopes to be whole.\r\nAll paths lead to an explosive final battle in The Pit. The O'Mara family will forge one last stand with the fate of humanity hanging in the balance. Many will die in pursuit of...VENGEANCE.",
@@ -32610,7 +32610,7 @@
     {
         "Reference Handle": "#verity-paperback",
         "Token": "STUZSXEYV5TNMFCNLIIY4GJF",
-        "Item Name": "Verity",
+        "ItemName": "Verity",
         "Variation Name": "Paperback",
         "SKU": "9781538724736",
         "Description": "Hoover, Colleen\r\nFiction - Thriller - Romance\r\nPaperback - PUB: 10/26/2021\r\n\"Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish. Lowen arrives at the Crawford home to sort through years of Verity's notes and outlines, hoping to find enough material to get started. Lowen uncovers an unfinished autobiography Verity never intended anyone to read, with pages of bone-chilling admissions, including Verity's recollection of the night their family was forever altered. Lowen decides to keep the manuscript hidden from Jeremy, knowing its contents would devastate him. But as Lowen's feelings for Jeremy begin to intensify, she recognizes all the ways she could benefit, if he were to read his wife's words. After all, no matter how devoted Jeremy is to his injured wife, a truth this horrifying",
@@ -32642,7 +32642,7 @@
     {
         "Reference Handle": "#verity-collectors-edition-hardcover",
         "Token": "WGYBVC5MV6DAFVTH73R4ZQZ4",
-        "Item Name": "Verity , Collectors Edition",
+        "ItemName": "Verity , Collectors Edition",
         "Variation Name": "Hardcover",
         "SKU": "9781538739723",
         "Description": "Hoover, Colleen\r\nFiction - Thriller - Romance\r\nHardcover - PUB: 09/27/2022\r\nLowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish. Lowen arrives at the Crawford home, ready to sort through years of Verity's notes and outlines, hoping to find enough material to get her started. What Lowen doesn't expect to uncover in the chaotic office is an unfinished autobiography Verity never intended for anyone to read. Page after page of bone-chilling admissions, including Verity's recollection of the night her family was forever altered. Lowen decides to keep the manuscript hidden from Jeremy, knowing its contents could devastate the already grieving father. But as Lowen's feelings for Jeremy begin to intensify, she recognizes all the ways she could benefit if he were to read his wife's words.",
@@ -32674,7 +32674,7 @@
     {
         "Reference Handle": "#violeta-spanish-edition--hardcover",
         "Token": "OXMZ6HODLHA7XQGMUVQRBVPG",
-        "Item Name": "Violeta (Spanish Edition)",
+        "ItemName": "Violeta (Spanish Edition)",
         "Variation Name": "Hardcover",
         "SKU": "9781644734780",
         "Description": "Allende, Isabel\r\nFiction - Historical\r\nHardcover - PUB: 01/25/2022",
@@ -32706,7 +32706,7 @@
     {
         "Reference Handle": "#vlad-the-world-s-worst-vampire-book-1--",
         "Token": "YVAYBGWRN3KDZURWXVVZ65E2",
-        "Item Name": "Vlad, the World's Worst Vampire (Book 1)",
+        "ItemName": "Vlad, the World's Worst Vampire (Book 1)",
         "Variation Name": "",
         "SKU": "978-1-68464-163-5",
         "Description": "<p>Children - Chapter book</p><p>Age: 6+</p><p>All Vlad really wants is some friends and he knows just where to find them – school! But fitting in at human school isn’t easy for the little vampire, especially with his pet bat tagging along!</p><p><br/></p><p><u>Series: Vlad, the World&#39;s Worst Vampire</u></p><p>Misery Manor is home to the Impalers – the bravest vampire family that ever lived. Except for Vlad – he’s not brave at all... He’s even a bit scared of the dark!</p>",
@@ -32738,7 +32738,7 @@
     {
         "Reference Handle": "#wandance-3-paperback",
         "Token": "QC7ASL4K6Z72AVHNGI5VDQM6",
-        "Item Name": "Wandance 3",
+        "ItemName": "Wandance 3",
         "Variation Name": "Paperback",
         "SKU": "9781646515172",
         "Description": "\"The moment has come for Kabo and Wanda's first dance competition. They've worked hard and prepared well, but they'll have to face the best from other schools if they hope to emerge victorious. No matter what happens, there will be lessons they can learn and ways they can improve their dancing, if they're willing to find them. But that's not the only kind of competition going down. When Kabo walks into club one day to discover a completely unexpected showdown in progress, the only thing that will surprise him more than who's having the dance battle is who takes up the gauntlet next!\"",
@@ -32770,7 +32770,7 @@
     {
         "Reference Handle": "#warriors-of-god-paperback",
         "Token": "VHTCLUX3UGJ3SXHWOF6CNI5Z",
-        "Item Name": "Warriors of God",
+        "ItemName": "Warriors of God",
         "Variation Name": "Paperback",
         "SKU": "9780316423717",
         "Description": "Sapkowski, Andrzej ; French, David\r\nFiction - Fantasy\r\nPaperback - PUB: 10/19/2021\r\n\r\nForced to come out of hiding, Reynevan, while on a dangerous secret mission for the Hussite leaders, uses this opportunity to avenge the death of his brother and discover the whereabouts of his beloved.",
@@ -32802,7 +32802,7 @@
     {
         "Reference Handle": "#water-wonders-in-the-arctic-regular",
         "Token": "5YLEPWS4CUAOPW3F4Z7CAJPE",
-        "Item Name": "Water Wonders In The Arctic",
+        "ItemName": "Water Wonders In The Arctic",
         "Variation Name": "Regular",
         "SKU": "9781684642915",
         "Description": "",
@@ -32834,7 +32834,7 @@
     {
         "Reference Handle": "#water-wonders-in-the-ocean-regular",
         "Token": "HCJR7TWKJQ3FDJ3IYJ3FNBP4",
-        "Item Name": "Water Wonders In The Ocean",
+        "ItemName": "Water Wonders In The Ocean",
         "Variation Name": "Regular",
         "SKU": "9781684642922",
         "Description": "",
@@ -32866,7 +32866,7 @@
     {
         "Reference Handle": "#water-wonders-on-the-farm-regular",
         "Token": "S7IE5M64QKCDWITPU7HKWPJB",
-        "Item Name": "Water Wonders On The Farm",
+        "ItemName": "Water Wonders On The Farm",
         "Variation Name": "Regular",
         "SKU": "9781684642908",
         "Description": "",
@@ -32898,7 +32898,7 @@
     {
         "Reference Handle": "#we-are-the-brennans-regular",
         "Token": "A6YBHC6KFA63UGJFJYVVMYDM",
-        "Item Name": "We Are the Brennans",
+        "ItemName": "We Are the Brennans",
         "Variation Name": "Regular",
         "SKU": "9781250796226",
         "Description": "Tracey Lange\r\nFiction - Family Life\r\nPUB: 08/03/2021\r\n\"In the vein of Mary Beth Keane's Ask Again, Yes, Tracey Lange's We Are the Brennans explores the staying power of shame-and the redemptive power of love-in an Irish Catholic family torn apart by secrets...\"",
@@ -32930,7 +32930,7 @@
     {
         "Reference Handle": "#we-are-the-light-hardcover",
         "Token": "7XZVF5IXKJJL4E66GIYEMZ5L",
-        "Item Name": "We Are the Light",
+        "ItemName": "We Are the Light",
         "Variation Name": "Hardcover",
         "SKU": "9781668005422",
         "Description": "Quick, Matthew\r\nFiction - Literary\r\nHardcover - PUB: 11/01/2022\r\n\"Lucas Goodgame lives in Majestic, Pennsylvania, a quaint suburb that has been torn apart by a recent tragedy. Everyone in Majestic sees Lucas as a hero--everyone, that is, except Lucas himself. Insisting that his deceased wife, Darcy, visits him every night in the form of an angel, Lucas spends his time writing letters to his former Jungian analyst, Karl. It is only when Eli, an eighteen-year-old young man whom the community has ostracized, begins camping out in Lucas's backyard that an unlikely alliance takes shape and the two embark on a journey to heal their neighbors and, most importantly, themselves\"--",
@@ -32962,7 +32962,7 @@
     {
         "Reference Handle": "#we-the-people-big-ideas-that-changed-the-world-4--hardcover",
         "Token": "V32GNDLXCUGMEG3SERJ25CHW",
-        "Item Name": "We the People! (Big Ideas That Changed the World #4)",
+        "ItemName": "We the People! (Big Ideas That Changed the World #4)",
         "Variation Name": "Hardcover",
         "SKU": "9781419757389",
         "Description": "Brown, Don\r\nYoung Adult non- fiction - Comics & Graphic Novels\r\nPUB 10/04/2022\r\nAge: 8+",
@@ -32994,7 +32994,7 @@
     {
         "Reference Handle": "#we-re-moving-house-",
         "Token": "FII6KI5FZMXXQ36PJNGK2U56",
-        "Item Name": "We're Moving House",
+        "ItemName": "We're Moving House",
         "Variation Name": "",
         "SKU": "978-0-7945-5480-4",
         "Description": "Children\r\nAge: 3+\r\nThis endearingly illustrated book gently introduces young children to the idea of moving house. Narrated by 4-year-old Ama, it explains each part of the process in a reassuring way. As well as the practical aspects, the book explores the emotional highs and lows of relocating and shows that this big change can be an exciting thing, with a little help from old friends and new ones.",
@@ -33026,7 +33026,7 @@
     {
         "Reference Handle": "#wedding-planner-checklist-other",
         "Token": "5WGG2IIA2DZGQOYRLTJWHUBB",
-        "Item Name": "Wedding Planner Checklist",
+        "ItemName": "Wedding Planner Checklist",
         "Variation Name": "Other",
         "SKU": "9781441321541",
         "Description": "Peter Pauper Press, Inc\r\nPlanning a wedding can be a stressful affair. This purse-sized guided notebook makes life easier for the bride on-the-go, keeping you on track as you compile the many details of pre-wedding parties, the big day itself, and beyond. Concise fill-in lists and charts provide the essential reference you need to stay organized as you plan your dream wedding. 80 pages Gold foil-enhanced hardcover with elastic band closure Inside back cover pocket Purse-sized: 5-3/4\" wide x 8-1/4\" high (14.6 cm wide x 21 cm high)",
@@ -33058,7 +33058,7 @@
     {
         "Reference Handle": "#whale-jumbo",
         "Token": "BGRYTSAFHRRYWFGZJ6IV5B52",
-        "Item Name": "Whale",
+        "ItemName": "Whale",
         "Variation Name": "Jumbo",
         "SKU": "355947F",
         "Description": "Hand made by local artist",
@@ -33090,7 +33090,7 @@
     {
         "Reference Handle": "#whale-medium",
         "Token": "4CFMGJT5YUSSECAAIHEIDMPI",
-        "Item Name": "Whale",
+        "ItemName": "Whale",
         "Variation Name": "Medium",
         "SKU": "205740D",
         "Description": "",
@@ -33122,7 +33122,7 @@
     {
         "Reference Handle": "#whale-small",
         "Token": "7ZZGHS3KLQZAMVCPZJMDLY3B",
-        "Item Name": "Whale",
+        "ItemName": "Whale",
         "Variation Name": "Small",
         "SKU": "769925N",
         "Description": "",
@@ -33154,7 +33154,7 @@
     {
         "Reference Handle": "#whale-special-edition-snowflake-or-peppermint",
         "Token": "EN7CUTYTXVSXBKFVNONAIGUJ",
-        "Item Name": "Whale",
+        "ItemName": "Whale",
         "Variation Name": "Special Edition - Snowflake or Peppermint",
         "SKU": "M328511",
         "Description": "",
@@ -33186,7 +33186,7 @@
     {
         "Reference Handle": "#what-alice-forgot-mass-market-paperbound",
         "Token": "RQXAPOJG74GGUGPH3DPELPAO",
-        "Item Name": "What Alice Forgot",
+        "ItemName": "What Alice Forgot",
         "Variation Name": "Mass Market Paperbound",
         "SKU": "9780451490445",
         "Description": "Moriarty, Liane\r\nFiction - General\r\nPaperback - PUB: 12/26/2017\r\nFrom the #1 \"New York Times\"-bestselling author of \"Big Little Lies, \" the basis for the award-winning HBO series. After a knock on the head, 29-year-old Alice Love discovers she's actually 39--and she isn't sure she likes who she's become. Ultimately, Alice must discover whether forgetting is a blessing or a curse. Tall Premium Edition.ley.",
@@ -33218,7 +33218,7 @@
     {
         "Reference Handle": "#what-if-miles-morales-paperback",
         "Token": "ILPU4CGNAFBWOKOD4PVXWOQH",
-        "Item Name": "What If...? Miles Morales",
+        "ItemName": "What If...? Miles Morales",
         "Variation Name": "Paperback",
         "SKU": "9781302946036",
         "Description": "Ziglar, Cody ; Ridley, John ; Piper, Anthony ; Medina, Paco ; Karami, Farid ; Salazar, Edgar\r\nComics & Graphic Novels\r\nPaperback - PUB: 09/13/2022\r\n\"What if Miles Morales had never been bitten by a genetically enhanced spider? What if, instead, the U.S. government recruited, trained, and granted him incredible powers with the Super-Soldier Serum, making him a friendly neighborhood Captain America? Or perhaps Miles was taken from everything he ever knew -- his family, his home, his entire life -- and transformed into the immortal weapon of war known as the Wolverine! If he was blasted by gamma radiation and turned into a Hulk, would Miles be man or monster? And are there other super heroes that the many Miles of the multiverse might have become instead of Spider-Man? You bet there are! But most importantly -- what makes Miles Morales a hero no matter the circumstances, no matter the reality?\"--",
@@ -33250,7 +33250,7 @@
     {
         "Reference Handle": "#what-song-the-sirens-sang-a-gideon-sable-novel-3--hardcover",
         "Token": "CSTSO2V7N7EIVMS6K5WF5SBJ",
-        "Item Name": "What Song the Sirens Sang (A Gideon Sable Novel #3)",
+        "ItemName": "What Song the Sirens Sang (A Gideon Sable Novel #3)",
         "Variation Name": "Hardcover",
         "SKU": "9781448305759",
         "Description": "Green, Simon R\r\nFiction - Fantasy - Thriller\r\nHardcover - PUB: 10/04/2022\r\nGideon Sable is suspicious when a stranger brings him a priceless magical stone for appraisal. Some treasures are more trouble than they're worth. But before he can work out if he's been set up, the stone is stolen from its impregnable hiding place. How? And why? Only one thing's certain: no one steals from Gideon and gets away with it ...",
@@ -33282,7 +33282,7 @@
     {
         "Reference Handle": "#whats-a-potty-for-regular",
         "Token": "V6266AOKSVAZ5MXHITTGP2EB",
-        "Item Name": "Whats A Potty For",
+        "ItemName": "Whats A Potty For",
         "Variation Name": "Regular",
         "SKU": "9780794547363",
         "Description": "",
@@ -33314,7 +33314,7 @@
     {
         "Reference Handle": "#when-we-had-wings-hardcover",
         "Token": "LH25TVAW34JFMRAI45VZ4ZF4",
-        "Item Name": "When We Had Wings",
+        "ItemName": "When We Had Wings",
         "Variation Name": "Hardcover",
         "SKU": "9780785253341",
         "Description": "Lawhon, Ariel ; McMorris, Kristina ; Meissner, Susan\r\nFiction - Romance - Historical\r\nHardcover - PUB: 10/18/2022\r\nFrom three bestselling authors comes an interwoven tale about a trio of World War II nurses stationed in the South Pacific who wage their own battle for freedom and survival.",
@@ -33346,7 +33346,7 @@
     {
         "Reference Handle": "#where-the-crawdads-sing-movie-tie-in--paperback",
         "Token": "QF36QNWYTOVRYYURHU47ZSO5",
-        "Item Name": "Where the Crawdads Sing (Movie Tie-In)",
+        "ItemName": "Where the Crawdads Sing (Movie Tie-In)",
         "Variation Name": "Paperback",
         "SKU": "9780593540480",
         "Description": "Owens, Delia\r\nFiction - Literary\r\nPaperback - PUB: 06/28/2022\r\n\"For years, rumors of the 'Marsh Girl' have haunted Barkley Cove, a quiet town on the North Carolina coast. She's barefoot and wild; unfit for polite society. So in late 1969, when handsome Chase Andrews is found dead, the locals immediately suspect Kya Clark. But Kya is not what they say. Abandoned at age ten, she has survived on her own in the marsh that she calls home. A born naturalist with just one day of school, she takes life lessons from the land, learning from the false signals of fireflies the real way of this world. But while she could have lived in solitude forever, the time comes when she yearns to be touched and loved. Drawn to two young men from town, who are each intrigued by her wild beauty, Kya opens herself to a new and startling world -- until the unthinkable happens\"",
@@ -33378,7 +33378,7 @@
     {
         "Reference Handle": "#where-the-crawdads-sing-tote-other",
         "Token": "T3BOLXIY2AP5L4LHKZHAWXTR",
-        "Item Name": "Where the Crawdads Sing Tote",
+        "ItemName": "Where the Crawdads Sing Tote",
         "Variation Name": "Other",
         "SKU": "9780593657652",
         "Description": "Out of Print",
@@ -33410,7 +33410,7 @@
     {
         "Reference Handle": "#white-chocolate-mocha-large-20-oz-",
         "Token": "7IAWFWH4BEKAKS5G7ECQNM2Q",
-        "Item Name": "White Chocolate Mocha",
+        "ItemName": "White Chocolate Mocha",
         "Variation Name": "Large (20 Oz)",
         "SKU": "",
         "Description": "",
@@ -33442,7 +33442,7 @@
     {
         "Reference Handle": "#white-chocolate-mocha-medium-16-oz-",
         "Token": "HUN7A7KBVSILLWVYX4EKILHD",
-        "Item Name": "White Chocolate Mocha",
+        "ItemName": "White Chocolate Mocha",
         "Variation Name": "Medium (16 Oz)",
         "SKU": "",
         "Description": "",
@@ -33474,7 +33474,7 @@
     {
         "Reference Handle": "#white-chocolate-mocha-small-12-oz-",
         "Token": "MSGV3RWPSQCC7XGLLQC2CUAQ",
-        "Item Name": "White Chocolate Mocha",
+        "ItemName": "White Chocolate Mocha",
         "Variation Name": "Small (12 Oz)",
         "SKU": "",
         "Description": "",
@@ -33506,7 +33506,7 @@
     {
         "Reference Handle": "#why-do-tigers-have-stripes-regular",
         "Token": "QZNUF57OBXWE2FIYXIL4EWCV",
-        "Item Name": "Why Do Tigers Have Stripes",
+        "ItemName": "Why Do Tigers Have Stripes",
         "Variation Name": "Regular",
         "SKU": "9780794548711",
         "Description": "Katie Daynes\r\nChildren",
@@ -33538,7 +33538,7 @@
     {
         "Reference Handle": "#why-should-i-get-dressed-regular",
         "Token": "ERA7WXKTVWVJ4XICNNESSQF7",
-        "Item Name": "Why Should I Get Dressed",
+        "ItemName": "Why Should I Get Dressed",
         "Variation Name": "Regular",
         "SKU": "9780794552893",
         "Description": "",
@@ -33570,7 +33570,7 @@
     {
         "Reference Handle": "#wicked-beauty-dark-olympus-3--regular",
         "Token": "XNADBDU7RS3LKFO5Q2SYSCGS",
-        "Item Name": "Wicked Beauty (Dark Olympus #3)",
+        "ItemName": "Wicked Beauty (Dark Olympus #3)",
         "Variation Name": "Regular",
         "SKU": "9781728231792",
         "Description": "Katee Robert\r\nFiction - Romance\r\nPaperback - PUB: 06/07/2022\r\n\"Achilles Kallis vowed that he'd do whatever it took to claw his way into Olympus's inner circle. Now that the former Ares is gone and the coveted role has opened to anyone with the strength to claim it, he and his partner, Patroclus Fotos, plan to both compete and double their odds of winning. Neither expect the infamous beauty Helen Kasios to be part of the prize...or for the sparks that fly when the three of them meet. Zeus may have decided Helen is his to give away, but she has her own plans. She enters the competition as a middle finger to the meddling Thirteen, effectively vying for her own hand in marriage. The only people she can trust are the ones she can't quite keep her hands off-Achilles and Patroclus. But even they might not be strong enough to help her face the worst Olympus has to throw at them..\"",
@@ -33602,7 +33602,7 @@
     {
         "Reference Handle": "#wild-animals-magic-painting-book-",
         "Token": "PT4KYSOAZ3NWW2DP4UBXOQXN",
-        "Item Name": "Wild Animals, Magic Painting Book",
+        "ItemName": "Wild Animals, Magic Painting Book",
         "Variation Name": "",
         "SKU": "978-0-7945-5428-6",
         "Description": "<p>CHildren - Activity books</p><p>Age: 5+</p><p>Packed with fascinating scenes showing tigers, turtles, penguins, flamingos, and other amazing animals in their natural habitats. Simply brush water over the black-and-white designs to reveal an array of glorious colors.</p><p><br/></p><p><u>Series: Magic Painting Books</u></p><p>Simply dip the magic water brush into water, brush it over the black and white patterns, and you’ll be amazed at the colors that magically appear.</p>",
@@ -33634,7 +33634,7 @@
     {
         "Reference Handle": "#wild-is-the-witch-hardcover",
         "Token": "DU56UARKVFKPK6IM72WTLDQJ",
-        "Item Name": "Wild Is the Witch",
+        "ItemName": "Wild Is the Witch",
         "Variation Name": "Hardcover",
         "SKU": "9781728229454",
         "Description": "Griffin, Rachel\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 08/02/2022\r\nWhen eighteen-year-old witch Iris Gray accidentally enacts a curse that could have dire consequences, she must team up with witch-hating Pike Alder to make sure her magic is not unleashed on the world.",
@@ -33666,7 +33666,7 @@
     {
         "Reference Handle": "#will-hardcover",
         "Token": "FJWEITPNUWPD42JM2XBYJLJY",
-        "Item Name": "Will",
+        "ItemName": "Will",
         "Variation Name": "Hardcover",
         "SKU": "9781984877925",
         "Description": "Smith, Will ; Manson, Mark\r\nNon-Fiction\r\nHardcover - PUB: 11/09/2021\r\nA product of a profound journey of self-knowledge, and a reckoning with all that your will can get you and all that it can leave behind, in this memoir Will Smith opens up fully about his life.",
@@ -33698,7 +33698,7 @@
     {
         "Reference Handle": "#william-is-a-star-school-of-monsters--",
         "Token": "HVOHFY5TK7BV7KMY4QNZMCSM",
-        "Item Name": "William is a Star (School of Monsters)",
+        "ItemName": "William is a Star (School of Monsters)",
         "Variation Name": "",
         "SKU": "978-1-68464-482-7",
         "Description": "<p>Children </p><p>Age: 5+</p><p>William wants to be in the school play, but when he’s nervous, he farts! How can he even audition, let alone win a part?</p><p><br/></p><p><u>Series: School of Monsters</u></p><p>Simple vocabulary, tumbling rhymes, bright artwork, and large, accessible text design combined with plenty of mischief and an infectious sense of humor are sure to spark a love of reading! First readers start by reading only the last word on every line and work up to reading the whole story.</p>",
@@ -33730,7 +33730,7 @@
     {
         "Reference Handle": "#winter-wonderland-sound-book-regular",
         "Token": "J7LKMAOGVGTW3X2BYOX65YQV",
-        "Item Name": "Winter Wonderland Sound Book",
+        "ItemName": "Winter Wonderland Sound Book",
         "Variation Name": "Regular",
         "SKU": "9780794547400",
         "Description": "",
@@ -33762,7 +33762,7 @@
     {
         "Reference Handle": "#wipe-clean-dinosaur-regular",
         "Token": "Z64FX2QUJWZYZI4L45GFJFFZ",
-        "Item Name": "Wipe Clean Dinosaur",
+        "ItemName": "Wipe Clean Dinosaur",
         "Variation Name": "Regular",
         "SKU": "9780794539870",
         "Description": "",
@@ -33794,7 +33794,7 @@
     {
         "Reference Handle": "#wipe-clean-fairy-regular",
         "Token": "SOHP6YR5NIZMQEJ42FBHKNNF",
-        "Item Name": "Wipe Clean Fairy",
+        "ItemName": "Wipe Clean Fairy",
         "Variation Name": "Regular",
         "SKU": "9780794552671",
         "Description": "",
@@ -33826,7 +33826,7 @@
     {
         "Reference Handle": "#wipe-clean-zoo-regular",
         "Token": "W7AXCJ3TCLW4MFKFCI6MHJDC",
-        "Item Name": "Wipe Clean Zoo",
+        "ItemName": "Wipe Clean Zoo",
         "Variation Name": "Regular",
         "SKU": "9780794552374",
         "Description": "",
@@ -33858,7 +33858,7 @@
     {
         "Reference Handle": "#wishtress-hardcover",
         "Token": "EMGYBBMQH777YI3RBOFVGDAX",
-        "Item Name": "Wishtress",
+        "ItemName": "Wishtress",
         "Variation Name": "Hardcover",
         "SKU": "9780785264002",
         "Description": "Brandes, Nadine\r\nYoung Adult Fiction - Fantasy\r\nHardcover - PUB: 09/13/2022\r\nAge: 13+\r\nA girl who can create wishes teams up with a boy who can stop time to break a curse that will bring on her death with the next tear she sheds.",
@@ -33890,7 +33890,7 @@
     {
         "Reference Handle": "#witch-king-hardcover",
         "Token": "HQAHZIHATWWKCXDHTVSLIEL4",
-        "Item Name": "Witch King",
+        "ItemName": "Witch King",
         "Variation Name": "Hardcover",
         "SKU": "9781250826794",
         "Description": "Wells, Martha\r\nBACKORDERED",
@@ -33922,7 +33922,7 @@
     {
         "Reference Handle": "#wolf-s-howl-the-book-2--",
         "Token": "ILUIQKWPRDHK4OD5KZINBG6G",
-        "Item Name": "Wolf's Howl, The (Book 2)",
+        "ItemName": "Wolf's Howl, The (Book 2)",
         "Variation Name": "",
         "SKU": "978-1-68464-438-4",
         "Description": "<p>Children - Chapter book</p><p>Age: 9+</p><p>Maven and Reeve find themselves at the far-flung and gloomy Glawn Castle while Sir Garrick secretly searches for supporters of the rebellion, but when a cook goes missing and the Airl’s personal guard takes more than a passing interest in the disappearance, danger looms and the potential for discovery grows.</p><p><br/></p><p><u>Series: Maven and Reeve Mysteries</u></p><p>Intrigue! Danger! Medieval fantasy adventures featuring two stereotype-defying and unlikely allies: Maven, the witty, clever, resourceful lady’s maid, and Reeve, the loyal, observant, thoughtful knight’s squire. The pair must learn to work together to solve these mysteries... their lives may depend on it!</p>",
@@ -33954,7 +33954,7 @@
     {
         "Reference Handle": "#wolverine-patch-paperback",
         "Token": "PIDLUUGN3GLOI6LDTRORHAOG",
-        "Item Name": "Wolverine: Patch",
+        "ItemName": "Wolverine: Patch",
         "Variation Name": "Paperback",
         "SKU": "9781302932060",
         "Description": "Hama, Larry ; Di Vito, Andrea\r\nComics & Graphic Novels\r\nPaperback - PUB: 11/29/2022\r\n\"Return to Madripoor with the man called Patch! All-new action, intrigue and espionage await you as legendary creator Larry Hama crafts a story set before his original run on Wolverine! Logan has donned an eyepatch and made a new name for himself on the cutthroat island of Madripoor. From their haunt at the Princess Bar, what starts as a simple recon mission lands 'Patch' and his old pal Archie Corrigan knee-deep in a paramilitary struggle that will herald some surprise revelations! Who is the mutant Krasny Beth, and how does she figure into the plans of both General Coy and Dr. Malheur? And what are S.H.I.E.L.D. and the Russians after? Jungle warfare is a nasty business...but luckily, Patch is the best there is at what he does!\"--",
@@ -33986,7 +33986,7 @@
     {
         "Reference Handle": "#wolves-of-the-witchwood-book-2-of-the-impossible-quest--",
         "Token": "YQLSS2NVGOVF2JI4Y2WIDCDQ",
-        "Item Name": "Wolves of the Witchwood ( Book 2 of The Impossible Quest)",
+        "ItemName": "Wolves of the Witchwood ( Book 2 of The Impossible Quest)",
         "Variation Name": "",
         "SKU": "978-1-61067-415-7",
         "Description": "<p>Kate Forsyth</p><p><strong>Children - </strong>Chapter book</p><p><strong>Age:</strong> 9-13</p><p><br/></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p><p>Four unlikely heroes are forced on a perilous quest to save their people. But first, Tom, Elanor, Sebastian and Quinn must escape the overrun castle. Only they can find the four impossible elements needed to wake the sleeping warriors of the legend. Only they can drive back the darkness that reigns over the land.</p><p><br/></p><p><em>I know every hidden path through these woods.Trust me. There is no griffin in this forest.</em></p><p><br/></p><p>Hunted by Lord Mortlake, Tom, Quinn, Elanor and Sebastian flee for cover. The unicorn leads them into the darkness of the Witchwood, where they meet Wilda the witch. Can she be trusted? Danger surrounds, but there&#39;s no time to lose. The four unlikely heroes must find the griffin, dragon and sea serpent before it&#39;s too late.</p><p><br/></p><p><br/></p><p><u>Series: The Impossible Quest</u></p><p>Four unlikely heroes, four mysterious gifts, four impossible elements, five thrilling books.</p>",
@@ -34018,7 +34018,7 @@
     {
         "Reference Handle": "#wonder-woman-evolution-hardcover",
         "Token": "M7O2AD2T34ESJK5V7MXNXW42",
-        "Item Name": "Wonder Woman: Evolution",
+        "ItemName": "Wonder Woman: Evolution",
         "Variation Name": "Hardcover",
         "SKU": "9781779516862",
         "Description": "Phillips, Stephanie Nicole ; Hawthorne, Mike\r\nComics & Graphic Novels\r\nHardcover - PUB: 10/11/2022\r\n\"Whisked away from Earth by a distant cosmic entity, Wonder Woman is forced to navigate a series of perilous challenges that push her to the brink both mentally and physically. At stake is the fate of all humanity, with the alien entities casting Diana as Earth's proxy for a trial judging humankind's worthiness to exist in the universe\"--",
@@ -34050,7 +34050,7 @@
     {
         "Reference Handle": "#woodland-magic-painting-regular",
         "Token": "PXATTL7ER23IRLP3TFQ53YXA",
-        "Item Name": "Woodland Magic Painting",
+        "ItemName": "Woodland Magic Painting",
         "Variation Name": "Regular",
         "SKU": "9780794547608",
         "Description": "",
@@ -34082,7 +34082,7 @@
     {
         "Reference Handle": "#wrecked-special-edition-asher-lauren",
         "Token": "THAFH4OTOVEV4IISH2TNKKXF",
-        "Item Name": "Wrecked Special Edition",
+        "ItemName": "Wrecked Special Edition",
         "Variation Name": "Asher, Lauren",
         "SKU": "9781734258783",
         "Description": "Paperback",
@@ -34114,7 +34114,7 @@
     {
         "Reference Handle": "#x-men-red-by-al-ewing-paperback",
         "Token": "QQUE37HNZP4OJPHMZPK6RCBW",
-        "Item Name": "X-Men: Red by Al Ewing",
+        "ItemName": "X-Men: Red by Al Ewing",
         "Variation Name": "Paperback",
         "SKU": "9781302932831",
         "Description": "Ewing, Al ; Caselli, Stefano\r\nComics & Graphic Novels\r\nPaperback - PUB: 11/01/2022\r\n\"The mutants of Arakko spent millennia scarred by war--but on the world once called Mars, they're learning to live in peace. Storm knows that the red planet needs something greater than a queen to keep the peace--but while she has a broken Magneto in her corner, Roberto DaCosta is making his own moves. And Abigail Brand of S.W.O.R.D. has other plans to influence Arakko, with an unstable Vulcan on her side and Cable keeping his own secrets. And what of Tarn the Uncaring? He waged war and torture on Arakko for centuries, and he now sits on the planet's ruling council. Two different schemers have plans to remedy that...but only one can win. It's a new world full of intrigue--and someone has to fight for it!\"--",
@@ -34146,7 +34146,7 @@
     {
         "Reference Handle": "#yellow-flowers-journal-hardcover",
         "Token": "RLI76PVSOTQSJDBMSF2T5X5X",
-        "Item Name": "Yellow Flowers Journal",
+        "ItemName": "Yellow Flowers Journal",
         "Variation Name": "Hardcover",
         "SKU": "9781593594855",
         "Description": "160 lined pages. 5\" wide x 7\" high. \r\nBookbound. \r\nElastic band place holder. \r\nEmbossed with silver foil, gloss highlights.",
@@ -34178,7 +34178,7 @@
     {
         "Reference Handle": "#yo-no-soy-tu-perfecta-hija-mexicana-i-am-not-your-perfect-mexican-daughter-paperback",
         "Token": "XFXJWPO3NIZ5NDSTHQUJCHV4",
-        "Item Name": "Yo No Soy Tu Perfecta Hija Mexicana / I Am Not Your Perfect Mexican Daughter",
+        "ItemName": "Yo No Soy Tu Perfecta Hija Mexicana / I Am Not Your Perfect Mexican Daughter",
         "Variation Name": "Paperback",
         "SKU": "9780525564324",
         "Description": "Sánchez, Erika L\r\nYoung Adult Fiction - Spanish title \r\nPaperback - PUB: 10/16/2018",
@@ -34210,7 +34210,7 @@
     {
         "Reference Handle": "#yoga-animals-in-the-forest-regular",
         "Token": "5IN4EP7W736B4NQGRLNE77CA",
-        "Item Name": "Yoga Animals In The Forest",
+        "ItemName": "Yoga Animals In The Forest",
         "Variation Name": "Regular",
         "SKU": "9781684640874",
         "Description": "Children",
@@ -34242,7 +34242,7 @@
     {
         "Reference Handle": "#yona-of-the-dawn-vol-37-paperback",
         "Token": "Z5DAQWQBAZOLJ2RQLSTMQAV5",
-        "Item Name": "Yona of the Dawn, Vol. 37",
+        "ItemName": "Yona of the Dawn, Vol. 37",
         "Variation Name": "Paperback",
         "SKU": "9781974734351",
         "Description": "Kusanagi, Mizuho",
@@ -34274,7 +34274,7 @@
     {
         "Reference Handle": "#you-need-this-book-like-a-fish-needs-a-bicycle-volume-27-paperback",
         "Token": "H63IJYR6WHS2RGNNF3NSYRHT",
-        "Item Name": "You Need This Book Like a Fish Needs a Bicycle: Volume 27",
+        "ItemName": "You Need This Book Like a Fish Needs a Bicycle: Volume 27",
         "Variation Name": "Paperback",
         "SKU": "9781524875619",
         "Description": "<p>Toomey, Jim</p><p>Comics &amp; Graphic Novels</p><p>Paperback - PUB: 10/18/2022</p><p><strong>Take a dive into the hilarious underwater world of <em>Sherman&#39;s Lagoon</em>, where humor, conflict, local politics, and pop culture all collide in an amusing maelstrom of aquatic comedy.</strong>New discoveries, travels, and creations are all underway in the Kapupu Lagoon. A search for other sea creatures leads to the discovery of The Wandering Meatloaf and The London Fatberg. But those new creatures aren&#39;t the only ones being found--on land, the Beach Apes have discovered the beaked whale despite Sam&#39;s existence being no secret in the sea. In one of his latest scams, Hawthorne decides to create Crabwarts Academy of Magic. It&#39;s not until Hawthorne grows a rat tail, Fillmore&#39;s walking on flamingo legs, and Sherman&#39;s got a rhino horn that Hawthorne realizes he&#39;s no match for real magic. Dive into the latest <em>Sherman&#39;s Lagoon </em>collection, where you might find that you need this book like a fish needs a bicycle... OK, so maybe a fish doesn&#39;t <em>need</em> a bicycle, but this book is pretty hilarious all the same!</p>",
@@ -34304,5 +34304,4 @@
         "Tax - Sales Tax (9.4%)": "Y"
     }
 ]
-
 export default data
