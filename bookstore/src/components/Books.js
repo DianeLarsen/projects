@@ -2,6 +2,7 @@ import React from "react";
 import SearchArea from "./SearchArea.js";
 import BookList from "./BookList.js";
 import InventoryStore from "./InventoryStore.js";
+import "./otherData"
 import * as xlsx from "xlsx";
 // import data from "./data.js";
 
@@ -14,18 +15,18 @@ export default function Books() {
 
   function SearchBooks(e) {
     e.preventDefault();
-
-    const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-    let url = `https://www.googleapis.com/books/v1/volumes?q= ${searchField} &key= ${apiKey}`;
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        console.log("data.items from API")
-        console.log(data.items);
-        cleanData(data.items);
-        setBooks(data.items);
-        demo(books);
-      });
+    
+    // const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+    // let url = `https://www.googleapis.com/books/v1/volumes?q= ${searchField} &key= ${apiKey}`;
+    // fetch(url)
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log("data.items from API")
+    //     console.log(data.items);
+    //     cleanData(data.items);
+    //     setBooks(data.items);
+    //     demo(books);
+    //   });
   }
   // console.log("inventory");
   // console.log(inventory);

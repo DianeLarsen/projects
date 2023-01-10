@@ -1,4 +1,5 @@
 import React from "react";
+import InventoryStore from "./InventoryStore";
 import Popup from "./Popup";
 
 export default function BookCard(props){
@@ -9,11 +10,7 @@ export default function BookCard(props){
     }
     return(
         <div className="card-container" onClick={togglePopup}>
-            <img src={props.image} alt=""/>
-            <div className="description">
-                <h2>{props.title}</h2>
-                <h3>Author: {props.author}</h3>
-                <p>Published Date: {props.publishedDate === '0000' ? "N/A" : props.publishedDate.substring(0,4)}</p>
+            <InventoryStore />
                 {isOpen && <Popup
       content={<>
         <b>Synopsys</b>
@@ -24,7 +21,7 @@ export default function BookCard(props){
     />}
                 
             </div>
-        </div>
+       
 )
 }
 
