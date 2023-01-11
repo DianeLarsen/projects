@@ -8,8 +8,6 @@ export default function ShopNow() {
   return (
     <div className="products">
       <Books />
-     <h1>this is the shopping page</h1>
-     
      
     </div>
   );

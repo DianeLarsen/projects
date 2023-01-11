@@ -4,3 +4,27 @@
 body{
   margin: 0;
 }
+.main{
+  background-color: rgb(65, 172, 190);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  background-color: bisque;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-container{
+display: flex;
+justify-content: center;
+  align-items: center;
+}
+.description h2{
+  display: flex;
+  flex-wrap: wrap;
+}

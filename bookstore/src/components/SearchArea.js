@@ -19,10 +19,4 @@ export default function SearchArea(props) {
 }
 
 
-  /* <div className="wrapper_input">
-        <input id="search" type="text" placeholder="Type the keyword here..." />
-        <button type="submit" onClick={searchbooks}>
-          Search
-        </button>
-      </div> */
 

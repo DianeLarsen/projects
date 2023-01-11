@@ -39,32 +39,32 @@ export default function Books() {
 
   // do API search for books to get info
   useEffect(() => {
-    // setDisplay([]);
-    // searchedBooks.forEach((stuff) => {
-    //   // console.log(stuff.ISBN)
-    //   // console.log(stuff.title);
-    //   const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-    //   let url = `https://www.googleapis.com/books/v1/volumes?q=ISBN:${stuff.ISBN}&title=${stuff.title}&maxResults=5&key= ${apiKey}`;
-    //   fetch(url)
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //       const dataItems = data.items;
-    //       console.log("API Pulled");
-    //       dataItems.forEach((items) => {
-    //         if (
-    //           items.volumeInfo.industryIdentifiers[1].type === "ISBN_13" &&
-    //           items.volumeInfo.industryIdentifiers[1].identifier === stuff.ISBN
-    //         ) {
-    //           setDisplay((previtems) => [...previtems, items]);
-    //         } else if (
-    //           items.volumeInfo.industryIdentifiers[0].type === "ISBN_13" &&
-    //           items.volumeInfo.industryIdentifiers[0].identifier === stuff.ISBN
-    //         ) {
-    //           setDisplay((previtems) => [...previtems, items]);
-    //         }
-    //       });
-    //     });
-    // });
+    setDisplay([]);
+    searchedBooks.forEach((stuff) => {
+      // console.log(stuff.ISBN)
+      // console.log(stuff.title);
+      const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs  &key= ${apiKey}";
+      let url = `https://www.googleapis.com/books/v1/volumes?q=ISBN:${stuff.ISBN}&title=${stuff.title}&maxResults=5`;
+      fetch(url)
+        .then((res) => res.json())
+        .then((data) => {
+          const dataItems = data.items;
+          console.log("API Pulled");
+          dataItems.forEach((items) => {
+            if (
+              items.volumeInfo.industryIdentifiers[1].type === "ISBN_13" &&
+              items.volumeInfo.industryIdentifiers[1].identifier === stuff.ISBN
+            ) {
+              setDisplay((previtems) => [...previtems, items]);
+            } else if (
+              items.volumeInfo.industryIdentifiers[0].type === "ISBN_13" &&
+              items.volumeInfo.industryIdentifiers[0].identifier === stuff.ISBN
+            ) {
+              setDisplay((previtems) => [...previtems, items]);
+            }
+          });
+        });
+    });
     
     // setBookFound(prev => !prev);
     // eslint-disable-next-line
@@ -149,7 +149,8 @@ useEffect(()=> {
   // console.log("books")
   // console.log(books)
   return (
-    <section key={inventory.index}>
+    <section key={inventory.index} >
+      <div className="main">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="60"
@@ -180,6 +181,7 @@ useEffect(()=> {
         handleSearch={handleSearch}
         handleSort={handleSort}
       />
+      </div>
       <BookList books={sortedBooks} />
       {/* <InventoryStore
         keys={inventory.index}
