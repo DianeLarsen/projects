@@ -24,7 +24,7 @@ function App() {
           <Route path="/shopnow" element={<ShopNow />} />
         </Routes>
       </div>
-      <footer>
+      <footer className="footer">
         <img
           loading="lazy"
           className="facebook"

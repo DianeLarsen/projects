@@ -6,9 +6,9 @@ export default function ShopNow() {
    
   
   return (
-    <div className="products">
+    <>
       <Books />
      
-    </div>
+    </>
   );
 }
