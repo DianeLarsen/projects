@@ -28,7 +28,7 @@ export default function Navbar() {
           </li>
          
         </ul>
-        <img className="navImg" src={bookCoffee} />
+        <img className="navImg" src={bookCoffee} alt="Book and Coffee" />
         </div>
     </nav>
   );

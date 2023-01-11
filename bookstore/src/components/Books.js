@@ -39,12 +39,13 @@ export default function Books() {
 
   // do API search for books to get info
   useEffect(() => {
+    setBooks([]);
     setDisplay([]);
     searchedBooks.forEach((stuff) => {
       // console.log(stuff.ISBN)
       // console.log(stuff.title);
-      const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs  &key= ${apiKey}";
-      let url = `https://www.googleapis.com/books/v1/volumes?q=ISBN:${stuff.ISBN}&title=${stuff.title}&maxResults=5`;
+      const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+      let url = `https://www.googleapis.com/books/v1/volumes?q=ISBN:${stuff.ISBN}&title=${stuff.title}&maxResults=5&key= ${apiKey}`;
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
@@ -68,22 +69,23 @@ export default function Books() {
     
     // setBookFound(prev => !prev);
     // eslint-disable-next-line
-  }, [searchedBooks, bookFound, searchField]);
+  }, [searchedBooks, bookFound]);
+// `https://books.google.com/books/content?id=${items.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api`
 
   const newDisplay = display.map((items) => {
+    console.log(items)
     const things = {
       title: items.volumeInfo.title,
       subTitle: items.volumeInfo.subTitle || "",
       ISBN:
         items.volumeInfo.industryIdentifiers[1].identifier ||
         items.volumeInfo.industryIdentifiers[0].identifier,
-      author: items.volumeInfo.authors[0],
+      author: items.volumeInfo.authors === undefined ?  "N/A": items.volumeInfo.authors[0]  ,
       published: items.volumeInfo.publishedDate,
       description: items.volumeInfo.description,
       publisher: items.volumeInfo.publisher,
-      imgThumb:
-        items.volumeInfo.imageLinks.thumbnail ||
-        "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+      imgThumb: items.volumeInfo.imageLinks.thumbnail
+         || "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
     };
 
     return things;
