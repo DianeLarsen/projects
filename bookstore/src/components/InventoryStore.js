@@ -132,37 +132,37 @@
   //           })
   //         }
 
-  return (
-    <div>
-      <ul>
-        {inventoryData
-          .map((el, i) => {
-            return (
-              <React.Fragment key={i}>
-                {el.ISBN && (
-                  <>
-                    <img className="imgInv" src={el.imgURL} alt="test"></img>
-                    <li className="bookList">
-                      Type: {el.Type} <p>ISBN: {el.ISBN}</p>
-                    </li>
-                  </>
-                )}
-              </React.Fragment>
-            );
-          })
-          .filter((e, k) => k < 10)}
-      </ul>
-      {isOpen && (
-        <Popup
-          content={
-            <>
-              <b>Synopsys</b>
-              <p>{props.desc}</p>
-            </>
-          }
-          handleClose={togglePopup}
-        />
-      )}
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <ul>
+//         {inventoryData
+//           .map((el, i) => {
+//             return (
+//               <React.Fragment key={i}>
+//                 {el.ISBN && (
+//                   <>
+//                     <img className="imgInv" src={el.imgURL} alt="test"></img>
+//                     <li className="bookList">
+//                       Type: {el.Type} <p>ISBN: {el.ISBN}</p>
+//                     </li>
+//                   </>
+//                 )}
+//               </React.Fragment>
+//             );
+//           })
+//           .filter((e, k) => k < 10)}
+//       </ul>
+//       {isOpen && (
+//         <Popup
+//           content={
+//             <>
+//               <b>Synopsys</b>
+//               <p>{props.desc}</p>
+//             </>
+//           }
+//           handleClose={togglePopup}
+//         />
+//       )}
+//     </div>
+//   );
+// }
