@@ -1,101 +1,149 @@
-import React from "react";
-import data from "./data";
+// import React from "react";
+// import data from "./data";
+// import Popup from "./Popup";
 
-export default function InventoryStore(props) {
-  const [notes, setNotes] = React.useState(
-    () => JSON.parse(localStorage.getItem("notes")) || []
-  );
+// export default function InventoryStore(props) {
+//   // for popup
+//   const [isOpen, setIsOpen] = React.useState(false);
+//   // stored data fron inventory and API
+//   const [apiResults, setApiResults] = React.useState([
+//     { title: "", description: "", author: "", ISBN: "", imgBook: "" },
+//   ]);
+//   //const [matchedImage, setMatchedImage] = React.useState([])
+//   const cleanupInv = data.filter((el) => {return el.Category === "Book"})
+//   const otherInv = data.filter((el) => {return el.Category !== "Book"})
+//   //console.log(cleanupInv)
+//   const results = cleanupInv.map(function (item) {
+    
+//       return {
+//         ISBN: item.GTIN || "n/a",
+//         Type: item.Category,
+//         imgURL:
+//           "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
+//       };
+    
+//   });
+//   const inventoryData = results;
+//   //const [inventoryData, setInventoryData] = React.useState(()=>results);
+//   //console.log(inventoryData);
+//   //console.log(apiResults);
+//   //GET https://www.googleapis.com/books/v1/volumes?q=time&printType=books&key=yourAPIKey
 
-  const [inventoryData, setInventoryData] = React.useState([]);
-  const [matchedInventoryData, setMatchedInventoryData] = React.useState([]);
-  const [unmatched, setUnmatched] = React.useState([]);
-  console.log(matchedInventoryData.length);
-  console.log(unmatched.length);
-  if (matchedInventoryData.length === inventoryData.length) {
-    console.log(matchedInventoryData.length);
-    console.log(matchedInventoryData);
-  }
+//   // React.useEffect(() => {
+//   //   for (let i = 0; i < 10; i++) {
+//   //     const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+//   //     if (inventoryData[i].ISBN !== "n/a") {
+//   //       let url = `https://www.googleapis.com/books/v1/volumes?q=isbn:${inventoryData[i].ISBN}`;
+//   //       fetch(url)
+//   //         .then((res) => res.json())
+//   //         .then((data) => {
+//   //           let apiFetched = data.items;
+//   //           apiFetched.map(function (api) {
+//   //             let title = api.volumeInfo.title;
+//   //             let description = api.volumeInfo.description;
+//   //             let author =
+//   //               api.volumeInfo.authors[0] || api.volumeInfo.authors || "";
+//   //             let ISBN =
+//   //               api.volumeInfo.industryIdentifiers[0].identifier ||
+//   //               api.volumeInfo.industryIdentifiers[1].identifier;
+//   //             let imgBook =
+//   //               api.volumeInfo.imageLinks !== undefined
+//   //                 ? api.volumeInfo.imageLinks.thumbnail
+//   //                 : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
+//   //             let identInv = i;
 
-  React.useEffect(() => {
-    localStorage.setItem("notes", JSON.stringify(notes));
-  }, [notes]);
-  React.useEffect(() => {
-    const results = data.map(function (item) {
-      return {
-        ISBN: item.ISBN,
-        title: item.Title,
-        imgURL:
-          "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg",
-      };
-    });
-    setInventoryData(results);
-    //  console.log("rendered");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+//   //             setApiResults((prevData) => [
+//   //               ...prevData,
+//   //               {
+//   //                 title: title,
+//   //                 description: description,
+//   //                 author: author,
+//   //                 ISBN: ISBN,
+//   //                 imgBook: imgBook,
+//   //                 identInv: identInv,
+//   //               },
+//   //             ]);
 
-  React.useEffect(() => {
-    const promises = inventoryData.map(
-      (item, i) =>
-        new Promise((resolve) =>
-          setTimeout(() => {
-            const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
-            let url = `https://www.googleapis.com/books/v1/volumes?q=isbn:${item.ISBN}&maxResults=1`;
+//   //             return null;
+//   //           });
+//   //         })
+//   //         .catch(function (error) {
+//   //           console.log(error);
+//   //         });
+//   //     }
+//   //   }
+//   //   // eslint-disable-next-line react-hooks/exhaustive-deps
+//   // }, []);
 
-            let author;
-            let imgURL;
-            fetch(url)
-              .then((response) => response.json())
-              .then((data) => {
-                let apiFetched = data.items;
-                //console.log(apiFetched[0].volumeInfo);
-                if (apiFetched[0].volumeInfo) {
-                  author = apiFetched[0].volumeInfo.authors
-                    ? apiFetched[0].volumeInfo.authors[0]
-                    : `Publisher: ${apiFetched[0].volumeInfo.publisher}`;
-                  imgURL = apiFetched[0].volumeInfo.imageLinks.thumbnail
-                    ? apiFetched[0].volumeInfo.imageLinks.thumbnail
-                    : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
-                  setMatchedInventoryData((prevData) => [
-                    ...prevData,
+//   const togglePopup = () => {
+//     setIsOpen(!isOpen);
+//   };
 
-                    {
-                      ISBN: item.ISBN,
-                      title: apiFetched[0].volumeInfo.title || item.title,
-                      description: apiFetched[0].volumeInfo.description || "",
-                      author: author,
-                      imgURL: imgURL,
-                    },
-                  ]);
-                } else {
-                  setUnmatched((prevMatched) => [...prevMatched, item.ISBN]);
-                }
-              })
-              .catch((error)=> {console.log(error);setUnmatched((prevMatched) => [...prevMatched, item.ISBN]);
-              });
+//   for (let i = 0; i < data.length; i++) {
+//     // get an ISBN [i]
+//     // fetch for that ISBN
+//     // compare and confirm
+//     // save the picture and ISBN to matchedImage
+//   }
+//   //   function delay(t, data) {
+//   //     return new Promise(resolve => {
+//   //         setTimeout(resolve.bind(null, data), t);
+//   //     });
+//   // }
+//   // function gatherData(){
 
-            resolve();
-          }, 1000 * inventoryData.length - 1000 * i)
-        )
-    );
+//   //   // const transferData =
+//   //   inventoryData.map((item)=>{
+//   //     setTimeout(() => {
+//   //       console.log("Delayed for 1 second.");
+//   //     }, "1000")
+//   //     const apiKey = "AIzaSyB8BwcXXmWh-RBVHEbG1_OLfnV4c7KULcs";
+//   //           let url = `https://www.googleapis.com/books/v1/volumes?q= ${item.ISBN} &key= ${apiKey}`;
+//   //     fetch(url)
+//   //           .then((res) => res.json())
+//   //           .then((data) => {
+//   //               let apiFetched = data.items;
+//   //               apiFetched.map(function(api) {
+//   //                 let title = api.volumeInfo.title;
+//   //                 let description = api.volumeInfo.description;
+//   //                 let author = api.volumeInfo.authors[0];
+//   //                 let ISBN = api.volumeInfo.industryIdentifiers[0].identifier;
+//   //                 let imgBook = api.volumeInfo.imageLinks.thumbnail
 
-    setNotes(matchedInventoryData);
-    //console.log(notes);
-    Promise.all(promises).then(() => console.log("done"));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+//   //                 setApiResults(prevData => [...prevData, {title: title, description: description, author:author, ISBN:ISBN, imgBook:imgBook}])
+
+//   //                 return null
+//   //               });
+//   //             }).catch(function(error) {
+//   //               console.log(error);
+//   //             });
+//   //             return null
+//   //           })
+//   //         }
+
+  //                 setApiResults(prevData => [...prevData, {title: title, description: description, author:author, ISBN:ISBN, imgBook:imgBook}])
+
+  //                 return null
+  //               });
+  //             }).catch(function(error) {
+  //               console.log(error);
+  //             });
+  //             return null
+  //           })
+  //         }
 
   return (
     <div>
       <ul>
-        {matchedInventoryData
+        {inventoryData
           .map((el, i) => {
             return (
               <React.Fragment key={i}>
-                {el.title && (
+                {el.ISBN && (
                   <>
                     <img className="imgInv" src={el.imgURL} alt="test"></img>
                     <li className="bookList">
-                      {el.title} <p>Author: {el.author}</p>
+                      Type: {el.Type} <p>ISBN: {el.ISBN}</p>
                     </li>
                   </>
                 )}
@@ -104,6 +152,17 @@ export default function InventoryStore(props) {
           })
           .filter((e, k) => k < 10)}
       </ul>
+      {isOpen && (
+        <Popup
+          content={
+            <>
+              <b>Synopsys</b>
+              <p>{props.desc}</p>
+            </>
+          }
+          handleClose={togglePopup}
+        />
+      )}
     </div>
   );
 }
