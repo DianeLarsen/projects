@@ -26,6 +26,7 @@ export default function BookCard(props){
     />}
                 
             </div>
+            </div>
        
 )
 }
