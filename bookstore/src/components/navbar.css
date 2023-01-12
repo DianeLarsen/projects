@@ -8,12 +8,11 @@
     background-color: #484848;
     color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+ 
     height: 200px;
   }
   .logo{
-    width: 40%;
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -27,7 +26,8 @@
   .navbar-container{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    float: right;
   }
   .nav ul {
     padding: 0;
@@ -57,10 +57,21 @@
   .nav li:hover {
     background-color: #777;
   }
-  .navImg{
-    height: 75%;
+ .coffeebook-container{
+  height: 75%;
+  overflow: hidden;
+ }
+  
+  .coffeebook{
+    /* height: 100%;
+    width: auto; */
+    object-fit: cover;
+    width: 100%;
+   
+   /* width:2570;
+   height:auto; */
   }
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 900px){
   .nav{
    flex-direction: column;
    justify-content: center;
@@ -70,7 +81,25 @@
   .logo{
     justify-content: center;
   }
-  .navImg{
+ 
+  .coffeebook{
     display: none;
   }
+  
+}
+@media only screen and (max-width: 1200px){
+  .logo{
+    width: 25%;
+  }
+
+  .nav{
+    justify-content: space-between;
+  }
+  .navbar-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+  }
+ 
 }

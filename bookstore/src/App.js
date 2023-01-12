@@ -8,6 +8,9 @@ import ShopNow from "./pages/ShopNow";
 
 
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -25,30 +28,10 @@ function App() {
         </Routes>
       </div>
       <footer className="footer">
-        <img
-          loading="lazy"
-          className="facebook"
-          src="https://www.beaconplumbing.net/wp-content/uploads/2019/07/Seattle.png"
-          alt="Facebook logo"
-        />
-         <img
-          loading="lazy"
-          className="facebook"
-          src="https://www.beaconplumbing.net/wp-content/uploads/2019/07/Seattle-Plumber.png"
-          alt="Facebook logo"
-        />
-         <img
-          loading="lazy"
-          className="facebook"
-          src="https://www.beaconplumbing.net/wp-content/uploads/2019/07/Seattle-Plumbers.png"
-          alt="Facebook logo"
-        />
-         <img
-          loading="lazy"
-          className="facebook"
-          src="https://www.beaconplumbing.net/wp-content/uploads/2019/07/Plumber-Seattle.png"
-          alt="Facebook logo"
-        />
+        
+      <a href="https://www.facebook.com/profile.php?id=100086997371424"><i  className="fa-brands fa-facebook  fa-2x"></i></a>
+      <a href="https://www.instagram.com/webebooknmonroe/"><i class="fa-brands fa-instagram fa-2x"/></a>
+     
         </footer>
     </div>
   );

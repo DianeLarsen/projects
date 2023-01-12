@@ -1,35 +1,37 @@
-import bookCoffee from "../assets/Book-with-coffee-banner-scaled.jpg"
-import "./navbar.css"
-import bookLogo from "../assets/bcardfront.jpg"
-
+import bookCoffee from "../assets/Book-with-coffee-banner-scaled.jpg";
+import "./navbar.css";
+import bookLogo from "../assets/bcardfront.jpg";
 
 export default function Navbar() {
   return (
-    <nav className="nav" >
+    <nav className="nav">
       <a className="logo" href="/">
         <img className="site-title" src={bookLogo} alt="We Be Bookn" />
       </a>
+
       <div className="navbar-container">
         <ul>
-          <li >
+          <li>
             <a className="navList" href="/">
               HOME
             </a>
           </li>
-          <li >
+          <li>
             <a className="navList" href="/about">
               ABOUT
             </a>
           </li>
-          <li >
+          <li>
             <a className="navList" href="/shopnow">
               SHOP NOW
             </a>
           </li>
-         
         </ul>
-        <img className="navImg" src={bookCoffee} alt="Book and Coffee" />
+
+        <div className="coffeebook-container">
+          <img className="coffeebook" src={bookCoffee} alt="Book and Coffee" />
         </div>
+      </div>
     </nav>
   );
 }

@@ -1,15 +1,23 @@
 import React from "react";
-
+import storefront from "../assets/storefront.jpg";
 
 function About() {
-  
   return (
     <div className="about">
-      
-      
-      <h1>Residential and Commercial Plumber for the Community
-</h1><p><img src="https://www.shutterstock.com/shutterstock/photos/1149190532/display_1500/stock-photo-male-plumber-s-hand-repairing-sink-pipe-leakage-with-adjustable-wrench-1149190532.jpg" alt="pipes"/>Good plumbing is the key to a house, and if you’re always in a state of panic as to keeping your pipes smoothly flowing, then you can very quickly find yourself in a spot of bother. Euphemistically speaking.</p>
-
+      <img className="storefront" src={storefront} alt="Store Front" />
+      <div className="about-text">
+        <h1>
+          Family inclusive environment for Book lovers and Coffee fanatics
+        </h1>
+        <p>
+          We are an independent, family run book store coffee shop with a
+          passion for books, art, custom coffee blends, and our local community.
+          Our goal is to have a shop where people feel comfortable bringing
+          their children to. We provide a play space for kids to enjoy while you
+          can sip some coffee, admire local art pieces and browse our book
+          collection.
+        </p>
+      </div>
     </div>
   );
 }

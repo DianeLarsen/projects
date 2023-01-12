@@ -12,41 +12,78 @@ body {
   justify-content: center;
   align-items: center;
   color: #8C5712;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   /* padding-bottom: 100px; */
+}
+.home{
+  display:flex;
+  flex-direction: column;
+  background-color: #8C5712;
+  color: #484848;
+  width: 100%
+}
+.home-container{
+  display: inline-flex;
+}
+.home button{
+  height: 20px;
+}
+.home .fiction{
+  height: 500px;
+  
 }
 section{
   width: 100%;
+ 
 }
 .search-area{
-  height: 60px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-area-input{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.search-area-search-btn{
+  background-color: #484848;
+  border: none
 }
 .list {
-  background-color: bisque;
+  height: 500px;
+  background-color: #8C5712;
+  color: #484848;
   width: 100%;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 500px;
+
   /* min-height: 200px; */
 }
 .card-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 25%;
-  border: 1px solid black;
+  border: 1px solid #484848;
   height: 200px;
   margin: 5px;
-  background-color: #8C5712;
+  color: #b6731c;
   border-radius: 10px;
   overflow: hidden;
-  color: #484848;
+  background-color: #484848;
 }
 .card-container img{
   width: auto;
   height: 100%;
   border-right: 10px;
+  
 }
 .description h2 {
   display: flex;
@@ -57,12 +94,57 @@ section{
 .footer{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   height: 50px;
  width: 100%;
   bottom: 0;
   left: 0;
+  font: 1.5em;
+  background-color: #484848;
 }
+.storefront{
+  height: 500px;
+  width: auto;
+  
+  
+}
+.about{
+  width: 100%;
+  display: inline-flex;
+  padding: 20px;
+  color:#484848;
+  background-color: #8C5712;
+  padding-right:10%;
+  padding-left:10%;
+}
+.about img{
+  border-radius: 20px;
+}
+.about-text{
+  height: 500px;
+  background-color:#484848c5;
+  color: #b6731c;
+  margin-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ font-size: 1.25em;
+ padding: 10px;
+}
+.about-text p{
+  font-weight:600;
+}
+footer a{
+  margin-top: 20px;
+  height: 50px;
+  color: #8C5712;
+}
+/* .home{
+  display:inline-flex;
+} */
 @media only screen and (max-width: 1150px){
   .main{
     display: flex;
@@ -71,7 +153,7 @@ section{
     line-height: 0;
     height: 150px;
   }
-
+ 
   .card-container {
     flex-direction: column;
    width: 50%;
