@@ -53,6 +53,7 @@ export default function Books() {
           const dataItems = data.items;
           console.log("API Pulled");
           dataItems.forEach((items) => {
+            // rewrite as or ||
             if (
               items.volumeInfo.industryIdentifiers[1].type === "ISBN_13" &&
               items.volumeInfo.industryIdentifiers[1].identifier === stuff.ISBN

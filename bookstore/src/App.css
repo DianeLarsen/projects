@@ -68,7 +68,8 @@ section{
 }
 .card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
   align-items: center;
   width: 25%;
   border: 1px solid #484848;
@@ -156,6 +157,8 @@ footer a{
  
   .card-container {
     flex-direction: column;
+    height: 500px;
+   
    width: 50%;
   }
   .card-container img{

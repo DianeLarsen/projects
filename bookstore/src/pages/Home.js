@@ -14,10 +14,7 @@ const navigate = useNavigate()
       <h1>Featured</h1>
       </div>
       </div>
-      <button onClick={() => navigate("/shopnow")}>Go to Shopping page</button>
-      <button onClick={() => navigate(-1)}>Go Back 1</button>
-      <button onClick={() => navigate(1)}>Go Forward 1</button>
-      <button onClick={() => navigate(2)}>Go Forward 2</button>
+    
     </div>
   );
 }
