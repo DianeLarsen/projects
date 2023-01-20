@@ -1,7 +1,9 @@
 const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
+
 const postsSchema = new Schema({
+
     lot: {
         type: Number,
         required: true
@@ -9,6 +11,7 @@ const postsSchema = new Schema({
     title: {
         type: String,
         required: true
+
     }, 
     type: {
         type: String,
@@ -23,3 +26,4 @@ const postsSchema = new Schema({
 
 
 module.exports = mongoose.model("Posts", postsSchema)
+
