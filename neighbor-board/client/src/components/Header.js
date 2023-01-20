@@ -10,25 +10,21 @@ export default function Header() {
       <div className="navigation-wrapper">
         <ul className="nav" id="grid-container-nav">
           <li>
-            <a className="navList" href="#news">
+            <a className="navList" href="/">
               HOME
             </a>
           </li>
           <li>
-            <a className="navList" href="#store">
+            <a className="navList" href="/lots">
               Neighbor Info
             </a>
           </li>
           <li>
-            <a className="navList" href="#contact">
+            <a className="navList" href="/posts">
               Posts
             </a>
           </li>
-          <li>
-            <a className="navList" href="#about">
-              SEARCH
-            </a>
-          </li>
+         
           <li>
             
             <svg data-v-43540933="" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" role="img" className="svg-user">
