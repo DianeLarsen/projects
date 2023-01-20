@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 app.use(express.json());
 app.use(morgan("dev"));
 
+
 mongoose.connect("mongodb://127.0.0.1:27017/neighbordb", (err) => {
   if (err) {
     console.log(err);
@@ -14,8 +15,10 @@ mongoose.connect("mongodb://127.0.0.1:27017/neighbordb", (err) => {
   }
 });
 
+
 app.use("/lots", require("./routes/lotRouter.js"));
 app.use("/posts", require("./routes/postRouter.js"));
+
 
 app.use((err, req, res, next) => {
   console.log(err);
