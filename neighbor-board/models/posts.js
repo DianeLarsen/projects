@@ -6,6 +6,10 @@ const postsSchema = new Schema({
         type: Number,
         required: true
     },
+    title: {
+        type: String,
+        required: true
+    }, 
     type: {
         type: String,
         required: true
@@ -13,8 +17,7 @@ const postsSchema = new Schema({
     description: {
         type: String,
         required: true
-    },
-   
+    }   
 })
 
 

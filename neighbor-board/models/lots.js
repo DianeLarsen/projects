@@ -10,6 +10,9 @@ const lotsSchema = new Schema({
     lastName: {
         type: String,
         required: true
+    },
+    info: {
+        type: String,
     } 
 })
 
