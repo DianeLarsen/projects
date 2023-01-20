@@ -6,6 +6,7 @@ export default function BookList(props) {
   console.log(props.books)
   return (
     <div className="list">
+   
     {props.books[0] !== [undefined] && props.books.map((book, i) => {
         return (
        
@@ -26,7 +27,7 @@ export default function BookList(props) {
         )
       })
     }
-  
+     <h1>Not finding what you are looking for?  Contact us to see if we can order for you</h1>
     </div>
   );
 }

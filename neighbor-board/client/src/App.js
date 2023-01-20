@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+
+import { AxioContextProvider } from "./axioContext";
+
 function App() {
+
   return (
     <div className="App">
-      <header></header>
-      <footer></footer>
+     
+
     </div>
   );
 }

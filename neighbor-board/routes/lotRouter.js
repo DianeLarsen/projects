@@ -5,7 +5,4 @@ const Lots = require("../models/lots.js");
 
 
 
-
-
-
 module.exports = lotRouter;

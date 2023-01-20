@@ -12,18 +12,19 @@ export default function Books() {
   const [inventory, setInventory] = React.useState([""]);
   const [display, setDisplay] = React.useState([]);
   const [bookFound, setBookFound] = React.useState(false);
- // const [triggerSort, setTriggerSort] = React.useState(false);
+  // const [triggerSort, setTriggerSort] = React.useState(false);
   const [searchedBooks, setSearchedBooks] = React.useState([]);
   // console.log(display);
+  const [showExcel, setShowExcel] = React.useState(false);
 
   function SearchBooks(e) {
     e.preventDefault();
     setSearchedBooks([]);
-   
+
     const findBook = data
       .filter((element) => element.ItemName.toLowerCase().includes(searchField))
       .filter((item) => item.Category.includes("Book"));
-// sets searched books to items(ISBN and title) found in inventory and then triggers the useEffect 
+    // sets searched books to items(ISBN and title) found in inventory and then triggers the useEffect
     if (findBook === undefined) {
       return;
     } else if (findBook[0]) {
@@ -39,6 +40,7 @@ export default function Books() {
 
   // do API search for books to get info
   useEffect(() => {
+    setBooks([]);
     setDisplay([]);
     searchedBooks.forEach((stuff) => {
       // console.log(stuff.ISBN)
@@ -51,6 +53,7 @@ export default function Books() {
           const dataItems = data.items;
           console.log("API Pulled");
           dataItems.forEach((items) => {
+            // rewrite as or ||
             if (
               items.volumeInfo.industryIdentifiers[1].type === "ISBN_13" &&
               items.volumeInfo.industryIdentifiers[1].identifier === stuff.ISBN
@@ -65,19 +68,24 @@ export default function Books() {
           });
         });
     });
-    
+
     // setBookFound(prev => !prev);
     // eslint-disable-next-line
-  }, [searchedBooks, bookFound, searchField]);
+  }, [searchedBooks, bookFound]);
+  // `https://books.google.com/books/content?id=${items.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api`
 
   const newDisplay = display.map((items) => {
+    console.log(items);
     const things = {
       title: items.volumeInfo.title,
       subTitle: items.volumeInfo.subTitle || "",
       ISBN:
         items.volumeInfo.industryIdentifiers[1].identifier ||
         items.volumeInfo.industryIdentifiers[0].identifier,
-      author: items.volumeInfo.authors[0],
+      author:
+        items.volumeInfo.authors === undefined
+          ? "N/A"
+          : items.volumeInfo.authors[0],
       published: items.volumeInfo.publishedDate,
       description: items.volumeInfo.description,
       publisher: items.volumeInfo.publisher,
@@ -89,12 +97,11 @@ export default function Books() {
     return things;
   });
 
-useEffect(()=> {
-    console.log(newDisplay)
+  useEffect(() => {
+    console.log(newDisplay);
     setBooks(newDisplay);
     // eslint-disable-next-line
-  }, [searchedBooks, display]  )
-
+  }, [searchedBooks, display]);
 
   const readUploadFile = (e) => {
     e.preventDefault();
@@ -142,6 +149,12 @@ useEffect(()=> {
     }
     return books;
   });
+  let excelStatus
+  if (showExcel === false){
+    excelStatus = "Show Excel Loader"
+  } else {
+    excelStatus = "Hide Excel Loader"
+  }
   //   console.log("sortedBooks")
   // console.log(sortedBooks)
   //  console.log("display")
@@ -149,43 +162,27 @@ useEffect(()=> {
   // console.log("books")
   // console.log(books)
   return (
-    <section key={inventory.index}>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="60"
-        height="60"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#fff"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
-      <h1>Welcome to the bookstore, what are you looking for?</h1>
-      <p className="recs">Search by genre, author, title!</p>
-      <form>
-        <label htmlFor="upload">Upload File</label>
-        <input
-          type="file"
-          name="upload"
-          id="upload"
-          onChange={readUploadFile}
+    <section className="section" key={inventory.index}>
+      
+        {showExcel ? <form>
+          <label htmlFor="upload">Upload File</label>
+          <input
+            type="file"
+            name="upload"
+            id="upload"
+            onChange={readUploadFile}
+          />
+          <button onClick={()=>setShowExcel(prev => !prev)}>{excelStatus}</button>
+        </form> : <button onClick={()=>setShowExcel(prev => !prev)}>{excelStatus}</button>}
+        <SearchArea
+          searchBooks={SearchBooks}
+          handleSearch={handleSearch}
+          handleSort={handleSort}
         />
-      </form>
-      <SearchArea
-        searchBooks={SearchBooks}
-        handleSearch={handleSearch}
-        handleSort={handleSort}
-      />
+      
       <BookList books={sortedBooks} />
-      {/* <InventoryStore
-        keys={inventory.index}
-        type={inventory.category}
-        IDEN={inventory.ISBN}
-      /> */}
+      
+     
     </section>
   );
 }

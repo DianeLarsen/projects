@@ -2,7 +2,8 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
 
-const lotSchema = new Schema({
+const lotsSchema = new Schema({
+
     lot: {
         type: Number,
         required: true
@@ -11,10 +12,13 @@ const lotSchema = new Schema({
         type: String,
         required: true
     },
-    description: {
+
+    info: {
         type: String,
-        required: true
-    }
+    } 
 })
 
-module.exports = mongoose.model("Lots", lotSchema)
+
+
+module.exports = mongoose.model("Lots", lotsSchema)
+

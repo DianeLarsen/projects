@@ -5,7 +5,4 @@ const Posts = require("../models/posts.js");
 
 
 
-
-
-
 module.exports = postRouter;
