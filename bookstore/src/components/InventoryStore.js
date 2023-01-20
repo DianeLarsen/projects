@@ -121,9 +121,20 @@
 //   //           })
 //   //         }
 
+  //                 setApiResults(prevData => [...prevData, {title: title, description: description, author:author, ISBN:ISBN, imgBook:imgBook}])
+
+  //                 return null
+  //               });
+  //             }).catch(function(error) {
+  //               console.log(error);
+  //             });
+  //             return null
+  //           })
+  //         }
+
 //   return (
 //     <div>
-//       {/* <ul>
+//       <ul>
 //         {inventoryData
 //           .map((el, i) => {
 //             return (
@@ -151,7 +162,7 @@
 //           }
 //           handleClose={togglePopup}
 //         />
-//       )} */}
+//       )}
 //     </div>
 //   );
 // }

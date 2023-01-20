@@ -1,4 +1,5 @@
 import React from "react";
+import InventoryStore from "./InventoryStore";
 import Popup from "./Popup";
 
 export default function BookCard(props){
@@ -25,7 +26,8 @@ export default function BookCard(props){
     />}
                 
             </div>
-        </div>
+            </div>
+       
 )
 }
 
