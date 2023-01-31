@@ -17,7 +17,7 @@
   justify-content: space-around;
   align-items: center;
   height: 40px;
-  background-color: #3339;
+  background-color: rgba(172, 80, 80, 0.6);
 }
 
 .auth-container {
@@ -38,10 +38,10 @@
 }
 
 .auth-container > form {
-  border: 1px solid #3339;
+  border: 1px solid rgba(167, 12, 12, 0.6);
   padding: 20px;
   border-radius: 5px;
-  background-color: #aaa9;
+  background-color: rgba(172, 80, 80, 0.6);
 
   display: flex;
   flex-direction: column;
@@ -59,13 +59,13 @@
   border-radius: 4px;
 }
 
-.todo-list {
+/* .issue-list {
 
 }
 
-.todo {
+.issue {
 
-}
+} */
 
 .public {
   height: 100vh;
@@ -93,8 +93,8 @@
   display: flex;
   flex-direction: column;
   margin: 16px 0;
-  border: 1px solid #3339;
-  background-color: #aaa9;
+  border: 1px solid rgba(167, 12, 12, 0.6);
+  background-color: rgba(172, 80, 80, 0.6);
   padding: 16px;
   border-radius: 5px
 }
@@ -104,4 +104,14 @@
   margin: 8px 0;
   padding: 8px;
   border-radius: 5px
+}
+input, button{
+  border: 1px solid rgba(167, 12, 12, 0.6);
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: rgba(172, 80, 80, 0.6);
 }

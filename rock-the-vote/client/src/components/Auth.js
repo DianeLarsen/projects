@@ -20,11 +20,13 @@ const { signup, login } = useContext(UserContext)
 
   function handleSignup(e){
     e.preventDefault()
+    console.log(inputs)
     signup(inputs)
   }
 
   function handleLogin(e){
     e.preventDefault()
+    console.log(inputs)
     login(inputs)
   }
 

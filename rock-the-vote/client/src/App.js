@@ -6,12 +6,13 @@ import Profile from './components/Profile.js'
 import Public from './components/Public.js'
 import "./App.css"
 import { UserContext } from './context/UserProvider.js'
+import Footer from './components/Footer.js'
 
 export default function App(){
   const { token, logout } = useContext(UserContext)
   return (
     <div className="app">
-      <Navbar logout={logout}/>
+      <Navbar logout={logout} token={token}/>
       <Routes>
         <Route 
           path="/" 
@@ -19,13 +20,14 @@ export default function App(){
         />
         <Route 
           path="/profile"
-          element={<Profile />}
+          element={token ? <Profile/>  : <Navigate to="/"/> }
         />
         <Route 
           path="/public"
           element={<Public />}
         />
       </Routes>
+      <Footer logout={logout} token={token}/>
     </div>
   )
 }
