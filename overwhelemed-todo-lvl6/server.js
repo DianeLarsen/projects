@@ -8,16 +8,28 @@ const {expressjwt} = require("express-jwt");
 app.use(express.json());
 app.use(morgan("dev"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/todo-authentication", () =>
-  console.log("Connected to the DB")
-);
+
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => {
+        app.listen(process.env.PORT, () => {
+            console.log(`Server and DB is running on local port ${process.env.PORT} `);
+          });
+    })
+    .catch((err) => {
+        console.log(err)
+    }) 
+
+app.use((req, res, next) => {
+    console.log(req.path, req.method)
+    next()
+})
 
 app.use("/auth", require("./routes/authRouter.js"));
 app.use(
   "/api",
   expressjwt({ secret: process.env.SECRET, algorithms: ["HS256"] })
 );
-app.use("/api/tasks", require("./routes/tasksRouter.js"));
+app.use("/api/task", require("./routes/tasksRouter.js"));
 //app.use("/api/comments", require("./routes/commentsRouter.js"));
 // app.use("/api/posts", require("./routes/postsRouter.js"));
 // app.use("/api/profile", require("./routes/userRouter.js"));
@@ -30,6 +42,3 @@ app.use((err, req, res, next) => {
   return res.send({ errMsg: err.message });
 });
 
-app.listen(9000, () => {
-  console.log(`Server is running on local port 9000`);
-});

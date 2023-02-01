@@ -7,13 +7,16 @@ intall things:
 touch server.js
 npm init -y
 npm install express
-npm install -g nodemon
 npm install morgan
 npm install mongoose
 npm install jsonwebtoken
 npm install dotenv
 npm install express-jwt
 npm install bcrypt
+
+
+already installed but can be installed on new computers        
+npm install -g nodemon
 
 confirm package.json "main": "server.js"
 
@@ -46,6 +49,7 @@ create folders in src:
 
 
 
+
 to start servers:
 
 npm start 
@@ -63,3 +67,7 @@ sudo lsof -iTCP -sTCP:LISTEN -n -P
 sudo killall mongod    
 
 SECRET= "tomato, toyota, jackrabbit, opener"
+
+git add -A
+git commit -m "updated database to remote instead of local"
+git push

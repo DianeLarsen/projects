@@ -53,7 +53,7 @@ tasksRouter.delete("/:taskId", (req, res, next) => {
 })
 
 // Update Task
-tasksRouter.put("/:taskId", (req, res, next) => {
+tasksRouter.patch("/:taskId", (req, res, next) => {
     Task.findOneAndUpdate(
     { _id: req.params.taskId, user: req.auth._id },
     req.body,
