@@ -34,7 +34,7 @@ export default function UserProvider(props){
           token
         }))
       })
-      .catch(err => console.log(err.response.data.errMsg))
+      .catch(err => handleAuthErr(err.response.data.errMsg))
   }
 
   function login(credentials){
@@ -51,7 +51,7 @@ export default function UserProvider(props){
           token
         }))
       })
-      .catch(err => console.log(err.response.data.errMsg))
+      .catch(err => handleAuthErr(err.response.data.errMsg))
   }
 
   function logout(){
@@ -62,6 +62,20 @@ export default function UserProvider(props){
       token: "",
       issues: []
     })
+  }
+
+  function handleAuthErr(errMsg) {
+    setUserState((prevState) => ({
+      ...prevState,
+      errMsg,
+    }));
+  }
+
+  function resetAuthErr(){
+    setUserState(prevState => ({
+      ...prevState,
+      errMsg: ""
+    }))
   }
 
   function getUserIssues(){
@@ -93,7 +107,9 @@ export default function UserProvider(props){
         signup,
         login,
         logout,
-        addIssue
+        addIssue,
+     
+        resetAuthErr
       }}>
       { props.children }
     </UserContext.Provider>

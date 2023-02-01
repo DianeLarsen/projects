@@ -14,9 +14,32 @@ const userSchema = new Schema({
       required: true,
 
     },
+    firstName: {
+      type: String,
+      required: true
+    },
+    lastName: {
+      type: String,
+      required: true
+    },
+    info: {
+      type: String
+    },
+    imgUrl: {
+      type: String,
+    }, 
     memberSince: {
       type: Date,
       default: Date.now
+    },
+    tasks: {
+      type: Array
+    },
+    posts: {
+      type: Array
+    },
+    comments: {
+      type: Array
     },
     isAdmin: {
       type: Boolean,

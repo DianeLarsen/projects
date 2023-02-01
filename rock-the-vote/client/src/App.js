@@ -7,6 +7,7 @@ import Public from './components/Public.js'
 import "./App.css"
 import { UserContext } from './context/UserProvider.js'
 import Footer from './components/Footer.js'
+import ProtectedRoute from './components/ProtectedRoute.js'
 
 export default function App(){
   const { token, logout } = useContext(UserContext)
@@ -20,7 +21,9 @@ export default function App(){
         />
         <Route 
           path="/profile"
-          element={token ? <Profile/>  : <Navigate to="/"/> }
+          element={<ProtectedRoute token={token} redirectTo="/">
+            <Profile />
+            </ProtectedRoute>}
         />
         <Route 
           path="/public"
