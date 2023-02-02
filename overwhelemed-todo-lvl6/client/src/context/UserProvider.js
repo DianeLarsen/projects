@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 export const UserContext = React.createContext();
@@ -18,14 +18,18 @@ export default function UserProvider(props) {
     tasks: [],
     errMsg: "",
   };
-
+  const initlogstate = localStorage.getItem("loggedIn") || false
+  const [loggedIn, setLoggedIn] = useState(initlogstate);
+ 
   const [userState, setUserState] = useState(initState);
-
+  // console.log(loggedIn)
+  // console.log(loggedIn && userState.token !== "")
+  // console.log(userState.token && userState.tasks);
   function signup(credentials) {
+    setLoggedIn(true);
     axios
       .post("/auth/signup", credentials)
       .then((res) => {
-        console.log(res);
         const { user, token } = res.data;
         localStorage.setItem("token", token);
         localStorage.setItem("user", JSON.stringify(user));
@@ -37,27 +41,38 @@ export default function UserProvider(props) {
       })
       .catch((err) => handleAuthErr(err.response.data.errMsg));
   }
-
+  useEffect(() => {
+    (loggedIn && userState.token !== "") && getUserTasks();
+    
+  }, [loggedIn, userState.token]);
   function login(credentials) {
+    setLoggedIn(true);
     axios
       .post("/auth/login", credentials)
       .then((res) => {
         const { user, token } = res.data;
+
         localStorage.setItem("token", token);
         localStorage.setItem("user", JSON.stringify(user));
-        getUserTasks();
+        localStorage.setItem("loggedIn", loggedIn);
+
         setUserState((prevUserState) => ({
           ...prevUserState,
           user,
           token,
         }));
+       userState.token !== "" && getUserTasks()
       })
       .catch((err) => handleAuthErr(err.response.data.errMsg));
+      
+      
   }
 
   function logout() {
+    setLoggedIn(false);
     localStorage.removeItem("token");
     localStorage.removeItem("user");
+    localStorage.removeItem("loggedIn");
     setUserState({
       user: {},
       token: "",
@@ -72,13 +87,12 @@ export default function UserProvider(props) {
     }));
   }
 
-  function resetAuthErr(){
-    setUserState(prevState => ({
+  function resetAuthErr() {
+    setUserState((prevState) => ({
       ...prevState,
-      errMsg: ""
-    }))
+      errMsg: "",
+    }));
   }
-
 
   function getUserTasks() {
     userAxios
@@ -103,7 +117,7 @@ export default function UserProvider(props) {
       })
       .catch((err) => console.log(err.response.data.errMsg));
   }
-
+  // console.log(userState);
   return (
     <UserContext.Provider
       value={{
@@ -112,7 +126,8 @@ export default function UserProvider(props) {
         login,
         logout,
         addTask,
-        resetAuthErr, 
+        resetAuthErr,
+        loggedIn
       }}
     >
       {props.children}

@@ -5,7 +5,7 @@ import ProtectedRoute from './components/ProtectedRoute.js'
 import Navbar from "./components/Navbar";
 import Auth from './components/Auth.js'
 import Profile from './components/Profile.js'
-import Public from './components/Public.js'
+
 
 function App() {
   const { token, logout } = useContext(UserContext)
@@ -26,10 +26,7 @@ function App() {
             <Profile />
             </ProtectedRoute>}
         />
-        <Route 
-          path="/public"
-          element={<Public />}
-        />
+       
       </Routes>
       </div>
     </div>

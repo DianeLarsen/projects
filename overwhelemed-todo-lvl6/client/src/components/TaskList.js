@@ -5,7 +5,7 @@ export default function TaskList(props){
     const { tasks } = props
   return (
     <div className="task-list">
-        { tasks.map(task => <Task {...task} key={task._id}/>) }
+        {tasks && tasks.map(task => <Task {...task} key={task._id}/>) }
     </div>
   )
 }

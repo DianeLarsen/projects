@@ -69,5 +69,5 @@ sudo killall mongod
 SECRET= "tomato, toyota, jackrabbit, opener"
 
 git add -A
-git commit -m "able to get auth working and creating a task"
+git commit -m "added inputs for layout questions"
 git push

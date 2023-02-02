@@ -32,9 +32,6 @@ const userSchema = new Schema({
       type: Date,
       default: Date.now
     },
-    tasks: {
-      type: Array
-    },
     posts: {
       type: Array
     },
