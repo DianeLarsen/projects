@@ -36,17 +36,18 @@ header a {
 
 .auth-container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     height: 100vh;
+    
   }
   
-  .auth-container > h1 {
+  .auth-container > h2 {
     font-size: 2em;
     margin: 24px;
   }
   
-  .auth-container > p {
+  .toggle-form {
     margin: 16px;
     text-decoration: underline;
   }
@@ -56,7 +57,7 @@ header a {
     padding: 20px;
     border-radius: 5px;
     background-color: #aaa9;
-  
+    min-width: 300px;
     display: flex;
     flex-direction: column;
   }
@@ -71,4 +72,18 @@ header a {
     margin: 16px 8px;
     padding: 8px;
     border-radius: 4px;
+  }
+  .home{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @media only screen and (max-width: 600px){
+    .auth-container{
+      align-items: center;
+    }
+    .home  {
+      
+      justify-content: space-around;
+    }
   }

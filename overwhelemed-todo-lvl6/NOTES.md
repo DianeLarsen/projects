@@ -84,5 +84,5 @@ sudo killall mongod
 SECRET= "tomato, toyota, jackrabbit, opener"
 
 git add -A
-git commit -m "added Settings page, calendar and layout stuff"
+git commit -m "changed navigation so that new users are directed to settings instead of profile"
 git push

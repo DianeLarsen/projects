@@ -7,10 +7,14 @@ export default function AuthForm(props) {
     btnText,
     inputs: { username, password, firstName, lastName },
     errMsg,
+    toggleForm
   } = props;
 
   return (
-    <form onSubmit={handleSubmit}>
+   
+    
+    <form className="authForm" onSubmit={handleSubmit}>
+    <h2>{btnText}</h2>
       <input
         type="text"
         value={username}
@@ -45,6 +49,8 @@ export default function AuthForm(props) {
       )}
       <button>{btnText}</button>
       <p style={{ color: "red" }}>{errMsg}</p>
+      <p className="toggle-form" onClick={toggleForm}>{btnText === "Sign up" ? "Already a member?" : "Not a member?"}</p>
     </form>
+    
   );
 }

@@ -20,12 +20,14 @@ export default function UserProvider(props) {
   };
   const initlogstate = localStorage.getItem("loggedIn") || false;
   const [loggedIn, setLoggedIn] = useState(initlogstate);
-
+const [loginWindow, setLoginWindow] = useState(false);
   const [userState, setUserState] = useState(initState);
+  const [newUser, setNetUser] = useState(userState.user.newUser)
   //  console.log(loggedIn)
   // console.log(userState.token !== "")
   // console.log(loggedIn && userState.token !== "")
   // console.log(userState.token && userState.tasks);
+  
   function signup(credentials) {
    
     axios
@@ -90,7 +92,9 @@ if(loggedIn){
       tasks: [],
     });
   }
-
+function openLogin(){
+  setLoginWindow(!loginWindow)
+}
   function handleAuthErr(errMsg) {
     setUserState((prevState) => ({
       ...prevState,
@@ -139,6 +143,9 @@ if(loggedIn){
         addTask,
         resetAuthErr,
         loggedIn,
+       openLogin, 
+       loginWindow,
+       newUser
       }}
     >
       {props.children}
