@@ -22,7 +22,7 @@ export default function UserProvider(props) {
   const [loggedIn, setLoggedIn] = useState(initlogstate);
 const [loginWindow, setLoginWindow] = useState(false);
   const [userState, setUserState] = useState(initState);
-  const [newUser, setNetUser] = useState(userState.user.newUser)
+  const [newUser, setNewUser] = useState(userState.user.newUser)
   //  console.log(loggedIn)
   // console.log(userState.token !== "")
   // console.log(loggedIn && userState.token !== "")

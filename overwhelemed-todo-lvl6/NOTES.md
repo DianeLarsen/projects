@@ -84,5 +84,5 @@ sudo killall mongod
 SECRET= "tomato, toyota, jackrabbit, opener"
 
 git add -A
-git commit -m "changed navigation so that new users are directed to settings instead of profile"
+git commit -m "updated css"
 git push
