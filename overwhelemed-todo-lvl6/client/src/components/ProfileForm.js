@@ -23,7 +23,7 @@ export default function ProfileForm() {
 
   const [layoutInput, setLayoutInput] = useState(initialLayout);
   const [ finalLayout, setFinalLayout] = useState({})
-  console.log(finalLayout);
+ // console.log(finalLayout);
   const [counter, setCounter] = useState(0);
   const {
     rooms,
@@ -186,8 +186,8 @@ export default function ProfileForm() {
       />
       {Array.from(Array(counter)).map((c, index) => {
         return (
-          <>
-            <label key={index} htmlFor={`addedRoom${index}`}>
+          <React.Fragment key={index}>
+            <label htmlFor={`addedRoom${index}`}>
               {" "}
               Added Room # {index + 1}{" "}
             </label>
@@ -197,7 +197,7 @@ export default function ProfileForm() {
               placeholder="Type in name of Room"
               onChange={handleChange}
             />{" "}
-          </>
+          </React.Fragment>
         );
       })}
       <button onClick={addRoom}>Add a Room</button>

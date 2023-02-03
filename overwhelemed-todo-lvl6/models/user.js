@@ -41,6 +41,13 @@ const userSchema = new Schema({
     isAdmin: {
       type: Boolean,
       default: false
+    },
+    newUser: {
+      type: Boolean,
+      default: true
+    },
+    layout: {
+      type: Array,
     }
   })
   // pre-save hook to encrypt user passwords on signup

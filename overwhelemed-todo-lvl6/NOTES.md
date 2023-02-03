@@ -33,6 +33,19 @@ cd client
 npx create-react-app .
 npm install axios
 npm install react-router-dom
+npm install @syncfusion/ej2-react-lists --save
+    import { ListViewComponent } from '@syncfusion/ej2-react-lists';
+        let arts = [
+            { text: 'Artwork', id: '01' },
+            { text: 'Abstract', id: '02' },
+            { text: 'Modern Painting', id: '03' },
+            { text: 'Ceramics', id: '04' },
+            { text: 'Animation Art', id: '05' },
+            { text: 'Oil Painting', id: '06' }
+        ];
+        return (
+        // specifies the tag to render the ListView component
+        <ListViewComponent id="list" dataSource={arts}/>);
 
 in client folder and package.json, go to bottom before last } 
     enter:    
@@ -46,6 +59,8 @@ create folders in src:
         components, pages, assets
         update title and fav.ico 
 
+for Calendar
+npm install @daypilot/daypilot-lite-react
 
 
 
@@ -69,5 +84,5 @@ sudo killall mongod
 SECRET= "tomato, toyota, jackrabbit, opener"
 
 git add -A
-git commit -m "added inputs for layout questions"
+git commit -m "added Settings page, calendar and layout stuff"
 git push

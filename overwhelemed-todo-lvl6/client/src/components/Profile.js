@@ -3,7 +3,7 @@ import TaskForm from './TaskForm.js'
 import TaskList from './TaskList.js'
 
 import { UserContext } from '../context/UserProvider.js'
-import ProfileForm from "./ProfileForm"
+
 
 
 export default function Profile(){
@@ -15,7 +15,7 @@ export default function Profile(){
     
   return (
     <div className="profile">
-      <ProfileForm />
+      
       <h1>Welcome {capitalizeFirstLetter(firstName)}!</h1>
       <h3>Add A Task</h3>
       <TaskForm addTask={addTask}/>

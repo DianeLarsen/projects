@@ -21,6 +21,7 @@ const { signup, login, errMsg, resetAuthErr } = useContext(UserContext)
   function handleSignup(e){
     e.preventDefault()
     signup(inputs)
+    
   }
 
   function handleLogin(e){

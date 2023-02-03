@@ -11,8 +11,10 @@ export default function Navbar(props) {
         <Link to="/profile">
           <h3>Profile</h3>
         </Link>
-        <Link to="/public">
-          <h3>Public</h3>
+        
+     
+        <Link to="/settings">
+          <h3>Settings</h3>
         </Link>
         <button onClick={logout}>Logout</button>
       </div>

@@ -5,7 +5,7 @@ import ProtectedRoute from './components/ProtectedRoute.js'
 import Navbar from "./components/Navbar";
 import Auth from './components/Auth.js'
 import Profile from './components/Profile.js'
-
+import Settings from "./pages/Settings.js";
 
 function App() {
   const { token, logout } = useContext(UserContext)
@@ -26,7 +26,12 @@ function App() {
             <Profile />
             </ProtectedRoute>}
         />
-       
+        <Route 
+          path="/settings"
+          element={<ProtectedRoute token={token} redirectTo="/">
+            <Settings />
+            </ProtectedRoute>}
+        />
       </Routes>
       </div>
     </div>

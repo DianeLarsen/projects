@@ -18,15 +18,16 @@ export default function UserProvider(props) {
     tasks: [],
     errMsg: "",
   };
-  const initlogstate = localStorage.getItem("loggedIn") || false
+  const initlogstate = localStorage.getItem("loggedIn") || false;
   const [loggedIn, setLoggedIn] = useState(initlogstate);
- 
+
   const [userState, setUserState] = useState(initState);
-  // console.log(loggedIn)
+  //  console.log(loggedIn)
+  // console.log(userState.token !== "")
   // console.log(loggedIn && userState.token !== "")
   // console.log(userState.token && userState.tasks);
   function signup(credentials) {
-    setLoggedIn(true);
+   
     axios
       .post("/auth/signup", credentials)
       .then((res) => {
@@ -41,12 +42,24 @@ export default function UserProvider(props) {
       })
       .catch((err) => handleAuthErr(err.response.data.errMsg));
   }
+
+  // set logged in to true
   useEffect(() => {
-    (loggedIn && userState.token !== "") && getUserTasks();
+    userState.token !== "" && setLoggedIn(true)
     
+  }, [userState.token])
+
+if(loggedIn){
+  localStorage.setItem("loggedIn", loggedIn);
+}
+
+  //  gets the tasks of the user
+  useEffect(() => {
+
+    loggedIn && userState.token !== "" && getUserTasks();
   }, [loggedIn, userState.token]);
   function login(credentials) {
-    setLoggedIn(true);
+    
     axios
       .post("/auth/login", credentials)
       .then((res) => {
@@ -54,18 +67,16 @@ export default function UserProvider(props) {
 
         localStorage.setItem("token", token);
         localStorage.setItem("user", JSON.stringify(user));
-        localStorage.setItem("loggedIn", loggedIn);
+       
 
         setUserState((prevUserState) => ({
           ...prevUserState,
           user,
           token,
         }));
-       userState.token !== "" && getUserTasks()
+        userState.token !== "" && getUserTasks();
       })
       .catch((err) => handleAuthErr(err.response.data.errMsg));
-      
-      
   }
 
   function logout() {
@@ -127,7 +138,7 @@ export default function UserProvider(props) {
         logout,
         addTask,
         resetAuthErr,
-        loggedIn
+        loggedIn,
       }}
     >
       {props.children}
