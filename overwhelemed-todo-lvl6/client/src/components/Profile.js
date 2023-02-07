@@ -1,8 +1,9 @@
 import React, {useContext} from 'react'
 import TaskForm from './TaskForm.js'
 import TaskList from './TaskList.js'
-
+import CardProfile from "./ProfileImage"
 import { UserContext } from '../context/UserProvider.js'
+// import ProfilePic from "./ProfilePic"
 
 
 
@@ -15,7 +16,11 @@ export default function Profile(){
     
   return (
     <div className="profile">
-      
+       <CardProfile/>
+       {/* <ProfilePic /> */}
+      <p>placeholder for profile image</p>
+      <p>placeholder for goal</p>
+      <a href="/settings" >Edit Profile</a>
       <h1>Welcome {capitalizeFirstLetter(firstName)}!</h1>
       <h3>Add A Task</h3>
       <TaskForm addTask={addTask}/>

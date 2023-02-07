@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
-export default function ProfileForm() {
+export default function ProfileForm(props) {
+  const { setSettings } = props
+
   const initialLayout = {
     rooms: "",
     bathrooms: "",
@@ -22,8 +24,8 @@ export default function ProfileForm() {
   };
 
   const [layoutInput, setLayoutInput] = useState(initialLayout);
-  const [ finalLayout, setFinalLayout] = useState({})
- // console.log(finalLayout);
+ const [goal, setGoal] = useState("")
+
   const [counter, setCounter] = useState(0);
   const {
     rooms,
@@ -58,12 +60,17 @@ export default function ProfileForm() {
   }
   function handleSubmit(e){
     e.preventDefault()
-    setFinalLayout(layoutInput)
+    setSettings((prevInputs) => ({
+      ...prevInputs,
+      layout: layoutInput,
+      goal: goal
+    }))
     setLayoutInput(initialLayout)
   }
   return (
     <div className="public">
-        <form onSubmit={handleSubmit}>
+     
+        <form className="layout" onSubmit={handleSubmit}>
       <label htmlFor="rooms" />
       <input
         type="tel"
@@ -201,8 +208,13 @@ export default function ProfileForm() {
         );
       })}
       <button onClick={addRoom}>Add a Room</button>
-      <button type="submit">Add Layout</button>
+      <button type="submit">Update Layout</button>
       </form>
+      <h3>Goal</h3>
+      <form className="calendar" onSubmit={handleSubmit}>
+        <textarea className="goal" value={goal} name="goal" onChange={handleChange}/>
+        <button>Update Goal</button>
+        </form>
     </div>
   );
 }
