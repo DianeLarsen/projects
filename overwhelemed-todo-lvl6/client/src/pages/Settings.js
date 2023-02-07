@@ -1,6 +1,11 @@
 import { useEffect, useState, useContext } from "react";
 import Calendar from "../components/Calendar";
+
+import ImageUpload from "../components/ImageUpload";
+
+
 import { UserContext } from "../context/UserProvider.js";
+
 
 import ProfileForm from "../components/ProfileForm";
 
@@ -37,7 +42,7 @@ function handleUpdate(){
    updateUser(settings)
 }
 
-  
+
 
   return (
     <div className="setup">
@@ -71,7 +76,7 @@ function handleUpdate(){
         Update Settings
       </button>
       <a href="/profile"><button>Skip</button></a>
-   
+   <ImageUpload />
     </div>
   );
 }

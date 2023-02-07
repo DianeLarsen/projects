@@ -89,3 +89,7 @@ SECRET= "tomato, toyota, jackrabbit, opener"
 git add -A
 git commit -m "updated css"
 git push
+
+
+for images
+    npm i @cloudinary/url-gen @cloudinary/react
