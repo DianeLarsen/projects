@@ -20,16 +20,15 @@ export default function UserProvider(props) {
   };
   const initlogstate = localStorage.getItem("loggedIn") || false;
   const [loggedIn, setLoggedIn] = useState(initlogstate);
-const [loginWindow, setLoginWindow] = useState(false);
+  const [loginWindow, setLoginWindow] = useState(false);
   const [userState, setUserState] = useState(initState);
-  const [newUser, setNewUser] = useState(userState.user.newUser)
+  const [newUser, setNewUser] = useState(userState.user.newUser);
   //  console.log(loggedIn)
   // console.log(userState.token !== "")
   // console.log(loggedIn && userState.token !== "")
   // console.log(userState.token && userState.tasks);
-  
+
   function signup(credentials) {
-   
     axios
       .post("/auth/signup", credentials)
       .then((res) => {
@@ -47,21 +46,18 @@ const [loginWindow, setLoginWindow] = useState(false);
 
   // set logged in to true
   useEffect(() => {
-    userState.token !== "" && setLoggedIn(true)
-    
-  }, [userState.token])
+    userState.token !== "" && setLoggedIn(true);
+  }, [userState.token]);
 
-if(loggedIn){
-  localStorage.setItem("loggedIn", loggedIn);
-}
+  if (loggedIn) {
+    localStorage.setItem("loggedIn", loggedIn);
+  }
 
   //  gets the tasks of the user
   useEffect(() => {
-
     loggedIn && userState.token !== "" && getUserTasks();
   }, [loggedIn, userState.token]);
   function login(credentials) {
-    
     axios
       .post("/auth/login", credentials)
       .then((res) => {
@@ -69,7 +65,6 @@ if(loggedIn){
 
         localStorage.setItem("token", token);
         localStorage.setItem("user", JSON.stringify(user));
-       
 
         setUserState((prevUserState) => ({
           ...prevUserState,
@@ -92,9 +87,9 @@ if(loggedIn){
       tasks: [],
     });
   }
-function openLogin(){
-  setLoginWindow(!loginWindow)
-}
+  function openLogin() {
+    setLoginWindow(!loginWindow);
+  }
   function handleAuthErr(errMsg) {
     setUserState((prevState) => ({
       ...prevState,
@@ -132,6 +127,13 @@ function openLogin(){
       })
       .catch((err) => console.log(err.response.data.errMsg));
   }
+  function updateUser(update) {
+    userAxios
+      .patch("/api/user", update)
+      .then((res) => console.log(res.data))
+      .catch((err) => console.log(err.response.data.errMsg));
+  }
+
   // console.log(userState);
   return (
     <UserContext.Provider
@@ -143,9 +145,11 @@ function openLogin(){
         addTask,
         resetAuthErr,
         loggedIn,
-       openLogin, 
-       loginWindow,
-       newUser
+        openLogin,
+        loginWindow,
+        newUser,
+        setNewUser,
+        updateUser,
       }}
     >
       {props.children}

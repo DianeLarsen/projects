@@ -12,6 +12,7 @@ export default function Auth() {
 
   function handleChange(e) {
     const { name, value } = e.target;
+    
     setInputs((prevInputs) => ({
       ...prevInputs,
       [name]: value,

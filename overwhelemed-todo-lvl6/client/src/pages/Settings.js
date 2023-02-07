@@ -1,18 +1,23 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Calendar from "../components/Calendar";
-
+import { UserContext } from "../context/UserProvider.js";
 
 import ProfileForm from "../components/ProfileForm";
 
 
 // need to setNewUser to false after setup complete
 export default function Settings() {
+  const { setNewUser, newUser, updateUser } = useContext(UserContext);
   const [settingsUpdated, setSettingsUpdated] = useState(false);
+  const initialSettings = {
+    schedule: "",
+    layout: "",
+  }
   const [settings, setSettings] = useState({ misc: "" });
   const [ showCal, setShowCal] = useState(false)
-  console.log(settings);
-  console.log(settingsUpdated)
-
+   console.log(settings);
+  console.log(newUser)
+  
   // need to come up with a different condition that encompases all the data instead of jist misc
   useEffect(() => {
     settingsUpdated && settings.misc !== "" && setSettingsUpdated(false);
@@ -26,7 +31,11 @@ export default function Settings() {
       [name]: value,
     }));
   }
-
+function handleUpdate(){
+  setSettingsUpdated(!settingsUpdated);
+   setNewUser(false)
+   updateUser(settings)
+}
 
   
 
@@ -50,7 +59,7 @@ export default function Settings() {
         onChange={handleChange}
       />
       <h3>Layout</h3>
-      <ProfileForm />
+      <ProfileForm setSettings={setSettings}/>
       <h3>Users</h3>
       <p>
         Here is where you can add roommates, partners, kids. You will even be
@@ -58,7 +67,7 @@ export default function Settings() {
         schedule as well and if they join they will see what has been given to
         them. If they are given persmissions they can edit thier own schedule.
       </p>
-      <button onClick={() => setSettingsUpdated(!settingsUpdated)}>
+      <button onClick={handleUpdate}>
         Update Settings
       </button>
       <a href="/profile"><button>Skip</button></a>

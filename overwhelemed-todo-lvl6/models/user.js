@@ -46,7 +46,7 @@ const userSchema = new Schema({
       type: Boolean,
       default: true
     },
-    layout: {
+    settings: {
       type: Array,
     }
   })
