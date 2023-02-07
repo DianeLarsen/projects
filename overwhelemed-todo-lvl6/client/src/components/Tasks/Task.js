@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Task(props){
-    const { title, description, imgUrl, _id} = props
+    const { title, description, imgUrl} = props
   return (
     <div className="task">
         <h1>{ title }</h1>

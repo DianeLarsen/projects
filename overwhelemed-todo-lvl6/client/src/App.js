@@ -4,7 +4,7 @@ import { UserContext } from './context/UserProvider.js'
 import ProtectedRoute from './components/ProtectedRoute.js'
 import Navbar from "./components/Navbar";
 import Home from './pages/Home.js'
-import Profile from './components/Profile.js'
+import Profile from './pages/Profile.js'
 import Settings from "./pages/Settings.js";
 import Footer from './components/Footer.js'
 

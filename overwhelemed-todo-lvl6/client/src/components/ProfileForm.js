@@ -58,6 +58,13 @@ export default function ProfileForm(props) {
   function addRoom() {
     setCounter(counter + 1);
   }
+  function handleGoalChange(e){
+    const { name, value } = e.target;
+    setGoal((prevInputs) => ({
+      ...prevInputs,
+      [name]: value,
+    }));
+  }
   function handleSubmit(e){
     e.preventDefault()
     setSettings((prevInputs) => ({
@@ -212,7 +219,7 @@ export default function ProfileForm(props) {
       </form>
       <h3>Goal</h3>
       <form className="calendar" onSubmit={handleSubmit}>
-        <textarea className="goal" value={goal} name="goal" onChange={handleChange}/>
+        <textarea className="goal" value={goal} name="goal" onChange={handleGoalChange}/>
         <button>Update Goal</button>
         </form>
     </div>

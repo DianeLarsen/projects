@@ -128,8 +128,9 @@ export default function UserProvider(props) {
       .catch((err) => console.log(err.response.data.errMsg));
   }
   function updateUser(update) {
+    console.log(update)
     userAxios
-      .patch("/api/user", update)
+      .patch("/api/user/user", update)
       .then((res) => console.log(res.data))
       .catch((err) => console.log(err.response.data.errMsg));
   }

@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-react-lists/styles/material.css";
-
+@import "@fontsource/roboto/300.css";
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
 /* layout */
 :root {
   --primary: #1aac83;
@@ -61,7 +64,15 @@ header a {
     display: flex;
     flex-direction: column;
   }
-  
+  .pic-form{
+    flex-direction: row;
+    border: 1px solid #3339;
+    width: 253px;
+    height: 21px;
+  }
+  .pic-form > input{
+    border: 1px solid #3339;
+  }
   .auth-container > form > input {
     margin: 16px 8px;
     padding: 8px;

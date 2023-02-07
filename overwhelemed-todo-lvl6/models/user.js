@@ -23,10 +23,12 @@ const userSchema = new Schema({
       required: true
     },
     info: {
-      type: String
+      type: String,
+      default: "test"
     },
     imgUrl: {
       type: String,
+      default: "https://github.com/OlgaKoplik/CodePen/blob/master/profile.jpg?raw=true"
     }, 
     memberSince: {
       type: Date,

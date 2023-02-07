@@ -52,7 +52,7 @@ app.use(
 app.use("/api/task", require("./routes/tasksRouter.js"));
 //app.use("/api/comments", require("./routes/commentsRouter.js"));
 // app.use("/api/posts", require("./routes/postsRouter.js"));
-// app.use("/api/profile", require("./routes/userRouter.js"));
+app.use("/api/user", require("./routes/userRouter.js"));
 
 app.use((err, req, res, next) => {
   console.log(err);

@@ -1,14 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import PhotoCamera from "@mui/icons-material/PhotoCamera";
+import IconButton from "@mui/material/IconButton";
+import { UserContext } from '../context/UserProvider.js'
 
-
-/**
- * Cloudinary Setup
- * 1. Sign up for a Cloudinary account
- * 2. Go to Settings -> Upload
- * 3. Add an "upload preset" with 'Unsigned mode'
- *    to enable unsigned uploading to Cloudinary.
- */
-
+// found on site after logging in
 const NAME_OF_UPLOAD_PRESET = "ml_default";
 const YOUR_CLOUDINARY_ID = "dqjh46sk5";
 
@@ -21,7 +16,7 @@ async function uploadImage(file) {
     `https://api.cloudinary.com/v1_1/${YOUR_CLOUDINARY_ID}/image/upload`,
     {
       method: "POST",
-      body: data
+      body: data,
     }
   );
   const img = await res.json();
@@ -29,14 +24,18 @@ async function uploadImage(file) {
   return img.secure_url;
 }
 
-export default function ImageUpload() {
+export default function ImageUpload(props) {
+  const {updateUser} = useContext(UserContext)
+  const { setSettings } = props
   const [formData, setFormData] = useState({
     // ...other fields
-    img: ""
+    img: "",
   });
-  const [uploadingImg, setUploadingImg] = useState(false);
+  console.log(formData.img)
+console.log(formData)
+  const [uploadingImg, setUploadingImg] = useState(null);
 
-  const handleFileChange = async event => {
+  const handleFileChange = async (event) => {
     const [file] = event.target.files;
     if (!file) return;
 
@@ -46,16 +45,19 @@ export default function ImageUpload() {
     setUploadingImg(false);
   };
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
+    const updatedImage = {imgUrl: formData.img}
     // disable the form submit when uploading image
     if (uploadingImg) return;
-
+    setSettings(prevSettings => ({...prevSettings, imgUrl: formData.img }))
+    updateUser(updatedImage)
+    setUploadingImg(null);
     // upload `formData` to server
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="pic-form" onSubmit={handleSubmit}>
       {/* Image preview */}
       {formData.img && (
         <figure>
@@ -67,16 +69,31 @@ export default function ImageUpload() {
           <figcaption>Preview</figcaption>
         </figure>
       )}
-      {/* Inputs */}
-      <input
-        type="file"
+      
+ <input
         accept="image/*"
+        id="icon-button-file"
+        type="file"
         onChange={handleFileChange}
         disabled={uploadingImg}
+        style={{ display: "none" }}
       />
-      <button type="submit" disabled={uploadingImg}>
-        Submit
-      </button>
+      <label htmlFor="icon-button-file">
+        <IconButton
+          color="primary"
+          aria-label="upload picture"
+          component="span"
+        >
+          <PhotoCamera />
+        </IconButton>
+      </label>
+      {uploadingImg === false && (
+        <button type="submit" disabled={uploadingImg}>
+          Submit
+        </button>
+      )}
+            
+     
     </form>
   );
 }

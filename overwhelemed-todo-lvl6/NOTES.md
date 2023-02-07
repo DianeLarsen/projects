@@ -87,7 +87,7 @@ sudo killall mongod
 SECRET= "tomato, toyota, jackrabbit, opener"
 
 git add -A
-git commit -m "updated css"
+git commit -m "got patch working for users"
 git push
 
 

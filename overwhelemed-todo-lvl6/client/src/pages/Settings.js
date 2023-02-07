@@ -1,12 +1,7 @@
 import { useEffect, useState, useContext } from "react";
 import Calendar from "../components/Calendar";
-
 import ImageUpload from "../components/ImageUpload";
-
-
 import { UserContext } from "../context/UserProvider.js";
-
-
 import ProfileForm from "../components/ProfileForm";
 
 
@@ -17,11 +12,12 @@ export default function Settings() {
   const initialSettings = {
     schedule: "",
     layout: "",
+    imgUrl: ""
   }
-  const [settings, setSettings] = useState({ misc: "" });
+  const [settings, setSettings] = useState(initialSettings);
   const [ showCal, setShowCal] = useState(false)
-   console.log(settings);
-  console.log(newUser)
+  //  console.log(settings);
+  // console.log(newUser)
   
   // need to come up with a different condition that encompases all the data instead of jist misc
   useEffect(() => {
@@ -46,17 +42,20 @@ function handleUpdate(){
 
   return (
     <div className="setup">
+      {newUser && <h1>Welcome to the Overwhelmed task list</h1>}
       {settingsUpdated ? (
         <div style={{color:"green"}}>Your settings have up updated!</div>
       ) : (
         <div style={{color:"red"}}>Your settings have NOT been updated!</div>
       )}
+         <ImageUpload setSettings={setSettings}/>
+        
       <h3>Personal Schedule</h3>
       <button onClick={() => setShowCal(!showCal)}>{showCal ? "Close Calendar" : "Open Calendar"}</button>
       {showCal && <Calendar />}
  
       <h3>Misc</h3>
-      <input
+            <input
         value={settings.misc}
         name="misc"
         type="text"
@@ -76,7 +75,9 @@ function handleUpdate(){
         Update Settings
       </button>
       <a href="/profile"><button>Skip</button></a>
-   <ImageUpload />
+    
+
+  
     </div>
   );
 }
