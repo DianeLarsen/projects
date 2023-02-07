@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Calendar from "../components/Calendar";
+import ImageUpload from "../components/ImageUpload";
 
 
 import ProfileForm from "../components/ProfileForm";
@@ -28,7 +29,7 @@ export default function Settings() {
   }
 
 
-  
+
 
   return (
     <div className="setup">
@@ -62,7 +63,7 @@ export default function Settings() {
         Update Settings
       </button>
       <a href="/profile"><button>Skip</button></a>
-   
+   <ImageUpload />
     </div>
   );
 }
