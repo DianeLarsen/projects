@@ -1,0 +1,9 @@
+.pic-form{
+    flex-direction: row;
+    border: 1px solid #3339;
+    width: 253px;
+    height: 21px;
+  }
+  .pic-form > input{
+    border: 1px solid #3339;
+  }

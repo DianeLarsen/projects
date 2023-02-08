@@ -50,7 +50,9 @@ export default function AuthForm(props) {
       <button>{btnText}</button>
       <p style={{ color: "red" }}>{errMsg}</p>
       <p className="toggle-form" onClick={toggleForm}>{btnText === "Sign up" ? "Already a member?" : "Not a member?"}</p>
+      <span className="loginForgot">Forgot Password?</span>
     </form>
     
   );
 }
+// add functionality for "Forgot Password"
