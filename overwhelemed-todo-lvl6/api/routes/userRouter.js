@@ -2,21 +2,26 @@ const express = require("express");
 const userRouter = express.Router();
 const {
     updateUser,
+    getFriend,
+    findFriends,
+    addFriend,
+    removeFriend
 } = require("../controllers/userController");
 
-// // Get All Tasks
-// userRouter.get("/", getTasks);
-
-// // Get tasks by User ID
-// userRouter.get("/user", getUserTasks);
-
-// // Add new Task
-// userRouter.post("/", createTask);
-
-// // Delete Task
-// userRouter.delete("/:taskId", deleteTask);
-
-// Update Task
+// Update User
 userRouter.patch("/:userId", updateUser);
+
+// Get friends
+userRouter.get("/friends/:userId", getFriend);
+
+// Find Friends
+userRouter.get("/", findFriends);
+
+// Add Friend
+userRouter.get("/:id/friend", addFriend);
+
+// Remove Friend
+userRouter.get("/:id/unfriend", removeFriend);
+
 
 module.exports = userRouter;

@@ -52,6 +52,14 @@ const userSchema = new Schema({
     type: Array,
     default: [],
   },
+  followers: {
+    type: Array,
+    default: [],
+  },
+  followings: {
+    type: Array,
+    default: [],
+  },
   memberSince: {
     type: Date,
     default: Date.now,
@@ -68,7 +76,7 @@ const userSchema = new Schema({
     type: Boolean,
     default: false,
   },
-  newUser: {
+    newUser: {
     type: Boolean,
     default: true,
   },
@@ -76,6 +84,18 @@ const userSchema = new Schema({
     type: Array,
     default: [],
   },
+  relationship: {
+    type: Number,
+    enum: [1, 2, 3],
+  },
+  city: {
+    type: String,
+    max: 50,
+  },
+  from: {
+    type: String,
+    max: 50,
+  }
 });
 // pre-save hook to encrypt user passwords on signup
 

@@ -6,11 +6,15 @@ require("dotenv").config();
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const {expressjwt} = require("express-jwt");
+// helmet
+// multer
+
+
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan("dev"));
-app.use('/assets', express.static('assets'))
+// app.use('/assets', express.static('assets'))
 // view engine
 app.set("view engine", "ejs")
 if (process.env.NODE_ENV === 'production') {
@@ -21,6 +25,7 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
+// Connect to Server and DB
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
@@ -31,6 +36,8 @@ mongoose.connect(process.env.MONGO_URI)
     .catch((err) => {
         console.log(err)
     }) 
+
+
 if (process.env.NODE_ENV === 'production') {
   // production mode
   app.use(express.static('client/build'));
@@ -43,15 +50,14 @@ app.use((req, res, next) => {
     console.log(req.path, req.method)
     next()
 })
-
+ 
 app.use("/auth", require("./routes/authRouter.js"));
 app.use(
   "/api",
   expressjwt({ secret: process.env.SECRET, algorithms: ["HS256"] })
 );
 app.use("/api/task", require("./routes/tasksRouter.js"));
-//app.use("/api/comments", require("./routes/commentsRouter.js"));
-// app.use("/api/posts", require("./routes/postsRouter.js"));
+app.use("/api/posts", require("./routes/postsRouter.js"));
 app.use("/api/user", require("./routes/userRouter.js"));
 
 app.use((err, req, res, next) => {

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-lists/styles/material.css";
+@import "@fontsource/roboto/300.css";
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
 body {
   background: #f1f1f1;
   margin: 0;
@@ -9,3 +16,4 @@ body {
   padding: 20px;
   margin: 0 auto;
 }
+ 

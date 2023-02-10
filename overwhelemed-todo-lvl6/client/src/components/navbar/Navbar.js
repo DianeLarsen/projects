@@ -10,7 +10,7 @@ export default function Navbar(props) {
         <Link to="/">
           <h1>Overwhelemed Tasks</h1>
         </Link>
-        {token && <><Link to="/profile">
+        {token && <><Link to="/home">
           <h3>Profile</h3>
         </Link>
         

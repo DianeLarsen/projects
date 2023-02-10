@@ -8,7 +8,7 @@ import {
   Home,
   Feed,
 } from "@mui/icons-material";
-
+const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 export default function Topbar() {
   return (
     <div className="topbarContainer">
@@ -46,7 +46,7 @@ export default function Topbar() {
       
       </div>
       <div className="topbarRight">
-        <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+        <img src={PF+"person/1.jpeg"} alt="" className="topbarImg" />
       </div>
     </div>
   );

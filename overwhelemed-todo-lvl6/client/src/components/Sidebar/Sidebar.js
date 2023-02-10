@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./sidebar.css";
 import {
   RssFeed,
   Chat,
@@ -9,7 +9,7 @@ import {
   WorkOutline,
   Event,
   School,
-} from  "@mui/icons-material";
+} from "@mui/icons-material";
 import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
 

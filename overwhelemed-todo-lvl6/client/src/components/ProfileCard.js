@@ -15,9 +15,9 @@ export default function ProfileCard() {
   const [inputs, setInputs] = useState(initalCard);
   const [card, setCard] = useState(initalCard);
   const [active, setActive] = useState(false);
-  console.log(active);
+ 
   const [btnText, setBtnText] = useState("fa-pen");
-  console.log(btnText);
+
   function handleChange(e) {
     const { value } = e.target;
     setInputs((prevInputs) => ({

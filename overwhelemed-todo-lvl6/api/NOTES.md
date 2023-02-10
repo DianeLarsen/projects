@@ -93,3 +93,7 @@ git push
 
 for images
     npm i @cloudinary/url-gen @cloudinary/react
+
+
+    https://www.youtube.com/watch?v=pFHyZvVxce0&t=0s
+    54 min

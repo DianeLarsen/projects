@@ -1,15 +1,19 @@
 import React from "react";
+import { useContext } from "react";
+import { CircularProgress } from "@mui/material";
+
+import { AuthContext } from "../context/AuthContext";
 
 export default function AuthForm(props) {
   const {
     handleChange,
     handleSubmit,
     btnText,
-    inputs: { username, password, firstName, lastName },
+    inputs: { username, password, email, firstName },
     errMsg,
     toggleForm
   } = props;
-
+  const { isFetching } = useContext(AuthContext);
   return (
    
     
@@ -21,16 +25,37 @@ export default function AuthForm(props) {
         name="username"
         onChange={handleChange}
         placeholder="Username"
+        required
       />
-      <input
-        type="text"
-        value={password}
-        name="password"
-        onChange={handleChange}
-        placeholder="Password"
-      />
+       <input
+              placeholder="Password"
+              type="password"
+              required
+              minLength="6"
+              className="loginInput"
+              name="password"
+              onChange={handleChange}
+              value={password}
+            />
+     
       {btnText === "Sign up" && (
         <>
+        {/* <input
+              placeholder="Retype Password"
+              type="password"
+              required
+              minLength="6"
+              className="loginInput"
+              onChange={handleChange}
+              value={password}
+            /> */}
+          <input
+            type="email"
+            value={email}
+            name="email"
+            onChange={handleChange}
+            placeholder="Email"
+          />
           <input
             type="text"
             value={firstName}
@@ -38,16 +63,21 @@ export default function AuthForm(props) {
             onChange={handleChange}
             placeholder="First Name"
           />
-          <input
-            type="text"
-            value={lastName}
-            name="lastName"
-            onChange={handleChange}
-            placeholder="Last Name"
-          />
         </>
       )}
-      <button>{btnText}</button>
+      {btnText === "Sign up" ? <button className="loginRegisterButton">
+              {isFetching ? (
+                <CircularProgress color="white" size="20px" />
+              ) : (
+                "Create a New Account"
+              )}
+            </button> : <button className="loginButton" type="submit" disabled={isFetching}>
+              {isFetching ? (
+                <CircularProgress color="white" size="20px" />
+              ) : (
+                "Log In"
+              )}
+            </button>}
       <p style={{ color: "red" }}>{errMsg}</p>
       <p className="toggle-form" onClick={toggleForm}>{btnText === "Sign up" ? "Already a member?" : "Not a member?"}</p>
       <span className="loginForgot">Forgot Password?</span>
