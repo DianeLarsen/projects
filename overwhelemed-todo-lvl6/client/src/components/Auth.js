@@ -1,15 +1,17 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useRef } from "react";
 import AuthForm from "./AuthForm.js";
 import { UserContext } from "../context/UserProvider.js";
 
-const initInputs = { username: "", password: "", firstName: "", lastName: "" };
+
+
 
 export default function Auth() {
+  const initInputs = { username: "", password: "",  firstName: "", lastName: "", email: "" };
   const [inputs, setInputs] = useState(initInputs);
   const [toggle, setToggle] = useState(false);
-
+const passwordRef = useRef()
   const { signup, login, errMsg, resetAuthErr } = useContext(UserContext);
-
+ 
   function handleChange(e) {
     const { name, value } = e.target;
     
@@ -21,7 +23,11 @@ export default function Auth() {
 
   function handleSignup(e) {
     e.preventDefault();
+    if (passwordRef.current.value !== inputs.password) {
+      passwordRef.current.setCustomValidity("Passwords don't match!");
+    } else {
     signup(inputs);
+    }
   }
 
   function handleLogin(e) {
@@ -44,6 +50,7 @@ export default function Auth() {
           btnText="Sign up"
           errMsg={errMsg}
           toggleForm={toggleForm}
+          passwordRef={passwordRef}
         />
       ) : (
         <AuthForm

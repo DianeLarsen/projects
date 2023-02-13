@@ -1,19 +1,24 @@
-import React from "react";
-import { useContext } from "react";
+import React, { useContext} from "react";
+
 import { CircularProgress } from "@mui/material";
 
 import { AuthContext } from "../context/AuthContext";
 
 export default function AuthForm(props) {
+ 
   const {
     handleChange,
     handleSubmit,
     btnText,
     inputs: { username, password, email, firstName },
     errMsg,
-    toggleForm
+    toggleForm,
+    passwordRef
   } = props;
+
   const { isFetching } = useContext(AuthContext);
+
+
   return (
    
     
@@ -37,18 +42,17 @@ export default function AuthForm(props) {
               onChange={handleChange}
               value={password}
             />
+           
      
       {btnText === "Sign up" && (
         <>
-        {/* <input
-              placeholder="Retype Password"
-              type="password"
+      <input
+              placeholder="Password Again"
               required
-              minLength="6"
               className="loginInput"
-              onChange={handleChange}
-              value={password}
-            /> */}
+              type="password"
+              ref={passwordRef}
+            />
           <input
             type="email"
             value={email}
@@ -69,7 +73,7 @@ export default function AuthForm(props) {
               {isFetching ? (
                 <CircularProgress color="white" size="20px" />
               ) : (
-                "Create a New Account"
+                "Sign up"
               )}
             </button> : <button className="loginButton" type="submit" disabled={isFetching}>
               {isFetching ? (

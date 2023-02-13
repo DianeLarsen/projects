@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer">
-      <a  title="instagram/web__addict" href="https://www.instagram.com/diane.m.larsen/"><i className="fab fa-instagram"></i></a>
+      <i className="fa-brands fa-facebook fa-2x"></i>
       </div>
     </footer>
   );

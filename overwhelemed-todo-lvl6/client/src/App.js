@@ -9,11 +9,11 @@ import Settings from "./pages/Settings.js";
 import Footer from "./components/Footer.js";
 import Posts from "./pages/Posts.js";
 import Profile from "./pages/profile/Profile.js";
-import { AuthContext } from "./context/AuthContext";
+
 function App() {
   const { token, logout, openLogin, loginWindow, newUser } =
     useContext(UserContext);
-    const { user } = useContext(AuthContext);
+    
   return (
     <div className="App">
       <Navbar

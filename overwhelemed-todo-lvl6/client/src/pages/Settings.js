@@ -42,7 +42,7 @@ function handleUpdate(){
 
   return (
     <div className="setup">
-      {newUser && <h1>Welcome to the Overwhelmed task list</h1>}
+      {newUser && <h1>Settings</h1>}
       {settingsUpdated ? (
         <div style={{color:"green"}}>Your settings have up updated!</div>
       ) : (
