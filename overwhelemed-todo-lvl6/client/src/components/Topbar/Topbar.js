@@ -8,8 +8,16 @@ import {
   Home,
   Feed,
 } from "@mui/icons-material";
+import { useContext } from "react";
+import { UserContext } from "../../context/UserProvider";
+
 const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 export default function Topbar() {
+
+  const { ...userState }  = useContext(UserContext);
+
+  const { user: {profilePicture, username} } = userState
+
   return (
     <div className="topbarContainer">
       <div className="topbarIcons">
@@ -46,7 +54,11 @@ export default function Topbar() {
       
       </div>
       <div className="topbarRight">
-        <img src={PF+"person/1.jpeg"} alt="" className="topbarImg" />
+        <Link to={`/profile/${username}`}>
+        <img src={  profilePicture
+                ? profilePicture
+                : PF + "person/noAvatar.png"} alt="" className="topbarImg" />
+                </Link>
       </div>
     </div>
   );

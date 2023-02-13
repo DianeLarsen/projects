@@ -1,18 +1,48 @@
-.home{
+
+  .login {
+    width: 95vw;
+    height: 100vh;
+    background-color: #f0f2f5;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: center;
   }
+  
+
+  
+  .loginLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .loginLogo {
+    font-size:7.8vw;
+    
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+  }
+  
+  .loginDesc {
+    font-size: 4.5vw;
+  }
+  
 .auth-container {
     display: flex;
-    align-items: flex-end;
     flex-direction: column;
     height: 100vh;
-    
+    margin: 10px;
+    width: 50vw;
+    max-width: 340px;
   }
   
   .auth-container > h2 {
     font-size: 2em;
     margin: 24px;
+    
   }
   .toggle-form {
     margin: 16px;
@@ -21,7 +51,7 @@
   
   .auth-container > form {
     border: 1px solid #3339;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     background-color: #aaa9;
     min-width: 300px;
@@ -38,12 +68,27 @@
     padding: 8px;
     border-radius: 4px;
   }
+  .auth-container > form > button:disabled {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+cursor: not-allowed;
+background-color: grey;
+  }
   @media only screen and (max-width: 600px){
     .auth-container{
       align-items: center;
     }
-    .home  {
+    .login  {
       
         justify-content: space-around;
       }
+}
+@media only screen and (max-width: 800px){
+  .login  {
+    flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+   
 }
