@@ -20,7 +20,7 @@ async function uploadImage(file) {
     }
   );
   const img = await res.json();
-  console.log(img);
+
   return img.secure_url;
 }
 
@@ -31,8 +31,7 @@ export default function ImageUpload(props) {
     // ...other fields
     img: "",
   });
-  console.log(formData.img)
-console.log(formData)
+
   const [uploadingImg, setUploadingImg] = useState(null);
 
   const handleFileChange = async (event) => {

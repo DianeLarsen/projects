@@ -3,7 +3,7 @@ import Post from "../post/Post";
 import Share from "../share/Share";
 import "./feed.css";
 import axios from "axios";
-import { AuthContext } from "../../context/AuthContext";
+import { UserContext } from "../../context/UserProvider.js";
 const userAxios = axios.create();
 
 userAxios.interceptors.request.use((config) => {
@@ -12,17 +12,18 @@ userAxios.interceptors.request.use((config) => {
   return config;
 });
 
-export default function Feed({ username }) {
+export default function Feed({ currentUser }) {
 
   const [posts, setPosts] = useState([]);
-  const { user } = useContext(AuthContext);
+  const { ...userState }  = useContext(UserContext);
 
+const { user: {_id, username} } = userState
   useEffect(() => {
     const fetchPosts = async () => {
      
-      const res = username
-        ? await userAxios.get("/api/posts/profile/" + username)
-        : await userAxios.get("/api/posts/timeline/" + user._id);
+      const res = currentUser
+        ? await userAxios.get("/api/posts/profile/" + currentUser)
+        : await userAxios.get("/api/posts/timeline/" + _id);
       
       setPosts(
         res.data.sort((p1, p2) => {
@@ -31,12 +32,12 @@ export default function Feed({ username }) {
       );
     };
     fetchPosts();
-  }, [username, user._id]);
+  }, [currentUser, _id]);
 
   return (
     <div className="feed">
       <div className="feedWrapper">
-        {(!username || username === user.username) && <Share />}
+        {(!currentUser || currentUser === username) && <Share />}
         {posts ? posts.map((p) => (
           <Post key={p._id} post={p} />
         )):<h3>No posts Available</h3>}

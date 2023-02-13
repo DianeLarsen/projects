@@ -23,11 +23,7 @@ export default function UserProvider(props) {
   const [loginWindow, setLoginWindow] = useState(false);
   const [userState, setUserState] = useState(initState);
   const [newUser, setNewUser] = useState(userState.user.newUser);
-  //  console.log(loggedIn)
-  // console.log(userState.token !== "")
-  // console.log(loggedIn && userState.token !== "")
-  // console.log(userState.token && userState.tasks);
-
+ 
   function signup(credentials) {
     axios
       .post("/auth/signup", credentials)
@@ -135,7 +131,6 @@ export default function UserProvider(props) {
       .catch((err) => console.log(err.response.data.errMsg));
   }
 
-  // console.log(userState);
   return (
     <UserContext.Provider
       value={{

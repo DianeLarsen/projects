@@ -6,7 +6,8 @@ import "./login.css"
 export default function Login(){
     const { loginWindow } = useContext(UserContext)
     return(
-    <div className="home">
+    <div className="login ">
+     
         <div className="loginLeft">
           <h3 className="loginLogo">Overwhelemed?</h3>
           <span className="loginDesc">

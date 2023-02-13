@@ -8,6 +8,10 @@ import {
 } from "@mui/icons-material";
 import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
+import { Link } from "react-router-dom";
+
+
+// import { UserContext } from "../../context/UserProvider";
 import axios from "axios";
 const userAxios = axios.create();
 
@@ -35,7 +39,7 @@ export default function Share() {
       data.append("name", fileName);
       data.append("file", file);
       newPost.img = fileName;
-      console.log(newPost);
+      // console.log(newPost);
       try {
         await userAxios.post("/upload", data);
       } catch (err) {}
@@ -50,6 +54,7 @@ export default function Share() {
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
+        <Link to={`/profile/${user.username}`}>
           <img
             className="shareProfileImg"
             src={
@@ -59,6 +64,7 @@ export default function Share() {
             }
             alt=""
           />
+          </Link>
           <input
             placeholder={"What's in your mind " + user.username + "?"}
             className="shareInput"
