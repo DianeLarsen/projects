@@ -33,7 +33,7 @@ export default function Rightbar({ user }) {
       }
     };
     getFriends();
-  }, [user]);
+  }, [currentUser._id]);
 
   const handleClick = async () => {
     try {

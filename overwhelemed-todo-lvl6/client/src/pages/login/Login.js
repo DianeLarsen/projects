@@ -1,5 +1,5 @@
 import Auth from "../../components/Auth";
-import { UserContext, useRef } from '../../context/UserProvider.js'
+import { UserContext } from '../../context/UserProvider.js'
 import React, {useContext} from 'react'
 import "./login.css"
 

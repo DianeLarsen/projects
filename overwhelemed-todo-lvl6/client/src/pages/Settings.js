@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import Calendar from "../components/Calendar";
-import ImageUpload from "../components/imageUpload/ImageUpload";
+import CloudinaryUploadWidget from "../utils/CloudinaryUploadWidget";
 import { UserContext } from "../context/UserProvider.js";
 import ProfileForm from "../components/ProfileForm";
 
@@ -48,8 +48,8 @@ function handleUpdate(){
       ) : (
         <div style={{color:"red"}}>Your settings have NOT been updated!</div>
       )}
-         <ImageUpload setSettings={setSettings}/>
         
+         <CloudinaryUploadWidget setSettings={setSettings}/>
       <h3>Personal Schedule</h3>
       <button onClick={() => setShowCal(!showCal)}>{showCal ? "Close Calendar" : "Open Calendar"}</button>
       {showCal && <Calendar />}

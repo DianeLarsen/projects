@@ -1,6 +1,5 @@
 import "./share.css";
 import {
-  PermMedia,
   Label,
   Room,
   EmojiEmotions,
@@ -10,9 +9,10 @@ import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { Link } from "react-router-dom";
 
-
-// import { UserContext } from "../../context/UserProvider";
 import axios from "axios";
+import CloudinaryUploadWidget from "../../utils/CloudinaryUploadWidget";
+
+
 const userAxios = axios.create();
 
 userAxios.interceptors.request.use((config) => {
@@ -32,18 +32,9 @@ export default function Share() {
     const newPost = {
       userId: user._id,
       description: desc.current.value,
+      img: file
     };
-    if (file) {
-      const data = new FormData();
-      const fileName = Date.now() + file.name;
-      data.append("name", fileName);
-      data.append("file", file);
-      newPost.img = fileName;
-      // console.log(newPost);
-      try {
-        await userAxios.post("/upload", data);
-      } catch (err) {}
-    }
+    
     try {
       await userAxios.post("/api/posts", newPost);
       window.location.reload();
@@ -74,23 +65,15 @@ export default function Share() {
         <hr className="shareHr" />
         {file && (
           <div className="shareImgContainer">
-            <img className="shareImg" src={URL.createObjectURL(file)} alt="" />
+            <img className="shareImg" src={file} alt="" />
             <Cancel className="shareCancelImg" onClick={() => setFile(null)} />
           </div>
         )}
         <form className="shareBottom" onSubmit={submitHandler}>
           <div className="shareOptions">
-            <label htmlFor="file" className="shareOption">
-              <PermMedia htmlColor="tomato" className="shareIcon" />
-              <span className="shareOptionText">Photo or Video</span>
-              <input
-                style={{ display: "none" }}
-                type="file"
-                id="file"
-                accept=".png,.jpeg,.jpg"
-                onChange={(e) => setFile(e.target.files[0])}
-              />
-            </label>
+          
+     <CloudinaryUploadWidget setFile={setFile}/>
+     
             <div className="shareOption">
               <Label htmlColor="blue" className="shareIcon" />
               <span className="shareOptionText">Tag</span>
