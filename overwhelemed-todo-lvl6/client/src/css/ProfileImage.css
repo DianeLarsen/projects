@@ -126,7 +126,7 @@
     max-width: 220px;
     overflow-wrap: break-word;
   }
-  button{
+  .profileBtn{
     position: relative;
     color: #054231;
     letter-spacing: 1px;
@@ -153,13 +153,13 @@
     color: #fff;
     width: 180px;
   }
-  button:hover{
+  .profileBtn:hover{
     left: 0;
     color: #fff;
     width: 180px;
     box-shadow: 0px 0px 20px 0px  #63d3a6;
   }
-  button:focus{
+  .profileBtn:focus{
     outline: none;
   }
   .lds-ripple {

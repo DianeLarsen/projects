@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const tasksSchema = new Schema({
+const tasksSchema = new Schema(
+  {
       description: {
         type: String,
         max: 500,
@@ -21,8 +22,11 @@ const tasksSchema = new Schema({
         type: Array,
         default: [],
       },
+    },
+
+      { timestamps: true }
       
-  })
+  )
 
 
 module.exports = mongoose.model("Tasks", tasksSchema)

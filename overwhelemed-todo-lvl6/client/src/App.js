@@ -9,7 +9,7 @@ import Settings from "./pages/Settings.js";
 import Footer from "./components/Footer.js";
 import Posts from "./pages/Posts.js";
 import Profile from "./pages/profile/Profile.js";
-
+import NewLogin from "./pages/login/NewLogin.js";
 function App() {
   const { token, logout, openLogin, loginWindow, newUser } =
     useContext(UserContext);
@@ -24,6 +24,16 @@ function App() {
       />
       <div className="pages">
         <Routes>
+        <Route
+            path="/"
+            element={
+              token ? (
+                <Navigate to={newUser ? "/settings" : "/profile"} />
+              ) : (
+                <NewLogin />
+              )
+            }
+          />
           <Route
             path="/"
             element={

@@ -10,7 +10,7 @@ import { AuthContext } from "../../context/AuthContext";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
-import CloudinaryUploadWidget from "../../utils/CloudinaryUploadWidget";
+import CloudinaryUploadWidget from "../../Widget/CloudinaryUploadWidget";
 
 
 const userAxios = axios.create();
@@ -71,9 +71,10 @@ export default function Share() {
         )}
         <form className="shareBottom" onSubmit={submitHandler}>
           <div className="shareOptions">
-          
+          <label htmlFor="file" className="shareOption">
      <CloudinaryUploadWidget setFile={setFile}/>
-     
+     <span className="shareOptionText">Photo or Video</span>
+     </label>
             <div className="shareOption">
               <Label htmlColor="blue" className="shareIcon" />
               <span className="shareOptionText">Tag</span>

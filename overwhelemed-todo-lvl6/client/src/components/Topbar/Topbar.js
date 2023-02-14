@@ -22,7 +22,7 @@ export default function Topbar() {
     <div className="topbarContainer">
       <div className="topbarIcons">
         <span className="topbarIconItem">
-            <Link to="/" style={{color:"white"}}>
+            <Link to={`/profile/${username}`} style={{color:"white"}}>
           <Home />
           </Link>
         </span>
@@ -34,10 +34,7 @@ export default function Topbar() {
 
           <span className="topbarIconBadge">1</span>
         </div>
-        <div className="topbarIconItem">
-          <Chat />
-          <span className="topbarIconBadge">1</span>
-        </div>
+        
         <div className="topbarIconItem">
           <Notifications />
           <span className="topbarIconBadge">1</span>

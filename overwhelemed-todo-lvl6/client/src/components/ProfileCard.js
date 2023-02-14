@@ -78,7 +78,7 @@ export default function ProfileCard() {
             Tasks completed: (placeholder for task number)
           </div>
 
-          <button type="submit" onClick={toggleActive}>
+          <button type="submit" className="profileBtn"onClick={toggleActive}>
             <i className={`fa-solid ${btnText}`}></i>
           </button>
         </form>

@@ -20,7 +20,7 @@ export default function Rightbar({ user }) {
   const { user: currentUser, dispatch } = useContext(AuthContext);
 
   const [followed, setFollowed] = useState(
-    currentUser.followings.includes(user?.id)
+    currentUser.followings.includes(user?._id)
   );
 
   useEffect(() => {
@@ -38,12 +38,12 @@ export default function Rightbar({ user }) {
   const handleClick = async () => {
     try {
       if (followed) {
-        await userAxios.put(`/user/${user._id}/unfollow`, {
+        await userAxios.put(`/api/user/${user._id}/unfriend`, {
           userId: currentUser._id,
         });
         dispatch({ type: "UNFOLLOW", payload: user._id });
       } else {
-        await userAxios.put(`/user/${user._id}/follow`, {
+        await userAxios.put(`/api/user/${user._id}/friend`, {
           userId: currentUser._id,
         });
         dispatch({ type: "FOLLOW", payload: user._id });
@@ -66,7 +66,7 @@ export default function Rightbar({ user }) {
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
           {Users.map((u) => (
-            <Online key={u.id} user={u} />
+            <Online key={u._id} user={u} />
           ))}
         </ul>
       </>
@@ -107,6 +107,7 @@ export default function Rightbar({ user }) {
         <div className="rightbarFollowings">
           {friends.map((friend) => (
             <Link
+            key={friends._id}
               to={"/profile/" + friend.username}
               style={{ textDecoration: "none" }}
             >

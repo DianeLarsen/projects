@@ -18,10 +18,10 @@ userRouter.get("/friends/:userId", getFriend);
 userRouter.get("/", findFriends);
 
 // Add Friend
-userRouter.get("/:id/friend", addFriend);
+userRouter.put("/:id/friend", addFriend);
 
 // Remove Friend
-userRouter.get("/:id/unfriend", removeFriend);
+userRouter.put("/:id/unfriend", removeFriend);
 
 
 module.exports = userRouter;

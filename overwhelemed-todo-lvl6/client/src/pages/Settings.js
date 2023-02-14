@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import Calendar from "../components/Calendar";
-import CloudinaryUploadWidget from "../utils/CloudinaryUploadWidget";
+import CloudinaryUploadWidget from "../Widget/CloudinaryUploadWidget";
 import { UserContext } from "../context/UserProvider.js";
 import ProfileForm from "../components/ProfileForm";
 

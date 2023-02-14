@@ -1,6 +1,6 @@
 import "./profile.css";
 
-import Sidebar from "../../components/Sidebar/Sidebar";
+
 import Feed from "../../components/Feed/Feed";
 import Rightbar from "../../components/Rightbar/Rightbar";
 import { useEffect, useState } from "react";
@@ -30,7 +30,7 @@ export default function Profile() {
     <>
     
       <div className="profile">
-        <Sidebar />
+     
         <div className="profileRight">
           <div className="profileRightTop">
             <div className="profileCover">
@@ -38,7 +38,7 @@ export default function Profile() {
                 className="profileCoverImg"
                 src={
                   user.coverPicture
-                    ? PF + user.coverPicture
+                    ? user.coverPicture
                     : PF + "person/noCover.png"
                 }
                 alt=""
@@ -47,7 +47,7 @@ export default function Profile() {
                 className="profileUserImg"
                 src={
                   user.profilePicture
-                    ? PF + user.profilePicture
+                    ? user.profilePicture
                     : PF + "person/noAvatar.png"
                 }
                 alt=""
