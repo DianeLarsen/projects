@@ -7,21 +7,14 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
+  host: "127.0.0.1",
+  user: "username",
   port: 3306,
-  password: "password",
+  password: "EllaBella0678*",
   database: "test",
   
 });
 
-// db.connect(function (err) {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log("Connected!");
-//   }
-// });
 
 app.get("/", (req, res) => {
   res.json("hello this is the backend");
@@ -38,48 +31,48 @@ app.get("/books", (req, res) => {
   });
 });
 
-// app.post("/books", (req, res) => {
-//   const q = "INSERT INTO books(`title`, `desc`, `price`, `cover`) VALUES (?)";
+app.post("/books", (req, res) => {
+  const q = "INSERT INTO books(`title`, `desc`, `price`,`cover`) VALUES (?)";
 
-//   const values = [
-//     req.body.title,
-//     req.body.desc,
-//     req.body.price,
-//     req.body.cover,
-//   ];
+  const values = [
+     req.body.title,
+    req.body.desc,
+    req.body.price,
+    req.body.cover,
+  ];
 
-//   db.query(q, [values], (err, data) => {
-//     if (err) return res.send(err);
-//     return res.json(data);
-//   });
-// });
+  db.query(q, [values], (err, data) => {
+    if (err) return res.send(err);
+    return res.json("Book has been created");
+  });
+});
 
-// app.delete("/books/:id", (req, res) => {
-//   const bookId = req.params.id;
-//   const q = " DELETE FROM books WHERE id = ? ";
+app.delete("/books/:id", (req, res) => {
+  const bookId = req.params.id;
+  const q = " DELETE FROM books WHERE id = ? ";
 
-//   db.query(q, [bookId], (err, data) => {
-//     if (err) return res.send(err);
-//     return res.json(data);
-//   });
-// });
+  db.query(q, [bookId], (err, data) => {
+    if (err) return res.send(err);
+    return res.json(data);
+  });
+});
 
-// app.put("/books/:id", (req, res) => {
-//   const bookId = req.params.id;
-//   const q = "UPDATE books SET `title`= ?, `desc`= ?, `price`= ?, `cover`= ? WHERE id = ?";
+app.put("/books/:id", (req, res) => {
+  const bookId = req.params.id;
+  const q = "UPDATE books SET `title`= ?, `desc`= ?, `price`= ?, `cover`= ? WHERE id = ?";
 
-//   const values = [
-//     req.body.title,
-//     req.body.desc,
-//     req.body.price,
-//     req.body.cover,
-//   ];
+  const values = [
+    req.body.title,
+    req.body.desc,
+    req.body.price,
+    req.body.cover,
+  ];
 
-//   db.query(q, [...values,bookId], (err, data) => {
-//     if (err) return res.send(err);
-//     return res.json(data);
-//   });
-// });
+  db.query(q, [...values,bookId], (err, data) => {
+    if (err) return res.send(err);
+    return res.json(data);
+  });
+});
 
 app.listen(9000, () => {
   console.log("Connected to backend.");

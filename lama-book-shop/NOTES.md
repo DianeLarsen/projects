@@ -15,4 +15,6 @@ it requires to add
   into package.json under main
 
 
-  https://www.youtube.com/watch?v=fPuLnzSjPLE&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=38
+ https://www.youtube.com/watch?v=fPuLnzSjPLE&list=PLj-4DlPRT48nfYgDK00oTjlDF4O0ZZyG8&index=39
+
+ 42:30
