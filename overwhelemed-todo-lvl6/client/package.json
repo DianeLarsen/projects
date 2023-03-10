@@ -34,7 +34,9 @@
     "timeago": "^1.6.7",
     "timeago-react": "^3.0.5",
     "timeago.js": "^4.0.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "moment": "^2.29.4"
+   
   },
   "peerDependencies": {
     "@emotion/react": "^11.10.5"

@@ -53,6 +53,7 @@ export default function UserProvider(props) {
   useEffect(() => {
     loggedIn && userState.token !== "" && getUserTasks();
   }, [loggedIn, userState.token]);
+  
   function login(credentials) {
     axios
       .post("/auth/login", credentials)
